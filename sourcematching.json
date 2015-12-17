@@ -1,7 +1,10 @@
 {"description":"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
 	"data_version":"8",
 	"program_version":"2.2.7",
-	"version_message":"",
+	"version_message":["With a new Flemish source Primo.eu. Supplying some extra Flemish channels\n",
+		"and description etc. for channels, like the Flemish Regionals on nieuwsblad.be.\n",
+		"Also new is the option to mail your log. See your updated configuration file\n",
+		"and the WIKI for details\n"],
 	"warning_message_2":{
 		"8":["The Flemish channel Jim has stopped and is being replaced by Kadet.\n",
 			"We have maintained the chanid and xmltvid 1-jim for Kadet.\n",
