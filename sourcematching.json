@@ -6,13 +6,6 @@
 		"Also new is the option to mail your log. See your updated configuration file\n",
 		"and the WIKI for details\n"],
 	"warning_message_2":{
-		"9":["There is a complication with the old tvgids.tv ID for Jim in the new\n",
-			"Kadet lineup. It refuses at present to get removed and will create a \n",
-			"freeze on the new Kadet fetch. The short solution is to manually remove\n",
-			"the ID. So:\n",
-			"Kadet;9;1-jim;;;;;;;55;;kadet;kadet;6;873389.jpg\n",
-			"The latest 2.2.7 is patched, so --configure should remove it.\n",
-			"If you do not fetch Kadet you can ignore it!\n"],
 		"8":["The Flemish channel Jim has stopped and is being replaced by Kadet.\n",
 			"We have maintained the chanid and xmltvid 1-jim for Kadet.\n",
 			"At present on Humo.be, Nieuwsblad.be and the new source Primo.eu.\n"],
