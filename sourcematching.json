@@ -1193,7 +1193,12 @@
 		"1-nickelodeon": ["0-89", "0-467"],
 		"8-nickelodeon": ["6-73", "0-467"]},
 	"merge_into":{
-		"1-nickelodeon":{"chanid":"0-89", "sources":{"0":"89"}, "date":"20160101"}},
+		"1-nickelodeon":{
+			"chanid":"0-89", 
+			"sources":{"0":"89"}, 
+			"date":"20160101",
+			"message": ["As Tvgids.nl now also contains the Spike listing for Nickelodeon\n", 
+				"we re-merge it back into the main listing with Tvgids.tv and Horizon.tv\n"]}},
 	"ttvdb_aliasses":{"Castle": "Castle (2009)",
 		"The Player":"The Player (2015)"},
 	"coutrytrans":{
