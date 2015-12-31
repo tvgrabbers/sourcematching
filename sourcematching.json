@@ -1,4 +1,6 @@
-{"description":"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
+{"description":[
+	"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
+	"Vanaf versie 2.2.7 vanaf de huidige locatie."],
 	"data_version":"10",
 	"program_version":"2.2.7",
 	"version_message":["With a new Flemish source Primo.eu. Supplying some extra Flemish channels\n",
@@ -1191,7 +1193,7 @@
 		"1-nickelodeon": ["0-89", "0-467"],
 		"8-nickelodeon": ["6-73", "0-467"]},
 	"merge_into":{
-		"1-nickelodeon":{"chanid":"0-89", "sources":{"0":"89"}}},
+		"1-nickelodeon":{"chanid":"0-89", "sources":{"0":"89"}, "date":"20160101"}},
 	"ttvdb_aliasses":{"Castle": "Castle (2009)",
 		"The Player":"The Player (2015)"},
 	"coutrytrans":{
