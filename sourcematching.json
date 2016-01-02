@@ -1220,7 +1220,7 @@
 		"7-sky_radio": ["4", "radio_sky_radio"],
 		"7-bbc_radio_3": ["4", "radio_bbcradio3"],
 		"7-vrt_radio_1": ["4", "radio_vrt1"],
-		"7-vrt_radio_2": ["11", "radio2/RADIO2_RED_RGB"],
+		"7-vrt_radio_2": ["4", "radio_vrt2"],
 		"7-klara": ["4", "radio_vrtklara"],
 		"7-wdr3": ["4", "radio_wdr_5"]},
 	"combined_channels":{
