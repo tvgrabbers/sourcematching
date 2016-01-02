@@ -1053,7 +1053,9 @@
 		"http://img.humo.be/q100/w100/h100/epglogos/",
 		"http://www-assets.npo.nl/uploads/",
 		"http://2.nieuwsbladcdn.be/extra/assets/img/tvgids/",
-		"http://www.primo.eu/sites/all/modules/primo_integrations/tv-logos/"],
+		"http://www.primo.eu/sites/all/modules/primo_integrations/tv-logos/",
+		"http://images.vrt.be/height100/logo/",
+		"http://services.vrt.be/images/height100/logos/"],
 	"logo_names":{
 		"0-1" : ["4", "npo1"],
 		"0-2" : ["4", "npo2"],
