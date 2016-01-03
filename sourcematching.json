@@ -1053,7 +1053,7 @@
 		"RTCR": {"name": "RTL Crime", "icon": "logo_rtlcrime.png", "icongrp": 3},
 		"RTLZ": {"name": "RTL Z", "icon": "logo_rtlz.png", "icongrp": 3},
 		"RTLT": {"name": "RTL Telekids", "icon": "logo_telekids.png", "icongrp": 3}},
-	"logo_source_preference":[99,4,5,6,7,9,10,11,8,3,0,1,2],
+	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2],
 	"logo_provider":[
 		"http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
 		"http://static.tvgids.nl/gfx/zenders/",
@@ -1238,6 +1238,7 @@
 		"7-klara": ["4", "radio_vrtklara"],
 		"7-ndr_3": ["4", "ndr3_kultur"],
 		"7-wdr3": ["4", "radio_wdr_5"],
+		"8-eenplus": ["10", "een_plus"],
 		"8-ketnet": ["4", "ketnet_v2"]},
 	"combined_channels":{
 		"5-24443943013": ["0-300"],
