@@ -829,6 +829,7 @@
 		"0-86":"BBC World News",
 		"0-99":"Ziggo Sport Select",
 		"0-100":"RTV Utrecht",
+		"0-101":"TV West",
 		"0-107":"Film1 Sundance",
 		"0-148":"FOX Sports 1 Eredivisie",
 		"0-300":"BBC Three",
@@ -1477,7 +1478,7 @@
 	   "Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"],
 	"no_genric_matching":{
 		"0":["40", "46", "103"],
-		"1":["rtl-7"],
+		"1":["rtl-7", "rtv-west"],
 		"2":[],
 		"3":[],
 		"4":[],
