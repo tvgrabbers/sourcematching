@@ -1196,6 +1196,7 @@
 		"RTCR": {"name": "RTL Crime", "icon": "logo_rtlcrime.png", "icongrp": 3},
 		"RTLZ": {"name": "RTL Z", "icon": "logo_rtlz.png", "icongrp": 3},
 		"RTLT": {"name": "RTL Telekids", "icon": "logo_telekids.png", "icongrp": 3}},
+	"virtual_channellist":{},
 	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2],
 	"logo_provider":[
 		"http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
