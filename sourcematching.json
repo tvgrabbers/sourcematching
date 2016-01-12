@@ -818,7 +818,8 @@
 			"10-41": "41",
 			"10-55": "55",
 			"10-56": "56"},
-		"11":{"11-tc": "tc"},
+		"11":{"11-npopolitiekbest": "npopolitiekbest",
+			"11-npozapphumor": "npozapphumor"},
 		"12":{}},
 	"channel_rename":{
 		"0-7":"BBC One England",
@@ -1197,7 +1198,8 @@
 		"RTLZ": {"name": "RTL Z", "icon": "logo_rtlz.png", "icongrp": 3},
 		"RTLT": {"name": "RTL Telekids", "icon": "logo_telekids.png", "icongrp": 3}},
 	"virtual_channellist":{
-		"tc": {"name": "Test Channel", "group": 1}},
+		"npopolitiekbest": {"name": "NPO Politiek/Best", "group": 1},
+		"npozapphumor": {"name": "NPO Zapp Xtra/Humor TV", "group": 1}},
 	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2],
 	"logo_provider":[
 		"http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
@@ -1399,9 +1401,12 @@
 		"1-ketnet-canvas-2": ["8-ketnet", "8-eenplus"],
 		"1-nickelodeon": ["0-89", "0-467"]},
 	"combined_channels_2":{
-		"11-tc": [
-			{"chanid": "1-zappelin", "start": "6:00", "end": "18:00"}, 
-			{"chanid": "0-66", "start": "18:00", "end": "6:00"}],
+		"11-npopolitiekbest": [
+			{"chanid": "1-politiek-24", "start": "6:00", "end": "18:00"}, 
+			{"chanid": "0-316", "start": "18:00", "end": "6:00"}],
+		"11-npozapphumor": [
+			{"chanid": "1-zappelin", "start": "6:00", "end": "20:00"}, 
+			{"chanid": "0-66", "start": "20:00", "end": "6:00"}],
 		"5-24443943013": ["0-300"],
 		"5-24443943080": ["0-301", "1-cbeebies"],
 		"1-veronica": ["0-34", "0-311"],
