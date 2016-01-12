@@ -1201,7 +1201,7 @@
 	"virtual_channellist":{
 		"npopolitiekbest": {"name": "NPO Politiek/Best", "group": 1},
 		"npozapphumor": {"name": "NPO Zapp Xtra/Humor TV", "group": 1},
-		"omroepbrabantsat": {"name": "Omroep Brabant (satelliet)", "group": 6, "icon": "omroep_brabant", "icongrp": 4}},
+		"omroepbrabantsat": {"name": "Omroep Brabant (satelliet)", "group": 6, "icon": "omroep_brabant.png", "icongrp": 4}},
 	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2],
 	"logo_provider":[
 		"http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
