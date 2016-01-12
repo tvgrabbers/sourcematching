@@ -1202,7 +1202,7 @@
 		"npopolitiekbest": {"name": "NPO Politiek/Best", "group": 1},
 		"npozapphumor": {"name": "NPO Zapp Xtra/Humor TV", "group": 1},
 		"omroepbrabantsat": {"name": "Omroep Brabant (satelliet)", "group": 6, "icon": "omroep_brabant.png", "icongrp": 4}},
-	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2],
+	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2,12],
 	"logo_provider":[
 		"http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
 		"http://static.tvgids.nl/gfx/zenders/",
@@ -1215,7 +1215,8 @@
 		"http://2.nieuwsbladcdn.be/extra/assets/img/tvgids/",
 		"http://www.primo.eu/sites/all/modules/primo_integrations/tv-logos/",
 		"http://services.vrt.be/images/height100/logos/",
-		"http://images.vrt.be/height100/logo/"],
+		"http://images.vrt.be/height100/logo/",
+		"http://www.tv-vlaanderen.be/uploadedImages/Prospect/Zenderaanbod/logos/"],
 	"logo_names":{
 		"0-1" : ["4", "npo1"],
 		"0-2" : ["4", "npo2"],
@@ -1343,7 +1344,7 @@
 		"1-bbc-1" : ["4", "bbc1"],
 		"1-bbc-hd" : ["4", "bbc_one_hd"],
 		"1-cbeebies" : ["4", "bbc_cbeebies"],
-		"1-discovery-hd" : ["4", "discovery_hd"],
+		"1-discovery-hd" : ["12", "logo_discoveryhd_showcase.jpg"],
 		"1-disney-junior" : ["4", "disney_junior"],
 		"1-e-entertainment" : ["4", "e_entertainment"],
 		"1-eredivisie-live-2" : ["4", "fox_sports2"],
