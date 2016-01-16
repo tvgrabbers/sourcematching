@@ -941,7 +941,7 @@
 		"8-nickelodeon":"Nickelodeon/Spike Vlaanderen",
 		"8-tv5-monde":"TV5 Monde FBS",
 		"12-22":"R Omrop Fryslân"},
-	"prime_source_order":[2,4,10,7,0,5,1,9,6,8,11,12],
+	"prime_source_order":[2,4,10,12,7,0,5,1,9,6,8,11],
 	"prime_source_groups":{
 		"2":6,
 		"6":5,
@@ -972,7 +972,7 @@
 		"1-sport1-extra-2":5,
 		"1-nickelodeon":0,
 		"1-veronica":1,
-		"7-radio_veronica":12},
+		"4-297":12},
 	"channel_groups":{
 		"0":"Actieve Zenders",
 		"1":"Nederlands",
@@ -1631,7 +1631,7 @@
 		"4":["270", "271", "275"],
 		"5":["24443943012", "24443943014", "24443943069", "24443943071", "24443943096", "24443943146", "24443943182"],
 		"6":["30", "32", "34"],
-		"7":["radio_6", "rtl_4", "rtl_5", "rtl_7", "rtl_8", "tlc"],
+		"7":["radio_2", "radio_5", "radio_6", "rtl_4", "rtl_5", "rtl_7", "rtl_8", "tlc"],
 		"8":["net5", "npo1", "npo2", "npo3", "sbs6", "veronica"],
 		"9":["net5", "npo1", "npo2", "npo3", "sbss6", "veronica"],
 		"10":[],
