@@ -820,7 +820,8 @@
 			"10-56": "56"},
 		"11":{"11-npopolitiekbest": "npopolitiekbest",
 			"11-npozapphumor": "npozapphumor",
-			"11-omroepbrabantsat": "omroepbrabantsat"},
+			"11-omroepbrabantsat": "omroepbrabantsat",
+			"11-veronicadxd": "veronicadxd"},
 		"12":{"4-292": "1",
 			"4-293": "2",
 			"4-294": "3",
@@ -952,6 +953,7 @@
 		"0-5":10,
 		"0-6":10,
 		"0-17":5,
+		"0-34":0,
 		"0-91":7,
 		"0-99":5,
 		"0-101":0,
@@ -960,6 +962,7 @@
 		"0-114":0,
 		"0-115":0,
 		"0-148":5,
+		"0-311":5,
 		"0-419":5,
 		"0-420":5,
 		"0-424":5,
@@ -971,7 +974,7 @@
 		"1-sport-1-extra-1":5,
 		"1-sport1-extra-2":5,
 		"1-nickelodeon":0,
-		"1-veronica":1,
+		"1-veronica":5,
 		"4-297":12},
 	"channel_groups":{
 		"0":"Actieve Zenders",
@@ -1256,7 +1259,8 @@
 	"virtual_channellist":{
 		"npopolitiekbest": {"name": "NPO Politiek/Best", "group": 1},
 		"npozapphumor": {"name": "NPO Zapp Xtra/Humor TV", "group": 1},
-		"omroepbrabantsat": {"name": "Omroep Brabant (satelliet)", "group": 6, "icon": "omroep_brabant.png", "icongrp": 4}},
+		"omroepbrabantsat": {"name": "Omroep Brabant (satelliet)", "group": 6, "icon": "omroep_brabant.png", "icongrp": 4},
+		"veronicadxd": {"name": "Veronica / Disney XD (experimenteel)", "group": 99, "icon": "veronica_disney_xd2.png", "icongrp": 4}},
 	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2,12,13],
 	"logo_provider":[
 		"http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
@@ -1491,6 +1495,9 @@
 			{"chanid": "0-66", "start": "20:00", "end": "6:00"}],
 		"11-omroepbrabantsat": [
 			{"chanid": "0-114", "start": "6:00", "end": "0:00"}],
+		"11-veronicadxd": [
+			{"chanid": "0-34", "start": "18:00", "end": "4:00"},
+			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
 		"5-24443943013": ["0-300"],
 		"5-24443943080": ["0-301", "1-cbeebies"],
 		"1-veronica": ["0-34", "0-311"],
