@@ -1,11 +1,12 @@
 {"description":[
 	"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
 	"Vanaf versie 2.2.7 vanaf de huidige locatie."],
-	"data_version":"11",
+	"data_version":"12",
 	"program_version":"2.2.10",
 	"version_message":["With a fix for a slightly changed format on vpro.nl\n",
 		"making the source structuraly fail.\n"],
 	"warning_message_2":{
+		"12":["There is a new channellisting on NPO.nl for 'Elfstedentocht'.\n"],
 		"11":["PrimeSport on Primo now merged with with Play Sports from Nieuwsblad.\n",
 			"London specific listings for BBC One now available from tvgids.tv.\n",
 			"VRT (10) now prime_source for VRT TV and Radio channels.\n"],
@@ -352,7 +353,8 @@
 			"4-295": "295",
 			"4-296": "296",
 			"4-297": "297",
-			"4-298": "298"},
+			"4-298": "298",
+			"4-360": "360"},
 		"5":{"0-1": "24443942983",
 			"0-2": "24443942987",
 			"0-3": "672816167173",
