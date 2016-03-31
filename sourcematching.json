@@ -1,11 +1,12 @@
 {"description":[
 	"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
 	"Vanaf versie 2.2.7 vanaf de huidige locatie."],
-	"data_version":"13",
+	"data_version":"14",
 	"program_version":"2.2.11",
 	"version_message":["With a fix for a slightly changed format on oorboekje.nl\n",
 		"and for changed genre format on vpro.nl.\n"],
 	"warning_message_2":{
+		"14":["BBC Three has shutdown completely, CBBC listing can now be found at 5-24443943013.\n"],
 		"13":["Listings for standalone BBC Three (0-300) from tvgids.nl and vpro.nl have ceased.\n",
 			"BBC Three will shutdown completely on 11 April and CBBC will expand to 22:00, use the following:\n",
 			"          300: BBC Three stopt message.\n",
@@ -819,9 +820,7 @@
 			"10-41": "41",
 			"10-55": "55",
 			"10-56": "56"},
-		"11":{"11-bbc3": "bbc3",
-			"11-cartoonsat": "cartoonsat",
-			"11-cbbc": "cbbc",
+		"11":{"11-cartoonsat": "cartoonsat",
 			"11-disneyxdsat": "disneyxdsat",
 			"11-kzoomkanaalz": "kzoomkanaalz",
 			"11-npopolitiekbest": "npopolitiekbest",
@@ -900,7 +899,7 @@
 		"0-110":"TV Drenthe",
 		"0-111":"TV Oost",
 		"0-148":"FOX Sports 1 Eredivisie",
-		"0-300":"BBC Three (stopt)",
+		"0-300":"BBC Three",
 		"0-301":"BBC Four",
 		"0-304":"AMC",
 		"0-317":"Comedy Central Family",
@@ -923,6 +922,7 @@
 		"1-sport-1-2":"Ziggo Sport Voetbal",
 		"1-sudwest-fernsehen":"SWR Fernsehen",
 		"1-tv-e":"TVE Internacional",
+		"5-24443943013":"CBBC",
 		"5-24443943085":"Ziggo Zender van de Maand",
 		"5-24443943133":"Ziggo Eventkanaal",
 		"5-24443943135":"Ziggo Testbeeld",
@@ -1247,7 +1247,7 @@
 			"16":[]}},
 	"empty_channels":{
 		"0":["20","65","83","300","308","309","310","401","403","412","434"],
-		"1":["la-une-hd", "tf1-hd", "vtm-hd", "life-tv", "canal-z",
+		"1":["bbc-3", "la-une-hd", "tf1-hd", "vtm-hd", "life-tv", "canal-z",
 			"vtmkzoom-2", "ketnet-canvas-2", "cnbc-europe", "virgin-1"],
 		"2":[],
 		"3":[],
@@ -1270,9 +1270,7 @@
 		"RTLZ": {"name": "RTL Z", "icon": "logo_rtlz.png", "icongrp": 3},
 		"RTLT": {"name": "RTL Telekids", "icon": "logo_telekids.png", "icongrp": 3}},
 	"virtual_channellist":{
-		"bbc3": {"name": "BBC Three", "group": 3, "icon": "300b.png", "icongrp": 13},
 		"cartoonsat": {"name": "Cartoon Network (satelliet)", "group": 7, "icon": "cartoon_network.png", "icongrp": 4},
-		"cbbc": {"name": "CBBC", "group": 3, "icon": "cbbc.png", "icongrp": 4},
 		"disneyxdsat": {"name": "Disney XD (TV Vlaanderen)", "group": 9, "icon": "disney_xd_v2.png", "icongrp": 4},
 		"kzoomkanaalz": {"name": "vtmKzoom/KanaalZ", "group": 9},
 		"npopolitiekbest": {"name": "NPO Politiek/Best", "group": 1},
@@ -1449,6 +1447,7 @@
 		"1-veronica" : ["4", "veronica_disney_xd2"],
 		"1-zappelin" : ["4", "npo_zapp_xtra"],
 		"1-zone_reality" : ["4", "zone_reality"],
+		"5-24443943013" : ["4", "cbbc"],
 		"5-635928103346" : ["4", "fox_sports_ere_3_hd"],
 		"5-635928103347" : ["4", "fox_sports2_hd"],
 		"5-635928103348" : ["4", "fox_sports_ere_1_hd"],
@@ -1504,12 +1503,8 @@
 		"1-ketnet-canvas-2": ["8-ketnet", "8-eenplus"],
 		"1-nickelodeon": ["0-89", "0-467"]},
 	"combined_channels_2":{
-		"11-bbc3": [
-			{"chanid": "5-24443943013", "start": "20:00", "end": "6:30"}],
 		"11-cartoonsat": [
 			{"chanid": "0-21", "start": "6:00", "end": "21:00"}],
-		"11-cbbc": [
-			{"chanid": "5-24443943013", "start": "6:30", "end": "20:00"}],
 		"11-disneyxdsat": [
 			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
 		"11-kzoomkanaalz": [
