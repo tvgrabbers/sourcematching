@@ -2,9 +2,9 @@
 	"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
 	"Vanaf versie 2.2.7 vanaf de huidige locatie."],
 	"data_version":"14",
-	"program_version":"2.2.11",
-	"version_message":["With a fix for a slightly changed format on oorboekje.nl\n",
-		"and for changed genre format on vpro.nl.\n"],
+	"program_version":"2.2.12",
+	"version_message":["With again a fix for a slightly changed format on oorboekje.nl\n",
+		"and on vpro.nl. Also a small fix for the nocattrans modus.\n"],
 	"warning_message_2":{
 		"14":["BBC Three has shutdown completely, CBBC listing can now be found at 5-24443943013.\n"],
 		"13":["Listings for standalone BBC Three (0-300) from tvgids.nl and vpro.nl have ceased.\n",
