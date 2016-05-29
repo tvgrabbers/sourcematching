@@ -13,8 +13,7 @@
 		"\n",
 		"\n"],
 	"warning_message":{
-		"1":["\n"]
-		},
+		"1":["\n"]},
 	"fetch-timezone":"Europe/Amsterdam",
 	"language":"nl",
 	"source-url":"https://raw.githubusercontent.com/tvgrabbers/sourcematching/master/sources",

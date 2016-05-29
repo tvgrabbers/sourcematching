@@ -32,10 +32,12 @@
 				{"key-path":[
 					{"tag":"tr"},
 					{"tag":"td", "attrs":{"class":"pgMenuInhoud"}},
-					{"tag":"p", "attrs":{"class":"pnZender"}}
+					{"tag":"p", "attrs":{"class":"pnZender"}},
+					{"tag":"img", "select":"tail"}
 					],
 				"values":[
 					[{"path":"parent"},
+						{"path":"parent"},
 						{"tag":"a", "attr":"href", "first":"","split":[["/",2]],"type":"lower-ascii"}],
 					[{"value":11}]
 					]}]},
