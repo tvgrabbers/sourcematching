@@ -29,31 +29,31 @@
 				{"tag":"table"}
 				],
 			"iter":[
-{"key-path":[
-	{"tag":"tr"},
-	{"tag":"td", "attrs":{"class":"pgMenuInhoud"}},
-	{"tag":"p", "attrs":{"class":"pnZender"}},
-	{"tag":"img", "select":"tail"}
-	],
-"values":[
-	[{"path":"parent"},
-		{"path":"parent"},
-		{"tag":"a", "attr":"href", "first":"","split":[["/",2]],"type":"lower-ascii"}],
-	[{"path":"parent"},
-		{"path":"parent"},
-		{"path":"parent", "select":"index", "link":1},
-		{"path":"parent"},
-		{"tag":"tr", "index":{"link":1,"previous":""}},
-		{"tag":"td", "attrs":{"class":"pgMenuKopSub"}},
-		{"tag":"i"},
-		{"tag":"a", "attr":"name", "replace":{"a":11,"b":11,"c":17,"d":17}, "last":""}],
-	[{"attr":"src"}]
-	]}]},
+				{"key-path":[
+					{"tag":"tr"},
+					{"tag":"td", "attrs":{"class":"pgMenuInhoud"}},
+					{"tag":"p", "attrs":{"class":"pnZender"}},
+					{"tag":"img", "select":"tail"}
+					],
+				"values":[
+					[{"path":"parent"},
+						{"path":"parent"},
+						{"tag":"a", "attr":"href", "first":"","split":[["/",2]],"type":"lower-ascii"}],
+					[{"path":"parent"},
+						{"path":"parent"},
+						{"path":"parent", "select":"index", "link":1},
+						{"path":"parent"},
+						{"tag":"tr", "index":{"link":1,"previous":""}},
+						{"tag":"td", "attrs":{"class":"pgMenuKopSub"}},
+						{"tag":"i"},
+						{"tag":"a", "attr":"name", "replace":{"a":11,"b":11,"c":17,"d":17}, "last":""}],
+					[{"attr":"src"}]
+					]}]},
 		"values":{
 			"channelid":{"varid": 1, "type":"str"},
 			"name":{"funcid":0, "data":[{"varid": 0}]},
 			"group":{"varid": 2},
-			"icon":{"funcid":1, "data":[{"funcid":2, "data":["http://www.oorboekje.nl/", {"varid": 3}]}]},
+			"icon":{"funcid":1, "data":[{"funcid":2, "data":["http://www.oorboekje.nl", {"varid": 3}]}]},
 			"icongrp":null,
 			"HD":null}},
 	"base":{
