@@ -1322,7 +1322,9 @@
 			{"chanid": "0-34", "start": "18:00", "end": "4:00"},
 			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
 		"5-24443943080": ["0-301", "1-cbeebies"],
-		"1-veronica": [{"chanid": "0-34"}, {"chanid": "0-311", "slots": ["disney xd"]}],
+		"1-veronica": [
+			{"chanid": "0-34", "start": "18:00", "end": "4:00"}, 
+			{"chanid": "0-311", "start": "4:00", "end": "18:00", "slots": ["disney xd"]}],
 		"1-ketnet-canvas-2": ["8-ketnet", "8-eenplus"],
 		"1-nickelodeon": ["0-89", "0-467"]},
 	"merge_into":{
@@ -1350,6 +1352,7 @@
 		"kinderprogramma's",
 		"kinder-tv",
 		"pause",
+		"vacant",
 		"geen uitzending",
 		"geen info beschikbaar",
 		"programmabeschrijving niet beschikbaar",
