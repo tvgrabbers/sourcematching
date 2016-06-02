@@ -148,6 +148,9 @@
 					{"path": "parent"},
 					{"tag":"p", "attrs":{"class":{"not":["summary"]}}, "select":"text"}]
 					]},
+		"provides":["episode title","season","episode","description",
+			"genre","subgenre","credits","rating","premiere year",
+			"blackwhite","widescreen","HD","teletext","rerun"],
 		"values":{
 			"name": {"varid": 0},
 			"start-time":{"funcid":4, "data":[{"varid": 2},{"varid": 3},0]},
@@ -197,6 +200,7 @@
 				[{"key":"synop","default":""}],
 				[{"key":"zender_id","default":""}]
 				]},
+		"provides":["description","genre","credits","rating"],
 		"values":{
 			"name":{"varid":4},
 			"start-time":{"funcid":4, "data":[{"varid": 1},{"varid": 2},0]},
