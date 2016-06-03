@@ -103,8 +103,8 @@
 		"values":{
 			"channelid":{"varid": 1},
 			"start-time":{"funcid":4, "data":[null,{"varid": 2}, 6]},
-			"stop-time":{"funcid":4, "data":[null,{"varid": 3}, 6]},
-			"alt-stop-time":{"funcid":4, "data":[null,{"varid": 4}, 7]},
+			"stop-time":{"funcid":4, "data":[null,{"varid": 3}, 6,{"varid": 2}]},
+			"alt-stop-time":{"funcid":4, "data":[null,{"varid": 4}, 7,{"varid": 2}]},
 			"name":{"varid":0},
 			"credits":{"funcid":6, "data":[{"varid":5}], "default":{}},
 			"rerun":{"varid":6},

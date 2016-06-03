@@ -204,7 +204,7 @@
 		"values":{
 			"channelid":{"varid": 3},
 			"start-time":{"funcid":4, "data":[{"varid": 2},{"varid": 0}, 7]},
-			"stop-time":{"funcid":4, "data":[{"varid": 2},{"varid": 1}, 7]},
+			"stop-time":{"funcid":4, "data":[{"varid": 2},{"varid": 1}, 7,{"varid": 0}]},
 			"name":{"varid":4}}},
 	"no_genric_matching":["npo1", "npo2", "npo3", "sbs6", "net5", "veronica"],
 	"empty_channels":["tv5", "bbc1"],

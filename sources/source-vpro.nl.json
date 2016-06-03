@@ -138,7 +138,7 @@
 		"values":{
 			"channelid":{"varid": 1},
 			"start-time":{"funcid":4, "data":[{"varid": 3},{"varid": 0}, 6]},
-			"stop-time":{"funcid":4, "data":[{"varid": 3},{"varid": 2}, 6]},
+			"stop-time":{"funcid":4, "data":[{"varid": 3},{"varid": 2}, 6,{"varid": 0}]},
 			"name":{"varid":4},
 			"length":{"varid":7},
 			"genres":{"funcid":18, "data":[{"varid":8}, 5]},

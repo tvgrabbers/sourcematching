@@ -240,7 +240,7 @@
 		"values":{
 			"channelid":{"varid": 1},
 			"start-time":{"funcid":4, "data":[{"varid": 4},{"varid": 0}, 6]},
-			"stop-time":{"funcid":4, "data":[{"varid": 4},{"varid": 2}, 6]},
+			"stop-time":{"funcid":4, "data":[{"varid": 4},{"varid": 2}, 6,{"varid": 0}]},
 			"name":{"varid":3},
 			"genres":{"varid": 6},
 			"broadcaster":{"varid":5}}},

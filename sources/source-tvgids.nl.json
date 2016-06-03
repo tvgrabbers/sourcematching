@@ -154,7 +154,7 @@
 		"values":{
 			"name": {"varid": 0},
 			"start-time":{"funcid":4, "data":[{"varid": 2},{"varid": 3},0]},
-			"stop-time":{"funcid":4, "data":[{"varid": 2},{"varid": 4},0]},
+			"stop-time":{"funcid":4, "data":[{"varid": 2},{"varid": 4},0,{"varid": 3}]},
 			"channelid": {"varid": 5},
 			"premiere year":{"varid": 1},
 			"rating":{"funcid":9, "data":[{"varid":7}]},
@@ -204,7 +204,7 @@
 		"values":{
 			"name":{"varid":4},
 			"start-time":{"funcid":4, "data":[{"varid": 1},{"varid": 2},0]},
-			"stop-time":{"funcid":4, "data":[{"varid": 1},{"varid": 3},0]},
+			"stop-time":{"funcid":4, "data":[{"varid": 1},{"varid": 3},0,{"varid": 2}]},
 			"channelid": {"varid": 11},
 			"description":{"varid":10},
 			"genre":{"varid":6},

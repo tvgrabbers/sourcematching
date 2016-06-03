@@ -127,7 +127,7 @@
 			"detail_url":{"varid":3},
 			"channelid":{"varid": 4},
 			"start-time":{"funcid":4, "data":[null,{"varid": 0}, 7]},
-			"stop-time":{"funcid":4, "data":[null,{"varid": 1}, 7]},
+			"stop-time":{"funcid":4, "data":[null,{"varid": 1}, 7,{"varid": 0}]},
 			"name":{"varid":5},
 			"description":{"varid":6}}},
 	"detail":{
@@ -222,7 +222,7 @@
 			"name": {"varid": 0},
 			"channelid": {"varid": 1},
 			"start-time":{"funcid":4, "data":[{"varid": 2},{"varid": 3},0]},
-			"stop-time":{"funcid":4, "data":[{"varid": 2},{"varid": 4},0]},
+			"stop-time":{"funcid":4, "data":[{"varid": 2},{"varid": 4},0,{"varid": 3}]},
 			"credits":{"funcid":5, "data":[{"varid":5}]},
 			"premiere year":{"funcid":14, "data":[{"varid": 5}, "jaar"]},
 			"subgenre":{"funcid":14, "data":[{"varid": 5}, "genre"], "max length":25},
