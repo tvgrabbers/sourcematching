@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":0,
+	"version":1,
 	"api-version":[1,0,0],
 	"detail_id":"npo-ID",
 	"detail_url":"npo-url",
@@ -146,7 +146,8 @@
 						{"path":"parent","attr":"data-start","split":[[",",1],["\\s",0,1,2]],
 							"type":"date","date-sequence":["d","m","y"],"date-splitter":" "}],
 					[{"tag":"span","lstrip":"(","rstrip":")"}],
-					[{"attr":"data-genre","split":[",", "list-all"]}]
+					[{"attr":"data-genre","split":[",", "list-all"]}],
+					[{"attr":"href","split":[["/",-1]]}]
 						]},
 				{"key-path":[
 					{"tag":"div", "attrs":{"id":"themed-guide"}},
@@ -176,7 +177,8 @@
 						{"path":"parent"},
 						{"path":"parent","attr":"data-start","split":[["\\s",0]], "type":"date"}],
 					[{"tag":"span","lstrip":"(","rstrip":")"}],
-					[{"attr":"data-genre","split":[",", "list-all"]}]
+					[{"attr":"data-genre","split":[",", "list-all"]}],
+					[{"attr":"href","split":[["/",-1]]}]
 						]},
 				{"key-path":[
 					{"tag":"div", "attrs":{"id":"regional-guide"}},
@@ -205,7 +207,8 @@
 						{"path":"parent"},
 						{"path":"parent","attr":"data-start","split":[[",",1],["\\s",0]], "type":"date"}],
 					[],
-					[{"attr":"data-genre","split":[",", "list-all"]}]
+					[{"attr":"data-genre","split":[",", "list-all"]}],
+					[{"attr":"href","split":[["/",-1]]}]
 						]},
 				{"key-path":[
 					{"tag":"div", "attrs":{"id":"radio-guide"}},
@@ -234,7 +237,8 @@
 						{"path":"parent"},
 						{"path":"parent","attr":"data-start","split":[[",",1],["\\s",0]], "type":"date"}],
 					[{"tag":"span","lstrip":"(","rstrip":")"}],
-					[{"attr":"data-genre","split":[",", "list-all"]}]
+					[{"attr":"data-genre","split":[",", "list-all"]}],
+					[{"attr":"href","split":[["/",-1]]}]
 						]}
 						]},
 		"values":{
@@ -243,7 +247,8 @@
 			"stop-time":{"funcid":4, "data":[{"varid": 4},{"varid": 2}, 6,{"varid": 0}]},
 			"name":{"varid":3},
 			"genres":{"varid": 6},
-			"broadcaster":{"varid":5}}},
+			"broadcaster":{"varid":5},
+			"gen_ID":{"varid":7}}},
 	"no_genric_matching":["270", "271", "275"],
 	"empty_channels":[],
 	"alt-channels":{"301":["265","NPO 3"]},

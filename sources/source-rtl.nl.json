@@ -6,7 +6,7 @@
 	"name":"rtl.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":0,
+	"version":1,
 	"api-version":[1,0,0],
 	"detail_id":"rtl-ID",
 	"detail_url":"rtl-url",
@@ -98,7 +98,7 @@
 					{"key":"synopsis","default":""}]]},
 		"values":{
 			"channelid":{"varid": 1},
-			"prog_ID":{"funcid":2, "data":["rtl-",{"varid":2}]},
+			"prog_ID":{"varid":2},
 			"start-time":{"varid":3},
 			"stop-time":{"varid":4},
 			"rerun":{"varid":5},

@@ -129,11 +129,15 @@
 					[{"path":"parent"},
 						{"path":"parent"},
 						{"path":"parent"},
-						{"attr":"style","split":[[":",-1]],"rstrip":"px;","multiplier":60,"devider":7, "type":"timedelta"}],
+						{"attr":"style","split":[[":",-1]],"rstrip":"px;","multiplier":60,"divider":7, "type":"timedelta"}],
 					[{"path":"parent"},
 						{"path":"parent"},
 						{"path":"parent"},
-						{"attr":"class", "lstrip": "epg-program", "rstrip": "epg-long-program", "sub":["_", "", "gvpro", "", " ", ","]}]
+						{"attr":"class", "lstrip": "epg-program", "rstrip": "epg-long-program", "sub":["_", "", "gvpro", "", " ", ","]}],
+					[{"path":"parent"},
+						{"path":"parent"},
+						{"path":"parent"},
+						{"attr":"data-series-mid"}]
 						]}]},
 		"values":{
 			"channelid":{"varid": 1},
@@ -144,7 +148,8 @@
 			"genres":{"funcid":18, "data":[{"varid":8}, 5]},
 			"credits":{"funcid":6, "data":[{"varid":6}, "met oa"], "default":{}},
 			"description":{"varid":6},
-			"broadcaster":{"varid":5}}},
+			"broadcaster":{"varid":5},
+			"gen_ID":{"varid":7}}},
 	"no_genric_matching":["npo_1", "npo_2", "npo_3", "radio_1", "radio_2", "3fm", "radio_4", "radio_5", "radio_6",
 			"rtl_4", "rtl_5", "rtl_7", "rtl_8", "tlc"],
 	"empty_channels":[],

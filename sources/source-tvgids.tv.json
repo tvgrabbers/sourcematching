@@ -123,7 +123,7 @@
 						{"tag":"p"}]
 					]}]},
 		"values":{
-			"prog_ID":{"funcid":2, "data":["tv-",{"varid":2}]},
+			"prog_ID":{"varid":2},
 			"detail_url":{"varid":3},
 			"channelid":{"varid": 4},
 			"start-time":{"funcid":4, "data":[null,{"varid": 0}, 7]},

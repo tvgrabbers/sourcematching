@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":0,
+	"version":1,
 	"api-version":[1,0,0],
 	"detail_id":"humo-ID",
 	"detail_url":"humo-url",
@@ -127,7 +127,7 @@
 					]},
 		"values":{
 			"channelid":{"varid":1},
-			"prog_ID":{"funcid":2, "data":["humo-",{"varid":0}]},
+			"prog_ID":{"varid":0},
 			"start-time":{"varid":2},
 			"stop-time":{"varid":3},
 			"name":{"varid":4},

@@ -70,7 +70,7 @@
 			"key-path":[
 				{"key":"listings"},
 				{"path":"all"},
-				{"key":"imi"}
+				{"key":"imi", "lstrip":"imi:"}
 				],
 			"values":[
 				[{"key":"stationId","default":""}],
@@ -113,7 +113,7 @@
 					]},
 		"values":{
 			"channelid":{"varid": 1},
-			"prog_ID":{"funcid":2, "data":["ho-",{"varid":0}]},
+			"prog_ID":{"varid":0},
 			"start-time":{"varid":2},
 			"stop-time":{"varid":3},
 			"name":{"varid":4},

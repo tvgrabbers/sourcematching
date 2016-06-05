@@ -129,7 +129,7 @@
 					[{"path":"parent","attr":"style","split":[[":",1]],"rstrip":"px;","multiplier":12, "type":"timedelta"}]
 					]}]},
 		"values":{
-			"prog_ID":{"funcid":2, "data":["primo-",{"varid":0}]},
+			"prog_ID":{"varid":0},
 			"detail_url":{"varid":0},
 			"channelid":{"varid": 1},
 			"start-time":{"funcid":4, "data":[{"varid": 4},{"varid": 2}, 7]},

@@ -6,7 +6,7 @@
 	"name":"vrt.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":0,
+	"version":1,
 	"api-version":[1,0,0],
 	"detail_id":"vrt-ID",
 	"detail_url":"vrt-url",
@@ -92,7 +92,7 @@
 					]},
 		"values":{
 			"channelid":{"varid": 1},
-			"prog_ID":{"funcid":2, "data":["vrt-",{"varid":0}]},
+			"prog_ID":{"varid":0},
 			"start-time":{"varid":2},
 			"stop-time":{"varid":3},
 			"name":{"varid":4},
