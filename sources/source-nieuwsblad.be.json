@@ -214,8 +214,8 @@
 			"name":{"varid":4},
 			"detail_url":{"varid": 5},
 			"gen_ID":{"varid": 6}}},
-	"no_genric_matching":["npo1", "npo2", "npo3", "sbs6", "net5", "veronica"],
-	"empty_channels":["tv5", "bbc1"],
+	"no_genric_matching":["npo1", "npo2", "npo3"],
+	"empty_channels":["tv5", "bbc1", "sbs6", "net5", "veronica"],
 	"cattrans":{},
 	"rating":{}}
 
