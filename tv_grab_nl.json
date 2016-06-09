@@ -41,7 +41,7 @@
 			"cattransid":3},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":1,
+			"version":2,
 			"cattrans type":1,
 			"cattransid":4},
 		"1":{
@@ -71,7 +71,7 @@
 			"cattransid":null},
 		"12":{
 			"json file":"source-oorboekje.nl",
-			"version":0,
+			"version":1,
 			"cattrans type":null,
 			"cattransid":null},
 		"11":{

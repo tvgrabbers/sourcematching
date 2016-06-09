@@ -8,10 +8,7 @@
 	"site-timezone":"Europe/Amsterdam",
 	"version":1,
 	"api-version":[1,0,0],
-	"detail_id":"npo-ID",
-	"detail_url":"npo-url",
 	"detail_processor":false,
-	"detail_check":"",
 	"without-full-timings":true,
 	"base-channels":{
 		"url":["http://www.npo.nl/gids/horizontaal/", 12, "/content"],
@@ -106,10 +103,10 @@
 		"url-type": 2,
 		"url-data":{},
 		"url-date-format": "%d-%m-%Y",
-		"month-names": ["dummy", "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"],
-		"max days":7,
 		"autoclose-tags":["meta", "link"],
 		"enclose-with-html-tag":true,
+		"month-names": ["dummy", "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"],
+		"max days":7,
 		"date-sequence":["y","m","d"],
 		"value-filters":{
 			"channelid":[]

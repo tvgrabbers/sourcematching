@@ -8,10 +8,7 @@
 	"site-timezone":"Europe/Amsterdam",
 	"version":1,
 	"api-version":[1,0,0],
-	"detail_id":"nl-ID",
-	"detail_url":"nl-url",
 	"detail_processor":true,
-	"detail_check":"tvgids-fetched",
 	"channels":{
 		"url":["http://www.tvgids.nl/json/lists/channels.php"],
 		"data-format":"application/json",
@@ -83,8 +80,6 @@
 		"url-type":0,
 		"url-data":{
 			"cookieoptin":"true"},
-		"date-type":1,
-		"date-format":"%Y-%m-%d %H:%M:%S",
 		"date-splitter":" ",
 		"date-sequence":["d", "m", "y"],
 		"month-names":["dummy", "januari", "februari", "maart",
@@ -183,8 +178,6 @@
 		"accept-header":null,
 		"url-type":0,
 		"url-data":{ "id":0},
-		"date-type":1,
-		"date-format":"%Y-%m-%d %H:%M:%S",
 		"data":{
 			"key-path":[{"key":"db_id"}],
 			"values":[

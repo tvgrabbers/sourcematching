@@ -8,10 +8,7 @@
 	"site-timezone":"Europe/Amsterdam",
 	"version":1,
 	"api-version":[1,0,0],
-	"detail_id":"horizon-ID",
-	"detail_url":"horizon-url",
 	"detail_processor":false,
-	"detail_check":"",
 	"channels":{
 		"url":["https://web-api-pepper.horizon.tv/oesp/api/NL/nld/web/channels/"],
 		"data-format":"application/json",
@@ -62,10 +59,10 @@
 			"sort": "startTime"},
 		"url-date-type":1,
 		"url-date-multiplier":1000,
-		"max days":14,
 		"default-item-count":100,
 		"total-item-count":[{"key":"totalResults", "default": 0}],
 		"page-item-count":[{"key":"entryCount", "default": 0}],
+		"max days":14,
 		"data":{
 			"key-path":[
 				{"key":"listings"},

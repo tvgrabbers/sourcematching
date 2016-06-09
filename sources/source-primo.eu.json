@@ -8,10 +8,7 @@
 	"site-timezone":"Europe/Brussels",
 	"version":1,
 	"api-version":[1,0,0],
-	"detail_id":"primo-ID",
-	"detail_url":"primo-url",
 	"detail_processor":true,
-	"detail_check":"primo-fetched",
 	"without-full-timings":true,
 	"base-channels":{
 		"url":["http://www.primo.eu/Tv%20programma's%20in%20volledig%20scherm%20bekijken"],
@@ -23,7 +20,6 @@
 		"url-date-format": "%d-%m-%Y",
 		"autoclose-tags":["meta", "link"],
 		"datetimestring":"%Y-%m-%d %H:%M:%S",
-		"page-item-count":[],
 		"data":{
 			"init-path":[
 				{"tag":"html"},
@@ -73,8 +69,8 @@
 		"url-type": 2,
 		"url-date-type": 1,
 		"url-data":{},
-		"max days":8,
 		"autoclose-tags":["meta", "link"],
+		"max days":8,
 		"value-filters":{
 			"channelid":[]
 			},

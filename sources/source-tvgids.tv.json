@@ -8,10 +8,7 @@
 	"site-timezone":"Europe/Amsterdam",
 	"version":1,
 	"api-version":[1,0,0],
-	"detail_id":"tv-ID",
-	"detail_url":"tv-url",
 	"detail_processor":true,
-	"detail_check":"tvgidstv-fetched",
 	"without-full-timings":true,
 	"night-date-switch":5,
 	"channels":{
@@ -64,16 +61,15 @@
 			"icongrp":null,
 			"HD":null}},
 	"base":{
-		"append_to_source": "tvgids.nl",
 		"url":["http://www.tvgids.tv/zenders/",1, "/",11, "/"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
 		"url-type": 1,
 		"url-data":{},
+		"autoclose-tags":["meta", "link"],
 		"month-names":["dummy", "jan", "feb", "maa", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"],
 		"max days":14,
-		"autoclose-tags":["meta", "link"],
 		"calc-end-times":true,
 		"start-off-day": 7,
 		"data":{

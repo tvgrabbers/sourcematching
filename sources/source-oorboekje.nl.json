@@ -6,12 +6,9 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":0,
+	"version":1,
 	"api-version":[1,0,0],
-	"detail_id":"ob-ID",
-	"detail_url":"ob-url",
 	"detail_processor":false,
-	"detail_check":"",
 	"without-full-timings":true,
 	"channels":{
 		"url":["http://www.oorboekje.nl/"],
@@ -64,9 +61,9 @@
 		"url-type": 2,
 		"url-date-type": 2,
 		"url-data":{"day":11},
-		"max days":7,
-		"weekdays":[7, 1, 2, 3, 4, 5, 6],
+		"url-weekdays":[7, 1, 2, 3, 4, 5, 6],
 		"autoclose-tags":["meta", "link"],
+		"max days":7,
 		"value-filters":{
 			"channelid":[]
 			},

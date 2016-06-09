@@ -8,10 +8,7 @@
 	"site-timezone":"Europe/Brussels",
 	"version":1,
 	"api-version":[1,0,0],
-	"detail_id":"humo-ID",
-	"detail_url":"humo-url",
 	"detail_processor":false,
-	"detail_check":"",
 	"channels":{
 		"url":["http://www.humo.be/api/epg/humosite/channels"],
 		"data-format":"application/json",

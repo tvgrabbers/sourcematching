@@ -8,10 +8,7 @@
 	"site-timezone":"UTC",
 	"version":1,
 	"api-version":[1,0,0],
-	"detail_id":"vrt-ID",
-	"detail_url":"vrt-url",
 	"detail_processor":false,
-	"detail_check":"",
 	"channels":{
 		"url":["http://services.vrt.be/channel/s"],
 		"data-format":"application/json",
@@ -44,10 +41,10 @@
 		"data-format":"application/json",
 		"encoding":"utf-8",
 		"accept-header":"application/vnd.epg.vrt.be.schedule_3.1+json",
-		"url-type": 9,
+		"url-type": 1,
 		"url-data":{
 			"channel_code":1,
-			"type":"week"},
+			"type":"day"},
 		"url-date-format":"%Y%m%d",
 		"url-date-range":"week",
 		"url-date-week-start":1,

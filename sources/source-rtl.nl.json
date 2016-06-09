@@ -8,10 +8,7 @@
 	"site-timezone":"Europe/Amsterdam",
 	"version":1,
 	"api-version":[1,0,0],
-	"detail_id":"rtl-ID",
-	"detail_url":"rtl-url",
 	"detail_processor":false,
-	"detail_check":"",
 	"channels":{
 		"url":null,
 		"data":{
@@ -36,6 +33,7 @@
 			"station": 2},
 		"calc-end-times":true,
 		"start-off-day": 7,
+		"max days":14,
 		"value-filters":{
 			"channelid":[]
 			},
