@@ -145,7 +145,7 @@
 					]},
 		"provides":["episode title","season","episode","description",
 			"genre","subgenre","credits","rating","premiere year",
-			"blackwhite","widescreen","HD","teletext","rerun"],
+			"blackwhite","widescreen","HD","teletext","rerun","infourl"],
 		"values":{
 			"name": {"varid": 0},
 			"start-time":{"funcid":4, "data":[{"varid": 2},{"varid": 3},0]},

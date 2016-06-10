@@ -213,7 +213,7 @@
 					{"tag":"div", "attrs":{"class":"section-item gray"}},
 					{"tag":"p", "select":"text"}]
 				]},
-		"provides":["description","subgenre","credits","rating","premiere year","star-rating"],
+		"provides":["description","subgenre","credits","rating","premiere year","star-rating", "infourl"],
 		"values":{
 			"name": {"varid": 0},
 			"channelid": {"varid": 1},
