@@ -179,7 +179,7 @@
 			"season":{"funcid":14, "data":[{"varid":1},"seizoen"]},
 			"premiere year":{"funcid":14, "data":[{"varid":1},"jaar"]},
 			"country":{"funcid":14, "data":[{"varid":1},"land"]},
-			"rating":{"funcid":14, "data":[{"varid":1},"minimumleeftijd"]},
+			"rating":{"funcid":9, "data":[{"funcid":14, "data":[{"varid":1},"minimumleeftijd"]}]},
 			"star-rating":{"funcid":14, "data":[{"varid":1},"rating"], "calc":{"multiplier":2.5}},
 			"genre":{"funcid":14, "data":[{"varid":1},"genre"]},
 			"subgenre":{"funcid":14, "data":[{"varid":1},"samenvatting"], "max length":25},

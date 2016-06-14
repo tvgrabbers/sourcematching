@@ -98,7 +98,7 @@
 			"season":{"varid":6},
 			"episode":{"varid":7},
 			"episodecount":{"varid":8},
-			"description":{"funcid":8, "data":[{"varid":10},{"varid":9}], "default":""},
+			"description":{"funcid":8, "data":[{"varid":9},{"varid":10}], "default":""},
 			"group":{"varid":11},
 			"presenter":{"funcid":5, "data":[{"varid":12}, "presenter"], "default":{}},
 			"credits":{"funcid":6, "data":[{"varid":13}], "default":{}},
