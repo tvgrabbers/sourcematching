@@ -7,7 +7,7 @@
 		"\n"],
 	"data_keys":{
 		"text":["prog_ID","gen_ID","detail_url","name","episode title","description","premiere year",
-			"subgenre","originaltitle","infourl","audio","star-rating","broadcaster","group"],
+			"genre","subgenre","originaltitle","infourl","audio","star-rating","broadcaster","group"],
 		"datetime":["start-time","stop-time"],
 		"timedelta":["length"],
 		"date":["airdate"],
