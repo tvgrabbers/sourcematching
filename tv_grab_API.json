@@ -6,8 +6,9 @@
 		"\n",
 		"\n"],
 	"data_keys":{
-		"text":["prog_ID","gen_ID","detail_url","name","episode title","description","premiere year",
-			"genre","subgenre","originaltitle","infourl","audio","star-rating","broadcaster","group"],
+		"text":["prog_ID","gen_ID","detail_url","group name","name","episode title",
+			"originaltitle","description","genre","subgenre","org-genre","org-subgenre",
+			"premiere year","infourl","audio","star-rating","broadcaster","group"],
 		"datetime":["start-time","stop-time"],
 		"timedelta":["length"],
 		"date":["airdate"],
@@ -17,6 +18,10 @@
 		"video":["HD","widescreen","blackwhite"],
 		"credits":["director","actor","guest","writer","composer","presenter","reporter",
 			"commentator","adapter","producer","editor"]},
+	"tuple_values":{
+		"title":["group name","name", "episode title"],
+        "genres":["genre","subgenre"],
+        "numbering":["season","episode", "episodecount"]},
 	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2,12,13],
 	"logo_provider":{
 		"0": "http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
