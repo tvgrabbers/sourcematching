@@ -1440,7 +1440,9 @@
 	"groupnameremove":["kro detectives", "detectives", "premiére"],
 	"episode exclude genres": ["sport","sports","movie","film"],
 	"detailed_genres":["serie/soap","movie","film","sport","sports"],
-	"ttvdb_genres":["serie/soap"],
+	"series_genres":["serie/soap"],
+	"movie_genres":["movie","film"],
+	"sports_genres":["sport","sports"],
 	"cattrans_unknown":"Overige",
 	"cattrans": {
 		"News":[
