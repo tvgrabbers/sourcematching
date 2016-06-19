@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":2,
+	"version":3,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -133,6 +133,8 @@
 	"empty_channels":[
 		"614261799194", "615722023372", "24443943133", "624196647052"],
 	"cattrans":{
+        "film":{
+			"default":["film",""]},
         "13946319":{
 			"default":["nieuws/actualiteiten",""],
 			"documentaire":["informatief", "Documentaire"],

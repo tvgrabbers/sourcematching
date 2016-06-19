@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":2,
+	"version":3,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"channels":{
@@ -196,7 +196,7 @@
 						{"tag":"p", "attrs":{"class":{"not":["summary"]}}, "select":"text"}]
 						]}
 						]},
-		"provides":["episode title","season","episode","description",
+		"provides":["episode title","season","episode","episodecount","description",
 			"genre","subgenre","credits","rating","premiere year",
 			"blackwhite","widescreen","HD","teletext","rerun","infourl"],
 		"values":{
@@ -206,9 +206,10 @@
 			"channelid": {"varid": 5},
 			"premiere year":{"varid": 1},
 			"rating":{"funcid":9, "data":[{"varid":7}]},
-			"episode title":{"funcid":14, "data":[{"varid": 6}, "aflevering",{"regex":"(\\d*)/.*"}]},
-			"episode":{"funcid":14, "data":[{"varid": 6}, "aflevering",{"regex":"\\d*/?\\d*(.*)"}], "type":"int", "default":0},
-			"season":{"funcid":14, "data":[{"varid": 6},"seizoen"], "type":"int", "default":0},
+			"episode title":{"funcid":14, "data":[{"varid": 6}, "aflevering"],"regex":"\\d*/?\\d* ?(.*)"},
+			"episode":{"funcid":14, "data":[{"varid": 6}, "aflevering"],"regex":"(\\d*)/.*", "type":"int", "default":null},
+			"episodecount":{"funcid":14, "data":[{"varid": 6}, "aflevering"],"regex":"\\d*/?(\\d*).*", "type":"int", "default":null},
+			"season":{"funcid":14, "data":[{"varid": 6},"seizoen"], "type":"int", "default":null},
 			"credits":{"funcid":5, "data":[{"varid":6}]},
 			"blackwhite":{"funcid":12, "data":[{"funcid":14, "data":[{"varid": 6}, "kleur"]},"zwart/wit"]},
 			"widescreen":{"funcid":12, "data":[{"funcid":14, "data":[{"varid": 6},"bijzonderheden"]},"breedbeeld"]},
