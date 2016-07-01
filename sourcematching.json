@@ -7,7 +7,7 @@
 		"Making renewing your configuration needed te keep receiving it.\n",
 		"Also they have stopped with Radio NL Friesland  \n"],
 	"warning_message_2":{
-		"15":["13th Street, NPO Doc and Syfy have ceased.\n"],
+		"15":["13th Street, NPO Doc, NPO Humor TV and Syfy have ceased.\n"],
 		"14":["BBC Three has shutdown completely, CBBC listing can now be found at 5-24443943013.\n"],
 		"13":["Listings for standalone BBC Three (0-300) from tvgids.nl and vpro.nl have ceased.\n",
 			"BBC Three will shutdown completely on 11 April and CBBC will expand to 22:00, use the following:\n",
@@ -834,7 +834,6 @@
 			"11-disneyxdsat": "disneyxdsat",
 			"11-kzoomkanaalz": "kzoomkanaalz",
 			"11-npopolitiekbest": "npopolitiekbest",
-			"11-npozapphumor": "npozapphumor",
 			"11-omroepbrabantsat": "omroepbrabantsat",
 			"11-veronicadxd": "veronicadxd"},
 		"12":{"4-292": "npo-radio-1",
@@ -1256,13 +1255,13 @@
 			"15":[],
 			"16":[]}},
 	"empty_channels":{
-		"0":["20","65","81","83","93","94","300","308","309","310","401","403","412","434"],
-		"1":["13th-street", "bbc-3", "hollanddoc-24", "la-une-hd", "tf1-hd", "vtm-hd", "life-tv", "canal-z",
+		"0":["20","65","66","81","83","93","94","300","308","309","310","401","403","412","434"],
+		"1":["13th-street", "bbc-3", "hollanddoc-24", "humortv-24", "la-une-hd", "tf1-hd", "vtm-hd", "life-tv", "canal-z",
 			"vtmkzoom-2", "ketnet-canvas-2", "cnbc-europe", "syfy", "virgin-1"],
 		"2":[],
 		"3":[],
-		"4":["284","297"],
-		"5":["24443943160", "614261799194", "635928103350", "635928103352"],
+		"4":["284","290","297"],
+		"5":["24443943064", "24443943160", "614261799194", "635928103350", "635928103352"],
 		"6":["55"],
 		"7":["13th_street", "bbc_three", "npo_doc", "r_omroep_brabant", "radio_6", "syfy"],
 		"8":["bbc1", "bbc3", "bbc4", "bbc-world", "jim", "net5", "op-12", "sbs6", "tmf", "tv5", "veronica"],
@@ -1284,7 +1283,6 @@
 		"disneyxdsat": {"name": "Disney XD (TV Vlaanderen)", "group": 9, "icon": "disney_xd_v2.png", "icongrp": 4},
 		"kzoomkanaalz": {"name": "vtmKzoom/KanaalZ", "group": 9},
 		"npopolitiekbest": {"name": "NPO Politiek/Best", "group": 1},
-		"npozapphumor": {"name": "NPO Zapp Xtra/Humor TV", "group": 1},
 		"omroepbrabantsat": {"name": "Omroep Brabant (satelliet)", "group": 6, "icon": "omroep_brabant.png", "icongrp": 4},
 		"veronicadxd": {"name": "Veronica / Disney XD (experimenteel)", "group": 99, "icon": "veronica_disney_xd2.png", "icongrp": 4}},
 	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2,12,13],
@@ -1422,7 +1420,7 @@
 		"0-460" : ["4", "sbs9"],
 		"0-461" : ["4", "pebble_tv"],
 		"0-462" : ["4", "shortstv"],
-		"0-464" : ["13", "464b.png"],
+		"0-464" : ["4", "bbc_first"],
 		"0-465" : ["4", "rtl_z"],
 		"0-466" : ["4", "ziggo_sport"],
 		"0-467" : ["13", "467b.png"],
@@ -1522,9 +1520,6 @@
 		"11-npopolitiekbest": [
 			{"chanid": "1-politiek-24", "start": "6:00", "end": "18:00"}, 
 			{"chanid": "0-316", "start": "18:00", "end": "6:00"}],
-		"11-npozapphumor": [
-			{"chanid": "1-zappelin", "start": "6:00", "end": "20:00"}, 
-			{"chanid": "0-66", "start": "20:00", "end": "6:00"}],
 		"11-omroepbrabantsat": [
 			{"chanid": "0-114", "start": "6:00", "end": "0:00"}],
 		"11-veronicadxd": [
