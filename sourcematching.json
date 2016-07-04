@@ -837,7 +837,6 @@
 		"11":{"11-cartoonsat": "cartoonsat",
 			"11-disneyxdsat": "disneyxdsat",
 			"11-kzoomkanaalz": "kzoomkanaalz",
-			"11-npopolitiekbest": "npopolitiekbest",
 			"11-omroepbrabantsat": "omroepbrabantsat",
 			"11-veronicadxd": "veronicadxd"},
 		"12":{"4-292": "npo-radio-1",
@@ -1289,7 +1288,6 @@
 		"cartoonsat": {"name": "Cartoon Network (satelliet)", "group": 7, "icon": "cartoon_network.png", "icongrp": 4},
 		"disneyxdsat": {"name": "Disney XD (TV Vlaanderen)", "group": 9, "icon": "disney_xd_v2.png", "icongrp": 4},
 		"kzoomkanaalz": {"name": "vtmKzoom/KanaalZ", "group": 9},
-		"npopolitiekbest": {"name": "NPO Politiek/Best", "group": 1},
 		"omroepbrabantsat": {"name": "Omroep Brabant (satelliet)", "group": 6, "icon": "omroep_brabant.png", "icongrp": 4},
 		"veronicadxd": {"name": "Veronica / Disney XD (experimenteel)", "group": 99, "icon": "veronica_disney_xd2.png", "icongrp": 4}},
 	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2,12,13],
@@ -1524,9 +1522,6 @@
 		"11-kzoomkanaalz": [
 			{"chanid": "1-vtmkzoom", "start": "6:00", "end": "20:00"},
 			{"chanid": "1-kanaalz", "start": "20:00", "end": "0:00"}],
-		"11-npopolitiekbest": [
-			{"chanid": "1-politiek-24", "start": "6:00", "end": "18:00"}, 
-			{"chanid": "0-316", "start": "18:00", "end": "6:00"}],
 		"11-omroepbrabantsat": [
 			{"chanid": "0-114", "start": "6:00", "end": "0:00"}],
 		"11-veronicadxd": [
