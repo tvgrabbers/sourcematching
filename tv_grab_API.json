@@ -13,7 +13,7 @@
 		"timedelta":["length"],
 		"date":["airdate"],
 		"bool":["rerun","premiere","last-chance","new","teletext"],
-		"int":["season","episode","episodecount","offset"],
+		"int":["season","episode","episodecount","offset","ttvdbid"],
 		"list":["country","rating"],
 		"video":["HD","widescreen","blackwhite"],
 		"credits":["director","actor","guest","writer","composer","presenter","reporter",
@@ -22,6 +22,13 @@
 		"title":["group name","name", "episode title"],
         "genres":["genre","subgenre"],
         "numbering":["season","episode", "episodecount"]},
+	"ttvdb":{
+		"v1":{
+			"json file":"source-thetvdb.v1",
+			"version":0},
+		"v2":{
+			"json file":"source-thetvdb.v2",
+			"version":0}},
 	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2,12,13],
 	"logo_provider":{
 		"0": "http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
@@ -64,8 +71,7 @@
 		"37": "https://wp25-images-nl-dynamic.horizon.tv/ChannelLogos/02/",
 		"38": "https://wp26-images-nl-dynamic.horizon.tv/ChannelLogos/02/",
 		"39": "https://wp27-images-nl-dynamic.horizon.tv/ChannelLogos/02/",
-		"40": "https://wp28-images-nl-dynamic.horizon.tv/ChannelLogos/02/",
-		"41": "http://www.oorboekje.nl/img/logo/"},
+		"40": "https://wp28-images-nl-dynamic.horizon.tv/ChannelLogos/02/"},
 	"ttvdb_aliasses":{
 		"Castle": "Castle (2009)",
 		"Father Brown": "Father Brown (2013)",

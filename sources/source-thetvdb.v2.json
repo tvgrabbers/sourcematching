@@ -1,0 +1,246 @@
+{"file-name":"source-thetvdb.v2",
+	"description":[
+		"This is the datafile on how to get the program-data of this site",
+		"Do not change this file as it will get overwritten on any update",
+		"If you thing it needs adjusting open an issue on https://github.com/tvgrabbers/tvgrabnlpy/"],
+	"name":"thetvdb.v2",
+	"language":"en",
+	"site-timezone":"UTC",
+	"version":0,
+	"api-version":[1,0,0],
+	"login":{
+		"url":["https://api.thetvdb.com/login"],
+		"data-format":"application/json",
+		"encoding":"utf-8",
+		"accept-header":"application/json",
+		"url-data":{
+			"apikey": ["api-key"]},
+		"data":{
+			"iter":[
+				{"key-path":[
+					{"key":"token", "type":"string"}],
+				"values":[
+					[{"select":"key"}]]},
+				{"key-path":[
+					{"key":"Error", "type":"string"}],
+				"values":[
+					[{"select":"key"}]
+					]}]}, 
+		"values":{
+			}},
+	"error":{
+		"url":null,
+		"data-format":"application/json",
+		"encoding":"utf-8",
+		"accept-header":"application/json",
+		"url-data":{},
+		"data":{
+			"key-path":[
+				{"key":"errors"}, {"path": "all", "select":"key"}],
+			"values":[
+				[{"select":"value"}]
+				]}, 
+		"values":{
+			}},
+	"seriesid":{
+		"url":["http://www.api.thetvdb.com/search/series"],
+		"data-format":"application/json",
+		"encoding":"utf-8",
+		"url-header":{
+			"Accept": "application/json",
+			"Accept-Language": ["lang"],
+			"Authorization": ["token"]},
+		"url-data":{
+			"name": ["title"]},
+		"date-sequence":["y","m","d"],
+		"date-splitter":"-",
+		"data":{
+			"iter":[
+				{"key-path":[
+					{"key":"data"},
+					{"key":"id", "select":"key"}],
+				"values":[
+					[{"select":"value", "type":"int"}],
+					[{"key":"seriesName"}],
+					[{"key":"overview"}],
+					[{"key":"aliases"},{"path":"all","type":"list"}],
+					[{"key":"firstAired", "type":"date"}],
+					[{"key":"status"}],
+					[{"key":"banner"}],
+					[{"key":"network"}]
+					]},
+				{"key-path":[
+					{"key":"Error", "select":"key"}],
+				"values":[
+					[{"select":"value", "type":"string"}]
+					]}]}, 
+		"values":{
+			"id":{"varid":1},
+			"name":{"varid":2},
+			"lang":null,
+			"aliasses":{"varid":4},
+			"description":{"varid":3},
+			"airdate":{"varid":5},
+			"banner":{"varid":7}
+			}},
+	"seriesname":{
+		"url":["http://www.api.thetvdb.com/series", ["ttvdbid"]],
+		"data-format":"application/json",
+		"encoding":"utf-8",
+		"url-header":{
+			"Accept": "application/json",
+			"Accept-Language": ["lang"],
+			"Authorization": ["token"]},
+		"url-data":{},
+		"date-sequence":["y","m","d"],
+		"date-splitter":"-",
+		"time-splitter":":",
+		"time-type":[12,"AM","PM"],
+		"data":{
+			"iter":[
+				{"key-path":[
+					{"key":"data"},
+					{"key":"id", "select":"key"}],
+				"values":[
+					[{"select":"value","type":"int"}],
+					[{"key":"seriesId", "type":"int"}],
+					[{"key":"seriesName"}],
+					[{"key":"aliases"},{"path":"all","type":"list"}],
+					[{"key":"genre"},{"path":"all","type":"list"}],
+					[{"key":"siteRating", "type":"float"}],
+					[{"key":"siteRatingCount", "type":"int"}],
+					[{"key":"overview"}],
+					[{"key":"airsDayOfWeek", "type":"relative-weekday"}],
+					[{"key":"airsTime", "type":"time"}],
+					[{"key":"rating"}],
+					[{"key":"firstAired", "type":"date"}],
+					[{"key":"network"}],
+					[{"key":"networkId"}],
+					[{"key":"runtime", "type":"int"}],
+					[{"key":"status"}],
+					[{"key":"banner"}],
+					[{"key":"added"}],
+					[{"key":"addedBy"}],
+					[{"key":"lastupdated"}],
+					[{"key":"imdbId"}],
+					[{"key":"zap2itId"}]
+					]},
+				{"key-path":[
+					{"key":"Error", "select":"key"}],
+				"values":[
+					[{"select":"value", "type":"string"}]
+					]}]}, 
+		"values":{
+			}},
+	"episodes":{
+		"url":["http://www.api.thetvdb.com/series/", ["ttvdbid"], "/episodes"],
+		"data-format":"application/json",
+		"encoding":"utf-8",
+		"url-header":{
+			"Accept": "application/json",
+			"Accept-Language": ["lang"],
+			"Authorization": ["token"]},
+		"url-data":{
+			"page": ["page"]},
+		"date-sequence":["y","m","d"],
+		"date-splitter":"-",
+		"time-splitter":":",
+		"time-type":[12,"AM","PM"],
+		"default-item-count":100,
+		"data":{
+			"first-page":[{"key":"links"},{ "key": "first"}],
+			"last-page":[{"key":"links"},{ "key": "last"}],
+			"next-page":[{"key":"links"},{ "key": "next"}],
+			"previous-page":[{"key":"links"},{ "key": "prev"}],
+			"iter":[
+				{"key-path":[
+					{"key":"data"},
+					{"key":"id", "select":"key"}],
+				"values":[
+					[{"select":"value","type":"int"}],
+					[{"key":"airedSeason", "type":"int"}],
+					[{"key":"airedSeasonID", "type":"int"}],
+					[{"key":"airedEpisodeNumber", "type":"int"}],
+					[{"key":"absoluteNumber", "type":"int"}],
+					[{"key":"dvdSeason", "type":"int"}],
+					[{"key":"dvdEpisodeNumber", "type":"int"}],
+					[{"key":"episodeName"}],
+					[{"key":"overview"}],
+					[{"key":"language"},{"key":"episodeName"}],
+					[{"key":"language"},{"key":"overview"}],
+					[{"key":"firstAired", "type":"date"}]
+					]},
+				{"key-path":[
+					{"key":"Error", "select":"key"}],
+				"values":[
+					[{"select":"value", "type":"string"}]
+					]}]}, 
+		"values":{
+			}},
+	"episodecount":{
+		"url":["http://www.api.thetvdb.com/series/", ["ttvdbid"], "/episodes/summary"],
+		"data-format":"application/json",
+		"encoding":"utf-8",
+		"url-header":{
+			"Accept": "application/json",
+			"Accept-Language": ["lang"],
+			"Authorization": ["token"]},
+		"url-data":{},
+		"data":{
+			"iter":[
+				{"key-path":[
+					{"key":"data"},
+					{"key":"airedEpisodes", "select":"key"}],
+				"values":[
+					[{"select":"value","type":"int"}],
+					[{"key":"airedSeasons"},{"path":"all","type":"list"}],
+					[{"key":"dvdSeasons"},{"path":"all","type":"list"}],
+					[{"key":"dvdEpisodes", "type":"int"}]
+					]},
+				{"key-path":[
+					{"key":"Error", "select":"key"}],
+				"values":[
+					[{"select":"value", "type":"string"}]
+					]}]}, 
+		"values":{
+			}},
+	"episode":{
+		"url":["http://www.api.thetvdb.com/episodes/", ["epid"]],
+		"data-format":"application/json",
+		"encoding":"utf-8",
+		"url-header":{
+			"Accept": "application/json",
+			"Accept-Language": ["lang"],
+			"Authorization": ["token"]},
+		"url-data":{},
+		"date-sequence":["y","m","d"],
+		"date-splitter":"-",
+		"time-splitter":":",
+		"time-type":[12,"AM","PM"],
+		"default-item-count":100,
+		"data":{
+			"iter":[
+				{"key-path":[
+					{"key":"data"},
+					{"key":"id", "select":"key"}],
+				"values":[
+					[{"select":"value","type":"int"}],
+					[{"key":"episodeName"}],
+					[{"key":"airedSeason", "type":"int"}],
+					[{"key":"airedSeasonID", "type":"int"}],
+					[{"key":"airedEpisodeNumber", "type":"int"}],
+					[{"key":"absoluteNumber", "type":"int"}],
+					[{"key":"dvdSeason", "type":"int"}],
+					[{"key":"dvdEpisodeNumber", "type":"int"}],
+					[{"key":"overview"}],
+					[{"key":"language"},{"key":"episodeName"}],
+					[{"key":"language"},{"key":"overview"}],
+					[{"key":"firstAired", "type":"date"}]
+					]},
+				{"key-path":[
+					{"key":"Error", "select":"key"}],
+				"values":[
+					[{"select":"value", "type":"string"}]
+					]}]}, 
+		"values":{
+			}},
