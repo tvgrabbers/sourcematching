@@ -51,7 +51,7 @@
 			"Accept-Language": ["lang"],
 			"Authorization": ["token"]},
 		"url-data":{
-			"name": ["title"]},
+			"name": ["name"]},
 		"date-sequence":["y","m","d"],
 		"date-splitter":"-",
 		"data":{

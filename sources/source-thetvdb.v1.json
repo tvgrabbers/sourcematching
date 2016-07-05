@@ -15,11 +15,11 @@
 		"accept-header":null,
 		"url-type":0,
 		"url-data":{
-			"seriesname": ["title"], 
+			"seriesname": ["name"], 
 			"language": ["lang"]},
 		"date-sequence":["y","m","d"],
 		"date-splitter":"-",
-		"str-list-splitter":"\|",
+		"str-list-splitter":"\\|",
 		"data":{
 			"key-path":[
 				{"tag":"Data"},
@@ -60,7 +60,7 @@
 		"date-splitter":"-",
 		"time-type":[12,"AM","PM"],
 		"time-splitter":":",
-		"str-list-splitter":"\|",
+		"str-list-splitter":"\\|",
 		"data":{
 			"key-path":[
 				{"tag":"Data"},
@@ -90,7 +90,7 @@
 				[{"path":"parent"},{"tag":"lastupdated", "type":"timestamp"}],
 				[{"path":"parent"},{"tag":"poster"}],
 				[{"path":"parent"},{"tag":"tms_wanted_old", "type":"int"}],
-				[{"path":"parent"},{"tag":"SeriesId", "type":"int"}]
+				[{"path":"parent"},{"tag":"SeriesId", "type":"int"}],
 				[{"path":"parent"},{"tag":"IMDB_ID"}],
 				[{"path":"parent"},{"tag":"zap2it_id"}]
 				]}, 
@@ -113,6 +113,12 @@
 		"accept-header":null,
 		"url-type":0,
 		"url-data":{},
+		"weekdays":["monday", "tuesday", "wedesday", "thursday", "friday", "saturday", "sunday"],
+		"date-sequence":["y","m","d"],
+		"date-splitter":"-",
+		"time-type":[12,"AM","PM"],
+		"time-splitter":":",
+		"str-list-splitter":"\\|",
 		"data":{
 			"key-path":[
 				{"tag":"Data"},
