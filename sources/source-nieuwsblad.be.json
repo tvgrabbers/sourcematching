@@ -6,7 +6,7 @@
 	"name":"nieuwsblad.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":1,
+	"version":2,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -79,8 +79,7 @@
 		"values":{
 			"channelid":{"varid": 0},
 			"name":{"funcid":0, "data":[{"varid": 1}]},
-			"icon":{"funcid":1, "data":[{"varid": 2}]},
-			"icongrp":null,
+			"icon":{"funcid":101, "data":[{"varid": 2}]},
 			"group":null,
 			"HD":null}},
 	"base-channels":{
@@ -125,12 +124,11 @@
 		"values":{
 			"channelid":{"varid": 0},
 			"name":{"funcid":0, "data":[{"varid": 2}]},
-			"icon":{"funcid":1, "data":[{"varid": 1}]},
-			"icongrp":null,
+			"icon":{"funcid":101, "data":[{"varid": 1}]},
 			"group":{"varid":3},
 			"HD":null}},
 	"base":{
-		"url":["http://www.nieuwsblad.be/tv-gids/",1, "/",11],
+		"url":["http://www.nieuwsblad.be/tv-gids/",["channel"], "/",11],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -210,7 +208,7 @@
 			"detail_url":{"varid": 5},
 			"gen_ID":{"varid": 6}}},
 	"no_genric_matching":["npo1", "npo2", "npo3"],
-	"empty_channels":["tv5", "bbc1", "sbs6", "net5", "veronica"],
+	"empty_channels":["tv5", "bbc1", "bbc3", "bbc4", "bbc-world", "sbs6", "net5", "veronica"],
 	"cattrans":{},
 	"rating":{}}
 

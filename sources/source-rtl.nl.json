@@ -6,7 +6,7 @@
 	"name":"rtl.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":1,
+	"version":2,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -28,9 +28,9 @@
 		"url-type":6,
 		"url-data":{
 			"output": "json",
-			"days_ahead":12,
-			"days_back": 13,
-			"station": 2},
+			"days_ahead":[11, "ahead"],
+			"days_back": [11, "back"],
+			"station": ["channels"]},
 		"calc-end-times":true,
 		"start-off-day": 7,
 		"max days":14,
@@ -105,7 +105,7 @@
 			"episode":{"varid":8},
 			"episode title":{"varid":9},
 			"description":{"varid":11},
-			"rating":{"funcid":9, "data":[{"varid":10},"as_list", 2]}}},
+			"rating":{"funcid":104, "data":[{"varid":10},"as_list", 2]}}},
 	"detail":{
 		"url":["http://www.rtl.nl/system/s4m/tvguide/guide_for_one_abstract.xml"],
 		"data-format":"application/json",

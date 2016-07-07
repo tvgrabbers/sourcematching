@@ -19,64 +19,64 @@
 	"language":"nl",
 	"source-url":"https://raw.githubusercontent.com/tvgrabbers/sourcematching/master/sources",
 	"sources":{
-		"0":{
-			"json file":"source-tvgids.nl",
-			"version":3,
-			"cattrans type":1,
-			"cattransid":0},
-		"4":{
-			"json file":"source-npo.nl",
-			"version":1,
-			"cattrans type":1,
-			"cattransid":1},
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":3,
+			"version":4,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
 			"json file":"source-humo.be",
-			"version":1,
+			"version":2,
 			"cattrans type":1,
 			"cattransid":3},
-		"7":{
-			"json file":"source-vpro.nl",
-			"version":2,
-			"cattrans type":1,
-			"cattransid":4},
-		"1":{
-			"json file":"source-tvgids.tv",
-			"version":1,
-			"cattrans type":2,
-			"cattransid":5},
-		"9":{
-			"json file":"source-primo.eu",
-			"version":2,
-			"cattrans type":1,
-			"cattransid":6},
-		"10":{
-			"json file":"source-vrt.be",
-			"version":1,
-			"cattrans type":1,
-			"cattransid":7},
-		"2":{
-			"json file":"source-rtl.nl",
-			"version":1,
-			"cattrans type":null,
-			"cattransid":null},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":1,
+			"version":2,
 			"cattrans type":null,
 			"cattransid":null},
+		"4":{
+			"json file":"source-npo.nl",
+			"version":2,
+			"cattrans type":1,
+			"cattransid":1},
 		"12":{
 			"json file":"source-oorboekje.nl",
-			"version":1,
+			"version":2,
 			"cattrans type":null,
 			"cattransid":null},
+		"9":{
+			"json file":"source-primo.eu",
+			"version":3,
+			"cattrans type":1,
+			"cattransid":6},
+		"2":{
+			"json file":"source-rtl.nl",
+			"version":2,
+			"cattrans type":null,
+			"cattransid":null},
+		"0":{
+			"json file":"source-tvgids.nl",
+			"version":4,
+			"cattrans type":1,
+			"cattransid":0},
+		"1":{
+			"json file":"source-tvgids.tv",
+			"version":2,
+			"cattrans type":2,
+			"cattransid":5},
+		"7":{
+			"json file":"source-vpro.nl",
+			"version":3,
+			"cattrans type":1,
+			"cattransid":4},
+		"10":{
+			"json file":"source-vrt.be",
+			"version":2,
+			"cattrans type":1,
+			"cattransid":7},
 		"11":{
 			"json file":"source-virtual.nl",
-			"version":0,
+			"version":1,
 			"cattrans type":null,
 			"cattransid":null}},
 	"active_sources":[7,0,1,5,9,6,8,2,4,10,11,12],
