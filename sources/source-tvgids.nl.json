@@ -72,7 +72,7 @@
 			"genre":{"varid": 5},
 			"subgenre":{"varid": 6},
 			"description":{"varid":8},
-			"rating":{"funcid":104, "data":[{"varid":7},"as_list"]}.
+			"rating":{"funcid":104, "data":[{"varid":7},"as_list"]},
 			"source": {"value":"tvgids.nl"}}},
 	"detail":{
 		"url":["http://www.tvgids.nl/programma/",["detailid"], "/"],
