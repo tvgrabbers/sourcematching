@@ -56,7 +56,7 @@
 			"cattransid":null},
 		"0":{
 			"json file":"source-tvgids.nl",
-			"version":4,
+			"version":5,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -147,6 +147,9 @@
 			"0-115": "115",
 			"0-116": "116",
 			"0-148": "148",
+			"1-eredivisie-live-2": "468",
+			"1-eredivisie-live-3": "469",
+			"1-eredivisie-live-4": "470",
 			"0-301": "301",
 			"0-304": "304",
 			"0-305": "305",
