@@ -6,7 +6,7 @@
 	"name":"vrt.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":2,
+	"version":3,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -80,10 +80,10 @@
 				[{"key":"hasTTSubTitles","type":"boolean","default":false}],
 				[{"key":"isRepeat","type":"boolean","default":false}],
 				[{"key":"standardGenres"},
-					{"key":0, "keys":{"type": "DVB"}},
+					{"key":0, "childkeys":{"type": "DVB"}},
 					{"key":"eid", "split": ["\\.",0]}],
 				[{"key":"standardGenres"},
-					{"key":0, "keys":{"type": "DVB"}},
+					{"key":0, "childkeys":{"type": "DVB"}},
 					{"key":"name", "split": [">",1]}],
 				[{"key":"type","default":"","--remark--":["Volatiel","Aflevering","Program","Film","Weerbericht","Kansspelen","","","","",""]}]
 					]},

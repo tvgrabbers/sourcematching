@@ -6,12 +6,12 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":3,
+	"version":4,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
 	"base-channels":{
-		"url":["http://www.vpro.nl/epg-embeddable.html"],
+		"url":["http://www.vpro.nl/epg-embeddable/content/0.html"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -19,21 +19,20 @@
 		"url-data":{},
 		"url-date-format": "%Y-%m-%d",
 		"autoclose-tags":["meta", "link"],
+		"enclose-with-html-tag":true,
 		"datetimestring":"%Y-%m-%d %H:%M:%S",
 		"page-item-count":[],
 		"data":{
 			"init-path":[
 				{"tag":"html"},
-				{"tag":"body"},
-				{"tag":"div", "attrs":{"class":"embeddable-content-container"}},
-				{"tag":"section"}
+				{"tag":"section"},
+				{"tag":"div", "attrs":{"class":"grid"}},
+				{"tag":"div"},
+				{"tag":"div"},
+				{"tag":"div", "attrs":{"class":"epg-viewport-wrapper"}}
 				],
 			"iter":[
 				{"key-path":[
-					{"tag":"div", "attrs":{"class":"grid"}},
-					{"tag":"div"},
-					{"tag":"div"},
-					{"tag":"div", "attrs":{"class":"epg-viewport-wrapper"}},
 					{"tag":"ul", "attrs":{"class":"epg-channel-names"}},
 					{"tag":"li"}
 					],
@@ -68,13 +67,13 @@
 				{"tag":"div", "attrs":{"class":"grid"}},
 				{"tag":"div"},
 				{"tag":"div"},
-				{"tag":"div", "attrs":{"class":"epg-viewport-wrapper"}},
-				{"tag":"div", "attrs":{"class":"epg-viewport"}},
-				{"tag":"div", "attrs":{"class":"epg-scrollable"}},
-				{"tag":"div", "attrs":{"class":"epg-channels-container"}}
+				{"tag":"div", "attrs":{"class":"epg-viewport-wrapper"}}
 				],
 			"iter":[{
 				"key-path":[
+					{"tag":"div", "attrs":{"class":"epg-viewport"}},
+					{"tag":"div", "attrs":{"class":"epg-scrollable"}},
+					{"tag":"div", "attrs":{"class":"epg-channels-container"}},
 					{"tag":"ol"},
 					{"tag":"li"},
 					{"tag":"div", "attrs":{"class":"content"}},

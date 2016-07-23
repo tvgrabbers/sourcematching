@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":4,
+	"version":5,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -29,7 +29,7 @@
 				[{"key":"title"}],
 				[{"key":"isHd","type":"boolean","default":false}],
 				[{"key":"images"},
-					{"keys":{"assetType":"station-logo-large"}},
+					{"path":"all", "childkeys":{"assetType":"station-logo-large"}},
 					{"key":"url","split":[["\\?",0]]}]
 					], 
 			"--remark--":["alternate icons are a.o.",{
