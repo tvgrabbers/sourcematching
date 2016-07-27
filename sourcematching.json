@@ -303,7 +303,7 @@
 			"1-jimjam": "jimjam",
 			"1-journaal-24": "journaal-24",
 			"1-kanaalz": "kanaalz",
-			"1-ketnet-canvas-2": "ketnet-op12",
+			"1-ketnet-canvas-2": "ketnet-canvas-2",
 			"1-la-une-hd": "la-une-hd",
 			"1-life-tv": "life-tv",
 			"1-nat-geo-hd": "nat-geo-hd",
@@ -1053,7 +1053,7 @@
 			"16":["24", "39", "107", "411", "430", "431", "432", "433"]},
 		"1":{
 			"1":[],
-			"2":[],
+			"2":["ketnet-canvas-2"],
 			"3":["cbeebies"],
 			"4":[],
 			"5":[],
@@ -1273,7 +1273,7 @@
 	"empty_channels":{
 		"0":["20","65","66","81","83","93","94","300","308","309","310","401","403","412","434"],
 		"1":["13th-street", "bbc-3", "hollanddoc-24", "humortv-24", "la-une-hd", "tf1-hd", "vtm-hd",
-			"life-tv", "canal-z", "vtmkzoom-2", "ketnet-canvas-2", "cnbc-europe", "syfy", "virgin-1"],
+			"life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "cnbc-europe", "syfy", "virgin-1"],
 		"2":[],
 		"3":[],
 		"4":["284","290", "297"],
