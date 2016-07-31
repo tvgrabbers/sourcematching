@@ -21,17 +21,6 @@
 		"autoclose-tags":["meta", "link"],
 		"enclose-with-html-tag":true,
 		"datetimestring":"%Y-%m-%d %H:%M:%S",
-		"page-item-count":[],
-		"page-start-date":[{"tag":"html"},
-				{"tag":"div"},
-				{"tag":"div", "attrs":{"class":"span12"}},
-				{"tag":"div", "attrs":{"class":"guide horizontal-guide","data-counter":null},
-					"attr":"data-start", "type":"datetimestring"}],
-		"page-end-date":[{"tag":"html"},
-				{"tag":"div", "attrs":{"class":null}},
-				{"tag":"div", "attrs":{"class":"span12"}},
-				{"tag":"div", "attrs":{"class":"guide horizontal-guide","data-counter":null},
-					"attr":"data-end", "type":"datetimestring"}],
 		"data":{
 			"init-path":[{"tag":"html"}],
 			"iter":[

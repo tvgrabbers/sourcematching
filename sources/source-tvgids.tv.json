@@ -69,7 +69,6 @@
 		"autoclose-tags":["meta", "link"],
 		"month-names":["dummy", "jan", "feb", "maa", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"],
 		"max days":14,
-		"calc-end-times":true,
 		"start-off-day": 7,
 		"data":{
 			"init-path":[
@@ -225,17 +224,17 @@
 			"rating":{"funcid":104, "data":[{"varid":7}]},
 			"star-rating":{"varid":8},
 			"description":{"varid":9},
-			"--log-unknown--":{"funcid":107, "data":[{"varid": 5}, 
+			"--log-unknown--":{"funcid":201, "data":[{"varid": 5}, 
 				["datum","tijd","twitter hashtag","uitzending gemist","deel-url","officiële twitter",
 					"officiële website","genre","jaar","acteurs","imdb","kijkwijzer"]]},
-			"--log-unknown2--":{"funcid":107, "data":[{"varid": 6}, 
+			"--log-unknown2--":{"funcid":201, "data":[{"varid": 6}, 
 				["datum","tijd","twitter hashtag","uitzending gemist","deel-url","officiële twitter",
 					"officiële website","genre","jaar","acteurs","imdb","kijkwijzer"]]}
 				}},
 	"no_genric_matching":["nederland-1", "nederland-2", "nederland-3", "rtl-4", "rtl-5", "rtl-7", "rtl-8", "net-5",
 			"rtv-west", "comedy-central", "disney-xd", "fox", "sport1-racing", "sport-1-extra-1", "sport1-extra-2"],
-	"empty_channels":["la-une-hd", "tf1-hd", "vtm-hd", "life-tv", "canal-z",
-			"vtmkzoom-2", "ketnet-canvas-2", "cnbc-europe", "virgin-1"],
+	"empty_channels":["13th-street", "hollanddoc-24", "humortv-24", "la-une-hd", "tf1-hd", "vtm-hd",
+			"life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "cnbc-europe", "syfy", "virgin-1"],
 	"cattrans_keywords":{
 		"jeugd":"Jeugd",
 		"muziek":"Muziek",

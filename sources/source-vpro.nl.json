@@ -21,7 +21,6 @@
 		"autoclose-tags":["meta", "link"],
 		"enclose-with-html-tag":true,
 		"datetimestring":"%Y-%m-%d %H:%M:%S",
-		"page-item-count":[],
 		"data":{
 			"init-path":[
 				{"tag":"html"},
@@ -145,7 +144,7 @@
 			"gen_ID":{"varid":9}}},
 	"no_genric_matching":["npo_1", "npo_2", "npo_3", "radio_1", "radio_2", "3fm", "radio_4", "radio_5", "radio_6",
 			"rtl_4", "rtl_5", "rtl_7", "rtl_8", "tlc"],
-	"empty_channels":["bbc_three", "r_omroep_brabant", "radio_6"],
+	"empty_channels":["13th_street", "bbc_three", "npo_doc", "r_omroep_brabant", "radio_6", "syfy"],
 	"cattrans":{
         "g3011":{
 			"default":["jeugd", ""],

@@ -184,7 +184,7 @@
 			"subgenre":{"funcid":11, "data":[{"varid":1},"samenvatting"], "max length":25},
 			"credits":{"funcid":102, "data":[{"varid":1}]},
 			"source": {"value":"primo.eu"},
-			"--log-unknown--":{"funcid":107, "data":[{"varid": 1}, 
+			"--log-unknown--":{"funcid":201, "data":[{"varid": 1}, 
 				["programmanaam","datum en tijd","zender","genre","synopsis","titel aflevering",
 					"nr. aflevering","seizoen","jaar","land","samenvatting","minimumleeftijd","rating"]]}
 			}},

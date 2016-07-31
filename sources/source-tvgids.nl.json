@@ -275,7 +275,7 @@
 			"subgenre":{"varid": 8, "type":"lower"},
 			"source": {"value":"tvgids.nl"},
 			"description":{"funcid":8, "data":[{"varid": 9},{"varid": 10}]},
-			"--log-unknown--":{"funcid":107, "data":[{"varid": 6}, 
+			"--log-unknown--":{"funcid":201, "data":[{"varid": 6}, 
 				["zender","datum","uitzendtijd","titel","prijzen","kijkwijzer",
 					"regisseur","scenario schrijver","componist","acteurs",
 					"aflevering","seizoen","genre","kleur","bijzonderheden","nl-url"]]}
@@ -318,7 +318,7 @@
 	"no_genric_matching":[
 		"1", "2", "3", "4", "31", "40", "46", "91", "92", "103", "108", "109", "113", "114", "311", "420", "438"],
 	"empty_channels":[
-		"65","83","308","309","310","401","403","412"],
+		"65","66","81","83","93","94","308","309","310","401","403","412","434"],
 	"cattrans":{
         "nieuws/actualiteiten":{
 			"default":["nieuws/actualiteiten", ""]},

@@ -144,8 +144,6 @@
 			"april", "mei", "juni", "juli", "augustus", "septemper",
 			"oktober", "november", "december"],
 		"max days":10,
-		"calc-end-times":true,
-		"start-off-day": 7,
 		"data":{
 			"init-path":[
 				{"tag":"html"},
@@ -208,7 +206,7 @@
 			"detail_url":{"varid": 5},
 			"gen_ID":{"varid": 6}}},
 	"no_genric_matching":["npo1", "npo2", "npo3"],
-	"empty_channels":["tv5", "bbc1", "bbc3", "bbc4", "bbc-world", "sbs6", "net5", "veronica"],
+	"empty_channels":["bbc1", "bbc3", "bbc4", "bbc-world", "jim", "net5", "op-12", "sbs6", "tmf", "tv5", "veronica"],
 	"cattrans":{},
 	"rating":{}}
 

@@ -10,7 +10,7 @@
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
-		"url":["https://web-api-salt.horizon.tv/oesp/api/NL/nld/web/channels/"],
+		"url":["https://web-api-pepper.horizon.tv/oesp/api/NL/nld/web/channels/"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -46,7 +46,7 @@
 			"icon":{"funcid":101, "data":[{"varid":3}]},
 			"HD":{"varid": 2}}},
 	"base":{
-		"url":["https://web-api-salt.horizon.tv/oesp/api/NL/nld/web/listings/"],
+		"url":["https://web-api-pepper.horizon.tv/oesp/api/NL/nld/web/listings/"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -130,7 +130,7 @@
 		"24443943096", "24443943143", "24443943146", "24443943182", "24443943184", "120746535305", 
 		"672816167173"],
 	"empty_channels":[
-		"614261799194", "615722023372", "24443943133"],
+		"24443943064", "24443943160", "614261799194", "615722023372", "24443943133"],
 	"cattrans":{
         "film":{
 			"default":["film",""]},
