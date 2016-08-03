@@ -1523,7 +1523,6 @@
 		"12-70": ["4", "radio_ujala"],
 		"12-71": ["4", "radio_8fm"]},
 	"combined_channels":{
-		"5-24443943080": ["0-301", "1-cbeebies"],
 		"1-veronica": ["0-34", "0-311"],
 		"1-ketnet-canvas-2": ["8-ketnet", "8-eenplus"],
 		"1-nickelodeon": ["0-89", "0-467"]},
@@ -1540,7 +1539,6 @@
 		"11-veronicadxd": [
 			{"chanid": "0-34", "start": "18:00", "end": "4:00"},
 			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
-		"5-24443943080": ["0-301", "1-cbeebies"],
 		"1-veronica": ["0-34", "0-311"],
 		"1-ketnet-canvas-2": ["8-ketnet", "8-eenplus"],
 		"1-nickelodeon": ["0-89", "0-467"]},
