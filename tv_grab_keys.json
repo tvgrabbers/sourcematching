@@ -1,0 +1,225 @@
+{
+    "grabberfile":{
+        "required":{
+            "data_version":{
+				"types":["integer"]},
+            "program_version":{
+				"types":[{"type":"list", "length":3}, 
+					"integer"]},
+            "sources":{
+				"types":["numbered dict",
+					{"type":"dict", 
+						"required":[{"name":"json file", "type":"string"},
+							{"name":"version", "type":"integer","default": 0}],
+						"sugested":[{"name":"cattrans type", "in":[null,1,2], "default": null},
+							{"name":"cattransid", "type":["integer","none"], "default": null}],
+						"optional":[{"name":"json_url", "type":"url", "default": "https://raw.githubusercontent.com/tvgrabbers/sourcematching/master/sources"}]}]},
+            "active_sources":{
+				"types":["list",
+					"sourceid"]},
+            "source_channels":{
+				"types":[{"type":"numbered dict", "keys": "sourceid"},
+					"dict",
+					"string"]},
+            "channel_groups":{
+				"types":["numbered dict",
+					"string"]},
+            "unknown_program_title":{
+				"types":["string"]},
+            "language_texts":{
+				"types":["dict", 
+					"string"]},
+            "roletrans":{
+				"types":["dict",
+					"list",
+					"string"]},
+            "cattrans_unknown":{
+				"types":["string"]},
+            "cattrans":{
+				"types":["dict",
+					"list",
+					"list", 
+					"string"]}},
+        "sugested":{
+            "version_message":{
+				"types":["list",
+					"string"]},
+            "warning_message":{
+				"types":["numbered dict",
+					"list", 
+					"string"]},
+            "fetch-timezone":{
+				"types":["tz-string"], 
+				"default":"UTC"},
+            "prime_source_order":{
+				"types":["list", 
+					"sourceid"]},
+            "sourceid_order":{
+				"types":["list",
+					"sourceid"]},
+            "prime_source_groups":{
+				"types":[{"type":"numbered dict", "keys": "sourceid"},
+					"groupid"]},
+            "prime_source":{
+				"types":[{"type":"dict","keys":"chanid"}, 
+					"sourceid"]},
+            "channel_grouping":{
+				"types":[{"type":"numbered dict", "keys": "groupid"},
+					"list", 
+					"chanid"]},
+            "logo_names":{
+				"types":[{"type":"dict","keys":"chanid"},
+					{"type":"list", "length":2, "items":["logoid", "string"]}]},
+            "groupslot_names":{
+				"types":["list", 
+					"string"]},
+            "rating":{
+				"types":[
+					{"type":"dict", 
+						"required":[{"name":"name", "type":"string"},
+							{"name":"unique_codes","type":"dict"},
+							{"name":"addon_codes","type":"dict"}]}, 
+					{"type":["string", "dict"]}, 
+					{"type":"dict", 
+						"required":[{"name":"code", "type":"string"},
+						{"name":"text", "type":"string"},
+						{"name":"icon", "type":"string"}]}]},
+            "series_genres":{
+				"types":["list", "string"]},
+            "movie_genres":{
+				"types":["list", "string"]},
+            "sports_genres":{
+				"types":["list", "string"]}},
+        "optional":{
+            "description":{
+				"types":["list", "string"]},
+            "language":{
+				"types":[{"type":"string", "length":2}], 
+				"default":"en"},
+            "source-url":{
+				"types":["url"], 
+				"default":"https://raw.githubusercontent.com/tvgrabbers/sourcematching/master/sources"},
+            "channel_rename":{
+				"types":[{"type":"dict","keys":"chanid"},
+					"string"]},
+            "detail_sources":{
+				"types":["list", 
+					"sourceid"]},
+            "group language":{
+				"types":[{"type":"numbered dict", "keys": "groupid"}, 
+					{"type":"string", "length":2}], 
+				"default":"en"},
+            "group_order":{
+				"types":["list", 
+					"groupid"]},
+            "ttvdb disable groups":{
+				"types":["list", 
+					"groupid"]},
+            "ttvdb langs":{
+				"types":["list", 
+					{"type":"string", "length":2}], 
+				"default":["en"]},
+            "logo_provider":{
+				"types":["numbered dict",
+					"string"]},
+            "combined-channels-tz":{
+				"types":["tz-string"], 
+				"default":"UTC"},
+            "combined_channels":{
+				"types":[{"type":"dict","keys":"chanid"}, 
+					{"type":"list"},
+					{"type":["chanid","dict"],
+						"required":[{"name":"chanid", "type":"chanid"}],
+						"sugested":[{"name":"start", "type":"time","default": "0:00 (see the WIKI)"},
+							{"name":"end", "type":"time","default": "23:59(see the WIKI)"}],
+						"optional":[{"name":"slots", "type":"list"}]}]},
+            "merge_into":{
+				"types":[{"type":"dict","keys":"chanid"}, 
+					{"type":"dict", 
+						"required":[{"name":"chanid", "type":"chanid"},
+							{"name":"sources", "type":"numbered dict", "keys": "sourceid","types": "string"}],
+						"sugested":[{"name":"date", "type":"date"},
+							{"name":"message", "type":["string","list"]}]}]},
+            "generic_channel_genres":{
+				"types":["dict",
+					"list",
+					"chanid"]},
+            "compat_text":{
+				"types":["string"]},
+            "channelprogram_rename":{
+				"types":[{"type":"dict","keys":"chanid"}, 
+					"dict",
+					"string"]},
+            "titlerename":{
+				"types":["dict"]},
+            "groupnameremove":{
+				"types":["list",
+					"string"]},
+            "episode exclude genres":{
+				"types":["list",
+					"string"]},
+            "detailed_genres":{
+				"types":["list",
+					"string"]}}},
+    "sourcefile":{
+        "required":{
+            "file-name":{
+				"types":["string"]},
+            "name":{
+				"types":["string"]},
+            "version":{
+				"types":["integer"]},
+            "api-version":{
+				"types":[{"type":"list", "length":3}, 
+					"integer"]}},
+        "sugested":{
+            "language":{
+				"types":[{"type":"string", "length":2}], 
+				"default":"en"},
+            "detail_processor":{
+				"types":["boolean"],
+				"default":false},
+            "site-timezone":{
+				"types":["tz-string"], 
+				"default":"UTC"},
+            "empty_channels":{
+				"types":["list", "string"]},
+            "rating":{
+				"types":[{"type":"dict"},
+					{"type":"string"}]},
+            "cattrans":{
+				"types":[{"type":"dict"},
+					{"type":["string","dict"],
+						"required":[{"name":"default", "type":"list"}],
+						"allowed":"all"},
+					{"type":"list", "length":2},
+					{"type":"string"}
+					]}},
+        "optional":{
+            "description":{
+				"types":["list", "string"]},
+            "is_virtual":{
+				"types":["boolean"],
+				"default":false},
+            "detail_processor":{
+				"types":["boolean"],
+				"default":false},
+            "without-full-timings":{
+				"types":["boolean"],
+				"default":false},
+            "night-date-switch":{
+				"types":["integer"],
+				"default":0},
+            "no_genric_matching":{
+				"types":["list", "string"]},
+            "alt-channels":{
+				"types":[{"type":"dict"},
+					{"type":"list", "length":2}]},
+            "cattrans_keywords":{
+				"types":[{"type":"dict"},
+					{"type":"string"}]},
+			"empty-values":{
+				"types":[{"type":"list"},
+					{"type":["string","none"]}]}},
+        "data_defs":["channels","base-channels","base","detail","detail2"],
+		"extra_keys":["login","error","seriesid","seriesname","episodes","episodecount","episode","lang-list"]}}
