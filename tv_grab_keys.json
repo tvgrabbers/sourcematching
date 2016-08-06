@@ -222,7 +222,7 @@
 				"types":[{"type":"list"},
 					{"type":["string","none"]}]}},
         "data_defs":["channels","base-channels","base","detail","detail2"],
-		"extra_keys":["login","error","seriesid","seriesname","episodes","episodecount","episode","lang-list"]},
+		"ignore_keys":["is_virtual","login","error","seriesid","seriesname","episodes","episodecount","episode","lang-list"]},
     "virtualsource":{
         "required":{
             "file-name":{
@@ -241,6 +241,7 @@
         "optional":{
             "description":{
 				"types":["list", "string"]}},
+        "ignore_keys":["is_virtual"],
         "unused_keys":[
 			"detail_processor","site-timezone","empty_channels","rating","cattrans","without-full-timings",
 			"night-date-switch","no_genric_matching","alt-channels","cattrans_keywords","empty-values",
