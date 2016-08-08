@@ -1703,5 +1703,21 @@
 		"9":["discoverychannel", "disneyxd", "net5", "npo1", "npo2", "npo3", "sbss6", "veronica"],
 		"10":[],
 		"11":[],
+		"12":[]},
+	"text_replace":{
+		"0":[],
+		"1":[
+			["<a href=\"/op-tv/tennis\" title=\"Tennis op tv\" class=\"inconspicuous\">tennis</a>", "tennis"],
+			["<a href=\"/op-tv/sport\" title=\"Sport op tv\" class=\"inconspicuous\">sport</a>", "sport"]],
+		"2":[],
+		"3":[],
+		"4":[],
+		"5":[],
+		"6":[],
+		"7":[],
+		"8":[],
+		"9":[],
+		"10":[],
+		"11":[],
 		"12":[]}}
 
