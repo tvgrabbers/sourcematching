@@ -198,9 +198,6 @@
         "optional":{
             "description":{
 				"types":["list", "string"]},
-            "is_virtual":{
-				"types":["boolean"],
-				"default":false},
             "detail_processor":{
 				"types":["boolean"],
 				"default":false},
@@ -221,7 +218,6 @@
 			"empty-values":{
 				"types":[{"type":"list"},
 					{"type":["string","none"]}]}},
-        "data_defs":["channels","base-channels","base","detail","detail2"],
 		"ignore_keys":["is_virtual","login","error","seriesid","seriesname","episodes","episodecount","episode","lang-list"]},
     "virtualsource":{
         "required":{
@@ -244,54 +240,111 @@
         "ignore_keys":["is_virtual"],
         "unused_keys":[
 			"detail_processor","site-timezone","empty_channels","rating","cattrans","without-full-timings",
-			"night-date-switch","no_genric_matching","alt-channels","cattrans_keywords","empty-values",
-			"base-channels","base","detail","detail2"],
-		"data_defs":["channels"]},
+			"night-date-switch","no_genric_matching","alt-channels","cattrans_keywords","empty-values"]},
+	"data_defs":["channels","base-channels","base","detail","detail2"],
+	"channel_keys":{
+        "required":{
+			"name":{
+				"types":["string"]}},
+        "optional":{
+			"group":{
+				"types":["groupid"]},
+			"icon":{
+				"types":["string"]},
+			"icongrp":{
+				"types":["logoid"]},
+			"fetch_grp":{
+				"types":["string"]},
+			"HD":{
+				"types":["boolean"]}}},
 	"data_def_keys":{
 		"channels":{
-			"required":{
-				},
-			"sugested":{
+			"required":{},
+			"optional":{
 				"url_type":{
 					"types":["integer"],
-					"default":0}
-				},
-			"optional":{
-				}},
+					"default":0}},
+			"value_keys":{
+				"required":["channelid","name","fetch_grp"],
+				"optional":["group","icon","HD"]}},
 		"base-channels":{
-			"required":{
-				},
-			"sugested":{
+			"required":{},
+			"optional":{
 				"url_type":{
 					"types":["integer"],
-					"default":0}
-				},
-			"optional":{
-				}},
+					"default":0}},
+			"value_keys":{
+				"required":["channelid","name","fetch_grp"],
+				"optional":["group","icon","HD"]}},
 		"base":{
 			"required":{
 				"url_type":{
 					"types":["integer"],
-					"default":0}
-				},
-			"sugested":{
+					"default":0}},
+			"optional":{
 				"max days":{
 					"types":["integer"],
-					"default":14}
-				},
-			"optional":{
-				}},
+					"default":14},
+				"default-item-count":{
+					"required_on":[12,13,14],
+					"types":["integer"],
+					"default":0}},
+			"data_keys":{
+				"optional":{
+					"today":{
+						"types":["value_def"]},
+					"date-check":{
+						"types":["value_def"]},
+					"page-item-count":{
+						"required_on":[12,13,14],
+						"types":["value_def"]},
+					"total-item-count":{
+						"required_on":[12,13,14],
+						"types":["value_def"]}}},
+			"value_keys":{
+				"required":["start-time","stop-time","name","channelid"],
+				"detail":["prog_ID","detail_url"],
+				"optional":["length","alt-start-time","alt-stop-time","gen_ID",
+					"episode title","originaltitle","description","genre","subgenre","genres",
+					"premiere year","infourl","audio","star-rating","broadcaster","airdate",
+					"rerun","premiere","last-chance","new","teletext","season","episode",
+					"episodecount","country","rating","HD","widescreen","blackwhite",
+					"credits","director","actor","guest","writer","composer","presenter",
+					"reporter","commentator","adapter","producer","editor"]}},
 		"detail":{
 			"required":{
 				"provides":{
-					"types":["list","integer"]}
-				},
-			"sugested":{
+					"types":["list","integer"]}},
+			"optional":{
 				"url_type":{
 					"types":["integer"],
-					"default":0}
-				},
+					"default":0}},
+			"value_keys":{
+				"required":[],
+				"optional":["start-time","stop-time","name","channelid",
+					"prog_ID","detail_url","length","alt-start-time","alt-stop-time","gen_ID",
+					"episode title","originaltitle","description","genre","subgenre","genres",
+					"premiere year","infourl","audio","star-rating","broadcaster","airdate",
+					"rerun","premiere","last-chance","new","teletext","season","episode",
+					"episodecount","country","rating","HD","widescreen","blackwhite",
+					"credits","director","actor","guest","writer","composer","presenter",
+					"reporter","commentator","adapter","producer","editor"]}},
+		"detail2":{
+			"required":{
+				"provides":{
+					"types":["list","integer"]}},
 			"optional":{
-				}}
-		}
+				"url_type":{
+					"types":["integer"],
+					"default":0}},
+			"value_keys":{
+				"required":[],
+				"optional":["start-time","stop-time","name","channelid",
+					"prog_ID","detail_url","length","alt-start-time","alt-stop-time","gen_ID",
+					"episode title","originaltitle","description","genre","subgenre","genres",
+					"premiere year","infourl","audio","star-rating","broadcaster","airdate",
+					"rerun","premiere","last-chance","new","teletext","season","episode",
+					"episodecount","country","rating","HD","widescreen","blackwhite",
+					"credits","director","actor","guest","writer","composer","presenter",
+					"reporter","commentator","adapter","producer","editor"]}}}
 		}
