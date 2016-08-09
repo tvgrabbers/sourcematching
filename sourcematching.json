@@ -1707,8 +1707,7 @@
 	"text_replace":{
 		"0":[],
 		"1":[
-			["<a href=\"/op-tv/tennis\" title=\"Tennis op tv\" class=\"inconspicuous\">tennis</a>", "tennis"],
-			["<a href=\"/op-tv/sport\" title=\"Sport op tv\" class=\"inconspicuous\">sport</a>", "sport"]],
+			["<a href=\"/op-tv/[a-z]*?\" title=\"[\\s\\w]*?\" class=\"inconspicuous\">([\\s\\w]*?)</a>", "\\g<1>"]],
 		"2":[],
 		"3":[],
 		"4":[],
