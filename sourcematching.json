@@ -9,9 +9,9 @@
 		"Also now a quick fix on corrupt links on tvgids.tv detail-pages\n",
 		"for 'NOS Rio live' that make the whole page fail.\n"],
 	"warning_message_2":{
-		"21":["NPO.nl now has seperate listings for NPO Zapp Xtra and NPO Best, use the following:\n"
-			"4-283: NPO Best only.\n",
-			"4-288: NPO Zapp Xtra only.\n",
+		"21":["NPO.nl now has seperate listings for NPO Zapp Xtra and NPO Best, use the following:\n",
+			"     4-283: NPO Best only.\n",
+			"     4-288: NPO Zapp Xtra only.\n",
 			"1-zappelin: Combined NPO Zapp Xtra/NPO Best.\n"],
 		"20":["vpro.nl now also has 'BBC First' and 'the History Channel'.\n",
 			"The ID on oorboekje.nl for 'radio NH' has changed to just 'nh'.\n"],
