@@ -1,7 +1,7 @@
 {"description":[
 	"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
 	"Vanaf versie 2.2.7 vanaf de huidige locatie."],
-	"data_version":"19",
+	"data_version":"21",
 	"program_version":"2.2.16",
 	"version_message":["Some fixes on a slightly changed format on oorboekje,\n",
 		"Some fixes on central disabling a source like recently tvgids.tv.\n",
@@ -9,6 +9,10 @@
 		"Also now a quick fix on corrupt links on tvgids.tv detail-pages\n",
 		"for 'NOS Rio live' that make the whole page fail.\n"],
 	"warning_message_2":{
+		"21":["NPO.nl now has seperate listings for NPO Zapp Xtra and NPO Best, use the following:\n"
+			"4-283: NPO Best only.\n",
+			"4-288: NPO Zapp Xtra only.\n",
+			"1-zappelin: Combined NPO Zapp Xtra/NPO Best.\n"],
 		"20":["vpro.nl now also has 'BBC First' and 'the History Channel'.\n",
 			"The ID on oorboekje.nl for 'radio NH' has changed to just 'nh'.\n"],
 		"19":["NPO Best and NPO Zapp Xtra are now one channel, use 1-zappelin\n"],
@@ -360,7 +364,6 @@
 			"0-3": "265",
 			"0-70": "280",
 			"0-410": "281",
-			"0-316": "283",
 			"0-81": "284",
 			"0-66": "290",
 			"0-109": "266",
@@ -378,7 +381,8 @@
 			"0-116": "278",
 			"1-journaal-24": "279",
 			"1-politiek-24": "282",
-			"1-zappelin": "288",
+			"4-283": "283",
+			"4-288": "288",
 			"4-292": "292",
 			"4-293": "293",
 			"4-294": "294",
@@ -1283,7 +1287,7 @@
 			"life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "cnbc-europe", "syfy", "virgin-1"],
 		"2":[],
 		"3":[],
-		"4":["283","284","290","297"],
+		"4":["284","290","297"],
 		"5":["24443943064", "24443943102", "24443943160", "614261799194"],
 		"6":["55"],
 		"7":["13th_street", "bbc_three", "npo_doc", "r_omroep_brabant", "radio_6", "syfy"],
@@ -1546,7 +1550,10 @@
 			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
 		"1-veronica": ["0-34", "0-311"],
 		"1-ketnet-canvas-2": ["8-ketnet", "8-eenplus"],
-		"1-nickelodeon": ["0-89", "0-467"]},
+		"1-nickelodeon": ["0-89", "0-467"],
+		"1-zappelin": [
+			{"chanid": "4-288", "start": "4:00", "end": "20:00"},
+			{"chanid": "4-283", "start": "20:00", "end": "4:00"}]},
 	"merge_into":{
 		"1-nickelodeon":{
 			"chanid":"0-89", 
