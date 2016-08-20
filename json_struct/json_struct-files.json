@@ -12,7 +12,12 @@
             "struct-value_def",
             "struct-node_def",
             "struct-end_node_def",
-            "struct-link_def"
+            "struct-link_def",
+			"struct-link_basic",
+			"struct-link_addon",
+			"struct-link_variable",
+			"struct-link_function",
+			"struct-link_value"
         ]}},
     {"json_struct-tv_grab":{
         "version":0,
