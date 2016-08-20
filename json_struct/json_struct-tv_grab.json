@@ -1,24 +1,24 @@
 {"version":0,
     "select_struct_list":[
-		{"testdata":"struct-grabberfile",
-			"description":"The file %s seems to be a grabber-JSON file\\\n",
+		{"teststruct":"struct-grabberfile",
+			"description":"The file \"%s\" seems to be a grabber-JSON file\\\n",
 			"title":"tv_grab_[a-z][a-z]\\.json",
 			"type":"dict"},
-		{"testdata":"struct-virtualsource",
-			"description":"The file %s seems to be a virtual-source-JSON file\\\n",
+		{"teststruct":"struct-virtualsource",
+			"description":"The file \"%s\" seems to be a virtual-source-JSON file\\\n",
 			"title":"source-.*?\\.json",
 			"type":"dict", 
 			"keyvalues":[
 				{"key":"is_virtual", "value":true, "default":false}]},
-		{"testdata":"struct-sourcefile",
-			"description":"The file %s seems to be a source-JSON file\\\n",
+		{"teststruct":"struct-sourcefile",
+			"description":"The file \"%s\" seems to be a source-JSON file\\\n",
 			"title":"source-.*?\\.json",
 			"type":"dict", 
 			"keyvalues":[
 				{"key":"is_virtual", "value":false, "default":false},
 				{"key":"detail_processor", "value":false, "default":false}]},
-		{"testdata":"struct-detailedsource",
-			"description":"The file %s seems to be a detailed-source-JSON file\\\n",
+		{"teststruct":"struct-detailedsource",
+			"description":"The file \"%s\" seems to be a detailed-source-JSON file\\\n",
 			"title":"source-.*?\\.json",
 			"type":"dict", 
 			"keyvalues":[
@@ -27,16 +27,16 @@
 	"struct-grabberfile":{
 		"type":"dict",
         "lookup_lists":{
-			"lst-sourceid":{"keyword": "sources","values": "intkeys"},
-			"lst-chanid":{"keyword": "source_channels","values": "keys","level": 2},
-			"lst-groupid":{"keyword": "channel_groups","values": "intkeys"},
-			"lst-logoid":{"keyword": "logo_provider","values": "intkeys"},
+			"lst-sourceid":{"keyword": ["sources"],"values": "intkeys"},
+			"lst-chanid":{"keyword": ["source_channels"],"values": "keys","level": 2},
+			"lst-groupid":{"keyword": ["channel_groups"],"values": "intkeys"},
+			"lst-logoid":{"keyword": ["logo_provider"],"values": "intkeys"},
 			"lst-cattranstype":{"list":[null,1,2]}},
 		"required":{
             "active_sources":{
 				"types":[
 					"list",
-					"lst-sourceid"]},
+					"int-lst-sourceid"]},
             "cattrans":{
 				"types":[
 					"dict",
@@ -115,15 +115,15 @@
             "prime_source":{
 				"types":[
 					{"type":"dict","keys":"lst-chanid"}, 
-					"lst-sourceid"]},
+					"int-lst-sourceid"]},
             "prime_source_groups":{
 				"types":[
 					{"type":"numbered dict", "keys": "lst-sourceid"},
-					"lst-groupid"]},
+					"int-lst-groupid"]},
             "prime_source_order":{
 				"types":[
 					"list", 
-					"lst-sourceid"]},
+					"int-lst-sourceid"]},
             "rating":{
 				"types":[
 					{"type":"dict", 
@@ -144,7 +144,7 @@
             "sourceid_order":{
 				"types":[
 					"list",
-					"lst-sourceid"]},
+					"int-lst-sourceid"]},
             "sports_genres":{
 				"types":[
 					"list", 
@@ -197,7 +197,7 @@
             "detail_sources":{
 				"types":[
 					"list", 
-					"lst-sourceid"]},
+					"int-lst-sourceid"]},
             "detailed_genres":{
 				"types":[
 					"list",
@@ -219,7 +219,7 @@
             "group_order":{
 				"types":[
 					"list", 
-					"lst-groupid"]},
+					"int-lst-groupid"]},
             "groupnameremove":{
 				"types":[
 					"list",
@@ -234,7 +234,7 @@
 			"logo_source_preference":{
 				"types":[
 					"list",
-					"lst-sourceid"]},
+					"int-lst-sourceid"]},
             "merge_into":{
 				"types":[
 					{"type":"dict","keys":"lst-chanid"}, 
@@ -261,7 +261,7 @@
             "ttvdb disable groups":{
 				"types":[
 					"list", 
-					"lst-groupid"]},
+					"int-lst-groupid"]},
             "ttvdb langs":{
 				"types":[
 					"list", 
@@ -271,6 +271,9 @@
 		"type":"dict",
         "lookup_lists":{
 			"lst-link_funcid":{"list":[101,102,103,104,105,106,201,202],"append":true}},
+		"reference_values":{
+			"url-type":{"keyword":["base","url-type"], "type":"integer","default":0}},
+		"report":"at least 'channels' or 'base-channels' should be present",
 		"either":[
 			{"required":{
 				"channels":{
@@ -386,17 +389,17 @@
 								"types":["string"]}},
 						"optional":{
 							"group":{
-								"types":["lst-groupid"]},
+								"types":["int-lst-groupid"]},
 							"icon":{
 								"types":["string"]},
 							"icongrp":{
-								"types":["lst-logoid"]},
+								"types":["int-lst-logoid"]},
 							"fetch_grp":{
 								"types":["string"]},
 							"HD":{
 								"types":["boolean"]}}}]}},
-		"forbidden_keys":["values"],
-		"ignore_keys":["url"]},
+		"forbidden_keys":["url"],
+		"ignore_keys":["values"]},
 	"struct-channels":{
 		"include":"struct-data_def_full_extended",
 		"required":{
@@ -408,15 +411,19 @@
 								"types":["struct-link_def"]},
 							"name":{
 								"types":["struct-link_def"]}},
-						"sugested":{
-							"fetch_grp":{
-								"types":["struct-link_def"]}},
 						"optional":{
 							"group":{
 								"types":["struct-link_def"]},
 							"icon":{
 								"types":["struct-link_def"]},
 							"HD":{
+								"types":["struct-link_def"]}},
+						"conditional":{
+							"fetch_grp":{
+								"reference_key" :"url-type",
+								"value" :[3,7,11,15],
+								"true":1,
+								"false":-1,
 								"types":["struct-link_def"]}}}]}},
 		"optional":{
 			"text_replace":{
@@ -442,9 +449,13 @@
 					{"type":"string"}]},
 			"max days":{
 				"types":["integer"],
-				"default":14},
+				"default":14}},
+		"conditional":{
 			"default-item-count":{
-				"required_on":[{"key":[],"in":[12,13,14]}],
+				"reference_key" :"url-type",
+				"value" :[12,13,14],
+				"true":1,
+				"false":-1,
 				"types":["integer"],
 				"default":0}}},
 	"struct-base_detailed":{
@@ -569,7 +580,8 @@
 			"name":{
 				"types":["struct-link_def"]},
 			"channelid":{
-				"types":["struct-link_def"]}}},
+				"types":["struct-link_def"]}},
+        "unused_keys":["detail_url"]},
 	"struct-base_detailed_values":{
 		"include":"struct-detail_values",
 		"required":{
@@ -587,15 +599,29 @@
 				"types":["struct-link_def"]}}},
 	"struct-tv_grab_data":{
 		"include":"struct-data_def_data",
-		"optional":{
+		"conditional":{
 			"today":{
+				"reference_key" :"url-type",
+				"value" :[1,2,3],
+				"true":2,
+				"false":-1,
 				"types":["struct-value_def"]},
 			"date-check":{
+				"reference_key" :"url-type",
+				"value" :[1,2,3],
+				"true":1,
+				"false":-1,
 				"types":["struct-value_def"]},
 			"page-item-count":{
-				"required_on":[{"key":[],"in":[12,13,14]}],
+				"reference_key" :"url-type",
+				"value" :[12,13,14],
+				"true":1,
+				"false":-1,
 				"types":["struct-value_def"]},
 			"total-item-count":{
-				"required_on":[{"key":[],"in":[12,13,14]}],
+				"reference_key" :"url-type",
+				"value" :[12,13,14],
+				"true":1,
+				"false":-1,
 				"types":["struct-value_def"]}}}
 	}

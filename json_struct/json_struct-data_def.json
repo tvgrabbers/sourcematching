@@ -1,26 +1,26 @@
 {"version":0,
     "select_struct_list":[
-		{"testdata":"struct-data_def_full_extended",
-			"description":"The file %s is a JSON data_def_full_extended\\\n",
+		{"teststruct":"struct-data_def_full_extended",
+			"description":"The file \"%s\" is a JSON data_def_full_extended\\\n",
 			"type":"dict", 
 			"keyvalues":[
 				{"key":"data", "present":true},
 				{"key":"values", "present":true},
 				{"key":"url", "present":true}]},
-		{"testdata":"struct-data_def_with_url_extension",
-			"description":"The file %s is a JSON data_def_with_url_extension\\\n",
+		{"teststruct":"struct-data_def_with_url_extension",
+			"description":"The file \"%s\" is a JSON data_def_with_url_extension\\\n",
 			"type":"dict", 
 			"keyvalues":[
 				{"key":"data", "present":true},
 				{"key":"url", "present":true}]},
-		{"testdata":"struct-data_def_with_link_extension",
-			"description":"The file %s is a JSON data_def_with_link_extension\\\n",
+		{"teststruct":"struct-data_def_with_link_extension",
+			"description":"The file \"%s\" is a JSON data_def_with_link_extension\\\n",
 			"type":"dict", 
 			"keyvalues":[
 				{"key":"data", "present":true},
 				{"key":"values", "present":true}]},
-		{"testdata":"struct-data_def",
-			"description":"The file %s is a JSON data_def\\\n",
+		{"teststruct":"struct-data_def",
+			"description":"The file \"%s\" is a JSON data_def\\\n",
 			"type":"dict", 
 			"keyvalues":[
 				{"key":"data", "present":true}]}],
@@ -32,6 +32,7 @@
 		"include":["struct-data_def","struct-link_extension"]},
 	"struct-data_def_data":{
 		"type":"dict",
+		"report":"either 'iter' or 'key-path' with 'values' should be present",
 		"either":[
 			{"required":{
 				"iter":{
@@ -60,6 +61,7 @@
 				"types":["struct-path_def"]}}},
 	"struct-data_def":{
 		"type":"dict",
+		"base-type":"data_def",
         "lookup_lists":{
 			"lst-time_type":{"list":[24,12]}},
 		"required":{
@@ -187,11 +189,13 @@
 		{"type":"list"},
 		{"type":"struct-node_def"}],
 	"struct-node_def":{
-		"type":"dict"},
+		"type":"dict",
+		"base-type":"node_def"},
 	"struct-end_node_def":{
-		"type":"dict"},
+		"include":"struct-node_def"},
 	"struct-link_def":{
 		"type":"dict",
+		"report":"either 'varid', 'funcid' with 'data' or 'value' should be present",
 		"either":[
 			{"required":{
 				"varid":{
