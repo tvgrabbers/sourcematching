@@ -1727,7 +1727,7 @@
 		"6":[],
 		"7":[
 			["data-playable([ \\n])","data-playable=\"\"\\g<1>"],
-			["class=\"([-a-z]*?) theme-text\"", "class=\\g<1>"]],
+			["class=\"([-a-z]*?) theme-text\"", "class=\"\\g<1>\""]],
 		"8":[
 			["<img (.*?)\"\\s*>","<img \\g<1>\"/>"]],
 		"9":[],
