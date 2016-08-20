@@ -102,7 +102,8 @@
 		"data":{
 			"init-path":[{"tag":"html"}],
 			"iter":[
-				{"key-path":[
+				{
+				"key-path":[
 					{"tag":"div", "attrs":{"class":"row-fluid"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
@@ -132,9 +133,9 @@
 							"type":"date","date-sequence":["d","m","y"],"date-splitter":" "}],
 					[{"tag":"span","lstrip":"(","rstrip":")"}],
 					[{"attr":"data-genre","split":[",", "list-all"]}],
-					[{"attr":"href","split":[["/",-1]]}]
-						]},
-				{"key-path":[
+					[{"attr":"href","split":[["/",-1]]}]]},
+				{
+				"key-path":[
 					{"tag":"div", "attrs":{"id":"themed-guide"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
@@ -163,9 +164,9 @@
 						{"path":"parent","attr":"data-start","split":[["\\s*",0]], "type":"date"}],
 					[{"tag":"span","lstrip":"(","rstrip":")"}],
 					[{"attr":"data-genre","split":[",", "list-all"]}],
-					[{"attr":"href","split":[["/",-1]]}]
-						]},
-				{"key-path":[
+					[{"attr":"href","split":[["/",-1]]}]]},
+				{
+				"key-path":[
 					{"tag":"div", "attrs":{"id":"regional-guide"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
@@ -193,9 +194,9 @@
 						{"path":"parent","attr":"data-start","split":[["\\s*",0]], "type":"date"}],
 					[],
 					[{"attr":"data-genre","split":[",", "list-all"]}],
-					[{"attr":"href","split":[["/",-1]]}]
-						]},
-				{"key-path":[
+					[{"attr":"href","split":[["/",-1]]}]]},
+				{
+				"key-path":[
 					{"tag":"div", "attrs":{"id":"radio-guide"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
@@ -223,9 +224,7 @@
 						{"path":"parent","attr":"data-start","split":[["\\s*",0]], "type":"date"}],
 					[{"tag":"span","lstrip":"(","rstrip":")"}],
 					[{"attr":"data-genre","split":[",", "list-all"]}],
-					[{"attr":"href","split":[["/",-1]]}]
-						]}
-						]},
+					[{"attr":"href","split":[["/",-1]]}]]}]},
 		"values":{
 			"channelid":{"varid": 1},
 			"start-time":{"funcid":4, "data":[{"varid": 4},{"varid": 0}, 6]},

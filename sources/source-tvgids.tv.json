@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":2,
+	"version":3,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -137,6 +137,8 @@
 		"month-names":["dummy", "januari", "februari", "maart",
 			"april", "mei", "juni", "juli", "augustus", "septemper",
 			"oktober", "november", "december"],
+		"text_replace":[
+			["<a href=\"/op-tv/[-a-z]*?\" title=\"[\\s\\w]*?\" class=\"inconspicuous\">([\\s\\w]*?)</a>", "\\g<1>"]],
 		"data":{
 			"init-path":[
 				{"tag":"html"},
@@ -209,7 +211,7 @@
 				[{"path": "parent"},{"path": "parent"},
 					{"tag":"div", "attrs":{"class":"section-content"}},
 					{"tag":"div", "attrs":{"class":"section-item gray"}},
-					{"tag":"p", "select":"text"}]
+					{"tag":"p", "select":"inclusive text"}]
 				]},
 		"provides":["description","subgenre","credits","rating","premiere year","star-rating", "infourl"],
 		"values":{
@@ -290,6 +292,7 @@
         "veldrijden": "Sport",
         "volleybal": "Sport",
         "motorcross": "Sport",
+		"olympische spelen": "Sport",
         "religieuze uitzending": "Religieus",
         "docusoap": "Informatief",
         "sitcom": "Serie/Soap"},

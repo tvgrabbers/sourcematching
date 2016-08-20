@@ -85,8 +85,7 @@
 				[{"key":"standardGenres"},
 					{"key":0, "childkeys":{"type": "DVB"}},
 					{"key":"name", "split": [">",1]}],
-				[{"key":"type","default":"","--remark--":["Volatiel","Aflevering","Program","Film","Weerbericht","Kansspelen","","","","",""]}]
-					]},
+				[{"key":"type","default":"","--remark--":["Volatiel","Aflevering","Program","Film","Weerbericht","Kansspelen","","","","",""]}]]},
 		"values":{
 			"channelid":{"varid": 1},
 			"prog_ID":{"varid":0},
