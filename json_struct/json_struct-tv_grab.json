@@ -353,7 +353,8 @@
 			"empty-values":{
 				"types":[
 					{"type":"list"},
-					{"type":["string","none"]}]}},
+					{"type":["string","none"]}],
+				"default":[null,""]}},
         "unused_keys":["detail","detail2"],
 		"ignore_keys":["is_virtual","detail_processor",
 					"login","error","seriesid","seriesname","episodes","episodecount","episode","lang-list"]},
@@ -623,5 +624,6 @@
 				"value" :[12,13,14],
 				"true":1,
 				"false":-1,
-				"types":["struct-value_def"]}}}
+				"types":["struct-value_def"]}},
+		"ignore_keys":["empty-values","timezone"]}
 	}

@@ -194,27 +194,42 @@
 	"struct-end_node_def":{
 		"include":"struct-node_def"},
 	"struct-link_def":{
-		"type":"dict",
+		"type":["struct-link_variable","struct-link_function","struct-link_value"],
 		"report":"either 'varid', 'funcid' with 'data' or 'value' should be present",
-		"either":[
-			{"required":{
-				"varid":{
-					"types":["integer"]}},
-			"optional":{},
-			"ignore_keys":["funcid","value"]},
-			{"required":{
-				"funcid":{
-					"types":["lst-link_funcid"]},
-				"data":{
-					"types":["list",["struct-link_def",""]]}},
-			"optional":{},
-			"ignore_keys":["value"],
-			"forbidden_keys":["varid"]},
-			{"required":{
-				"value":{"types":[]}},
-			"optional":{},
-			"forbidden_keys":["varid","funcid"]}],
 		"optional":{
 				"default":{"types":[]}}
-		}
+		},
+	"struct-link_basic":{
+		"type":"dict",
+		"optional":{
+			"default":{"types":[]}}},
+	"struct-link_addon":{
+		"type":"dict",
+		"optional":{
+			}},
+	"struct-link_variable":{
+		"include":"struct-link_addon",
+		"required":{
+			"varid":{
+				"types":["integer"]}},
+		"optional":{
+			},
+		"unused_keys":["funcid","value","data"]},
+	"struct-link_function":{
+		"include":["struct-link_basic","struct-link_addon"],
+		"required":{
+			"funcid":{
+				"types":["lst-link_funcid"]},
+			"data":{
+				"types":["list",["struct-link_variable","struct-link_function",""]]}},
+		"optional":{
+			},
+		"unused_keys":["value"],
+		"forbidden_keys":["varid"]},
+	"struct-link_value":{
+		"type":"dict",
+		"required":{
+			"value":{"types":[]}},
+		"unused_keys":["data"],
+		"forbidden_keys":["varid","funcid"]}
 	}
