@@ -1,4 +1,4 @@
-{"version":0,
+{"version":1,
     "select_struct_list":[
 		{"teststruct":"struct-grabberfile",
 			"description":"The file \"%s\" seems to be a grabber-JSON file\\\n",
@@ -431,7 +431,8 @@
 				"types":[
 					{"type":"list"}, 
 					{"type":"list", "length":2}, 
-					{"type":"string"}]}}},
+					{"type":"string"}]}},
+		"ignore_keys":["empty-values","timezone"]},
 	"struct-base":{
 		"include":"struct-data_def_full_extended",
 		"required":{
@@ -458,7 +459,8 @@
 				"true":1,
 				"false":-1,
 				"types":["integer"],
-				"default":0}}},
+				"default":0}},
+		"ignore_keys":["empty-values","timezone"]},
 	"struct-base_detailed":{
 		"include":"struct-base",
 		"required":{
@@ -474,7 +476,8 @@
 				"types":[
 					{"type":"list"}, 
 					{"type":"list", "length":2}, 
-					{"type":"string"}]}}},
+					{"type":"string"}]}},
+		"ignore_keys":["empty-values","timezone"]},
 	"struct-detail_values":{
 		"type":"dict",
 		"sugested":{
@@ -624,6 +627,5 @@
 				"value" :[12,13,14],
 				"true":1,
 				"false":-1,
-				"types":["struct-value_def"]}},
-		"ignore_keys":["empty-values","timezone"]}
+				"types":["struct-value_def"]}}}
 	}

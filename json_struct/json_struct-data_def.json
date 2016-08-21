@@ -1,4 +1,4 @@
-{"version":0,
+{"version":1,
     "select_struct_list":[
 		{"teststruct":"struct-data_def_full_extended",
 			"description":"The file \"%s\" is a JSON data_def_full_extended\\\n",
@@ -68,28 +68,9 @@
 			"data":{
 				"types":["struct-data_def_data"]}},
 		"optional":{
-			"month-names":{
-				"types":[
-					{"type":"list","length":13},
-					{"type":["string","integer"]}]},
-			"weekdays":{
-				"types":[
-					{"type":"list","length":7},
-					{"type":["string","integer"]}]},
-			"relative-weekdays":{
-				"types":[
-					{"type":"dict"},
-					{"type":"integer"}]},
 			"datetimestring":{
 				"types":["string"],
 				"default":"%Y-%m-%d %H:%M:%S"},
-			"time-splitter":{
-				"types":["string"],
-				"default":":"},
-			"time-type":{
-				"types":[
-					{"type":"list","items":["lst-time_type","string","string"]}],
-				"default":[24]},
 			"date-sequence":{
 				"types":[
 					{"type":"list"},
@@ -98,75 +79,125 @@
 			"date-splitter":{
 				"types":["string"],
 				"default":"-"},
+			"month-names":{
+				"types":[
+					{"type":"list","length":13},
+					{"type":["string","integer"]}]},
+			"relative-weekdays":{
+				"types":[
+					{"type":"dict"},
+					{"type":"integer"}]},
+			"str-list-splitter":{
+				"types":["string"],
+				"default":"\\|"},
 			"timezone":{
 				"types":["tz-string"],
 				"default":"UTC"},
+			"time-splitter":{
+				"types":["string"],
+				"default":":"},
+			"time-type":{
+				"types":[
+					{"type":"list","items":["lst-time_type","string","string"]}],
+				"default":[24]},
 			"value-filters":{
 				"types":[
 					{"type":"dict"},
 					{"type":"list"}]},
-			"str-list-splitter":{
-				"types":["string"],
-				"default":"\\|"}}},
+			"weekdays":{
+				"types":[
+					{"type":"list","length":7},
+					{"type":["string","integer"]}]}}},
 	"struct-url_extension":{
 		"type":"dict",
         "lookup_lists":{
-			"lst-url_funcid":{"list":[0,4,11,14],"append":true}},
+			"lst-url_funcid":{"list":[0,4,11,14],"append":true},
+			"lst-url-date-type":{"list":[0,1,2]}},
+		"reference_values":{
+			"data-format":{"keyword":["data-format"], "type":"string"},
+			"url-date-type":{"keyword":["data-format"], "type":"string"}},
 		"required":{
 			"url":{
 				"types":[
 					["string","list"],
 					{"type":["string","lst-url_funcid","list"],"items":[["string","lst-url_funcid"],"string"]}]}},
 		"optional":{
-			"url-type":{
-				"types":["integer"],
-				"default":0},
-			"url-header":{
-				"types":[
-					"dict",
-					"string"]},
-			"accept-header":{
+			"data-format":{
 				"types":["string"],
 				"default":""},
+			"date-range-splitter":{
+				"types":["string"],
+				"default":"~"},
+			"default-item-count":{
+				"types":["integer"],
+				"default":0},
+			"encoding":{
+				"types":["string"],
+				"default":""},
+			"item-range-splitter":{
+				"types":["string"],
+				"default":"-"},
 			"url-data":{
 				"types":[
 					"dict",
 					{"type":["string","url_funcid","list"],"items":[["string","url_funcid"],"string"]}]},
-			"encoding":{
-				"types":["string"],
-				"default":""},
-			"data-format":{
-				"types":["string"],
-				"default":""},
 			"url-date-type":{
-				"types":["integer"],
+				"types":["lst-url-date-type"],
 				"default":0},
-			"url-date-format":{
-				"types":["string"],
-				"default":null},
-			"url-date-multiplier":{
+			"url-type":{
 				"types":["integer"],
-				"default":1},
-			"url-weekdays":{
-				"types":[
-					{"type":"list","length":7},
-					{"type":["string","integer"]}]},
-			"default-item-count":{
-				"types":["integer"],
-				"default":0},
-			"item-range-splitter":{
-				"types":["string"],
-				"default":"-"},
-			"date-range-splitter":{
-				"types":["string"],
-				"default":"~"},
+				"default":0}},
+		"conditional":{
 			"autoclose-tags":{
+				"reference_key" :"data-format",
+				"regex" :"html",
+				"true":3,
+				"false":-1,
 				"types":[
 					{"type":"list"},
 					{"type":"string"}]},
 			"enclose-with-html-tags":{
+				"reference_key" :"data-format",
+				"regex" :"html",
+				"true":3,
+				"false":-1,
 				"types":["boolean"],
-				"default":false}}},
+				"default":false},
+			"url-date-format":{
+				"reference_key" :"url-date-type",
+				"value" :[0],
+				"true":3,
+				"false":-1,
+				"types":["string"],
+				"default":null},
+			"url-date-multiplier":{
+				"reference_key" :"url-date-type",
+				"value" :[1],
+				"true":3,
+				"false":-1,
+				"types":["integer"],
+				"default":1},
+			"url-weekdays":{
+				"reference_key" :"url-date-type",
+				"value" :[2],
+				"true":3,
+				"false":-1,
+				"types":[
+					{"type":"list","length":7},
+					{"type":["string","integer"]}]}},
+		"report":"use either 'accept-header' or 'url-header'",
+		"either":[
+			{"optional":{
+				"accept-header":{
+					"types":["string"],
+					"default":""}},
+			"forbidden_keys":["url-header"]},
+			{"optional":{
+				"url-header":{
+					"types":[
+						"dict",
+						"string"]}},
+			"forbidden_keys":["accept-header"]}]},
 	"struct-link_extension":{
 		"type":"dict",
         "lookup_lists":{
@@ -182,12 +213,16 @@
 					{"type":"list"},
 					{"type":["string","none"]}],
 				"default":[null,""]}}},
-	"struct-path_def":[
-		{"type":"list"},
-		{"type":"struct-node_def"}],
-	"struct-value_def":[
-		{"type":"list"},
-		{"type":"struct-node_def"}],
+	"struct-path_def":{
+		"type":"list",
+		"types":[
+			{"type":"list"},
+			{"type":"struct-node_def"}]},
+	"struct-value_def":{
+		"type":"list",
+		"types":[
+			{"type":"list"},
+			{"type":"struct-node_def"}]},
 	"struct-node_def":{
 		"type":"dict",
 		"base-type":"node_def"},
@@ -197,39 +232,54 @@
 		"type":["struct-link_variable","struct-link_function","struct-link_value"],
 		"report":"either 'varid', 'funcid' with 'data' or 'value' should be present",
 		"optional":{
-				"default":{"types":[]}}
-		},
-	"struct-link_basic":{
-		"type":"dict",
-		"optional":{
-			"default":{"types":[]}}},
+				"default":{"types":[""]}}},
 	"struct-link_addon":{
 		"type":"dict",
 		"optional":{
-			}},
+			"regex":{
+				"types":["string"]},
+			"type":{
+				"types":["string"]},
+			"calc":{
+				"types":[
+					{"type":"dict",
+						"optional":{
+							"multiplier":{
+								"types":["float"], 
+								"default":1},
+							"divider":{
+								"types":["float"], 
+								"default":1}}}]}}},
 	"struct-link_variable":{
 		"include":"struct-link_addon",
 		"required":{
 			"varid":{
 				"types":["integer"]}},
 		"optional":{
-			},
+			"max length":{
+				"types":["integer"],
+				"default":0},
+			"min length":{
+				"types":["integer"],
+				"default":0}},
 		"unused_keys":["funcid","value","data"]},
 	"struct-link_function":{
-		"include":["struct-link_basic","struct-link_addon"],
+		"include":["struct-link_addon"],
 		"required":{
 			"funcid":{
 				"types":["lst-link_funcid"]},
 			"data":{
-				"types":["list",["struct-link_variable","struct-link_function",""]]}},
+				"types":[
+					"list",
+					["struct-link_variable","struct-link_function",""]]}},
 		"optional":{
-			},
-		"unused_keys":["value"],
+			"default":{"types":[""]}},
+		"unused_keys":["value","max length","min length"],
 		"forbidden_keys":["varid"]},
 	"struct-link_value":{
 		"type":"dict",
 		"required":{
 			"value":{"types":[]}},
-		"unused_keys":["data"],
+		"unused_keys":["data","max length","min length","regex","type","calc"],
 		"forbidden_keys":["varid","funcid"]}
-	}
+		}
