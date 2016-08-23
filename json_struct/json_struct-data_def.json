@@ -57,6 +57,20 @@
 						"struct-value_def"]}},
 			"forbidden_keys":["iter"]}],
 		"optional":{
+			"sort":{
+				"types":[
+					{"type":"list"},
+					{"type":"dict",
+						"length":2,
+						"required":{
+							"path":{
+								"types":[
+									"list",
+									"string"]},
+							"childkeys":{
+								"types":[
+									"list",
+									"string"]}}}]},
 			"init-path":{
 				"types":["struct-path_def"]}}},
 	"struct-data_def":{
@@ -115,7 +129,7 @@
 			"lst-url-date-type":{"list":[0,1,2]}},
 		"reference_values":{
 			"data-format":{"keyword":["data-format"], "type":"string"},
-			"url-date-type":{"keyword":["data-format"], "type":"string"}},
+			"url-date-type":{"keyword":["date-format"], "type":"string"}},
 		"required":{
 			"url":{
 				"types":[
