@@ -129,7 +129,7 @@
 			"lst-url-date-type":{"list":[0,1,2]}},
 		"reference_values":{
 			"data-format":{"keyword":["data-format"], "type":"string"},
-			"url-date-type":{"keyword":["date-format"], "type":"string"}},
+			"url-date-type":{"keyword":["url-date-type"], "type":"integer","default":0}},
 		"required":{
 			"url":{
 				"types":[
