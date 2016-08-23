@@ -1,6 +1,6 @@
 # sourcematching
 sourcematching.json for tv_grab_nl_py version 2
 
-The datafile used by tv_grab_nl_py version 3
+The json data and source files for tvgrabpyAPI
 
-And the json data files for tvgrabpyAPI
+The json struct files used by test_json_struct in the DataTreeGrab package
