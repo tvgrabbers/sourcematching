@@ -11,6 +11,7 @@
             "struct-url_extension",
             "struct-link_extension",
             "struct-path_def",
+            "struct-key_def",
             "struct-value_def",
             "struct-node_def",
             "struct-end_node_def",
@@ -31,8 +32,6 @@
             "struct-integer_link",
             "struct-index_link",
             "struct-link_def",
-            "struct-link_addon",
-            "struct-link_variable",
             "struct-link_function",
             "struct-link_value"
         ]}},
