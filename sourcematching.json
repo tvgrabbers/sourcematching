@@ -1,11 +1,12 @@
 {"description":[
 	"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
 	"Vanaf versie 2.2.7 vanaf de huidige locatie."],
-	"data_version":"22",
+	"data_version":"23",
 	"program_version":"2.2.17",
 	"version_message":["Some fixes on a slightly changed format on vpro.nl,\n",
 		"And a more structural fix on corrupt links on tvgids.tv detail-pages\n"],
 	"warning_message_2":{
+		"23":["Q2 is a rename of 2BE, you can continue to use '0-59'.\n"],
 		"22":["Both nieuwsblad.be and primo.eu now offer a listing for 'Q2'.\n",
 			"This Flemish successor of '2BE' is available with a chanid of '8-q2'.\n"],
 		"21":["NPO.nl now has seperate listings for NPO Zapp Xtra and NPO Best, use the following:\n",
@@ -709,7 +710,7 @@
 			"0-36": "sbs6",
 			"0-37": "net5",
 			"0-49": "vtm",
-			"0-59": "2be",
+			"0-59": "q2",
 			"0-60": "vier",
 			"0-86": "bbc-world",
 			"0-90": "bvn",
@@ -780,7 +781,7 @@
 			"0-29": "discoverychannel",
 			"0-32": "trttssrk",
 			"0-49": "vtm",
-			"0-59": "2be",
+			"0-59": "q2",
 			"0-60": "vier",
 			"0-90": "bvn",
 			"0-311": "disneyxd",
@@ -917,6 +918,7 @@
 		"0-32":"TRT Türk",
 		"0-38":"ARTE DE",
 		"0-40":"AT5",
+		"0-59":"Q2",
 		"0-60":"VIER",
 		"0-66":"NPO Humor TV",
 		"0-86":"BBC World News",
@@ -1201,7 +1203,7 @@
 			"16":[]},
 		"8":{
 			"1":[],
-			"2":["eenplus"],
+			"2":["eenplus", "q2"],
 			"3":[],
 			"4":[],
 			"5":["tv5-monde"],
@@ -1209,7 +1211,7 @@
 			"7":[],
 			"8":["atv", "avs", "rtv", "wtv", "tvbrussel", "tvlimburg", "tv-oost", "rob-tv", "ring-tv",  "focus"],
 			"9":["lacht", "jim", "kadet", "kanaal-z", "vtmkzoom", "mtv", "tmf", "nickelodeon", "comedy-central",
-				"eurosport-2", "play-sports-1", "play-sports-2","q2"],
+				"eurosport-2", "play-sports-1", "play-sports-2"],
 			"10":[],
 			"11":[],
 			"12":[],
@@ -1295,8 +1297,8 @@
 		"5":["24443943064", "24443943102", "24443943160", "614261799194"],
 		"6":["55"],
 		"7":["13th_street", "bbc_three", "npo_doc", "r_omroep_brabant", "radio_6", "syfy"],
-		"8":["bbc1", "bbc3", "bbc4", "bbc-world", "jim", "net5", "op-12", "sbs6", "tmf", "tv5", "veronica"],
-		"9":[],
+		"8":["2be", "bbc1", "bbc3", "bbc4", "bbc-world", "jim", "net5", "op-12", "sbs6", "tmf", "tv5", "veronica"],
+		"9":["2be"],
 		"10":[],
 		"11":[],
 		"12":[]},
@@ -1373,7 +1375,7 @@
 		"0-49" : ["1", "vtm"],
 		"0-50" : ["1", "3sat"],
 		"0-58" : ["1", "pro7"],
-		"0-59" : ["1", "kanaal2"],
+		"0-59" : ["8", "q2"],
 		"0-60" : ["1", "vt4"],
 		"0-65" : ["13", "65b.png"],
 		"0-66" : ["4", "npo_humor"],
@@ -1563,6 +1565,10 @@
 		"1-zappelin": [
 			{"chanid": "4-288", "start": "4:00", "end": "20:00"},
 			{"chanid": "4-283", "start": "20:00", "end": "4:00"}],
+		"4-288": [
+			{"chanid": "1-zappelin", "start": "4:00", "end": "20:00"}],
+		"4-283": [
+			{"chanid": "1-zappelin", "start": "20:00", "end": "4:00"}],
 		"5-24443943080": ["0-301", "1-cbeebies"]},
 	"merge_into":{
 		"1-nickelodeon":{
