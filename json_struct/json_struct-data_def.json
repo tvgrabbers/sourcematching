@@ -1,4 +1,4 @@
-{"version":1,
+{"version":2,
     "select_struct_list":[
 		{"teststruct":"struct-data_def_full_extended",
 			"description":"The file \"%s\" is a JSON data_def_full_extended\\\n",
@@ -32,32 +32,38 @@
 		"include":["struct-data_def","struct-link_extension"]},
 	"struct-data_def_data":{
 		"type":"dict",
-		"report":"either 'iter' or 'key-path' with 'values' should be present",
-		"either":[
-			{"required":{
-				"iter":{
-					"types":[
-						{"type":"list"}, 
-						{"type":"dict", 
-							"length":2,
-							"required":{
-								"key-path":{
-									"types":["struct-path_def"]},
-								"values":{
-									"types":[
-										"list",
-										"struct-value_def"]}}}]}},
-			"ignore_keys":["key-path","values"]},
-			{"required":{
-				"key-path":{
-					"types":["struct-path_def"]},
-				"values":{
-					"types":[
-						"list",
-						"struct-value_def"]}},
-			"forbidden_keys":["iter"]}],
-		"optional":{
+		"report":{
+			"data_def_data":"either 'iter' or 'key-path' with 'values' should be present"},
+		"either":{
+			"data_def_data":[
+				{"required":{
+					"iter":{
+						"types":[
+							{"type":"list"}, 
+							{"type":"dict", 
+								"length":2,
+								"required":{
+									"key-path":{
+										"types":["struct-key_def"]},
+									"values":{
+										"types":[
+											"list",
+											"struct-value_def"]}}}]}},
+				"ignore_keys":["key-path","values"]},
+				{"required":{
+					"key-path":{
+						"types":["struct-key_def"]},
+					"values":{
+						"types":[
+							"list",
+							"struct-value_def"]}},
+				"forbidden_keys":["iter"]}]},
+		"conditional":{
 			"sort":{
+				"reference_key" :"data-format",
+				"regex" :"json",
+				"true":3,
+				"false":-1,
 				"types":[
 					{"type":"list"},
 					{"type":"dict",
@@ -70,14 +76,33 @@
 							"childkeys":{
 								"types":[
 									"list",
-									"string"]}}}]},
+									"string"]}}}]}},
+		"optional":{
 			"init-path":{
 				"types":["struct-path_def"]}}},
 	"struct-data_def":{
 		"type":"dict",
 		"base-type":"data_def",
         "lookup_lists":{
-			"lst-time_type":{"list":[24,12]}},
+			"lst-member_off":{"keyword": ["value-filters"],"values": "keys"},
+			"lst-time_type":{"list":[24,12]},
+			"lst-path_value":{"list":["all","parent","root"]},
+			"lst-calc_value":{"list":["plus","min"]},
+			"lst-type_value":{"list":["timestamp","datetimestring","time",
+				"timedelta","date","datestamp","relative-weekday","string",
+				"int","float","boolean","lower-ascii","list","str-list"]},
+			"lst-select_value":[
+				{"list":["index","presence"],"append":false},
+				{"list":["tag","text","tail","inclusive text"],
+					"append":true,
+					"reference_key" :"data-format",
+					"regex" :"html"},
+				{"list":["key","value"],
+					"append":true,
+					"reference_key" :"data-format",
+					"regex" :"json"}]},
+		"reference_values":{
+			"data-format":{"keyword":["data-format"], "type":"string"}},
 		"required":{
 			"data":{
 				"types":["struct-data_def_data"]}},
@@ -121,20 +146,20 @@
 			"weekdays":{
 				"types":[
 					{"type":"list","length":7},
-					{"type":["string","integer"]}]}}},
+					{"type":["string","integer"]}]}},
+		"ignore_keys":["data-format"]},
 	"struct-url_extension":{
 		"type":"dict",
         "lookup_lists":{
 			"lst-url_funcid":{"list":[0,4,11,14],"append":true},
 			"lst-url-date-type":{"list":[0,1,2]}},
 		"reference_values":{
-			"data-format":{"keyword":["data-format"], "type":"string"},
 			"url-date-type":{"keyword":["url-date-type"], "type":"integer","default":0}},
 		"required":{
 			"url":{
 				"types":[
 					["string","list"],
-					{"type":["string","lst-url_funcid","list"],"items":[["string","lst-url_funcid"],"string"]}]}},
+					{"type":["string","lst-url_funcid","list"],"items":[[["string","lst-url_funcid"]],"string"]}]}},
 		"optional":{
 			"data-format":{
 				"types":["string"],
@@ -154,7 +179,7 @@
 			"url-data":{
 				"types":[
 					"dict",
-					{"type":["string","url_funcid","list"],"items":[["string","url_funcid"],"string"]}]},
+					{"type":["string","url_funcid","list"],"items":[[["string","url_funcid"]],"string"]}]},
 			"url-date-type":{
 				"types":["lst-url-date-type"],
 				"default":0},
@@ -170,7 +195,7 @@
 				"types":[
 					{"type":"list"},
 					{"type":"string"}]},
-			"enclose-with-html-tags":{
+			"enclose-with-html-tag":{
 				"reference_key" :"data-format",
 				"regex" :"html",
 				"true":3,
@@ -199,23 +224,26 @@
 				"types":[
 					{"type":"list","length":7},
 					{"type":["string","integer"]}]}},
-		"report":"use either 'accept-header' or 'url-header'",
-		"either":[
-			{"optional":{
-				"accept-header":{
-					"types":["string"],
-					"default":""}},
-			"forbidden_keys":["url-header"]},
-			{"optional":{
-				"url-header":{
-					"types":[
-						"dict",
-						"string"]}},
-			"forbidden_keys":["accept-header"]}]},
+		"report":{
+			"url_header":"use either 'accept-header' or 'url-header'"},
+		"either":{
+			"url_header":[
+				{"optional":{
+					"accept-header":{
+						"types":[["string","none"]],
+						"default":""}},
+				"forbidden_keys":["url-header"]},
+				{"optional":{
+					"url-header":{
+						"types":[
+							"dict",
+							"string"]}},
+				"forbidden_keys":["accept-header"]}]}},
 	"struct-link_extension":{
 		"type":"dict",
         "lookup_lists":{
-			"lst-link_funcid":{"list":[0,2,3,4,5,6,7,8,9,10,11],"append":true}},
+			"lst-link_funcid":{"list":[0,2,3,4,5,6,7,8,9,10,11],"append":true},
+			"lst-link_types":{"list":["string","lower","upper","capitalize","int","float","bool"]}},
 		"required":{
 			"values":{
 				"types":[
@@ -229,31 +257,398 @@
 				"default":[null,""]}}},
 	"struct-path_def":{
 		"type":"list",
+		"base-type":"path_def",
 		"types":[
 			{"type":"list"},
 			{"type":"struct-node_def"}]},
+	"struct-key_def":{
+		"type":"list",
+		"base-type":"key_def",
+		"types":[
+			{"type":"list",
+				"reverse_items":[[["struct-combined_end_node_def","struct-end_node_def"]]],
+				"other_items":"struct-node_def"}]},
 	"struct-value_def":{
+		"type":"list",
+		"base-type":"value_def",
+		"types":[
+			{"type":"list",
+				"reverse_items":[[["struct-combined_end_node_def","struct-end_node_def"]]],
+				"other_items":"struct-node_def"}]},
+	"struct-node_def":{
+		"include":"struct-node_value_def",
+		"conditional-type":{
+			"key":"link",
+			"name":"link_value_def"},
+		"report":{
+			"node_selection":[
+				"either 'path', 'tag'/'key', 'tags'/'keys' or 'index' must be present,",
+				"also an intermediate single 'link' or 'name' is allowed",
+				"but if part of an init_path or a key_path 'name' is forbidden",
+				"and will result in no data!"]},
+		"either":{
+			"node_selection":[
+				{"required":{
+					"path":{
+						"types":["lst-path_value"]}},
+				"unused_keys":["index","tag", "tags","key", "keys"]},
+				{"conditional":{
+					"tag":{
+						"reference_key" :"data-format",
+						"regex" :"html",
+						"true":1,
+						"false":-1,
+						"types":[["string","struct-value_link"]]},
+					"key":{
+						"reference_key" :"data-format",
+						"regex" :"json",
+						"true":1,
+						"false":-1,
+						"types":[["string","integer","struct-integer_link"]]},
+					"index":{
+						"reference_key" :"data-format",
+						"regex" :"html",
+						"true":3,
+						"false":-1,
+						"types":[["integer","struct-index_link"]]}},
+				"unused_keys":["keys","tags"],
+				"forbidden_keys":["path"]},
+				{"conditional":{
+					"tags":{
+						"reference_key" :"data-format",
+						"regex" :"html",
+						"true":1,
+						"false":-1,
+						"types":[
+							"list",
+							["string","struct-value_link"]]},
+					"keys":{
+						"reference_key" :"data-format",
+						"regex" :"json",
+						"true":1,
+						"false":-1,
+						"types":[
+							"list",
+							["string","integer","struct-integer_link"]]}},
+				"optional":{
+					"index":{
+						"types":[["integer","struct-index_link"]]}},
+				"forbidden_keys":["path","tag","key"]},
+				{"required":{
+					"index":{
+						"types":[["integer","struct-index_link"]]}},
+				"forbidden_keys":["path","tag", "tags","key", "keys"]},
+				{"required":{
+					"link":{
+						"types":["integer"]}},
+				"forbidden_keys":["path","tag", "tags","key", "keys","index"]}]},
+		"conditional":{
+			"attrs":{
+				"presence_key" :["path","tag","tags","index"],
+				"reference_key" :"data-format",
+				"regex" :"html",
+				"true":3,
+				"false":-1,
+				"types":[["struct-attrs_dict","list"], "struct-attrs_dict"]},
+			"notattrs":{
+				"presence_key" :["path","tag","tags","index"],
+				"reference_key" :"data-format",
+				"regex" :"html",
+				"true":3,
+				"false":-1,
+				"types":[["struct-notattrs_dict","list"], "struct-notattrs_dict"]},
+			"childkeys":{
+				"presence_key" :["path","key","keys","index"],
+				"reference_key" :"data-format",
+				"regex" :"json",
+				"true":3,
+				"false":-1,
+				"types":[["struct-keys_dict","list"],"struct-keys_dict"]},
+			"notchildkeys":{
+				"presence_key" :["path","key","keys","index"],
+				"reference_key" :"data-format",
+				"regex" :"json",
+				"true":3,
+				"false":-1,
+				"types":[["struct-notkeys_dict","list"],"struct-notkeys_dict"]},
+			"text":{
+				"presence_key" :["path","tag","tags","index"],
+				"reference_key" :"data-format",
+				"regex" :"html",
+				"true":3,
+				"false":-1,
+				"types":[["string","struct-value_link"]]},
+			"tail":{
+				"presence_key" :["path","tag","tags","index"],
+				"reference_key" :"data-format",
+				"regex" :"html",
+				"true":3,
+				"false":-1,
+				"types":[["string","struct-value_link"]]},
+			"name":{
+				"base_type" :["path_def","key_def"],
+				"true":-2,
+				"false":3,
+				"types":["struct-node_name_def"]}},
+		"optional":{
+			"link":{
+				"types":["integer"]}}},
+	"struct-node_value_def":{
+		"type":"dict",
+		"reference_values":{
+			"value_select":{"keyword":["select"], "type":"string"}},
+		"report":{
+			"node_value_selection":[
+				"Use either 'value' or 'select' to select a return value",
+				"for HTML also 'attr' is possible. If none is specified it will default",
+				"on HTML to 'select': 'text' and on JSON to 'select': 'value'."],
+			"inclusive_text":[
+				"If a 'select': 'inclusive text' statement is present",
+				"either 'include' or 'exclude' can be used to include or exclude",
+				"a list of child tags."]},
+		"either":{
+			"node_value_selection":[
+				{"conditional":{
+					"value":{
+						"base_type":["node_name_def","node_value_def","link_value_def"],
+						"true":1,
+						"false":-1,
+						"types":[""]}},
+				"unused_keys":["attr","select"]},
+				{"conditional_either":
+					{"reference_key":"data-format",
+					"regex":"html",
+					"text":"is for HTML data_defs"},
+				"conditional":{
+					"attr":{
+						"base_type":["node_name_def","node_value_def","link_value_def"],
+						"true":1,
+						"false":-1,
+						"types":["string"]}},
+				"unused_keys":["select"],
+				"forbidden_keys":["value"]},
+				{"conditional_either":
+					{"reference_key":"data-format",
+					"regex" :"html",
+					"text":"is for HTML data_defs"},
+				"conditional":{
+					"select":{
+						"base_type":["node_name_def","node_value_def","link_value_def"],
+						"true":2,
+						"false":-1,
+						"types":["lst-select_value"],
+						"default":"text"},
+					"depth":{
+						"reference_key" :"value_select",
+						"value" :["inclusive text"],
+						"true":3,
+						"false":-1,
+						"types":["integer"],
+						"default":1}},
+				"forbidden_keys":["value","attr"]},
+				{"conditional_either":
+					{"reference_key":"data-format",
+					"regex" :"json",
+					"text":"is for JSON data_defs"},
+				"conditional":{
+					"select":{
+						"base_type":["node_name_def","node_value_def","link_value_def"],
+						"true":2,
+						"false":-1,
+						"types":["lst-select_value"],
+						"default":"value"}},
+				"forbidden_keys":["value","attr"]}],
+			"inclusive_text":[
+				{"conditional_either":
+					{"reference_key":"value_select",
+					"value" :["inclusive text"],
+					"text":"is for selecting inclusive text"},
+				"optional":{
+					"include":{
+						"types":["list","string"]}},
+				"unused_keys":["exclude"]},
+				{"conditional_either":
+					{"reference_key":"value_select",
+					"value" :["inclusive text"],
+					"text":"is for selecting inclusive text"},
+				"optional":{
+					"exclude":{
+						"types":["list","string"]}},
+				"forbidden_keys":["include"]},
+				{"forbidden_keys":["include","exclude"]}]},
+		"optional":{
+			"lower":{
+				"types":[""]},
+			"upper":{
+				"types":[""]},
+			"capitalize":{
+				"types":[""]},
+			"ascii-replace":{
+				"types":[
+					{"type":"list","items":["string","string","list"]},
+					{"type":"list"},
+					{"type":"string", "length": 1}]},
+			"lstrip":{
+				"types":["string"]},
+			"rstrip":{
+				"types":["string"]},
+			"sub":{
+				"types":["list","string"]},
+			"split":{
+				"types":[
+					["struct-split_item","list"],
+					"struct-split_item"]},
+			"multiplier":{
+				"types":["integer"]},
+			"divider":{
+				"types":["integer"]},
+			"replace":{
+				"types":["dict"]},
+			"default":{
+				"types":[""]},
+			"first":{
+				"types":[""]},
+			"last":{
+				"types":[""]},
+			"type":{
+				"types":["lst-type_value"]},
+			"member-off":{
+				"types":["lst-member_off"]}
+				}
+		},
+	"struct-node_name_def":{
+		"include":"struct-node_value_def",
+		"base-type":"node_name_def"},
+	"struct-end_node_def":{
+		"include":"struct-node_value_def",
+		"base-type":"node_value_def"},
+	"struct-combined_end_node_def":{
+		"include":"struct-node_def",
+		"base-type":"node_value_def"},
+	"struct-attr_list":{
 		"type":"list",
 		"types":[
 			{"type":"list"},
-			{"type":"struct-node_def"}]},
-	"struct-node_def":{
+			["none","string","struct-value_link"]]},
+	"struct-attr_not_dict":{
 		"type":"dict",
-		"base-type":"node_def"},
-	"struct-end_node_def":{
-		"include":"struct-node_def"},
+		"types":[
+			{"type":"dict",
+			"length":1,
+			"required":{
+				"not":{
+					"types":[["string","struct-value_link","struct-attr_list"]]}}}]},
+	"struct-attrs_dict":{
+		"type":"dict",
+		"types":[
+			{"type":"dict"},
+			["none","string","struct-value_link","struct-attr_list","struct-attr_not_dict"]]},
+	"struct-notattrs_dict":{
+		"type":"dict",
+		"types":[
+			{"type":"dict"},
+			["none","string","struct-value_link","struct-attr_list"]]},
+	"struct-key_list":{
+		"type":"list",
+		"types":[
+			{"type":"list"},
+			["none","string","integer","struct-integer_link"]]},
+	"struct-key_not_dict":{
+		"type":"dict",
+		"types":[
+			{"type":"dict",
+			"length":1,
+			"required":{
+				"not":{
+					"types":[["string","integer","struct-integer_link","struct-key_list"]]}}}]},
+	"struct-keys_dict":{
+		"type":"dict",
+		"types":[
+			{"type":"dict"},
+			["none","string","integer","struct-integer_link","struct-key_list","struct-key_not_dict"]]},
+	"struct-notkeys_dict":{
+		"type":"dict",
+		"types":[
+			{"type":"dict"},
+			["none","string","integer","struct-integer_link","struct-key_list"]]},
+	"struct-split_item":{
+		"type":"list",
+		"types":[
+			{"type":"list",
+				"items":["string"],
+				"other_items":"integer"}]},
+	"struct-value_link":{
+		"type":"dict",
+		"required":{
+			"link":{
+				"types":["integer"]}}},
+	"struct-integer_link":{
+		"include":"struct-value_link",
+		"optional":{
+			"calc":{
+				"types":["list"],
+					"items":["lst-calc_value", "integer"]}}},
+	"struct-index_link":{
+		"include":"struct-integer_link",
+		"report":{"index_link":[]},
+		"either":{
+			"index_link":[
+				{"optional":{
+					"previous":{
+						"types":[""]}},
+				"forbidden_keys":["next"]},
+				{"optional":{
+					"next":{
+						"types":[""]}},
+				"forbidden_keys":["previous"]}]}},
 	"struct-link_def":{
-		"type":["struct-link_variable","struct-link_function","struct-link_value"],
-		"report":"either 'varid', 'funcid' with 'data' or 'value' should be present",
+		"type":["struct-link_function","struct-link_value","none"],
+		"report":{
+			"struct":"either 'varid', 'funcid' with 'data' or 'value' should be present",
+			"link_function":"either 'varid', 'funcid' with 'data' or 'value' should be present"},
+		"conditional":{
+			"max length":{
+				"presence_key":["varid","funcid"],
+				"true":3,
+				"false":-1,
+				"types":["integer"],
+				"default":0},
+			"min length":{
+				"presence_key":["varid","funcid"],
+				"true":3,
+				"false":-1,
+				"types":["integer"],
+				"default":0}},
 		"optional":{
 				"default":{"types":[""]}}},
-	"struct-link_addon":{
+	"struct-link_function":{
 		"type":"dict",
+		"either":{
+			"link_function":[
+				{"required":{
+					"varid":{
+						"types":["integer"]}},
+				"unused_keys":["funcid","value","data"]},
+				{"required":{
+					"funcid":{
+						"types":["lst-link_funcid"]},
+					"data":{
+						"types":[
+							"list",
+							["struct-link_function",""]]}},
+				"unused_keys":["value"],
+				"forbidden_keys":["varid"]}]},
+		"conditional":{
+			"default":{
+				"presence_key":"funcid",
+				"true":3,
+				"false":-1,
+				"types":[""]}},
 		"optional":{
 			"regex":{
 				"types":["string"]},
 			"type":{
-				"types":["string"]},
+				"types":["lst-link_types"]},
 			"calc":{
 				"types":[
 					{"type":"dict",
@@ -264,32 +659,6 @@
 							"divider":{
 								"types":["float"], 
 								"default":1}}}]}}},
-	"struct-link_variable":{
-		"include":"struct-link_addon",
-		"required":{
-			"varid":{
-				"types":["integer"]}},
-		"optional":{
-			"max length":{
-				"types":["integer"],
-				"default":0},
-			"min length":{
-				"types":["integer"],
-				"default":0}},
-		"unused_keys":["funcid","value","data"]},
-	"struct-link_function":{
-		"include":["struct-link_addon"],
-		"required":{
-			"funcid":{
-				"types":["lst-link_funcid"]},
-			"data":{
-				"types":[
-					"list",
-					["struct-link_variable","struct-link_function",""]]}},
-		"optional":{
-			"default":{"types":[""]}},
-		"unused_keys":["value","max length","min length"],
-		"forbidden_keys":["varid"]},
 	"struct-link_value":{
 		"type":"dict",
 		"required":{

@@ -1,7 +1,7 @@
-{"DTG-version":[1,2,0],
+{"DTG-version":[1,2,2],
 	"files":[
     {"json_struct-data_def":{
-        "version":1,
+        "version":2,
         "struct_list":[
             "struct-data_def_full_extended",
             "struct-data_def_with_url_extension",
@@ -18,18 +18,14 @@
             "struct-node_name_def",
             "struct-end_node_def",
             "struct-combined_end_node_def",
-            "struct-list_of_attrs_dict",
-            "struct-attrs_dict",
-            "struct-list_of_notattrs_dict",
-            "struct-notattrs_dict",
             "struct-attr_list",
             "struct-attr_not_dict",
-            "struct-list_of_keys_dict",
-            "struct-keys_dict",
-            "struct-list_of_notkeys_dict",
-            "struct-notkeys_dict",
+            "struct-attrs_dict",
+            "struct-notattrs_dict",
             "struct-key_list",
             "struct-key_not_dict",
+            "struct-keys_dict",
+            "struct-notkeys_dict",
 			"struct-split_item",
             "struct-value_link",
             "struct-integer_link",
@@ -39,7 +35,7 @@
             "struct-link_value"
         ]}},
     {"json_struct-tv_grab":{
-        "version":1,
+        "version":2,
         "struct_list":[
             "struct-grabberfile",
             "struct-sourcefile",

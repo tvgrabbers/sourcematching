@@ -1,4 +1,4 @@
-{"version":1,
+{"version":2,
     "select_struct_list":[
 		{"teststruct":"struct-grabberfile",
 			"description":"The file \"%s\" seems to be a grabber-JSON file\\\n",
@@ -270,26 +270,27 @@
     "struct-sourcefile":{
 		"type":"dict",
         "lookup_lists":{
-			"lst-link_funcid":{"list":[101,102,103,104,105,106,201,202],"append":true}},
-		"reference_values":{
-			"url-type":{"keyword":["base","url-type"], "type":"integer","default":0}},
-		"report":"at least 'channels' or 'base-channels' should be present",
-		"either":[
-			{"required":{
-				"channels":{
-					"types":[
-						["struct-channel_list","struct-channels"]]}},
-			"optional":{
-				"base-channels":{
-					"types":["struct-channels"]}}},
-			{"required":{
-				"base-channels":{
-					"types":["struct-channels"]}
-						},
-			"optional":{
-				"channels":{
-					"types":[
-						["struct-channel_list","struct-channels"]]}}}],
+			"lst-link_funcid":{"list":[101,102,103,104,105,106,201,202],"append":true},
+			"lst-weekday":{"list":[0,1,2,3,4,5,6]}},
+		"report":{
+			"channel_list":"at least 'channels' or 'base-channels' should be present"},
+		"either":{
+			"channel_list":[
+				{"required":{
+					"channels":{
+						"types":[
+							["struct-channel_list","struct-channels"]]}},
+				"optional":{
+					"base-channels":{
+						"types":["struct-channels"]}}},
+				{"required":{
+					"base-channels":{
+						"types":["struct-channels"]}
+							},
+				"optional":{
+					"channels":{
+						"types":[
+							["struct-channel_list","struct-channels"]]}}}]},
         "required":{
 			"base":{
 				"types":["struct-base"]},
@@ -354,13 +355,14 @@
 				"types":[
 					{"type":"list"},
 					{"type":["string","none"]}],
-				"default":[null,""]}},
+				"default":[null,"","-"]}},
         "unused_keys":["detail","detail2"],
 		"ignore_keys":["is_virtual","detail_processor",
 					"login","error","seriesid","seriesname","episodes","episodecount","episode","lang-list"]},
     "struct-virtualsource":{
 		"include":"struct-sourcefile",
-		"either":[],
+		"either":{
+			"channel_list":[]},
         "required":{
 			"channels":{
 				"types":["struct-channel_list"]}},
@@ -403,6 +405,8 @@
 		"ignore_keys":["values"]},
 	"struct-channels":{
 		"include":"struct-data_def_full_extended",
+		"reference_values":{
+			"url-type":{"keyword":["url-type"], "type":"integer","default":0}},
 		"required":{
 			"values":{
 				"types":[
@@ -418,6 +422,8 @@
 							"icon":{
 								"types":["struct-link_def"]},
 							"HD":{
+								"types":["struct-link_def"]},
+							"inactive_channel":{
 								"types":["struct-link_def"]}},
 						"conditional":{
 							"fetch_grp":{
@@ -435,6 +441,10 @@
 		"ignore_keys":["empty-values","timezone"]},
 	"struct-base":{
 		"include":"struct-data_def_full_extended",
+        "lookup_lists":{
+			"lst-url_date_range":{"list":["week"],"append":false}},
+		"reference_values":{
+			"url-type":{"keyword":["url-type"], "type":"integer","default":0}},
 		"required":{
 			"url-type":{
 				"types":["integer"],
@@ -455,11 +465,31 @@
 		"conditional":{
 			"default-item-count":{
 				"reference_key" :"url-type",
-				"value" :[12,13,14],
+				"value" :[13,14,15],
 				"true":1,
 				"false":-1,
 				"types":["integer"],
-				"default":0}},
+				"default":0},
+			"url-channel-groups":{
+				"reference_key" :"url-type",
+				"value" :[3,7,11,15],
+				"true":1,
+				"false":-1,
+				"types":["list"]},
+			"url-date-range":{
+				"reference_key" :"url-type",
+				"value" :[9,10,11],
+				"true":1,
+				"false":-1,
+				"types":[["integer","lst-url_date_range"]]},
+			"url-date-week-start":{
+				"presence_key":"url-date-range",
+				"reference_key":"url-date-range",
+				"value" :["week"],
+				"true":2,
+				"false":-1,
+				"types":["lst-weekday"],
+				"default":1}},
 		"ignore_keys":["empty-values","timezone"]},
 	"struct-base_detailed":{
 		"include":"struct-base",
@@ -468,9 +498,11 @@
 				"types":["struct-base_detailed_values"]}}},
 	"struct-detail":{
 		"include":"struct-data_def_full_extended",
+		"reference_values":{
+			"url-type":{"keyword":["url-type"], "type":"integer","default":0}},
 		"required":{
 			"provides":{
-				"types":["list","integer"]}},
+				"types":["list","string"]}},
 		"optional":{
 			"text_replace":{
 				"types":[
@@ -585,7 +617,10 @@
 				"types":["struct-link_def"]},
 			"channelid":{
 				"types":["struct-link_def"]}},
-        "unused_keys":["detail_url"]},
+        "optional":{
+			"group":{
+				"types":["struct-link_def"]}},
+		"unused_keys":["detail_url"]},
 	"struct-base_detailed_values":{
 		"include":"struct-detail_values",
 		"required":{
@@ -613,18 +648,18 @@
 			"date-check":{
 				"reference_key" :"url-type",
 				"value" :[1,2,3],
-				"true":1,
+				"true":2,
 				"false":-1,
 				"types":["struct-value_def"]},
 			"page-item-count":{
 				"reference_key" :"url-type",
-				"value" :[12,13,14],
+				"value" :[13,14,15],
 				"true":1,
 				"false":-1,
 				"types":["struct-value_def"]},
 			"total-item-count":{
 				"reference_key" :"url-type",
-				"value" :[12,13,14],
+				"value" :[13,14,15],
 				"true":1,
 				"false":-1,
 				"types":["struct-value_def"]}}}
