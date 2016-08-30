@@ -30,6 +30,7 @@
             "struct-notkeys_dict",
             "struct-key_list",
             "struct-key_not_dict",
+			"struct-split_item",
             "struct-value_link",
             "struct-integer_link",
             "struct-index_link",
