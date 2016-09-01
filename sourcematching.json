@@ -1741,7 +1741,8 @@
 		"6":[],
 		"7":[
 			["data-playable([ \\n])","data-playable=\"\"\\g<1>"],
-			["class=\"([-a-z]*?) theme-text\"", "class=\"\\g<1>\""]],
+			["class=\"([-a-z]*?) theme-text\"", "class=\"\\g<1>\""],
+			["class=\"epg-available-days *?primary-border-color\"","class=\"epg-available-days\""]],
 		"8":[
 			["<img (.*?)\"\\s*>","<img \\g<1>\"/>"]],
 		"9":[],
