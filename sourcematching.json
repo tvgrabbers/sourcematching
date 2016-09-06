@@ -1029,7 +1029,8 @@
 		"1-sport1-extra-2":5,
 		"1-nickelodeon":0,
 		"1-veronica":5,
-		"1-zappelin":4},
+		"1-zappelin":4,
+		"virtual-veronica":0},
 	"channel_groups":{
 		"0":"Actieve Zenders",
 		"1":"Nederlands",
@@ -1334,7 +1335,8 @@
 		"http://services.vrt.be/images/height100/logos/",
 		"http://images.vrt.be/height100/logo/",
 		"http://www.tv-vlaanderen.be/uploadedImages/Prospect/Zenderaanbod/logos/",
-		"http://tvgidsassets.nl/iphone/channels/big/"],
+		"http://tvgidsassets.nl/iphone/channels/big/",
+		"http://www.oorboekje.nl/img/logo/"],
 	"logo_names":{
 		"0-1" : ["4", "npo1"],
 		"0-2" : ["4", "npo2"],
@@ -1555,7 +1557,7 @@
 		"11-omroepbrabantsat": [
 			{"chanid": "0-114", "start": "6:00", "end": "0:00"}],
 		"11-veronicadxd": [
-			{"chanid": "0-34", "start": "18:00", "end": "4:00"},
+			{"chanid": "0-34", "start": "18:00", "end": "4:00", "virtual-chanid":"virtual-veronica"},
 			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
 		"11-zappbest": [
 			{"chanid": "4-288", "start": "4:00", "end": "20:00"},
@@ -1571,6 +1573,14 @@
 		"4-283": [
 			{"chanid": "1-zappelin", "start": "20:00", "end": "4:00"}],
 		"5-24443943080": ["0-301", "1-cbeebies"]},
+	"virtual-sub-channels":{
+        "virtual-veronica":{
+            "start":"18:00",
+            "end":"4:00",
+            "0":"34",
+            "1":"veronica",
+            "5":"24443943190",
+            "7":"veronica_jetix"}},
 	"merge_into":{
 		"1-nickelodeon":{
 			"chanid":"0-89", 
