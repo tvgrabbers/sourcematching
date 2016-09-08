@@ -2,9 +2,8 @@
 	"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
 	"Vanaf versie 2.2.7 vanaf de huidige locatie."],
 	"data_version":"23",
-	"program_version":"2.2.17",
-	"version_message":["Some fixes on a slightly changed format on vpro.nl,\n",
-		"And a more structural fix on corrupt links on tvgids.tv detail-pages\n"],
+	"program_version":"2.2.18",
+	"version_message":["Some fixes on a slightly changed format on nieuwsblad.be and vpro.nl,\n"],
 	"warning_message_2":{
 		"23":["Q2 is a rename of 2BE, you can continue to use '0-59'.\n"],
 		"22":["Both nieuwsblad.be and primo.eu now offer a listing for 'Q2'.\n",
