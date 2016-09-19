@@ -1559,18 +1559,14 @@
 			{"chanid": "0-34", "start": "18:00", "end": "4:00", "virtual-chanid":"virtual-veronica"},
 			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
 		"11-zappbest": [
-			{"chanid": "4-288", "start": "4:00", "end": "20:00"},
-			{"chanid": "4-283", "start": "20:00", "end": "4:00"}],
+			{"chanid": "4-288", "start": "4:00", "end": "20:00", "virtual-chanid":"virtual-zappelin"},
+			{"chanid": "4-283", "start": "20:00", "end": "4:00", "virtual-chanid":"virtual-best"}],
 		"1-veronica": ["0-34", "0-311"],
 		"1-ketnet-canvas-2": ["8-ketnet", "8-eenplus"],
 		"1-nickelodeon": ["0-89", "0-467"],
 		"1-zappelin": [
 			{"chanid": "4-288", "start": "4:00", "end": "20:00"},
 			{"chanid": "4-283", "start": "20:00", "end": "4:00"}],
-		"4-288": [
-			{"chanid": "1-zappelin", "start": "4:00", "end": "20:00"}],
-		"4-283": [
-			{"chanid": "1-zappelin", "start": "20:00", "end": "4:00"}],
 		"5-24443943080": ["0-301", "1-cbeebies"]},
 	"virtual-sub-channels":{
         "virtual-veronica":{
@@ -1579,7 +1575,19 @@
             "0":"34",
             "1":"veronica",
             "5":"24443943190",
-            "7":"veronica_jetix"}},
+            "7":"veronica_jetix"},
+		"virtual-zappelin":{
+            "start":"4:00",
+            "end":"20:00",
+            "1":"zappelin",
+			"4":"288",
+			"5":"564193831242"},
+		"virtual-best":{
+            "start":"20:00",
+            "end":"4:00",
+            "1":"zappelin",
+			"4":"283",
+			"5":"564193831242"}},
 	"merge_into":{
 		"1-nickelodeon":{
 			"chanid":"0-89", 
