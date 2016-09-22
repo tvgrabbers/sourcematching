@@ -31,12 +31,17 @@
 	"struct-sourcematching":{
 		"type":"dict",
         "lookup_lists":{
+			"list_order":["lst-sourceid","lst-chanid","lst-virtual-chanid","lst-groupid","lst-logoid","lst-channelid"],
 			"lst-sourceid":{"keyword": ["source_channels"],"values": "intkeys"},
 			"lst-chanid":{"keyword": ["source_channels"],"values": "keys","level": 2},
-			"lst-channelid":{"keyword": ["source_channels"],"values": "values","level": 2,"groupby": 1},
+			"lst-channelid":[{"keyword": ["source_channels"],"values": "values","level": 2,
+				"groupby": {"level":1, "type": "str-lst-sourceid"}},
+				{"keyword": ["empty_channels"],"values": "values","level": 2,
+				"groupby": {"level":1, "type": "str-lst-sourceid"}, "allowed": false}],
 			"lst-virtual-chanid":{"keyword": ["virtual-sub-channels"],"values": "keys"},
 			"lst-groupid":{"keyword": ["channel_groups"],"values": "intkeys"},
-			"lst-logoid":{"keyword": ["logo_provider"],"values": "strindex"}},
+			"lst-logoid":[{"keyword": ["logo_provider"],"values": "index"},
+				{"list": [99, "99"], "int-list": [99], "str-list": ["99"]}]},
 		"required":{
             "active_sources":{
 				"types":[
@@ -51,13 +56,13 @@
 					{"type":"dict"}, 
 					{"type":"string", "length":2}]},
             "data_version":{
-				"types":["integer"]},
+				"types":["string"]},
             "program_version":{
 				"types":[
-					{"type":"list", "length":3}, 
-					"integer"]},
+					{"type":"string"}]},
 			"rtl_channellist":{
 				"types":[
+					{"type":"dict"},
 					{"type":"dict",
 						"required":{
 							"name":{
@@ -75,11 +80,11 @@
 								"types":["boolean"]}}}]},
 			"source_base_url":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-sourceid"},
+					{"type":"numbered dict", "keys": "str-lst-sourceid"},
 					"url"]},
             "source_channels":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-sourceid"},
+					{"type":"numbered dict", "keys": "str-lst-sourceid"},
 					"dict",
 					"string"]},
 			"user_agents":{
@@ -88,6 +93,7 @@
 					{"type":"string"}]},
 			"virtual_channellist":{
 				"types":[
+					{"type":"dict"},
 					{"type":"dict",
 						"required":{
 							"name":{
@@ -106,20 +112,20 @@
         "sugested":{
             "channel_grouping":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-sourceid"},
-					{"type":"numbered dict", "keys": "lst-groupid"},
+					{"type":"numbered dict", "keys": "str-lst-sourceid", "sublist-key":"lst-channelid"},
+					{"type":"numbered dict", "keys": "str-lst-groupid"},
 					"list", 
-					"string"]},
+					{"type":"lst-channelid"}]},
             "empty_channels":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-sourceid"},
+					{"type":"numbered dict", "keys": "str-lst-sourceid", "sublist-key":"lst-channelid"},
 					"list", 
 					"string"]},
 			"generic_channel_genres":{
 				"types":[
 					"dict",
 					"list", 
-					["lst-channelid","lst-virtual-chanid"]]},
+					["lst-chanid","lst-virtual-chanid"]]},
             "groupslot_names":{
 				"types":[
 					"list", 
@@ -127,12 +133,16 @@
             "logo_names":{
 				"types":[
 					{"type":"dict","keys":"lst-chanid"},
-					{"type":"list", "length":2, "items":["lst-logoid", "string"]}]},
-            "no_genric_matching":{
+					{"type":"list", "length":2, "items":["str-lst-logoid", "string"]}]},
+            "logo_provider":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-sourceid"},
 					"list",
 					"string"]},
+            "no_genric_matching":{
+				"types":[
+					{"type":"numbered dict", "keys": "str-lst-sourceid", "sublist-key":"lst-channelid"},
+					"list",
+					"lst-channelid"]},
 			"notitlesplit":{
 				"types":[
 					{"type":"list"}, 
@@ -143,7 +153,7 @@
 					"int-lst-sourceid"]},
             "prime_source_groups":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-sourceid"},
+					{"type":"numbered dict", "keys": "str-lst-sourceid"},
 					"int-lst-groupid"]},
             "prime_source_order":{
 				"types":[
@@ -153,7 +163,7 @@
 				"types":[
 					["list","string"],
 					"string"]},
-            "warning_message":{
+            "warning_message_2":{
 				"types":[
 					"numbered dict",
 					["list","string"],
@@ -194,14 +204,10 @@
 				"types":[
 					"list", 
 					"int-lst-groupid"]},
-            "logo_provider":{
-				"types":[
-					"numbered dict",
-					"string"]},
 			"logo_source_preference":{
 				"types":[
 					"list",
-					"int-lst-sourceid"]},
+					"int-lst-logoid"]},
             "merge_into":{
 				"types":[
 					{"type":"dict","keys":"lst-chanid"}, 
@@ -211,8 +217,8 @@
 								"types":["lst-chanid"]},
 							"sources":{
 								"types":[
-									{"type":"numbered dict", "keys": "lst-sourceid"},
-									"string"]}},
+									{"type":"numbered dict", "keys": "str-lst-sourceid", "sublist-key":"lst-channelid"},
+									"lst-channelid"]}},
 						"sugested":{
 							"date":{
 								"types":["date"]},
@@ -222,7 +228,7 @@
 									"string"]}}}]},
 			"text_replace":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-sourceid"},
+					{"type":"numbered dict", "keys": "str-lst-sourceid"},
 					{"type":"list"}, 
 					{"type":"list", "length":2}, 
 					{"type":"string"}]},
@@ -233,24 +239,29 @@
 			"virtual-sub-channels":{
 				"types":[
 					{"type":"dict"},
-					{"type":"dict","keys":["lst-start_end","lst-sourceid"],
+					{"type":"dict",
 						"required":{
 							"start":{
 								"types":["time"],
 								"default": "0:00 (see the WIKI)"},
 							"end":{
 								"types":["time"],
-								"default": "23:59(see the WIKI)"}}}]}}},
+								"default": "23:59(see the WIKI)"}},
+						"other_keys":[{
+							"keys":["str-lst-sourceid"], 
+							"sublist-key":"lst-channelid",
+							"types":["lst-channelid"]}]}]}}},
 	"struct-grabberfile":{
 		"type":"dict",
         "lookup_lists":{
 			"lst-sourceid":{"keyword": ["sources"],"values": "intkeys"},
 			"lst-chanid":{"keyword": ["source_channels"],"values": "keys","level": 2},
+			"lst-channelid":{"keyword": ["source_channels"],"values": "values","level": 2,
+				"groupby": {"level":1, "type": "str-lst-sourceid"}},
 			"lst-virtual-chanid":{"keyword": ["virtual-sub-channels"],"values": "keys"},
 			"lst-groupid":{"keyword": ["channel_groups"],"values": "intkeys"},
 			"lst-logoid":{"keyword": ["logo_provider"],"values": "intkeys"},
-			"lst-cattranstype":{"list":[null,1,2]},
-			"lst-start_end":{"list":["start","end"]}},
+			"lst-cattranstype":{"list":[null,1,2]}},
 		"required":{
             "active_sources":{
 				"types":[
@@ -305,7 +316,7 @@
 								"default": "https://raw.githubusercontent.com/tvgrabbers/sourcematching/master/sources"}}}]},
             "source_channels":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-sourceid"},
+					{"type":"numbered dict", "keys": "str-lst-sourceid"},
 					"dict",
 					"string"]},
             "unknown_program_title":{
@@ -313,7 +324,7 @@
         "sugested":{
             "channel_grouping":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-groupid"},
+					{"type":"numbered dict", "keys": "str-lst-groupid"},
 					"list", 
 					"lst-chanid"]},
             "fetch-timezone":{
@@ -326,7 +337,7 @@
             "logo_names":{
 				"types":[
 					{"type":"dict","keys":"lst-chanid"},
-					{"type":"list", "length":2, "items":["lst-logoid", "string"]}]},
+					{"type":"list", "length":2, "items":["str-lst-logoid", "string"]}]},
             "movie_genres":{
 				"types":[
 					"list", 
@@ -337,7 +348,7 @@
 					"int-lst-sourceid"]},
             "prime_source_groups":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-sourceid"},
+					{"type":"numbered dict", "keys": "str-lst-sourceid"},
 					"int-lst-groupid"]},
             "prime_source_order":{
 				"types":[
@@ -432,7 +443,7 @@
 					"lst-chanid"]},
             "group language":{
 				"types":[
-					{"type":"numbered dict", "keys": "lst-groupid"}, 
+					{"type":"numbered dict", "keys": "str-lst-groupid"}, 
 					{"type":"string", "length":2}], 
 				"default":"en"},
             "group_order":{
@@ -453,7 +464,7 @@
 			"logo_source_preference":{
 				"types":[
 					"list",
-					"int-lst-sourceid"]},
+					"lst-logoid"]},
             "merge_into":{
 				"types":[
 					{"type":"dict","keys":"lst-chanid"}, 
@@ -463,7 +474,7 @@
 								"types":["lst-chanid"]},
 							"sources":{
 								"types":[
-									{"type":"numbered dict", "keys": "lst-sourceid"},
+									{"type":"numbered dict", "keys": "str-lst-sourceid"},
 									"string"]}},
 						"sugested":{
 							"date":{
@@ -489,14 +500,18 @@
             "virtual-sub-channels":{
 				"types":[
 					{"type":"dict"},
-					{"type":"dict","keys":["lst-start_end","lst-sourceid"],
+					{"type":"dict",
 						"required":{
 							"start":{
 								"types":["time"],
 								"default": "0:00 (see the WIKI)"},
 							"end":{
 								"types":["time"],
-								"default": "23:59(see the WIKI)"}}}]}}},
+								"default": "23:59(see the WIKI)"}},
+						"other_keys":{
+							"keys":["str-lst-sourceid"], 
+							"sublist-key":"lst-channelid",
+							"types":["lst-channelid"]}}]}}},
     "struct-sourcefile":{
 		"type":"dict",
         "lookup_lists":{
