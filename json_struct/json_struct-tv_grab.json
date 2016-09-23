@@ -74,8 +74,6 @@
 								"types":["string"]},
 							"icongrp":{
 								"types":["int-lst-logoid"]},
-							"fetch_grp":{
-								"types":["string"]},
 							"HD":{
 								"types":["boolean"]}}}]},
 			"source_base_url":{
@@ -105,8 +103,6 @@
 								"types":["string"]},
 							"icongrp":{
 								"types":["int-lst-logoid"]},
-							"fetch_grp":{
-								"types":["string"]},
 							"HD":{
 								"types":["boolean"]}}}]}},
         "sugested":{
@@ -514,6 +510,8 @@
 							"types":["lst-channelid"]}}]}}},
     "struct-sourcefile":{
 		"type":"dict",
+		"reference_values":{
+			"base-url-type":{"keyword":["base","url-type"], "type":"integer","default":0}},
         "lookup_lists":{
 			"lst-link_funcid":{"list":[101,102,103,104,105,106,201,202],"append":true},
 			"lst-weekday":{"list":[0,1,2,3,4,5,6]}},
@@ -672,7 +670,7 @@
 								"types":["struct-link_def"]}},
 						"conditional":{
 							"fetch_grp":{
-								"reference_key" :"url-type",
+								"reference_key" :"base-url-type",
 								"value" :[3,7,11,15],
 								"true":1,
 								"false":-1,
@@ -816,6 +814,12 @@
 			"episode":{
 				"types":["struct-link_def"]},
 			"episodecount":{
+				"types":["struct-link_def"]},
+			"programid":{
+				"types":["struct-link_def"]},
+			"ttvdbid":{
+				"types":["struct-link_def"]},
+			"tmdbid":{
 				"types":["struct-link_def"]},
 			"country":{
 				"types":["struct-link_def"]},

@@ -573,10 +573,12 @@
 			["none","string","integer","struct-integer_link","struct-key_list"]]},
 	"struct-split_item":{
 		"type":"list",
+        "lookup_lists":{
+			"lst-list-all":{"list": ["list-all"]}},
 		"types":[
 			{"type":"list",
 				"items":["string"],
-				"other_items":"integer"}]},
+				"other_items":[["integer","lst-list-all"]]}]},
 	"struct-value_link":{
 		"type":"dict",
 		"required":{
