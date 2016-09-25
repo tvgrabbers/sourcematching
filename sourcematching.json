@@ -178,7 +178,8 @@
 			"0-465": "465",
 			"0-466": "466",
 			"0-467": "467",
-			"0-471": "471"},
+			"0-471": "471",
+			"1-zappelin": "64"},
 		"1":{"0-1": "nederland-1",
 			"0-2": "nederland-2",
 			"0-3": "nederland-3",
@@ -990,7 +991,7 @@
 		"1-sport1-extra-2":5,
 		"1-nickelodeon":0,
 		"1-veronica":5,
-		"1-zappelin":4,
+		"1-zappelin":0,
 		"virtual-veronica":0},
 	"channel_groups":{
 		"0":"Actieve Zenders",
@@ -1251,7 +1252,7 @@
 			"15":[],
 			"16":[]}},
 	"empty_channels":{
-		"0":["64","65","83","308","309","310","401","403","412","434"],
+		"0":["65","83","308","309","310","401","403","412","434"],
 		"1":["13th-street", "bbc-3", "best-24", "hollanddoc-24", "humortv-24", "la-une-hd", "tf1-hd", "vtm-hd",
 			"life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "cnbc-europe", "syfy", "virgin-1"],
 		"2":[],
