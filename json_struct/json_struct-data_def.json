@@ -102,6 +102,12 @@
 					"reference_key" :"data-format",
 					"regex" :"json"}]},
 		"reference_values":{
+			"default-datetimestring":{"keyword":["datetimestring"], "type":"string", "default":"%Y-%m-%d %H:%M:%S"},
+			"default-date-splitter":{"keyword":["date-splitter"], "type":"string", "default":"-"},
+			"default-date-sequence":{"keyword":["date-sequence"], "type":"list", "default":["y","m","d"]},
+			"default-time-type":{"keyword":["time-type"], "type":"list", "default":[24]},
+			"default-time-splitter":{"keyword":["time-splitter"], "type":"string", "default":":"},
+			"default-str-list-splitter":{"keyword":["str-list-splitter"], "type":"string", "default":"\\|"},
 			"data-format":{"keyword":["data-format"], "type":"string"}},
 		"required":{
 			"data":{
@@ -171,7 +177,7 @@
 				"types":["integer"],
 				"default":0},
 			"encoding":{
-				"types":["string"],
+				"types":[["string","none"]],
 				"default":""},
 			"item-range-splitter":{
 				"types":["string"],
@@ -266,14 +272,14 @@
 		"base-type":"key_def",
 		"types":[
 			{"type":"list",
-				"reverse_items":[[["struct-combined_end_node_def","struct-end_node_def"]]],
+				"reverse_items":[[["struct-end_node_def","struct-combined_end_node_def"]]],
 				"other_items":"struct-node_def"}]},
 	"struct-value_def":{
 		"type":"list",
 		"base-type":"value_def",
 		"types":[
 			{"type":"list",
-				"reverse_items":[[["struct-combined_end_node_def","struct-end_node_def"]]],
+				"reverse_items":[[["struct-end_node_def","struct-combined_end_node_def"]]],
 				"other_items":"struct-node_def"}]},
 	"struct-node_def":{
 		"include":"struct-node_value_def",
@@ -386,7 +392,7 @@
 				"false":-1,
 				"types":[["string","struct-value_link"]]},
 			"name":{
-				"base_type" :["path_def","key_def"],
+				"base-type" :["path_def","key_def"],
 				"true":-2,
 				"false":3,
 				"types":["struct-node_name_def"]}},
@@ -396,7 +402,8 @@
 	"struct-node_value_def":{
 		"type":"dict",
 		"reference_values":{
-			"value_select":{"keyword":["select"], "type":"string"}},
+			"value_select":{"keyword":["select"], "type":"string"},
+			"value_type":{"keyword":["type"], "type":"string"}},
 		"report":{
 			"node_value_selection":[
 				"Use either 'value' or 'select' to select a return value",
@@ -410,7 +417,7 @@
 			"node_value_selection":[
 				{"conditional":{
 					"value":{
-						"base_type":["node_name_def","node_value_def","link_value_def"],
+						"base-type":["node_name_def","node_value_def","link_value_def"],
 						"true":1,
 						"false":-1,
 						"types":[""]}},
@@ -421,7 +428,7 @@
 					"text":"is for HTML data_defs"},
 				"conditional":{
 					"attr":{
-						"base_type":["node_name_def","node_value_def","link_value_def"],
+						"base-type":["node_name_def","node_value_def","link_value_def"],
 						"true":1,
 						"false":-1,
 						"types":["string"]}},
@@ -433,7 +440,7 @@
 					"text":"is for HTML data_defs"},
 				"conditional":{
 					"select":{
-						"base_type":["node_name_def","node_value_def","link_value_def"],
+						"base-type":["node_name_def","node_value_def","link_value_def"],
 						"true":2,
 						"false":-1,
 						"types":["lst-select_value"],
@@ -466,7 +473,7 @@
 				"optional":{
 					"include":{
 						"types":["list","string"]}},
-				"unused_keys":["exclude"]},
+				"forbidden_keys":["exclude"]},
 				{"conditional_either":
 					{"reference_key":"value_select",
 					"value" :["inclusive text"],
@@ -485,9 +492,8 @@
 				"types":[""]},
 			"ascii-replace":{
 				"types":[
-					{"type":"list","items":["string","string","list"]},
 					{"type":"list"},
-					{"type":"string", "length": 1}]},
+					{"type":"string"}]},
 			"lstrip":{
 				"types":["string"]},
 			"rstrip":{
@@ -513,9 +519,53 @@
 			"type":{
 				"types":["lst-type_value"]},
 			"member-off":{
-				"types":["lst-member_off"]}
-				}
-		},
+				"types":["lst-member_off"]}},
+		"conditional":{
+			"datetimestring":{
+				"reference_key" :"value_type",
+				"value" :["datetimestring"],
+				"true":2,
+				"false":-1,
+				"types":["string"],
+				"reference-default":"default-datetimestring"},
+			"date-splitter":{
+				"reference_key" :"value_type",
+				"value" :["date"],
+				"true":2,
+				"false":-1,
+				"types":["string"],
+				"reference-default":"default-date-splitter"},
+			"date-sequence":{
+				"reference_key" :"value_type",
+				"value" :["date"],
+				"true":2,
+				"false":-1,
+				"types":[
+					{"type":"list"},
+					{"type":"string"}],
+				"reference-default": "default-date-sequence"},
+			"time-type":{
+				"reference_key" :"value_type",
+				"value" :["time"],
+				"true":2,
+				"false":-1,
+				"types":[
+					{"type":"list","items":["lst-time_type","string","string"]}],
+				"reference-default":"default-time-type"},
+			"time-splitter":{
+				"reference_key" :"value_type",
+				"value" :["time"],
+				"true":2,
+				"false":-1,
+				"types":["string"],
+				"reference-default":"default-time-splitter"},
+			"str-list-splitter":{
+				"reference_key" :"value_type",
+				"value" :["str-list"],
+				"true":2,
+				"false":-1,
+				"types":["string"],
+				"reference-default":"default-str-list-splitter"}}},
 	"struct-node_name_def":{
 		"include":"struct-node_value_def",
 		"base-type":"node_name_def"},

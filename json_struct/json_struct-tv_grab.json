@@ -258,6 +258,9 @@
 			"lst-groupid":{"keyword": ["channel_groups"],"values": "intkeys"},
 			"lst-logoid":{"keyword": ["logo_provider"],"values": "intkeys"},
 			"lst-cattranstype":{"list":[null,1,2]}},
+		"reference_values":{
+			"default-source-url":{"keyword":["source-url"], "type":"string", 
+				"default":"https://raw.githubusercontent.com/tvgrabbers/sourcematching/master/sources"}},
 		"required":{
             "active_sources":{
 				"types":[
@@ -309,7 +312,7 @@
 						"optional":{
 							"json_url":{
 								"types":["url"], 
-								"default": "https://raw.githubusercontent.com/tvgrabbers/sourcematching/master/sources"}}}]},
+								"reference-default": "default-source-url"}}}]},
             "source_channels":{
 				"types":[
 					{"type":"numbered dict", "keys": "str-lst-sourceid"},
