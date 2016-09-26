@@ -6,16 +6,14 @@
     "name":"virtual.nl",
 	"is_virtual": true,
     "language":"nl",
-    "version":1,
+    "version":2,
     "api-version":[1,0,0],
-    "detail_processor":false,
     "channels":{
-        "url":null,
         "data":{
 			"cartoonsat": {"name": "Cartoon Network (satelliet)", "group": 7, "icon": "cartoon_network.png", "icongrp": 4},
 			"disneyxdsat": {"name": "Disney XD (TV Vlaanderen)", "group": 9, "icon": "disney_xd_v2.png", "icongrp": 4},
 			"kzoomkanaalz": {"name": "vtmKzoom/KanaalZ", "group": 9},
-			"npopolitiekbest": {"name": "NPO Politiek/Best", "group": 1},
 			"omroepbrabantsat": {"name": "Omroep Brabant (satelliet)", "group": 6, "icon": "omroep_brabant.png", "icongrp": 4},
-			"veronicadxd": {"name": "Veronica / Disney XD (virtual)", "group": 1, "icon": "veronica_disney_xd2.png", "icongrp": 4}}}}
+			"veronicadxd": {"name": "Veronica / Disney XD (virtual)", "group": 1, "icon": "veronica_disney_xd2.png", "icongrp": 4},
+			"zappbest": {"name": "NPO Zapp Xtra / Best (virtual)", "group": 1, "icon": "npo_zapp_xtra.png", "icongrp": 4}}}}
         

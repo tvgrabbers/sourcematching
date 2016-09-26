@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":3,
+	"version":4,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -69,7 +69,6 @@
 		"autoclose-tags":["meta", "link"],
 		"month-names":["dummy", "jan", "feb", "maa", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"],
 		"max days":14,
-		"start-off-day": 7,
 		"data":{
 			"init-path":[
 				{"tag":"html"},
@@ -110,7 +109,7 @@
 						{"path":"parent"}, 
 						{"tag":"div", "attrs":{"class":"section-title select-scope"}},
 						{"tag":"div", "attrs":{"class":"section-title-content"}},
-						{"tag":"a", "index":0,"attr":"href","split":[["/",-1]]}],
+						{"tag":"a", "index":0,"attr":"href","split":[["/",-2]]}],
 					[{"path":"parent"}, 
 						{"path":"parent","attr":"title"}],
 					[{"path":"parent"}, 
@@ -235,7 +234,7 @@
 				}},
 	"no_genric_matching":["nederland-1", "nederland-2", "nederland-3", "rtl-4", "rtl-5", "rtl-7", "rtl-8", "net-5",
 			"rtv-west", "comedy-central", "disney-xd", "fox", "sport1-racing", "sport-1-extra-1", "sport1-extra-2"],
-	"empty_channels":["13th-street", "hollanddoc-24", "humortv-24", "la-une-hd", "tf1-hd", "vtm-hd",
+	"empty_channels":["13th-street", "best-24", "hollanddoc-24", "humortv-24", "la-une-hd", "tf1-hd", "vtm-hd",
 			"life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "cnbc-europe", "syfy", "virgin-1"],
 	"cattrans_keywords":{
 		"jeugd":"Jeugd",

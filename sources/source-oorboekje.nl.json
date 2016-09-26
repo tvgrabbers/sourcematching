@@ -62,7 +62,6 @@
 		"url-data":{"day":11},
 		"url-weekdays":[7, 1, 2, 3, 4, 5, 6],
 		"autoclose-tags":["meta", "link"],
-		"max days":7,
 		"value-filters":{
 			"channelid":[]
 			},

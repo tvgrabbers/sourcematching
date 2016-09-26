@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":5,
+	"version":6,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -94,9 +94,9 @@
 				[{"path":"parent"},
 					{"path":"parent"},
 					{"path":"parent"},
-					{"path":"parent","select":"index", "link":1},
+					{"path":"parent","select":"index", "link":2},
 					{"path":"parent"}, 
-					{"tag":"li", "index":{"link":1,"calc":["plus",1]}},
+					{"tag":"li", "index":{"link":1,"calc":["plus",2]}},
 					{"tag":"div", "attrs":{"class":"content"}},
 					{"tag":"div", "attrs":{"class":"program-data"}},
 					{"tag":"div", "attrs":{"class":"meta"}},
@@ -154,11 +154,15 @@
 			"description":{"varid":6},
 			"broadcaster":{"varid":5},
 			"gen_ID":{"varid":9},
-			"episode title":{"varid":10}
+			"episode title":{"funcid":9, "data":[{"varid":6, "regex":" Afl.:\\s(.*?)\\.", "default":null},{"varid":10}]},
+			"episode":{"varid": 6, "regex":"Aflevering:\\s(\\d*)", "type":"int", "default":null},
+			"episodecount":{"varid": 6, "regex":"Aflevering:\\s*\\d*\\s*van\\s*(\\d*)", "type":"int", "default":null},
+			"season":{"varid": 6, "regex":"Seizoen\\s*(\\d*)", "type":"int", "default":null},
+			"premiere year":{"varid": 6, "regex":"uit (\\d{4})", "default":null}
 			}},
 	"no_genric_matching":["npo_1", "npo_2", "npo_3", "radio_1", "radio_2", "3fm", "radio_4", "radio_5", "radio_6",
 			"rtl_4", "rtl_5", "rtl_7", "rtl_8", "tlc"],
-	"empty_channels":["13th_street", "bbc_three", "npo_doc", "r_omroep_brabant", "radio_6", "syfy"],
+	"empty_channels":["r_omroep_brabant", "radio_6"],
 	"cattrans":{
         "g3011":{
 			"default":["jeugd", ""],

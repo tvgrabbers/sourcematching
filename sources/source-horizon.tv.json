@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":6,
+	"version":7,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -114,7 +114,7 @@
 			"stop-time":{"varid":3},
 			"name":{"varid":4},
 			"episode title":{"varid":5},
-			"episode":{"varid":6},
+			"episode":{"varid":6,"max length":1000},
 			"description":{"funcid":8, "data":[{"varid":7},{"varid":8}], "default":""},
 			"premiere year":{"varid":9},
 			"airdate":{"varid":10},
@@ -130,7 +130,7 @@
 		"24443943096", "24443943143", "24443943146", "24443943182", "24443943184", "120746535305", 
 		"672816167173"],
 	"empty_channels":[
-		"24443943064", "24443943160", "614261799194", "615722023372", "24443943133"],
+		"24443943064", "24443943102", "24443943160", "606274087105", "614261799194", "615722023372", "24443943133"],
 	"cattrans":{
         "film":{
 			"default":["film",""]},
