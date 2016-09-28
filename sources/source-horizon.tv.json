@@ -113,7 +113,7 @@
 			"start-time":{"varid":2},
 			"stop-time":{"varid":3},
 			"name":{"varid":4},
-			"episode title":{"varid":5},
+			"episode title":{"varid":5,"max length":50},
 			"episode":{"varid":6,"max length":1000},
 			"description":{"funcid":8, "data":[{"varid":7},{"varid":8}], "default":""},
 			"premiere year":{"varid":9},
@@ -123,8 +123,7 @@
 			"genre":{"funcid": 10, "data":[["FeatureFilm"],["Film"],{"varid":15},{"varid":13}]},
 			"subgenre":{"varid":14},
 			"rerun":{"funcid":6, "data":[{"varid":2},{"varid":16},false, true]}
-			},
-		"scan-description":{"IMDb rating:":"star-rating"}},
+			}},
 	"no_genric_matching":[
 		"24443942983", "24443942987", "24443943012", "24443943014", "24443943071", "24443943091",
 		"24443943096", "24443943143", "24443943146", "24443943182", "24443943184", "120746535305", 
@@ -159,5 +158,6 @@
 			"default":["informatief", ""]},
         "13948023":{
 			"default":["serie/soap", ""]}},
+			"sci-fi/horror":["serie/soap", "sciencefictionserie"]}},
 	"rating":{}}
 

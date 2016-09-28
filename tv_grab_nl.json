@@ -1577,6 +1577,7 @@
 			["serie/soap", "misdaadserie"]],
 		"Sci-fi/Fantasy":[
 			["serie/soap", "sciencefictionserie"],
+			["serie/soap", "sci-fi/horror"],
 			["serie/soap", "fantasyserie"]],
 		"Action":[
 			["serie/soap", "actieserie"]],
