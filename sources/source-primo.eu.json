@@ -189,7 +189,7 @@
 					"nr. aflevering","seizoen","jaar","land","samenvatting","minimumleeftijd","rating"]]}
 			}},
 	"no_genric_matching":["disneyxd", "npo1", "npo2", "npo3", "sbss6", "net5", "veronica"],
-	"empty_channels":["caz"],
+	"empty_channels":["acht"],
 	"cattrans":{
         "nieuws":{
 			"default":["nieuws/actualiteiten", "nieuws"]},

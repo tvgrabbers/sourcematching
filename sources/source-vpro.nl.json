@@ -61,6 +61,9 @@
 			},
 		"text_replace":[
 			["class=\"([-a-z]*?) theme-text\"", "class=\"\\g<1>\""]],
+		"unquote_html":[
+			"<h6 class=\"title[-\\s\\w]*?\">\\n(.*?)\\n(?:span class=\"broadcaster\">.*?</span>)?.*?/h6>",
+			"data-title=\"(.*?)\"\\s*data-episode-title=\"(.*?)\"\\s*data-description="],
 		"data":{
 			"init-path":[
 				{"tag":"html"},

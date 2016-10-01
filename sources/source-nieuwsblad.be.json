@@ -207,7 +207,7 @@
 			"detail_url":{"varid": 5},
 			"gen_ID":{"varid": 6}}},
 	"no_genric_matching":["npo1", "npo2", "npo3"],
-	"empty_channels":["caz", "bbc1", "bbc3", "bbc4", "bbc-world", "net5", "sbs6", "tv5", "veronica"],
+	"empty_channels":["acht", "bbc1", "bbc3", "bbc4", "bbc-world", "net5", "sbs6", "tv5", "veronica"],
 	"cattrans":{},
 	"rating":{}}
 
