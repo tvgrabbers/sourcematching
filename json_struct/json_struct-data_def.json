@@ -208,6 +208,21 @@
 				"false":-1,
 				"types":["boolean"],
 				"default":false},
+			"text_replace":{
+				"reference_key" :"data-format",
+				"regex" :"html",
+				"true":3,
+				"false":-1,
+				"types":[
+					{"type":"list"}, 
+					{"type":"list", "length":2}, 
+					{"type":"string"}]},
+			"unquote_html":{
+				"reference_key" :"data-format",
+				"regex" :"html",
+				"true":3,
+				"false":-1,
+				"types":["list","string"]},
 			"url-date-format":{
 				"reference_key" :"url-date-type",
 				"value" :[0],

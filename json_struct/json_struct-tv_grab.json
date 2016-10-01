@@ -222,15 +222,20 @@
 								"types":[
 									["list","string"],
 									"string"]}}}]},
+            "ttvdb_aliasses":{
+				"types":[
+					{"type":"dict"},
+					{"type":"string"}]},
 			"text_replace":{
 				"types":[
 					{"type":"numbered dict", "keys": "str-lst-sourceid"},
 					{"type":"list"}, 
 					{"type":"list", "length":2}, 
 					{"type":"string"}]},
-            "ttvdb_aliasses":{
+			"unquote_html":{
 				"types":[
-					{"type":"dict"},
+					{"type":"numbered dict", "keys": "str-lst-sourceid"},
+					{"type":"list"},
 					{"type":"string"}]},
 			"virtual-sub-channels":{
 				"types":[
@@ -678,12 +683,6 @@
 								"true":1,
 								"false":-1,
 								"types":["struct-link_def"]}}}]}},
-		"optional":{
-			"text_replace":{
-				"types":[
-					{"type":"list"}, 
-					{"type":"list", "length":2}, 
-					{"type":"string"}]}},
 		"ignore_keys":["empty-values","timezone"]},
 	"struct-base":{
 		"include":"struct-data_def_full_extended",
@@ -700,11 +699,6 @@
 			"values":{
 				"types":["struct-base_values"]}},
 		"optional":{
-			"text_replace":{
-				"types":[
-					{"type":"list"}, 
-					{"type":"list", "length":2}, 
-					{"type":"string"}]},
 			"max days":{
 				"types":["integer"],
 				"default":14}},
@@ -749,12 +743,6 @@
 		"required":{
 			"provides":{
 				"types":["list","string"]}},
-		"optional":{
-			"text_replace":{
-				"types":[
-					{"type":"list"}, 
-					{"type":"list", "length":2}, 
-					{"type":"string"}]}},
 		"ignore_keys":["empty-values","timezone"]},
 	"struct-detail_values":{
 		"type":"dict",
