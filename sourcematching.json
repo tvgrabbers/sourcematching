@@ -926,6 +926,7 @@
 		"1-sudwest-fernsehen":"SWR Fernsehen",
 		"1-tv-e":"TVE Internacional",
 		"1-zappelin":"NPO Zapp Xtra / Best",
+		"5-24443942999":"BBC One HD",
 		"5-24443943013":"CBBC",
 		"5-24443943085":"Ziggo Zender van de Maand",
 		"5-24443943133":"Ziggo Eventkanaal",
@@ -1113,7 +1114,7 @@
 		"5":{
 			"1":[],
 			"2":[],
-			"3":["24443943080", "24443943013", "24443943111", "24443943051"],
+			"3":["24443942999", "24443943080", "24443943013", "24443943111", "24443943051"],
 			"4":[],
 			"5":[],
 			"6":[],
@@ -1262,8 +1263,9 @@
 			"16":[]}},
 	"empty_channels":{
 		"0":["65","83","308","309","310","401","403","412","434"],
-		"1":["13th-street", "bbc-3", "best-24", "hollanddoc-24", "humortv-24", "la-une-hd", "tf1-hd", "vtm-hd",
-			"life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "cnbc-europe", "syfy", "virgin-1"],
+		"1":["13th-street", "bbc-3", "bbc-hd", "best-24", "history-hd", "hollanddoc-24", "humortv-24", "la-une-hd",
+			"nat-geo-hd", "tf1-hd", "vtm-hd", "life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "cnbc-europe",
+			"syfy", "virgin-1"],
 		"2":[],
 		"3":[],
 		"4":[],
