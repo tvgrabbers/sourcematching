@@ -746,6 +746,21 @@
 		"ignore_keys":["empty-values","timezone"]},
 	"struct-detail_values":{
 		"type":"dict",
+		"report":{
+			"programID":[
+				"It is strongly advised to include a unique identifier 'prog_ID',",
+				"alternately you can use 'gen_ID' as an identifier for forinstance",
+				"all the 'News' programmes."]},
+		"either":{
+			"programID":[
+				{"required":{
+					"prog_ID":{
+						"types":["struct-link_def"]}},
+				"unused_keys":["gen_ID"]},
+				{"sugested":{
+					"gen_ID":{
+						"types":["struct-link_def"]}},
+				"forbidden_keys":["prog_ID"]}]},
 		"sugested":{
 			"start-time":{
 				"types":["struct-link_def"]},
@@ -754,8 +769,6 @@
 			"name":{
 				"types":["struct-link_def"]},
 			"channelid":{
-				"types":["struct-link_def"]},
-			"prog_ID":{
 				"types":["struct-link_def"]}},
 		"optional":{
 			"length":{
@@ -763,8 +776,6 @@
 			"alt-start-time":{
 				"types":["struct-link_def"]},
 			"alt-stop-time":{
-				"types":["struct-link_def"]},
-			"gen_ID":{
 				"types":["struct-link_def"]},
 			"episode title":{
 				"types":["struct-link_def"]},
@@ -863,6 +874,21 @@
 		"unused_keys":["detail_url"]},
 	"struct-base_detailed_values":{
 		"include":"struct-detail_values",
+		"report":{
+			"programID":[
+				"It is strongly advised to include a unique identifier 'prog_ID',",
+				"alternately you can use 'gen_ID' as an identifier for forinstance",
+				"all the 'News' programmes."]},
+		"either":{
+			"programID":[
+				{"required":{
+					"prog_ID":{
+						"types":["struct-link_def"]}},
+				"unused_keys":["gen_ID"]},
+				{"sugested":{
+					"gen_ID":{
+						"types":["struct-link_def"]}},
+				"forbidden_keys":["prog_ID"]}]},
 		"required":{
 			"detail_url":{
 				"types":["struct-link_def"]},
