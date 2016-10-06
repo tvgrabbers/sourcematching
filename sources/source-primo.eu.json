@@ -37,7 +37,7 @@
 					{"tag":"div", "attrs":{"id":"channels-select"}},
 					{"tag":"select"},
 					{"tag":"option", "attrs":{"value":{"not":["all"]}}},
-					{ "attr":"value", "ascii-replace":["ss","s", "[-!?(), ]"], "link":1}
+					{"attr":"value", "ascii-replace":["ss","s", "[-!?(), ]"], "link":1}
 					],
 				"values":[
 					[{"select":"text"}],
@@ -189,7 +189,7 @@
 					"nr. aflevering","seizoen","jaar","land","samenvatting","minimumleeftijd","rating"]]}
 			}},
 	"no_genric_matching":["disneyxd", "npo1", "npo2", "npo3", "sbss6", "net5", "veronica"],
-	"empty_channels":["acht"],
+	"empty_channels":[],
 	"cattrans":{
         "nieuws":{
 			"default":["nieuws/actualiteiten", "nieuws"]},
