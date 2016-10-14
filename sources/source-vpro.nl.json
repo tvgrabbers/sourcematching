@@ -165,7 +165,7 @@
 			}},
 	"no_genric_matching":["npo_1", "npo_2", "npo_3", "radio_1", "radio_2", "3fm", "radio_4", "radio_5", "radio_6",
 			"rtl_4", "rtl_5", "rtl_7", "rtl_8", "tlc"],
-	"empty_channels":["r_omroep_brabant", "radio_6", "13th_street", "tcm", "syfy", "bbc_three___cbbc", "film_1", "amc"],
+	"empty_channels":["r_omroep_brabant", "radio_6", "13th_street", "tcm", "syfy", "bbc_three___cbbc", "film_1", "amc", "fox"],
 	"cattrans":{
         "g3011":{
 			"default":["jeugd", ""],
