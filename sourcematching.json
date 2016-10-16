@@ -1672,7 +1672,8 @@
 		"Geen programma informatie beschikbaar",
 		"TE CONTROLEREN",
 		"vacant",
-		"Spike"],
+		"spike",
+		"SPIKE 21:00 - 26:30"],
 	"user_agents":[ "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko/20100101 Firefox/41.0",
 	   "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:41.0) Gecko/20100101 Firefox/41.0",
 	   "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko",
@@ -1683,7 +1684,7 @@
 	   "Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0"],
 	"no_genric_matching":{
 		"0":["1", "2", "3", "4", "25", "29", "31", "40", "46", "70", "91", "92", "103", "108", "109", "113", "114",
-			"304", "311", "313", "408", "409", "410", "440", "465"],
+			"304", "311", "313", "408", "409", "410", "440", "465", "467"],
 		"1":["101-tv", "comedy-central", "cultura-24", "disney-channel", "disney-xd", "eredivisie-live",
 			"eredivisie-live-3", "eredivisie-live-4", "fox", "investigation-discovery",
 			"journaal-24", "mtv", "nederland-1", "nederland-2", "nederland-3", "net-5", "nickelodeon",
