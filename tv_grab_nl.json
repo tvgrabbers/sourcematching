@@ -66,7 +66,7 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":8,
+			"version":9,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
@@ -651,6 +651,7 @@
 			"7-bnr_nieuwsradio": "bnr_nieuwsradio",
 			"7-classic_fm": "classic_fm",
 			"7-q-music": "q-music",
+			"7-r_omroep_brabant": "r_omroep_brabant",
 			"7-r_omroep_zeeland": "r_omroep_zeeland",
 			"7-radio_538": "radio_538",
 			"7-radio_gelderland": "radio_gelderland",
@@ -1287,7 +1288,7 @@
 			{"chanid": "0-34", "start": "18:00", "end": "4:00"}, 
 			{"chanid": "0-311", "start": "4:00", "end": "18:00", "slots": ["disney xd"]}],
 		"1-ketnet-canvas-2": ["8-ketnet", "8-eenplus"],
-		"1-nickelodeon": ["0-467"],
+		"1-nickelodeon": [{"chanid": "0-467", "slots": ["spike", "SPIKE 21:00 - 26:30"]}],
 		"1-zappelin": [
 			{"chanid": "4-288", "start": "4:00", "end": "20:00"},
 			{"chanid": "4-283", "start": "20:00", "end": "4:00"}],
