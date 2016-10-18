@@ -1,4 +1,4 @@
-{"version":3,
+{"version":4,
     "select_struct_list":[
 		{"teststruct":"struct-sourcematching",
 			"description":"The file \"%s\" seems to be a sourcematching-JSON file\\n",

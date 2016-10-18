@@ -1,4 +1,4 @@
-{"version":2,
+{"version":3,
     "select_struct_list":[
 		{"teststruct":"struct-data_def_full_extended",
 			"description":"The file \"%s\" is a JSON data_def_full_extended\\n",
