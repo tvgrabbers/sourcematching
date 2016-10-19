@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":4,
+	"version":5,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
