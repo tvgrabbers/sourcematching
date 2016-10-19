@@ -234,9 +234,8 @@
 				}},
 	"no_genric_matching":["nederland-1", "nederland-2", "nederland-3", "rtl-4", "rtl-5", "rtl-7", "rtl-8", "net-5",
 			"rtv-west", "comedy-central", "disney-xd", "fox", "sport1-racing", "sport-1-extra-1", "sport1-extra-2"],
-	"empty_channels":["13th-street", "bbc-3", "bbc-hd", "best-24", "history-hd", "hollanddoc-24", "humortv-24",
-			"la-une-hd", "nat-geo-hd", "tf1-hd", "vtm-hd", "life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12",
-			"cnbc-europe", "syfy", "virgin-1"],
+	"empty_channels":["13th-street", "bbc-hd", "best-24", "history-hd", "la-une-hd", "nat-geo-hd", 
+			"tf1-hd", "vtm-hd", "life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "cnbc-europe", "syfy", "virgin-1"],
 	"cattrans_keywords":{
 		"jeugd":"Jeugd",
 		"muziek":"Muziek",
