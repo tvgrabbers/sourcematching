@@ -1,11 +1,13 @@
 {"description":[
 	"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
 	"Vanaf versie 2.2.7 vanaf de huidige locatie."],
-	"data_version":"25",
+	"data_version":"26",
 	"program_version":"2.2.20",
 	"version_message":["With some updates enabling us to beter react to changes on the sources.\n",
 		"without any need for you to upgrade.\n"],
 	"warning_message_2":{
+		"26":["tvgids.tv renamed the channelids for 'Q2', 'tV5 Monde', 'CAZ'  and 'NH'.\n",
+			"(rtv NoordHolland) and added a listing for 'Horse & Country TV'.\n"],
 		"25":["The this weekend starting Flemish channel Zes from SBS is now available as '8-zes'.\n"],
 		"24":["Acht is now CAZ.\n"],
 		"23":["Q2 is a rename of 2BE, you can continue to use '0-59'.\n"],
