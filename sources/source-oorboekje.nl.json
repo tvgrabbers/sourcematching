@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":2,
+	"version":3,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -97,7 +97,7 @@
 		"url-type": 2,
 		"url-date-type": 2,
 		"url-data":{"day":11},
-		"url-weekdays":[7, 1, 2, 3, 4, 5, 6],
+		"url-weekdays":[1, 2, 3, 4, 5, 6, 7],
 		"autoclose-tags":["meta", "link"],
 		"max days":7,
 		"value-filters":{
