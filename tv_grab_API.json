@@ -13,7 +13,7 @@
 		"timedelta":["length"],
 		"date":["airdate"],
 		"bool":["rerun","premiere","last-chance","new","teletext"],
-		"int":["season","episode","episodecount","offset","tmdbid","ttvdbid"],
+		"int":["season","episode","abs episode","episodecount","offset","tmdbid","ttvdbid"],
 		"list":["country","rating"],
 		"video":["HD","widescreen","blackwhite"],
 		"credits":["director","actor","guest","writer","composer","presenter","reporter",

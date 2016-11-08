@@ -165,7 +165,7 @@
 			}},
 	"no_genric_matching":["npo_1", "npo_2", "npo_3", "radio_1", "radio_2", "3fm", "radio_4", "radio_5", "radio_6",
 			"rtl_4", "rtl_5", "rtl_7", "rtl_8", "tlc"],
-	"empty_channels":["radio_6", "13th_street", "tcm", "syfy", "bbc_three___cbbc", "film_1", "amc", "fox"],
+	"empty_channels":["radio_6", "13th_street", "tcm", "syfy", "bbc_three___cbbc", "film_1", "amc"],
 	"cattrans":{
         "g3011":{
 			"default":["jeugd", ""],
@@ -204,7 +204,12 @@
 			"31":["informatief", "wonen"]},
         "g3018":{
 			"default":["documentaire", ""],
+			"22":["documentaire", "lifestyleprogramma"],
 			"24":["documentaire", "kunst/cultuur"],
 			"25":["documentaire", "natuur"]}},
+			"26":["documentaire", "religieus"],
+			"27":["documentaire", "wetenschap"],
+			"29":["documentaire", "reisprogramma"],
+			"30":["documentaire", "geschiedenis"],
 	"rating":{}}
 

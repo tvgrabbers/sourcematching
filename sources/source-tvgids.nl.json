@@ -319,10 +319,20 @@
 	"cattrans":{
         "nieuws/actualiteiten":{
 			"default":["nieuws/actualiteiten", ""]},
+        "raportage":{
+			"default":["nieuws/actualiteiten", "raportage"]},
         "sport":{
 			"default":["sport", ""]},
+        "sportnieuws":{
+			"default":["sport", "nieuws"]},
+        "sportprogramma":{
+			"default":["sport", ""]},
+        "biografie":{
+			"default":["documentaire", "biografie"]},
         "documentaire":{
 			"default":["documentaire", ""]},
+        "documentaireserie":{
+			"default":["documentaireserie", ""]},
         "informatief":{
 			"default":["informatief", ""],
 			"Documentaireserie":["documentaire", ""]},
@@ -332,26 +342,82 @@
 			"default":["natuur", ""]},
         "amusement":{
 			"default":["amusement", ""]},
+        "talk":{
+			"default":["talk", ""]},
+        "quiz":{
+			"default":["amusement", "quiz"]},
         "kunst/cultuur":{
 			"default":["kunst/cultuur", ""]},
         "theater":{
 			"default":["kunst/cultuur", "theater"]},
+        "musical":{
+			"default":["kunst/cultuur", "musical"]},
         "muziek":{
 			"default":["muziek", ""]},
         "religieus":{
 			"default":["religieus", ""]},
         "jeugd":{
 			"default":["jeugd", ""]},
+        "jeugdserie":{
+			"default":["jeugd", ""]},
         "animatie":{
 			"default":["jeugd", "animatie"]},
+        "animatieserie":{
+			"default":["serie/soap", "animatie"]},
         "erotiek":{
 			"default":["amusement", "erotisch programma"]},
         "film":{
 			"default":["film", ""]},
+        "korte film":{
+			"default":["film", "korte film"]},
+        "drama":{
+			"default":["film", "drama"]},
+        "familie":{
+			"default":["film", "familie"]},
+        "fantasy":{
+			"default":["film", "fantasy"]},
+        "komedie":{
+			"default":["film", "komedie"]},
+        "misdaad":{
+			"default":["film", "misdaad"]},
+        "misdaadkomedie":{
+			"default":["film", "misdaadkomedie"]},
+        "oorlog":{
+			"default":["film", "oorlog"]},
+        "science fiction":{
+			"default":["film", "science fiction"]},
+        "thriller":{
+			"default":["film", "thriller"]},
+        "western":{
+			"default":["film", "western"]},
+        "avonturenfilm":{
+			"default":["film", "avonturenfilm"]},
+        "animatiefilm":{
+			"default":["film", "animatiefilm"]},
         "serie":{
 			"default":["serie/soap", ""]},
         "serie/soap":{
 			"default":["serie/soap", ""]},
+        "comedyserie":{
+			"default":["serie/soap", "comedy"]},
+        "detectiveserie":{
+			"default":["serie/soap", "detective"]},
+        "dramaserie":{
+			"default":["serie/soap", "drama"]},
+        "fantasyserie":{
+			"default":["serie/soap", "fantasy"]},
+        "historische serie":{
+			"default":["serie/soap", "historisch"]},
+        "misdaadserie":{
+			"default":["serie/soap", "misdaad"]},
+        "komische dramaserie":{
+			"default":["serie/soap", "komische dramaserie"]},
+        "politieserie":{
+			"default":["serie/soap", "politieserie"]},
+        "realityserie":{
+			"default":["serie/soap", "realityserie"]},
+        "tekenfilmserie":{
+			"default":["serie/soap", "tekenfilmserie"]},
         "overige":{
 			"default":["overige", ""],
 			"nieuwsbulletin":["nieuws/actualiteiten", "nieuwsbulletin"]}},
