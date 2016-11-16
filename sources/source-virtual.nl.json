@@ -6,7 +6,7 @@
     "name":"virtual.nl",
 	"is_virtual": true,
     "language":"nl",
-    "version":2,
+    "version":3,
     "api-version":[1,0,0],
     "channels":{
         "data":{
@@ -15,5 +15,5 @@
 			"kzoomkanaalz": {"name": "vtmKzoom/KanaalZ", "group": 9},
 			"omroepbrabantsat": {"name": "Omroep Brabant (satelliet)", "group": 6, "icon": "omroep_brabant.png", "icongrp": 4},
 			"veronicadxd": {"name": "Veronica / Disney XD (virtual)", "group": 1, "icon": "veronica_disney_xd3.png", "icongrp": 4},
-			"zappbest": {"name": "NPO Zapp Xtra / Best (virtual)", "group": 1, "icon": "npo_zapp_xtra.png", "icongrp": 4}}}}
+			"zappbest": {"name": "NPO Zapp Xtra / Best (virtual)", "group": 1, "icon": "npo_zapp_xtra_best.png", "icongrp": 4}}}}
         
