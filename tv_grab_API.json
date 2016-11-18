@@ -1,7 +1,7 @@
 {"description":[
 	"This is generic data used by the tv_grab_API and gets downloaded on every run"],
 	"data_version":0,
-	"program_version":[1,0,0],
+	"program_version":[1,0,5],
 	"version_message":["\n",
 		"\n",
 		"\n"],
@@ -25,7 +25,7 @@
 	"ttvdb":{
 		"v1":{
 			"json file":"source-thetvdb.v1",
-			"version":0},
+			"version":1},
 		"v2":{
 			"json file":"source-thetvdb.v2",
 			"version":0}},
@@ -72,10 +72,6 @@
 		"38": "https://wp26-images-nl-dynamic.horizon.tv/ChannelLogos/02/",
 		"39": "https://wp27-images-nl-dynamic.horizon.tv/ChannelLogos/02/",
 		"40": "https://wp28-images-nl-dynamic.horizon.tv/ChannelLogos/02/"},
-	"ttvdb_aliasses":{
-		"Castle": "Castle (2009)",
-		"Father Brown": "Father Brown (2013)",
-		"The Player":"The Player (2015)"},
 	"ttvdb_ids":{
 		"Castle":{"name":"Castle (2009)","tid":83462},
 		"Father Brown":{"name":"Father Brown (2013)","tid":265834},
