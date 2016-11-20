@@ -1,4 +1,4 @@
-{"version":4,
+{"version":5,
     "select_struct_list":[
 		{"teststruct":"struct-sourcematching",
 			"description":"The file \"%s\" seems to be a sourcematching-JSON file\\n",
@@ -27,7 +27,11 @@
 			"type":"dict", 
 			"keyvalues":[
 				{"key":"is_virtual", "value":false, "default":false},
-				{"key":"detail_processor", "value":true, "default":false}]}],
+				{"key":"detail_processor", "value":true, "default":false}]},
+		{"teststruct":"struct-thetvdbsource",
+			"description":"The file \"%s\" seems to be a thetvdb-source-JSON file\\n",
+			"title":"source-thetvdb.*?\\.json",
+			"type":"dict"}],
 	"struct-sourcematching":{
 		"type":"dict",
         "lookup_lists":{
@@ -630,6 +634,30 @@
 				"types":["struct-detail"]}},
         "optional":{
 			"detail2":{
+				"types":["struct-detail"]}}},
+	"struct-thetvdbsource":{
+		"include":"struct-sourcefile",
+		"either":{
+			"channel_list":[]},
+        "required":{
+			"seriesid":{
+				"types":["struct-detail"]},
+			"seriesname":{
+				"types":["struct-detail"]},
+			"episodes":{
+				"types":["struct-detail"]},
+			"lang-list":{
+				"types":[
+					{"type":"list"},
+					{"type":"string", "length":2}]}},
+        "optional":{
+			"login":{
+				"types":["struct-detail"]},
+			"error":{
+				"types":["struct-detail"]},
+			"episodecount":{
+				"types":["struct-detail"]},
+			"episode":{
 				"types":["struct-detail"]}}},
 	"struct-channel_list":{
 		"type":"dict",

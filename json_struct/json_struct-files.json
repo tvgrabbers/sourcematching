@@ -35,13 +35,14 @@
             "struct-link_value"
         ]}},
     {"json_struct-tv_grab":{
-        "version":4,
+        "version":5,
         "struct_list":[
 			"struct-sourcematching",
             "struct-grabberfile",
             "struct-sourcefile",
             "struct-virtualsource",
             "struct-detailedsource",
+			"struct-thetvdbsource",
             "struct-channel_list",
             "struct-channels",
             "struct-base",
