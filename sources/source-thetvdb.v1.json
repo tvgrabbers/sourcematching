@@ -6,7 +6,7 @@
 	"name":"thetvdb.v1",
 	"language":"en",
 	"site-timezone":"UTC",
-	"version":1,
+	"version":2,
 	"api-version":[1,0,5],
 	"seriesid":{
 		"url":["http://www.thetvdb.com/api/GetSeries.php"],
@@ -158,7 +158,8 @@
 				[{"path":"parent"},{"tag":"thumb_width", "type":"int"}]
 				]}, 
 		"values":{
-			"tid":{"varid":0},
+			"tid":{"varid":14},
+			"tepid":{"varid":0},
 			"sid":{"varid":3},
 			"eid":{"varid":4},
 			"abseid":{"varid":5},

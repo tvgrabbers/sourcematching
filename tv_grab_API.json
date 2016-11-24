@@ -8,12 +8,13 @@
 	"data_keys":{
 		"text":["prog_ID","gen_ID","detail_url","group name","name","episode title",
 			"originaltitle","description","genre","subgenre","org-genre","org-subgenre",
-			"premiere year","infourl","audio","star-rating","broadcaster","group","programid"],
+			"premiere year","infourl","audio","star-rating","broadcaster","group",
+			"programid","imdbid","zaptoitid"],
 		"datetime":["start-time","stop-time"],
 		"timedelta":["length"],
 		"date":["airdate"],
 		"bool":["rerun","premiere","last-chance","new","teletext"],
-		"int":["season","episode","abs episode","episodecount","offset","tmdbid","ttvdbid"],
+		"int":["season","episode","abs episode","episodecount","offset","tmdbid","ttvdbid","ttvdbepid"],
 		"list":["country","rating"],
 		"video":["HD","widescreen","blackwhite"],
 		"credits":["director","actor","guest","writer","composer","presenter","reporter",
@@ -25,7 +26,7 @@
 	"ttvdb":{
 		"v1":{
 			"json file":"source-thetvdb.v1",
-			"version":1},
+			"version":2},
 		"v2":{
 			"json file":"source-thetvdb.v2",
 			"version":0}},
