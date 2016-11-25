@@ -6,7 +6,7 @@
 	"name":"thetvdb.v1",
 	"language":"en",
 	"site-timezone":"UTC",
-	"version":2,
+	"version":3,
 	"api-version":[1,0,5],
 	"seriesid":{
 		"url":["http://www.thetvdb.com/api/GetSeries.php"],
@@ -47,6 +47,39 @@
 			"airdate":{"varid":6},
 			"banner":{"varid":4}
 			}},
+	"last_updated":{
+		"url":["http://www.thetvdb.com/api/",["api-key"],"/series/",["ttvdbid"],"/",["lang"],".xml"],
+		"data-format":"application/xml",
+		"encoding":"utf-8",
+		"accept-header":null,
+		"url-type":0,
+		"url-data":{},
+		"datetimestring":"%Y-%m-%d %H:%M:%S",
+		"weekdays":["monday", "tuesday", "wedesday", "thursday", "friday", "saturday", "sunday"],
+		"date-sequence":["y","m","d"],
+		"date-splitter":"-",
+		"time-type":[12,"AM","PM"],
+		"time-splitter":":",
+		"str-list-splitter":"\\|",
+		"data":{
+			"key-path":[
+				{"tag":"Data"},
+				{"tag":"Series"},
+				{"tag":"id", "type":"int"}
+				],
+			"values":[
+				[{"path":"parent"},{"tag":"Language"}],
+				[{"path":"parent"},{"tag":"SeriesName"}],
+				[{"path":"parent"},{"tag":"FirstAired", "type":"date"}],
+				[{"path":"parent"},{"tag":"lastupdated", "type":"timestamp"}]
+				]}, 
+		"values":{
+			"tid":{"varid":0},
+			"lang":{"varid":1},
+			"name":{"varid":2},
+			"airdate":{"varid":3},
+			"last updated":{"varid":4}
+			}},
 	"seriesname":{
 		"url":["http://www.thetvdb.com/api/",["api-key"],"/series/",["ttvdbid"],"/",["lang"],".xml"],
 		"data-format":"application/xml",
@@ -75,24 +108,11 @@
 				[{"path":"parent"},{"tag":"RatingCount", "type":"int"}],
 				[{"path":"parent"},{"tag":"Overview"}],
 				[{"path":"parent"},{"tag":"Actors","type":"str-list", "omit-empty-list-items": true}],
-				[{"path":"parent"},{"tag":"Airs_DayOfWeek", "type":"relative-weekday"}],
-				[{"path":"parent"},{"tag":"Airs_Time", "type":"time"}],
-				[{"path":"parent"},{"tag":"ContentRating"}],
 				[{"path":"parent"},{"tag":"FirstAired", "type":"date"}],
-				[{"path":"parent"},{"tag":"Network"}],
-				[{"path":"parent"},{"tag":"NetworkID"}],
-				[{"path":"parent"},{"tag":"Runtime", "type":"timedelta", "multiplier":60,"--remark--":"in minutes"}],
-				[{"path":"parent"},{"tag":"Status","--remark--":"Ended or continuing"}],
-				[{"path":"parent"},{"tag":"added", "type":"datetimestring"}],
-				[{"path":"parent"},{"tag":"addedBy", "type":"int"}],
 				[{"path":"parent"},{"tag":"banner"}],
 				[{"path":"parent"},{"tag":"fanart"}],
-				[{"path":"parent"},{"tag":"lastupdated", "type":"timestamp"}],
 				[{"path":"parent"},{"tag":"poster"}],
-				[{"path":"parent"},{"tag":"tms_wanted_old", "type":"int"}],
-				[{"path":"parent"},{"tag":"SeriesId", "type":"int"}],
-				[{"path":"parent"},{"tag":"IMDB_ID"}],
-				[{"path":"parent"},{"tag":"zap2it_id"}]
+				[{"path":"parent"},{"tag":"lastupdated", "type":"timestamp"}]
 				]}, 
 		"values":{
 			"tid":{"varid":0},
@@ -100,11 +120,13 @@
 			"lang":{"varid":1},
 			"star-rating":{"varid":4},
 			"description":{"varid":6},
-			"airdate":{"varid":11},
+			"airdate":{"varid":8},
 			"genre":{"varid":3},
 			"actor":{"varid":7},
-			"banner":{"varid":18},
-			"last updated":{"varid":20}
+			"banner":{"varid":9},
+			"fanart":{"varid":10},
+			"poster":{"varid":11},
+			"last updated":{"varid":12}
 			}},
 	"episodes":{
 		"url":["http://www.thetvdb.com/api/",["api-key"],"/series/",["ttvdbid"],"/all/",["lang"],".xml"],
@@ -133,32 +155,16 @@
 				[{"path":"parent"},{"tag":"absolute_number", "type":"int"}],
 				[{"path":"parent"},{"tag":"Overview"}],
 				[{"path":"parent"},{"tag":"Rating", "type":"float"}],
-				[{"path":"parent"},{"tag":"RatingCount", "type":"int"}],
-				[{"path":"parent"},{"path":"parent"},{"tag":"Series"},{"tag":"Actors","type":"str-list", "omit-empty-list-items": true}],
 				[{"path":"parent"},{"tag":"Director","type":"str-list", "omit-empty-list-items": true}],
 				[{"path":"parent"},{"tag":"Writer","type":"str-list", "omit-empty-list-items": true}],
 				[{"path":"parent"},{"tag":"GuestStars","type":"str-list", "omit-empty-list-items": true}],
 				[{"path":"parent"},{"tag":"seasonid", "type":"int"}],
 				[{"path":"parent"},{"tag":"seriesid", "type":"int"}],
-				[{"path":"parent"},{"tag":"DVD_season"}],
-				[{"path":"parent"},{"tag":"DVD_episodenumber"}],
-				[{"path":"parent"},{"tag":"Combined_season"}],
-				[{"path":"parent"},{"tag":"Combined_episodenumber"}],
 				[{"path":"parent"},{"tag":"FirstAired", "type":"date"}],
-				[{"path":"parent"},{"tag":"IMDB_ID"}],
-				[{"path":"parent"},{"tag":"ProductionCode"}],
-				[{"path":"parent"},{"tag":"airsafter_season", "type":"int"}],
-				[{"path":"parent"},{"tag":"airsbefore_episode", "type":"int"}],
-				[{"path":"parent"},{"tag":"airsbefore_season", "type":"int"}],
-				[{"path":"parent"},{"tag":"lastupdated", "type":"timestamp"}],
-				[{"path":"parent"},{"tag":"EpImgFlag", "type":"int"}],
-				[{"path":"parent"},{"tag":"filename"}],
-				[{"path":"parent"},{"tag":"thumb_added"}],
-				[{"path":"parent"},{"tag":"thumb_height", "type":"int"}],
-				[{"path":"parent"},{"tag":"thumb_width", "type":"int"}]
+				[{"path":"parent"},{"tag":"lastupdated", "type":"timestamp"}]
 				]}, 
 		"values":{
-			"tid":{"varid":14},
+			"tid":{"varid":12},
 			"tepid":{"varid":0},
 			"sid":{"varid":3},
 			"eid":{"varid":4},
@@ -167,12 +173,11 @@
 			"lang":{"varid":1},
 			"description":{"varid":6},
 			"star-rating":{"varid":7},
-			"airdate":{"varid":19},
-			"director":{"varid":10},
-			"writer":{"varid":11},
-			"guest":{"varid":12},
-			"actor":{"varid":9},
-			"last updated":{"varid":25}
+			"airdate":{"varid":13},
+			"director":{"varid":8},
+			"writer":{"varid":9},
+			"guest":{"varid":10},
+			"last updated":{"varid":14}
 			}},
 	"lang-list":[
 		"cs", "da", "de", "el", "en", "es", "fi", "fr", "he", "hr", "hu", "it",
