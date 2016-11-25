@@ -1,7 +1,7 @@
 {"DTG-version":[1,2,2],
 	"files":[
     {"json_struct-data_def":{
-        "version":3,
+        "version":4,
         "struct_list":[
             "struct-data_def_full_extended",
             "struct-data_def_with_url_extension",
@@ -35,7 +35,7 @@
             "struct-link_value"
         ]}},
     {"json_struct-tv_grab":{
-        "version":5,
+        "version":6,
         "struct_list":[
 			"struct-sourcematching",
             "struct-grabberfile",
