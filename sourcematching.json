@@ -338,6 +338,7 @@
 			"1-vitaya": "vitaya",
 			"1-vtmkzoom": "vtmkzoom",
 			"1-zappelin": "zappelin",
+			"5-24443943051": "cnbc-europe",
 			"5-606274087102": "horse-country-tv",
 			"5-728310311076": "food-network",
 			"5-728310311079": "fine-living"},
@@ -1269,7 +1270,7 @@
 	"empty_channels":{
 		"0":["65","83","308","309","310","401","403","412","434"],
 		"1":["13th-street", "bbc-hd", "best-24", "history-hd", "la-une-hd", "nat-geo-hd", "tf1-hd", "vtm-hd", 
-			"life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "cnbc-europe", "syfy", "virgin-1"],
+			"life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "syfy", "virgin-1"],
 		"2":[],
 		"3":[],
 		"4":[],
