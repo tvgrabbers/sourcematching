@@ -182,7 +182,7 @@
 			"star-rating":{"funcid":11, "data":[{"varid":1},"rating"], "calc":{"multiplier":2.5}},
 			"genre":{"funcid":11, "data":[{"varid":1},"genre"]},
 			"subgenre":{"funcid":11, "data":[{"varid":1},"samenvatting"], "max length":25},
-			"credits":{"funcid":102, "data":[{"varid":1}]},
+			"credits":{"funcid":102, "data":[{"varid":1}, 1]},
 			"source": {"value":"primo.eu"},
 			"--log-unknown--":{"funcid":201, "data":[{"varid": 1}, 
 				["programmanaam","datum en tijd","zender","genre","synopsis","titel aflevering",
