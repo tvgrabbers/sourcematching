@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":5,
+	"version":6,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -235,7 +235,7 @@
 	"no_genric_matching":["nederland-1", "nederland-2", "nederland-3", "rtl-4", "rtl-5", "rtl-7", "rtl-8", "net-5",
 			"rtv-west", "comedy-central", "disney-xd", "fox", "sport1-racing", "sport-1-extra-1", "sport1-extra-2"],
 	"empty_channels":["13th-street", "bbc-hd", "best-24", "history-hd", "la-une-hd", "nat-geo-hd", 
-			"tf1-hd", "vtm-hd", "life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "cnbc-europe", "syfy", "virgin-1"],
+			"tf1-hd", "vtm-hd", "life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "syfy", "virgin-1"],
 	"cattrans_keywords":{
 		"jeugd":"Jeugd",
 		"muziek":"Muziek",
