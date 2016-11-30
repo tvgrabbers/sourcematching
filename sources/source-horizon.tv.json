@@ -49,7 +49,7 @@
 			"HD":{"varid": 2}}},
 	"base":{
 		"url":["https://web-api-pepper.horizon.tv/oesp/api/NL/nld/web/listings/"],
-		"url":["https://web-api-salt.horizon.tv/oesp/api/NL/nld/web/listings/"],
+		"alt-url":["https://web-api-salt.horizon.tv/oesp/api/NL/nld/web/listings/"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
 		"accept-header":null,
