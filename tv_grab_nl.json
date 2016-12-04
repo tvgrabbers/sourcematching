@@ -342,7 +342,6 @@
 			"1-vtmkzoom": "vtmkzoom",
 			"1-zappelin": "zappelin",
 			"5-24443943051": "cnbc-europe",
-			"5-606274087102": "horse-country-tv",
 			"5-728310311076": "food-network",
 			"5-728310311079": "fine-living"},
 		"2":{"0-4": "RTL4",
@@ -561,7 +560,8 @@
 			"5-647417383034": "647417383034",
 			"5-647417383035": "647417383035",
 			"5-728310311076": "728310311076",
-			"5-728310311079": "728310311079"},
+			"5-728310311079": "728310311079",
+			"5-760730662979": "760730662979"},
 		"6":{"0-1": "30",
 			"0-2": "32",
 			"0-3": "34",
@@ -1488,7 +1488,8 @@
 			["amusement", "klusprogramma"],
 			["amusement", "hobbyprogramma"],
 			["amusement", "lifestyleprogramma"],
-			["amusement", "modeprogramma"]],
+			["amusement", "modeprogramma"],
+			["vrije tijd", ""]],
 		"Cooking":[
 			["magazine", "culinair"],
 			["amusement", "kookprogramma"],
@@ -1520,6 +1521,7 @@
 			["film", ""],
 			["korte film", ""]],
 		"Reality":[
+			["serie/soap", "realityserie"],
 			["amusement", "realityserie"],
 			["informatief", "docusoap"],
 			["informatief", "realityprogramma"],
@@ -1531,10 +1533,12 @@
 			["serie/soap", "soap"]],
 		"Comedy":[
 			["amusement", "komedie"],
+			["serie/soap", "komisch"],
 			["serie/soap", "comedyserie"],
 			["serie/soap", "komedieserie"]],
 		"Crime/Mystery":[
 			["serie/soap", "detectiveserie"],
+			["serie/soap", "detective"],
 			["serie/soap", "misdaadserie"]],
 		"Sci-fi/Fantasy":[
 			["serie/soap", "sciencefictionserie"],
