@@ -752,7 +752,6 @@
 			"0-12": "wdrfernsehen",
 			"0-15": "laune",
 			"0-16": "ladeux",
-			"0-19": "eurosport",
 			"0-21": "cartoonnetwork",
 			"0-26": "cnn",
 			"0-29": "discoverychannel",
@@ -966,7 +965,7 @@
 		"8-tv5-monde":"TV5 Monde FBS",
 		"12-22":"R Omrop Fryslân"},
 	"prime_source_order":[2,4,10,12,7,3,5,1,9,6,8,11],
-	"sourceid_order":[3, 9, 1, 2, 4, 7, 5, 6, 8, 10, 12, 11],
+	"sourceid_order":[3, 1, 10, 6, 5, 2, 4, 7, 9, 8, 11, 12],
 	"detail_sources":[3, 9, 1],
 	"prime_source_groups":{
 		"2":6,
