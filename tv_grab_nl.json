@@ -982,6 +982,7 @@
 		"0-5":10,
 		"0-6":10,
 		"0-17":5,
+		"0-18":3,
 		"0-25":5,
 		"0-29":5,
 		"0-34":3,
@@ -1009,6 +1010,7 @@
 		"1-sport1-extra-2":5,
 		"1-nickelodeon":3,
 		"1-veronica":5,
+		"1-zappelin":3,
 		"virtual-veronica":3},
 	"channel_groups":{
 		"0":"Actieve Zenders",
