@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":2,
+	"version":3,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -146,7 +146,7 @@
 			"new":{"varid":23},
 			"genres":{"varid":24}
 			}},
-	"no_genric_matching":["30", "32", "34"],
+	"no_genric_matching":["30", "32", "34", "59"],
 	"empty_channels":[],
 	"cattrans":{
 		"nieuws":{

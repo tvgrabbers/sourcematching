@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":6,
+	"version":7,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -232,8 +232,11 @@
 				["datum","tijd","twitter hashtag","uitzending gemist","deel-url","officiële twitter",
 					"officiële website","genre","jaar","acteurs","imdb","kijkwijzer"]]}
 				}},
-	"no_genric_matching":["nederland-1", "nederland-2", "nederland-3", "rtl-4", "rtl-5", "rtl-7", "rtl-8", "net-5",
-			"rtv-west", "comedy-central", "disney-xd", "fox", "sport1-racing", "sport-1-extra-1", "sport1-extra-2"],
+	"no_genric_matching":["101-tv", "bravatv", "comedy-central", "cultura-24", "disney-channel", "disney-xd", "eredivisie-live",
+			"eredivisie-live-3", "eredivisie-live-4", "fox", "investigation-discovery", "ketnet-canvas-2",
+			"journaal-24", "mtv", "nederland-1", "nederland-2", "nederland-3", "net-5", "nickelodeon",
+			"politiek-24", "rtl-4", "rtl-5", "rtl-7", "rtl-8", "rtl-crime", "rtl-lounge", "rtl-telekids",
+			"rtl-z", "rtv-west", "sport1-racing", "sport-1-extra-1", "sport1-extra-2", "tlc", "zappelin"],
 	"empty_channels":["13th-street", "bbc-hd", "best-24", "history-hd", "la-une-hd", "nat-geo-hd", 
 			"tf1-hd", "vtm-hd", "life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "syfy", "virgin-1"],
 	"cattrans_keywords":{

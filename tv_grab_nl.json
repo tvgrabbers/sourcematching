@@ -21,22 +21,22 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":12,
+			"version":13,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
 			"json file":"source-humo.be",
-			"version":2,
+			"version":3,
 			"cattrans type":1,
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":3,
+			"version":4,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
 			"json file":"source-npo.nl",
-			"version":3,
+			"version":4,
 			"cattrans type":1,
 			"cattransid":1},
 		"12":{
@@ -46,7 +46,7 @@
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":4,
+			"version":5,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
@@ -56,17 +56,17 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":7,
+			"version":8,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":6,
+			"version":7,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":9,
+			"version":10,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
@@ -516,6 +516,7 @@
 			"5-24443943118": "24443943118",
 			"5-24443943126": "24443943126",
 			"5-24443943129": "24443943129",
+			"5-24443943133": "24443943133",
 			"5-24443943135": "24443943135",
 			"5-24443943138": "24443943138",
 			"5-24443943145": "728310311064",

@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":7,
+	"version":8,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -313,7 +313,8 @@
 			"rating":{"funcid":104, "data":[{"varid":5},"as_list"]},
 			"source": {"value":"tvgids.nl"}}},
 	"no_genric_matching":[
-		"1", "2", "3", "4", "31", "40", "46", "91", "92", "103", "108", "109", "113", "114", "311", "420", "438"],
+		"1", "2", "3", "4", "25", "29", "31", "40", "46", "70", "91", "92", "103", "108", "109", "113", "114",
+		"304", "311", "313", "408", "409", "410", "440", "465", "467"],
 	"empty_channels":[
 		"65","83","308","309","310","401","403","412","434"],
 	"cattrans":{
