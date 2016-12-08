@@ -6,8 +6,8 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":3,
-	"api-version":[1,0,0],
+	"version":4,
+	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
 	"channels":{
@@ -113,7 +113,7 @@
 					{"tag":"div", "attrs":{"class":"pgBlokZender"}},
 					{"tag":"div", "attrs":{"class":"pgMenuInhoud"}},
 					{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "notattrs":{"style":"text-indent: 0px;"}},
-					{"tag":"b"}
+					{"tag":"b", "index": 0}
 						],
 				"values":[
 					[{"path":"parent"},
@@ -126,12 +126,12 @@
 						{"path":"parent"}, 
 						{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "index":{"link":1,"calc":["plus",1]},"type":"time"}],
 					[{"path":"parent", "split":[["-",1]],"type":"time"}],
-					[{"path":"parent"},
-						{"tag":"br", "select":"tail"}],
+					[{"path":"parent", "select": "inclusive text"}],
 					[{"path":"parent"},
 						{"tag":"img", "attrs":{"alt":"herhaling"},"select":"presence"}],
 					[{"path":"parent"},
-						{"tag":"img", "attrs":{"alt":"nonstop"},"select":"presence"}]
+						{"tag":"img", "attrs":{"alt":"nonstop"},"select":"presence"}],
+					[{"path":"parent"}]
 					]}]},
 		"values":{
 			"channelid":{"varid": 1},
@@ -144,6 +144,7 @@
 			"genre":{"funcid":7, "data":[{"varid":7},"muziek",{"funcid": 105, "data":[
 					{"muziek": "muziek", "nieuws": "nieuws/actualiteiten", "sport": "sport", "actualiteiten": "nieuws/actualiteiten"}, 
 					{"varid":5}, {"varid":0}], "default": "overige"}]},
+			"--description--":{"funcid":109, "data":[{"funcid":109, "data":[{"varid": 5},{"varid": 8}]},{"varid": 0}]},
 			"description":{"varid":5}}},
 	"no_genric_matching":[],
 	"empty_channels":[],
