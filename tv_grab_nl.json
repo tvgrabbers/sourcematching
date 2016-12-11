@@ -1048,6 +1048,10 @@
 		"14":"en",
 		"99":"en"},
 	"group_order":[0,1,2,3,4,5,6,15,16,7,8,9,14,10,11,12,17,13,99],
+	"override_groups":{
+		"1":[7],
+		"2":[9],
+		"17":[11]},
 	"ttvdb disable groups":[6, 8, 11, 12, 13, 15, 16, 17],
 	"ttvdb langs":["nl","en"],
 	"channel_grouping":{
