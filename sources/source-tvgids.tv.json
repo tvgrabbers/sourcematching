@@ -6,11 +6,11 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":7,
+	"version":8,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
-	"night-date-switch":5,
+	"night-date-switch":6,
 	"channels":{
 		"url":["http://www.tvgids.tv/zenders/"],
 		"data-format":"text/html",
