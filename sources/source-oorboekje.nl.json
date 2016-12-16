@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":4,
+	"version":5,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -144,8 +144,7 @@
 			"genre":{"funcid":7, "data":[{"varid":7},"muziek",{"funcid": 105, "data":[
 					{"muziek": "muziek", "nieuws": "nieuws/actualiteiten", "sport": "sport", "actualiteiten": "nieuws/actualiteiten"}, 
 					{"varid":5}, {"varid":0}], "default": "overige"}]},
-			"--description--":{"funcid":109, "data":[{"funcid":109, "data":[{"varid": 5},{"varid": 8}]},{"varid": 0}]},
-			"description":{"varid":5}}},
+			"description":{"funcid":109, "data":[{"funcid":109, "data":[{"varid": 5},{"varid": 8}]},{"varid": 0}]}}},
 	"no_genric_matching":[],
 	"empty_channels":[],
 	"cattrans":{},
