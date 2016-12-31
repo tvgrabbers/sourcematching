@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":8,
+	"version":9,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -232,13 +232,17 @@
 				["datum","tijd","twitter hashtag","uitzending gemist","deel-url","officiële twitter",
 					"officiële website","genre","jaar","acteurs","imdb","kijkwijzer"]]}
 				}},
-	"no_genric_matching":["101-tv", "bravatv", "comedy-central", "cultura-24", "disney-channel", "disney-xd", "eredivisie-live",
-			"eredivisie-live-3", "eredivisie-live-4", "fox", "investigation-discovery", "ketnet-canvas-2",
-			"journaal-24", "mtv", "nederland-1", "nederland-2", "nederland-3", "net-5", "nickelodeon",
-			"politiek-24", "rtl-4", "rtl-5", "rtl-7", "rtl-8", "rtl-crime", "rtl-lounge", "rtl-telekids",
-			"rtl-z", "rtv-west", "sport1-racing", "sport-1-extra-1", "sport1-extra-2", "tlc", "zappelin"],
-	"empty_channels":["13th-street", "bbc-hd", "best-24", "history-hd", "la-une-hd", "nat-geo-hd", 
-			"tf1-hd", "vtm-hd", "life-tv", "canal-z", "vtmkzoom-2", "ketnet-op12", "syfy", "virgin-1"],
+	"no_genric_matching":[
+			"101-tv", "bravatv", "comedy-central", "cultura-24", "disney-channel", "disney-xd", "een",
+			"eredivisie-live", "eredivisie-live-3", "eredivisie-live-4", "fox", "investigation-discovery",
+			"ketnet-canvas-2", "journaal-24", "mtv", "nederland-1", "nederland-2", "nederland-3", "net-5",
+			"nickelodeon", "nick-jr", "politiek-24", "rtl-4", "rtl-5", "rtl-7", "rtl-8", "rtl-crime",
+			"rtl-lounge", "rtl-telekids", "rtl-z", "rtv-west", "sport1-racing", "sport-1-extra-1",
+			"sport1-extra-2", "tlc", "zappelin"],
+	"empty_channels":[
+			"13th-street", "bbc-hd", "best-24", "canal-z", "foxlife", "hbo", "hbo-2", "hbo-3",
+			"history-hd", "ketnet-op12", "la-une-hd", "life-tv", "nat-geo-hd", "syfy",
+			"tf1-hd", "virgin-1", "vtm-hd", "vtmkzoom-2"],
 	"cattrans_keywords":{
 		"jeugd":"Jeugd",
 		"muziek":"Muziek",

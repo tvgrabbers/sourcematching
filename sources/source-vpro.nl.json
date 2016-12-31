@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":10,
+	"version":11,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -163,10 +163,13 @@
 			"season":{"varid": 6, "regex":"Seizoen\\s*(\\d*)", "type":"int", "default":null},
 			"premiere year":{"varid": 6, "regex":"uit (\\d{4})", "default":null}
 			}},
-	"no_genric_matching":["3fm", "comedy_central", "discovery_channel", "national_geographic", "npo_1", "npo_2", "npo_3",
-			"npo_cultura", "radio_1", "radio_2", "radio_4", "radio_5", "radio_538", "radio_veronica",
-			"rtl_4", "rtl_5", "rtl_7", "rtl_8", "slam_fm"],
-	"empty_channels":["radio_6", "13th_street", "tcm", "syfy", "bbc_three___cbbc", "film_1", "amc"],
+	"no_genric_matching":[
+			"3fm", "comedy_central", "discovery_channel", "een", "ketnet", "national_geographic",
+			"npo_1", "npo_2", "npo_3", "npo_cultura", "radio_1", "radio_2", "radio_4", "radio_5",
+			"radio_538", "radio_veronica", "rtl_4", "rtl_5", "rtl_7", "rtl_8", "slam_fm"],
+	"empty_channels":[
+			"13th_street", "amc", "bbc_three___cbbc", "film_1", "fox_live", "hbo_1", "radio_6",
+			"syfy", "tcm"],
 	"cattrans":{
         "g3011":{
 			"default":["jeugd", ""],
