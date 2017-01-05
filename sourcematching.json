@@ -888,7 +888,8 @@
 			"12-65": "radio-nl",
 			"12-67": "qmusic-limburg",
 			"12-70": "ujala-radio",
-			"12-71": "radio-8fm-randstad"}},
+			"12-71": "radio-8fm-randstad",
+			"12-groot-nieuws-radio":"groot-nieuws-radio"}},
 	"channel_rename":{
 		"0-7":"BBC One England",
 		"0-8":"BBC Two",
