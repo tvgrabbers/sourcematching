@@ -209,7 +209,7 @@
 	"no_genric_matching":["een", "eenplus", "ketnet", "mtv", "npo1", "npo2", "npo3"],
 	"empty_channels":[
 			"bbc1", "bbc3", "bbc4", "bbc-world", "net5", "prime-action", "prime-family", "prime-fezztival",
-			"prime-star", "sbs6", "sundance-channel", "sundance-tv", "tv5", "veronica"],
+			"prime-star", "prime-series", "sbs6", "sundance-channel", "sundance-tv", "tv5", "veronica"],
 	"cattrans":{},
 	"rating":{}}
 
