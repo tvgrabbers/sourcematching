@@ -1,11 +1,12 @@
 {"description":[
 	"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
 	"Vanaf versie 2.2.7 vanaf de huidige locatie."],
-	"data_version":"30",
+	"data_version":"31",
 	"program_version":"2.2.20",
 	"version_message":["With some updates enabling us to beter react to changes on the sources.\n",
 		"without any need for you to upgrade.\n"],
 	"warning_message_2":{
+		"31":["Wild FM changed name to Wild Hitradio.\n"],
 		"30":["PRIME is now Play More.\n"],
 		"29":["HBO and Fox Life have closed.\n",
 			"Omroep Brabant is now 24/7 on Canal Digitaal, use 0-114.\n"],
@@ -884,7 +885,7 @@
 			"12-48": "radio-8fm-zuid",
 			"12-52": "puur-nl",
 			"4-298": "funx",
-			"12-61": "wild-fm",
+			"12-61": "wild-hitradio",
 			"7-classic_fm": "classic-fm",
 			"12-65": "radio-nl",
 			"12-67": "qmusic-limburg",
