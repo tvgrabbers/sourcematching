@@ -1301,8 +1301,8 @@
 			{"chanid": "0-311", "start": "4:00", "end": "18:00", "slots": ["disney xd"]}],
 		"1-ketnet-canvas-2": ["8-ketnet", "8-eenplus"],
 		"1-nickelodeon": [
-			{"chanid": "0-89", "start": "2:30", "end": "21:00"}, 
-			{"chanid": "0-467", "start": "21:00", "end": "2:30"}],
+			{"chanid": "0-89", "start": "5:00", "end": "21:05"}, 
+			{"chanid": "0-467", "start": "21:05", "end": "5:00"}],
 		"1-zappelin": [
 			{"chanid": "4-288", "start": "4:00", "end": "20:00"},
 			{"chanid": "4-283", "start": "20:00", "end": "4:00"}],
