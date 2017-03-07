@@ -6,7 +6,7 @@
 	"name":"primo.eu",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":5,
+	"version":6,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -20,6 +20,8 @@
 		"url-date-format": "%d-%m-%Y",
 		"autoclose-tags":["meta", "link"],
 		"datetimestring":"%Y-%m-%d %H:%M:%S",
+		"text_replace":[
+			["<!--Nitin's code : drop down for responsiveness --!>", ""]],
 		"data":{
 			"init-path":[
 				{"tag":"html"},
@@ -73,6 +75,8 @@
 		"value-filters":{
 			"channelid":[]
 			},
+		"text_replace":[
+			["<!--Nitin's code : drop down for responsiveness --!>", ""]],
 		"data":{
 			"init-path":[
 				{"tag":"html"},
@@ -145,6 +149,8 @@
 		"date-splitter":"-",
 		"date-sequence":["d", "m", "y"],
 		"time-splitter":"u",
+		"text_replace":[
+			["<!--Nitin's code : drop down for responsiveness --!>", ""]],
 		"data":{
 			"init-path":[{"tag":"html"},
 				{"tag":"div", "attrs":{"class":"program-details"}}],
