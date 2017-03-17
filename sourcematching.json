@@ -1809,10 +1809,7 @@
 		"8":[
 			["<img (.*?)\"\\s*>","<img \\g<1>\"/>"]],
 		"9":[
-			["<!--Nitin's code : drop down for responsiveness --!>", ""],
-			["<div class=\"drop_down\"style=\"\">", "<div class=\"drop_downstyle=\">"],
-			["<img class=\"button\"  src=\"/sites/all/themes/primo/images/menu.png\"/></img>", 
-			"<img class=\"button\"  src=\"/sites/all/themes/primo/images/menu.png\"/>"]],
+			["<!--Nitin's code : drop down for responsiveness --!>(.*?)<div id=\"main\">", "<div id=\"main\">"]],
 		"10":[],
 		"11":[],
 		"12":[]},
