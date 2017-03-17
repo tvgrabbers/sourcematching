@@ -1808,7 +1808,8 @@
 			["class=\"epg-available-days *?primary-border-color\"","class=\"epg-available-days\""]],
 		"8":[
 			["<img (.*?)\"\\s*>","<img \\g<1>\"/>"]],
-		"9":[],
+		"9":[
+			["<!--Nitin's code : drop down for responsiveness --!>", ""]],
 		"10":[],
 		"11":[],
 		"12":[]},
