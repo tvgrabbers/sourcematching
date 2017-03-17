@@ -2,9 +2,9 @@
 	"Dit bestand wordt vanaf versie 2.2.6 door configure van github gedownload en hoeft niet lokaal bewaard te worden",
 	"Vanaf versie 2.2.7 vanaf de huidige locatie."],
 	"data_version":"31",
-	"program_version":"2.2.20",
-	"version_message":["With some updates enabling us to beter react to changes on the sources.\n",
-		"without any need for you to upgrade.\n"],
+	"program_version":"2.2.21",
+	"version_message":["A probably last 2.2 update, moving some more things to sourcematching.\n",
+		"so we can some longer react to source changes.\n"],
 	"warning_message_2":{
 		"31":["Wild FM changed name to Wild Hitradio.\n"],
 		"30":["PRIME is now Play More.\n"],
