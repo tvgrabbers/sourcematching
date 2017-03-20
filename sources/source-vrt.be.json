@@ -85,7 +85,7 @@
 				[{"key":"standardGenres"},
 					{"key":0, "childkeys":{"type": "DVB"}},
 					{"key":"name", "split": [">",1]}],
-				[{"key":"duration"}],
+				[{"key":"duration","multiplier":60, "type":"timedelta"}],
 				[{"key":"type","default":"","--remark--":["Volatiel","Aflevering","Program","Film","Weerbericht","Kansspelen","","","","",""]}]]},
 		"values":{
 			"channelid":{"varid": 1},
