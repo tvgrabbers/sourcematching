@@ -6,7 +6,7 @@
 	"name":"vrt.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":3,
+	"version":4,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -85,12 +85,14 @@
 				[{"key":"standardGenres"},
 					{"key":0, "childkeys":{"type": "DVB"}},
 					{"key":"name", "split": [">",1]}],
+				[{"key":"duration"}],
 				[{"key":"type","default":"","--remark--":["Volatiel","Aflevering","Program","Film","Weerbericht","Kansspelen","","","","",""]}]]},
 		"values":{
 			"channelid":{"varid": 1},
 			"prog_ID":{"varid":0},
 			"start-time":{"varid":2},
 			"stop-time":{"varid":3},
+			"length":{"varid":21},
 			"name":{"varid":4},
 			"episode title":{"varid":5},
 			"season":{"varid":6},
