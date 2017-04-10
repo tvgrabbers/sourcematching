@@ -88,7 +88,8 @@
 		"Bordertown":{"name":"Bordertown (2016)","tid":275120},
 		"Sirens":{"name":"Sirens (2014)","tid":269897},
 		"The Comedians":{"name":"The Comedians (2015)","tid":290176},
-		"Dallas":{"name":"Dallas (2012)","tid":242521}},
+		"Dallas":{"name":"Dallas (2012)","tid":242521},
+		"MacGyver":{"name":"MacGyver (2016)","tid":311902}},
 	"coutrytrans":{
 		"ARE":"AE",
 		"VAE":"AE",
