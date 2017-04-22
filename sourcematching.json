@@ -1603,7 +1603,6 @@
 		"Mars":"Mars (2016)",
 		"Caspers Griezelschool":"Casper's Scare School",
 		"De Avonturen van Tom & Jerry":"Tom and Jerry",
-		"De ZhuZhu's":"Polly and the ZhuZhu Pets",
 		"Disney's Lilo & Stitch":"Lilo & Stitch. The Series",
 		"Krypto: The Super Dog":"Krypto: the Superdog",
 		"Lilo & Stitch":"Lilo & Stitch. The Series",
@@ -1612,9 +1611,7 @@
 		"Oggy en de kakkerlakken":"Oggy and the Cockroaches",
 		"Pink Panther and Pals":"Pink Panther & Pals",
 		"Pokemon XYZ - Een reis door onbekend gebied":"Pokémon",
-		"The ZhuZhu's":"Polly and the ZhuZhu Pets",
-		"The Matt Hatter Chronicles":"matt hatter chronicles",
-		"Wordt u al geholpen?":"Are You Being Served?"},
+		"The Matt Hatter Chronicles":"matt hatter chronicles"},
 	"generic_channel_genres":{
 		"muziek":["4-293", "4-294", "4-295", "4-297", "4-298", "7-arrow_classic_rock", "7-classic_fm", "7-q-music", 
 			"7-radio_538", "7-radio_veronica", "7-slam_fm", "7-sky_radio", "7-klara", "10-32", "10-41", 
