@@ -86,7 +86,7 @@
 			"version":5,
 			"cattrans type":null,
 			"cattransid":null}},
-	"active_sources":[7,3,5,9,6,8,2,4,10,11,12],
+	"active_sources":[7,3,5,9,6,8,2,4,10,11],
 	"source_channels":{
 		"3":{"0-1": "1",
 			"0-2": "2",
