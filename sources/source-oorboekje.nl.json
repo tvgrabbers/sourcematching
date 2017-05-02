@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":5,
+	"version":6,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -22,7 +22,6 @@
 			"init-path":[
 				{"tag":"html"},
 				{"tag":"body"},
-				{"tag":"div", "attrs":{"style":null}},
 				{"tag":"table"}
 				],
 			"iter":[
@@ -75,7 +74,7 @@
 					{"tag":"div", "attrs":{"class":"pgBlokZender"},"attr":"id","type":"lower-ascii"}],
 				"values":[
 					[{"tag":"div", "attrs":{"class":"pgMenuKop"}},
-						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii","member-off":"channelid"}],
+						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii"}],
 					[{"tag":"div", "attrs":{"class":"pgMenuKop"}},
 						{"tag":"div", "attrs":{"style":null}},
 						{"tag":"img","select":"tail"}],
