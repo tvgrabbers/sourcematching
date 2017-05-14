@@ -6,7 +6,7 @@
 	"name":"thetvdb.v1",
 	"language":"en",
 	"site-timezone":"UTC",
-	"version":3,
+	"version":4,
 	"api-version":[1,0,5],
 	"seriesid":{
 		"url":["http://www.thetvdb.com/api/GetSeries.php"],
@@ -26,6 +26,17 @@
 				{"tag":"Series"},
 				{"tag":"seriesid", "type":"int"}
 				],
+			"values2":[
+				[{"path":"parent", "node":1},{"tag":"language"}],
+				[{"path":1},{"tag":"SeriesName"}],
+				[{"path":1},{"tag":"AliasNames","type":"str-list", "omit-empty-list-items": true}],
+				[{"path":1},{"tag":"banner"}],
+				[{"path":1},{"tag":"Overview"}],
+				[{"path":1},{"tag":"FirstAired", "type":"date"}],
+				[{"path":1},{"tag":"Network"}],
+				[{"path":1},{"tag":"IMDB_ID"}],
+				[{"path":1},{"tag":"zap2it_id"}],
+				[{"path":1},{"tag":"id", "type":"int"}]],
 			"values":[
 				[{"path":"parent"},{"tag":"language"}],
 				[{"path":"parent"},{"tag":"SeriesName"}],
@@ -67,6 +78,11 @@
 				{"tag":"Series"},
 				{"tag":"id", "type":"int"}
 				],
+			"values2":[
+				[{"path":"parent", "node":1},{"tag":"Language"}],
+				[{"path":1},{"tag":"SeriesName"}],
+				[{"path":1},{"tag":"FirstAired", "type":"date"}],
+				[{"path":1},{"tag":"lastupdated", "type":"timestamp"}]],
 			"values":[
 				[{"path":"parent"},{"tag":"Language"}],
 				[{"path":"parent"},{"tag":"SeriesName"}],
@@ -100,6 +116,19 @@
 				{"tag":"Series"},
 				{"tag":"id", "type":"int"}
 				],
+			"values2":[
+				[{"path":"parent", "node":1},{"tag":"Language"}],
+				[{"path":1},{"tag":"SeriesName"}],
+				[{"path":1},{"tag":"Genre","type":"str-list", "omit-empty-list-items": true}],
+				[{"path":1},{"tag":"Rating", "type":"float"}],
+				[{"path":1},{"tag":"RatingCount", "type":"int"}],
+				[{"path":1},{"tag":"Overview"}],
+				[{"path":1},{"tag":"Actors","type":"str-list", "omit-empty-list-items": true}],
+				[{"path":1},{"tag":"FirstAired", "type":"date"}],
+				[{"path":1},{"tag":"banner"}],
+				[{"path":1},{"tag":"fanart"}],
+				[{"path":1},{"tag":"poster"}],
+				[{"path":1},{"tag":"lastupdated", "type":"timestamp"}]],
 			"values":[
 				[{"path":"parent"},{"tag":"Language"}],
 				[{"path":"parent"},{"tag":"SeriesName"}],
@@ -147,6 +176,21 @@
 				{"tag":"Episode"},
 				{"tag":"id", "type":"int"}
 				],
+			"values2":[
+				[{"path":"parent", "node":1},{"tag":"Language"}],
+				[{"path":1},{"tag":"EpisodeName"}],
+				[{"path":1},{"tag":"SeasonNumber", "type":"int"}],
+				[{"path":1},{"tag":"EpisodeNumber", "type":"int"}],
+				[{"path":1},{"tag":"absolute_number", "type":"int"}],
+				[{"path":1},{"tag":"Overview"}],
+				[{"path":1},{"tag":"Rating", "type":"float"}],
+				[{"path":1},{"tag":"Director","type":"str-list", "omit-empty-list-items": true}],
+				[{"path":1},{"tag":"Writer","type":"str-list", "omit-empty-list-items": true}],
+				[{"path":1},{"tag":"GuestStars","type":"str-list", "omit-empty-list-items": true}],
+				[{"path":1},{"tag":"seasonid", "type":"int"}],
+				[{"path":1},{"tag":"seriesid", "type":"int"}],
+				[{"path":1},{"tag":"FirstAired", "type":"date"}],
+				[{"path":1},{"tag":"lastupdated", "type":"timestamp"}]],
 			"values":[
 				[{"path":"parent"},{"tag":"Language"}],
 				[{"path":"parent"},{"tag":"EpisodeName"}],

@@ -27,7 +27,7 @@
 	"ttvdb":{
 		"v1":{
 			"json file":"source-thetvdb.v1",
-			"version":3},
+			"version":4},
 		"v2":{
 			"json file":"source-thetvdb.v2",
 			"version":0}},
