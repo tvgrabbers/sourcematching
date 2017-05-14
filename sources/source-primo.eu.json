@@ -196,7 +196,7 @@
 			}},
 	"no_genric_matching":["discoverychannel", "disneyxd", "ketnet", "mtv", "npo1", "npo2", "npo3", "sbss6", "net5", "veronica"],
 	"empty_channels":["2be","acht","anne","bbc3","bbc4","bbcworld","culture7","jimtv","net5",
-			"sbss6","net5","veronica","sundancechannel", "sundancestv"],
+			"sbss6","veronica","sundancechannel", "sundancestv", "rtlplusinternational"],
 	"cattrans":{
         "nieuws":{
 			"default":["nieuws/actualiteiten", "nieuws"]},
