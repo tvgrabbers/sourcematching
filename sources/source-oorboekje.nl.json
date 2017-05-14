@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":6,
+	"version":7,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -24,13 +24,25 @@
 				{"tag":"body"},
 				{"tag":"table"}
 				],
-			"iter":[
-				{"key-path":[
+			"iter":[{
+				"key-path":[
 					{"tag":"tr"},
 					{"tag":"td", "attrs":{"class":"pgMenuInhoud"}},
 					{"tag":"p", "attrs":{"class":"pnZender"}},
 					{"tag":"img", "select":"tail"}
 					],
+				"values2":[
+					[{"path":"parent"},
+						{"path":"parent", "node": 1},
+						{"tag":"a", "attr":"href", "first":"","split":[["/",2]],"type":"lower-ascii"}],
+					[{"path":1},
+						{"path":"parent", "select":"index", "link":1},
+						{"path":"parent"},
+						{"tag":"tr", "index":{"link":1,"previous":""}},
+						{"tag":"td", "attrs":{"class":"pgMenuKopSub"}},
+						{"tag":"i"},
+						{"tag":"a", "attr":"name", "replace":{"a":11,"b":11,"c":17,"d":17}, "last":""}],
+					[{"attr":"src"}]],
 				"values":[
 					[{"path":"parent"},
 						{"path":"parent"},
@@ -72,6 +84,13 @@
 			"iter":[{
 				"key-path":[
 					{"tag":"div", "attrs":{"class":"pgBlokZender"},"attr":"id","type":"lower-ascii"}],
+				"values2":[
+					[{"tag":"div", "attrs":{"class":"pgMenuKop"}, "node": 1},
+						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii"}],
+					[{"path": 1},
+						{"tag":"div", "attrs":{"style":null}},
+						{"tag":"img", "node": 2,"select":"tail"}],
+					[{"path": 2,"attr":"src"}]],
 				"values":[
 					[{"tag":"div", "attrs":{"class":"pgMenuKop"}},
 						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii"}],
@@ -114,6 +133,23 @@
 					{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "notattrs":{"style":"text-indent: 0px;"}},
 					{"tag":"b", "index": 0}
 						],
+				"values2":[
+					[{"path":"parent", "node": 1},
+						{"path":"parent"},
+						{"path":"parent"},
+						{"tag":"div", "attrs":{"class":"pgMenuKop"}},
+						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii","member-off":"channelid"}],
+					[{"path":1, "split":[["-",0]],"type":"time"}],
+					[{"path":1, "select":"index", "link":1},
+						{"path":"parent"}, 
+						{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "index":{"link":1,"calc":["plus",1]},"type":"time"}],
+					[{"path":1, "split":[["-",1]],"type":"time"}],
+					[{"path":1, "select": "inclusive text"}],
+					[{"path":1},
+						{"tag":"img", "attrs":{"alt":"herhaling"},"select":"presence"}],
+					[{"path":1},
+						{"tag":"img", "attrs":{"alt":"nonstop"},"select":"presence"}],
+					[{"path":1}]],
 				"values":[
 					[{"path":"parent"},
 						{"path":"parent"},

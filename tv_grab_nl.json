@@ -28,57 +28,57 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":17,
+			"version":18,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
 			"json file":"source-humo.be",
-			"version":3,
+			"version":4,
 			"cattrans type":1,
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":5,
+			"version":6,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
 			"json file":"source-npo.nl",
-			"version":4,
+			"version":5,
 			"cattrans type":1,
 			"cattransid":1},
 		"12":{
 			"json file":"source-oorboekje.nl",
-			"version":6,
+			"version":7,
 			"cattrans type":null,
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":6,
+			"version":7,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
 			"json file":"source-rtl.nl",
-			"version":4,
+			"version":5,
 			"cattrans type":null,
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":10,
+			"version":11,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":9,
+			"version":10,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":12,
+			"version":13,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
 			"json file":"source-vrt.be",
-			"version":4,
+			"version":5,
 			"cattrans type":1,
 			"cattransid":7},
 		"11":{

@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":4,
+	"version":5,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -31,6 +31,10 @@
 					{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
 					{"tag":"div", "attrs":{"class":"channel-icon"}},
 					{"tag":"a", "attr":"alt", "lstrip":"Logo van "}],
+				"values2":[
+					[{"value":1}],
+					[{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},"attr":"style", "split":[["/",-3]], "node": 1}],
+					[{"path": 1,	"attr":"style", "sub":["background-image: url\\('","http:"], "rstrip":"')"}]],
 				"values":[
 					[{"value":1}],
 					[{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},"attr":"style", "split":[["/",-3]]}],
@@ -43,8 +47,11 @@
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
 					{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
 					{"tag":"div", "attrs":{"class":"channel-icon"}},
-					{"tag":"a", "attr":"alt", "lstrip":"Logo van "}
-					],
+					{"tag":"a", "attr":"alt", "lstrip":"Logo van "}],
+				"values2":[
+					[{"value":1}],
+					[{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},"attr":"style", "split":[["/",-3]], "node": 1}],
+					[{"path": 1,	"attr":"style", "sub":["background-image: url\\('","http:"], "rstrip":"')"}]],
 				"values":[
 					[{"value":1}],
 					[{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},"attr":"style", "split":[["/",-3]]}],
@@ -57,21 +64,18 @@
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
 					{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
 					{"tag":"div", "attrs":{"class":"channel-icon"}},
-					{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper no-shadow"}, "attr":"title"}
-					],
+					{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper no-shadow"}, "attr":"title"}],
 				"values":[
 					[{"value":6}],
 					[{"attr":"style", "split":[["/",-3]]}],
-					[{"attr":"style", "sub":["background-image: url\\('","http:"], "rstrip":"')"}]
-					]},
+					[{"attr":"style", "sub":["background-image: url\\('","http:"], "rstrip":"')"}]]},
 				{"key-path":[
 					{"tag":"div", "attrs":{"id":"radio-guide"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
 					{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
 					{"tag":"div", "attrs":{"class":"channel-icon"}},
-					{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper no-shadow"}, "attr":"title"}
-					],
+					{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper no-shadow"}, "attr":"title"}],
 				"values":[
 					[{"value":11}],
 					[{"attr":"style", "split":[["/",-3]]}],
@@ -113,6 +117,23 @@
 					{"tag":"div"},
 					{"tag":"a","attr":"data-time","split":[["-",0]],"type":"time"}
 					],
+				"values2":[
+					[{"path":"parent","select":"index", "link":1},
+						{"path":"parent"},
+						{"path":"parent"},
+						{"path":"parent"},
+						{"path":"parent", "node": 1},
+						{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
+						{"tag":"div", "attrs":{"class":"channel-icon"}, "index":{"link":1}},
+						{"tag":"a"},
+						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},"attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
+					[{"attr":"data-time","split":[["-",1]],"type":"time"}],
+					[{"tag":"i", "attrs":{"class":"np"},"select":"tail"}],
+					[{"path":1,"attr":"data-start","split":[["\\s*",1,2,3]],
+							"type":"date","date-sequence":["d","m","y"],"date-splitter":" "}],
+					[{"tag":"span","lstrip":"(","rstrip":")"}],
+					[{"attr":"data-genre","split":[",", "list-all"]}],
+					[{"attr":"href","split":[["/",-1]]}]],
 				"values":[
 					[{"path":"parent","select":"index", "link":1},
 						{"path":"parent"},
@@ -145,6 +166,22 @@
 					{"tag":"div"},
 					{"tag":"a","attr":"data-time","split":[["-",0]],"type":"time"}
 					],
+				"values2":[
+					[{"path":"parent","select":"index", "link":1},
+						{"path":"parent"},
+						{"path":"parent"},
+						{"path":"parent"},
+						{"path":"parent", "node": 1},
+						{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
+						{"tag":"div", "attrs":{"class":"channel-icon"}, "index":{"link":1}},
+						{"tag":"a"},
+						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},"attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
+					[{"attr":"data-time","split":[["-",1]],"type":"time"}],
+					[{"tag":"i", "attrs":{"class":"np"},"select":"tail"}],
+					[{"path":1,"attr":"data-start","split":[["\\s*",0]], "type":"date"}],
+					[{"tag":"span","lstrip":"(","rstrip":")"}],
+					[{"attr":"data-genre","split":[",", "list-all"]}],
+					[{"attr":"href","split":[["/",-1]]}]],
 				"values":[
 					[{"path":"parent","select":"index", "link":1},
 						{"path":"parent"},
@@ -176,6 +213,21 @@
 					{"tag":"div"},
 					{"tag":"a","attr":"data-time","split":[["-",0]],"type":"time"}
 					],
+				"values2":[
+					[{"path":"parent","select":"index", "link":1},
+						{"path":"parent"},
+						{"path":"parent"},
+						{"path":"parent"},
+						{"path":"parent", "node": 1},
+						{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
+						{"tag":"div", "attrs":{"class":"channel-icon"}, "index":{"link":1}},
+						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper no-shadow"},"attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
+					[{"attr":"data-time","split":[["-",1]],"type":"time"}],
+					[{"tag":"i", "attrs":{"class":"np"},"select":"tail"}],
+					[{"path":1,"attr":"data-start","split":[["\\s*",0]], "type":"date"}],
+					[],
+					[{"attr":"data-genre","split":[",", "list-all"]}],
+					[{"attr":"href","split":[["/",-1]]}]],
 				"values":[
 					[{"path":"parent","select":"index", "link":1},
 						{"path":"parent"},
@@ -206,6 +258,21 @@
 					{"tag":"div"},
 					{"tag":"a","attr":"data-time","split":[["-",0]],"type":"time"}
 					],
+				"values2":[
+					[{"path":"parent","select":"index", "link":1},
+						{"path":"parent"},
+						{"path":"parent"},
+						{"path":"parent"},
+						{"path":"parent", "node": 1},
+						{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
+						{"tag":"div", "attrs":{"class":"channel-icon"}, "index":{"link":1}},
+						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper no-shadow"}, "attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
+					[{"attr":"data-time","split":[["-",1]],"type":"time"}],
+					[{"tag":"i", "attrs":{"class":"np"},"select":"tail"}],
+					[{"path":1,"attr":"data-start","split":[["\\s*",0]], "type":"date"}],
+					[{"tag":"span","lstrip":"(","rstrip":")"}],
+					[{"attr":"data-genre","split":[",", "list-all"]}],
+					[{"attr":"href","split":[["/",-1]]}]],
 				"values":[
 					[{"path":"parent","select":"index", "link":1},
 						{"path":"parent"},
