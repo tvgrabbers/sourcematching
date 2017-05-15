@@ -1872,7 +1872,8 @@
 			["<!--Nitin's code : drop down for responsiveness --!>(.*?)<div id=\"main\">", "<div id=\"main\">"]],
 		"10":[],
 		"11":[],
-		"12":[]},
+		"12":[
+			["class=\"pnZender pnZenderVoorpagina\"", "class=\"pnZender\""]]},
 	"unquote_html":{
 		"0":[],
 		"1":[],
