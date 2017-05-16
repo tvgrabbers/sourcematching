@@ -6,7 +6,7 @@
 	"name":"thetvdb.v1",
 	"language":"en",
 	"site-timezone":"UTC",
-	"version":4,
+	"version":5,
 	"api-version":[1,0,5],
 	"seriesid":{
 		"url":["http://www.thetvdb.com/api/GetSeries.php"],
@@ -23,11 +23,11 @@
 		"data":{
 			"key-path":[
 				{"tag":"Data"},
-				{"tag":"Series"},
+				{"tag":"Series", "node":1},
 				{"tag":"seriesid", "type":"int"}
 				],
 			"values2":[
-				[{"path":"parent", "node":1},{"tag":"language"}],
+				[{"path":1},{"tag":"language"}],
 				[{"path":1},{"tag":"SeriesName"}],
 				[{"path":1},{"tag":"AliasNames","type":"str-list", "omit-empty-list-items": true}],
 				[{"path":1},{"tag":"banner"}],
@@ -75,11 +75,11 @@
 		"data":{
 			"key-path":[
 				{"tag":"Data"},
-				{"tag":"Series"},
+				{"tag":"Series", "node":1},
 				{"tag":"id", "type":"int"}
 				],
 			"values2":[
-				[{"path":"parent", "node":1},{"tag":"Language"}],
+				[{"path":1},{"tag":"Language"}],
 				[{"path":1},{"tag":"SeriesName"}],
 				[{"path":1},{"tag":"FirstAired", "type":"date"}],
 				[{"path":1},{"tag":"lastupdated", "type":"timestamp"}]],
@@ -113,11 +113,11 @@
 		"data":{
 			"key-path":[
 				{"tag":"Data"},
-				{"tag":"Series"},
+				{"tag":"Series", "node":1},
 				{"tag":"id", "type":"int"}
 				],
 			"values2":[
-				[{"path":"parent", "node":1},{"tag":"Language"}],
+				[{"path":1},{"tag":"Language"}],
 				[{"path":1},{"tag":"SeriesName"}],
 				[{"path":1},{"tag":"Genre","type":"str-list", "omit-empty-list-items": true}],
 				[{"path":1},{"tag":"Rating", "type":"float"}],
@@ -173,11 +173,11 @@
 		"data":{
 			"key-path":[
 				{"tag":"Data"},
-				{"tag":"Episode"},
+				{"tag":"Episode", "node":1},
 				{"tag":"id", "type":"int"}
 				],
 			"values2":[
-				[{"path":"parent", "node":1},{"tag":"Language"}],
+				[{"path":1},{"tag":"Language"}],
 				[{"path":1},{"tag":"EpisodeName"}],
 				[{"path":1},{"tag":"SeasonNumber", "type":"int"}],
 				[{"path":1},{"tag":"EpisodeNumber", "type":"int"}],

@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":11,
+	"version":12,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -90,18 +90,17 @@
 				{"tag":"html"},
 				{"tag":"body"},
 				{"tag":"div", "attrs":{"class":"container pagecontainer"}},
-				{"tag":"div", "attrs":{"class":"row"}},
-				{"tag":"div", "attrs":{"class":"col-md-8"}}
+				{"tag":"div", "attrs":{"class":"row"}}
 				],
-			"iter":[
-				{
+			"iter":[{
 				"key-path":[
-					{"tag":"div", "attrs":{"class":"programmering"}},
+					{"tag":"div", "attrs":{"class":"col-md-8"}, "node": 4},
+					{"tag":"div", "attrs":{"class":"programmering"}, "node": 1},
 					{"tag":"h1", "select":"text"}],
 				"values2":[
 					[{"tag":"span"},
 						{"tag":"sup", "select":"text","lstrip":"(","rstrip":")"}],
-					[{"path": "parent", "node": 1},
+					[{"path": 1},
 						{"tag":"div", "attrs":{"class":"programmering_details"}},
 						{"tag":"ul", "node": 2},
 						{"tag":"li", "attrs":{"class":"datum_tijd"}, "node": 3, "select":"text","split":[[",",0]],"type":"date"}],
@@ -110,8 +109,7 @@
 					[{"path": 2},
 						{"tag":"li", "attrs":{"class":"zender"}},
 						{"tag":"img", "attr":"src","split":[["/",-1],["\\.",0]]}],
-					[{"path": 1},
-						{"path": "parent", "node": 4},
+					[{"path": 4},
 						{"tag":"div", "attrs":{"class":"programmering_info_detail"}},
 						{"tag":"ul"},
 						{"tag":"li", "node": 5},
@@ -171,16 +169,17 @@
 						{"tag":"p", "attrs":{"class":"summary"}, "select":"inclusive text", "exclude":["span"]}],
 					[{"path": "parent"},
 						{"path": "parent"},
-						{"tag":"p", "attrs":{"class":{"not":["summary"]}}, "select":"inclusive text", "exclude":["span"]}]]},
-				{
+						{"tag":"p", "attrs":{"class":{"not":["summary"]}}, "select":"inclusive text", "exclude":["span"]}]]
+					},{
 				"key-path":[
-					{"tag":"div", "attrs":{"id":"prog-content"}},
-					{"tag":"div", "attrs":{"class":"programmering"}},
+					{"tag":"div", "attrs":{"class":"col-md-8"}},
+					{"tag":"div", "attrs":{"id":"prog-content"}, "node": 4},
+					{"tag":"div", "attrs":{"class":"programmering", "node": 1}},
 					{"tag":"h1", "select":"text"}],
 				"values2":[
 					[{"tag":"span"},
 						{"tag":"sup", "select":"text","lstrip":"(","rstrip":")"}],
-					[{"path": "parent", "node": 1},
+					[{"path": 1},
 						{"tag":"div", "attrs":{"class":"programmering_details"}},
 						{"tag":"ul", "node": 2},
 						{"tag":"li", "attrs":{"class":"datum_tijd"}, "node": 3, "select":"text","split":[[",",0]],"type":"date"}],
@@ -189,8 +188,7 @@
 					[{"path": 2},
 						{"tag":"li", "attrs":{"class":"zender"}},
 						{"tag":"img", "attr":"src","split":[["/",-1],["\\.",0]]}],
-					[{"path": 1},
-						{"path": "parent", "node": 4},
+					[{"path":  4},
 						{"tag":"div", "attrs":{"class":"programmering_info_detail"}},
 						{"tag":"ul"},
 						{"tag":"li", "node": 5},
@@ -250,17 +248,18 @@
 						{"tag":"p", "attrs":{"class":"summary"}, "select":"inclusive text", "exclude":["span"]}],
 					[{"path": "parent"},
 						{"path": "parent"},
-						{"tag":"p", "attrs":{"class":{"not":["summary"]}}, "select":"inclusive text", "exclude":["span"]}]]},
-				{
+						{"tag":"p", "attrs":{"class":{"not":["summary"]}}, "select":"inclusive text", "exclude":["span"]}]]
+						},{
 				"key-path":[
-					{"tag":"div", "attrs":{"id":"prog-content"}},
-					{"tag":"div", "attrs":{"class":"programmering_info"}},
-					{"tag":"div", "attrs":{"class":"programmering"}},
+					{"tag":"div", "attrs":{"class":"col-md-8"}},
+					{"tag":"div", "attrs":{"id":"prog-content"}, "node": 7},
+					{"tag":"div", "attrs":{"class":"programmering_info"}, "node": 4},
+					{"tag":"div", "attrs":{"class":"programmering"}, "node": 1},
 					{"tag":"h1", "select":"text"}],
 				"values2":[
 					[{"tag":"span"},
 						{"tag":"sup", "select":"text","lstrip":"(","rstrip":")"}],
-					[{"path": "parent", "node": 1},
+					[{"path": 1},
 						{"tag":"div", "attrs":{"class":"programmering_details"}},
 						{"tag":"ul", "node": 2},
 						{"tag":"li", "attrs":{"class":"datum_tijd"}, "node": 3, "select":"text","split":[[",",0]],"type":"date"}],
@@ -269,9 +268,7 @@
 					[{"path": 2},
 						{"tag":"li", "attrs":{"class":"zender"}},
 						{"tag":"img", "attr":"src","split":[["/",-1],["\\.",0]]}],
-					[{"path": 1},
-						{"path": "parent", "node": 4},
-						{"path": "parent"},
+					[{"path": 7},
 						{"tag":"div", "attrs":{"class":"programmering_info_detail"}},
 						{"tag":"ul"},
 						{"tag":"li", "node": 5},

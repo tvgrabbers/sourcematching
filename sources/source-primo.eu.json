@@ -6,7 +6,7 @@
 	"name":"primo.eu",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":7,
+	"version":8,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -31,9 +31,9 @@
 				{"tag":"div", "attrs":{"id":"content"}},
 				{"tag":"div", "attrs":{"id":"tvprograms-main"}}
 				],
-			"iter":[
-				{"key-path":[
-					{"tag":"div", "attrs":{"id":"tvprograms"}},
+			"iter":[{
+				"key-path":[
+					{"tag":"div", "attrs":{"id":"tvprograms"}, "node": 1},
 					{"tag":"div", "attrs":{"id":"program-header-top"}},
 					{"tag":"div", "attrs":{"id":"program-headers"}},
 					{"tag":"div", "attrs":{"id":"channels-select"}},
@@ -41,6 +41,16 @@
 					{"tag":"option", "attrs":{"value":{"not":["all"]}}},
 					{"attr":"value", "ascii-replace":["ss","s", "[-!?(), ]"], "link":1}
 					],
+				"values2":[
+					[{"select":"text"}],
+					[{"path":1},
+						{"tag":"div", "attrs":{"id":"program-channels-list-main"}},
+						{"tag":"div", "attrs":{"id":"program-channels-list"}},
+						{"tag":"ul"},
+						{"tag":"li"},
+						{"tag":"div"},
+						{"tag":"a"},
+						{"tag":"img", "attrs":{"class": {"link":1}},"attr":"src"}]],
 				"values":[
 					[{"select":"text"}],
 					[{"path":"parent"},
@@ -54,8 +64,7 @@
 						{"tag":"li"},
 						{"tag":"div"},
 						{"tag":"a"},
-						{"tag":"img", "attrs":{"class": {"link":1}},"attr":"src"}]
-						]}]},
+						{"tag":"img", "attrs":{"class": {"link":1}},"attr":"src"}]]}]},
 		"values":{
 			"channelid":{"varid": 0},
 			"name":{"funcid":0, "data":[{"varid": 1}]},
@@ -88,39 +97,32 @@
 				],
 			"iter":[{
 				"key-path":[
-					{"tag":"div", "attrs":{"id":"tvprograms"}},
+					{"tag":"div", "attrs":{"id":"tvprograms"}, "node": 1},
 					{"tag":"div", "attrs":{"id":"program-channel-programs"}},
 					{"tag":"div", "attrs":{"id":"programs-content"}},
 					{"tag":"div", "attrs":{"class":"slider"}},
-					{"tag":"div", "attrs":{"class":{"not":["time-elapsed"]}}},
-					{"tag":"div"},
-					{"tag":"div"},
+					{"tag":"div", "attrs":{"class":{"not":["time-elapsed"]}}, "node": 2},
+					{"tag":"div", "node": 3},
+					{"tag":"div", "node": 4,"select":"index", "link":1},
 					{"tag":"h3", "attr":"id"}
 					],
 				"values2":[
-					[{"path":"parent", "node": 1,"select":"index", "link":1},
-						{"path":"parent", "node": 2},
-						{"path":"parent", "node": 3,"attr":"class","split":[["\\s*",0]],"member-off":"channelid"}],
+					[{"path":2,"attr":"class","split":[["\\s*",0]],"member-off":"channelid"}],
+					[{"path":4},{"tag":"span", "node": 5,"split":[["-",0]],"type":"time", "time-splitter":"\\."}],
+					[{"path":5,"split":[["-",1]],"type":"time", "time-splitter":"\\."}],
 					[{"path":1},
-						{"tag":"span", "node": 4,"split":[["-",0]],"type":"time", "time-splitter":"\\."}],
-					[{"path":4,"split":[["-",1]],"type":"time", "time-splitter":"\\."}],
-					[{"path":3},
-						{"path":"parent"},
-						{"path":"parent"},
-						{"path":"parent"},
-						{"path":"parent"},
 						{"tag":"div", "attrs":{"id":"program-header-top"}},
 						{"tag":"div", "attrs":{"id":"program-headers"}},
 						{"tag":"div", "attrs":{"id":"dates"}},
 						{"tag":"input", "attr":"value","type":"datestamp"}],
 					[{"select":"text"}],
-					[{"path":2},
+					[{"path":3},
 						{"tag":"div", "index":{"link":1,"calc":["min",1]}},
 						{"tag":"span","split":[["-",1]],"type":"time", "time-splitter":"\\."}],
-					[{"path":2},
+					[{"path":3},
 						{"tag":"div", "index":{"link":1,"calc":["plus",1]}},
 						{"tag":"span","split":[["-",0]],"type":"time", "time-splitter":"\\."}],
-					[{"path":1,"attr":"style","split":[[":",1]],"rstrip":"px;","multiplier":12, "type":"timedelta"}]],
+					[{"path":4,"attr":"style","split":[[":",1]],"rstrip":"px;","multiplier":12, "type":"timedelta"}]],
 				"values":[
 					[{"path":"parent"},
 						{"path":"parent"},
@@ -179,6 +181,19 @@
 			"init-path":[{"tag":"html"},
 				{"tag":"div", "attrs":{"class":"program-details"}}],
 			"key-path":[{"tag":"div", "attrs":{"class":"details"}}],
+			"values2":[
+				[{"tag":"div", "attrs":{"class":null}},
+					{"tag":"label"},
+					{"path":"parent", "name":{"select":"text", "rstrip":":", "lower":""}},
+					{"tag":"span", "select":"text"}],
+				[{"tag":"div", "attrs":{"class":"program-details-time"}},
+					{"tag":"span", "node": 1, "select":"text","split":[[",",0]],"type":"date"}],
+				[{"path": 1, "select":"text","split":[[",",1],["-",0]],"type":"time"}],
+				[{"path": 1, "select":"text","split":[[",",1],["-",1]],"type":"time"}],
+				[{"tag":"div", "attrs":{"class":null}},
+					{"tag":"label", "text":"Zender:"},
+					{"path":"parent"},
+					{"tag":"span", "select":"text", "ascii-replace":["ss","s", "[-!?(), ]"]}]],
 			"values":[
 				[{"tag":"div", "attrs":{"class":null}},
 					{"tag":"label"},

@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":18,
+	"version":19,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -21,12 +21,21 @@
 		"data":{
 			"key-path":[
 				{"key":"channels"},
-				{"path":"all"},
+				{"path":"all", "node": 1},
 				{"key":"stationSchedules"},
 				{"path":"all"},
 				{"key":"station"},
 				{"key":"id", "type":"string"}
 				],
+			"values2":[
+				[{"key":"title"}],
+				[{"key":"isHd","type":"boolean","default":false}],
+				[{"key":"images"},
+					{"path":"all", "childkeys":{"assetType":"station-logo-large"}},
+					{"key":"url","split":[["\\?",0]]}],
+				[{"key":"dvbTriplet"}],
+				[{"path":1},{"key":"channelNumber"}]
+					], 
 			"values":[
 				[{"key":"title"}],
 				[{"key":"isHd","type":"boolean","default":false}],
@@ -39,8 +48,7 @@
 				"station-logo-medium":"w75xh108",
 				"station-logo-large":"w110xh150",
 				"station-logo-tva-focused":"w151xh104",
-				"station-logo-tva-nonfocused":"w77xh52"}]
-				},
+				"station-logo-tva-nonfocused":"w77xh52"}]},
 		"values":{
 			"channelid":{"varid": 0},
 			"name":{"funcid":0, "data":[{"varid":1}, " HD"]},

@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":9,
+	"version":10,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -23,23 +23,17 @@
 		"data":{
 			"init-path":[
 				{"tag":"html"},
-				{"tag":"body"},
-				{"tag":"table"}
-				],
+				{"tag":"body"}],
 			"iter":[{
 				"key-path":[
-					{"tag":"tr"},
-					{"tag":"td", "attrs":{"class":"pgMenuInhoud"}},
+					{"tag":"table", "node": 1},
+					{"tag":"tr", "select":"index", "link":1},
+					{"tag":"td", "attrs":{"class":"pgMenuInhoud"}, "node": 2},
 					{"tag":"p", "attrs":{"class":"pnZender"}},
-					{"tag":"img", "select":"tail"}
-					],
+					{"tag":"img", "select":"tail"}],
 				"values2":[
-					[{"path":"parent"},
-						{"path":"parent", "node": 1},
-						{"tag":"a", "attr":"href", "first":"","split":[["/",2]],"type":"lower-ascii"}],
+					[{"path":2},{"tag":"a", "attr":"href", "first":"","split":[["/",2]],"type":"lower-ascii"}],
 					[{"path":1},
-						{"path":"parent", "select":"index", "link":1},
-						{"path":"parent"},
 						{"tag":"tr", "index":{"link":1,"previous":""}},
 						{"tag":"td", "attrs":{"class":"pgMenuKopSub"}},
 						{"tag":"i"},
@@ -87,15 +81,11 @@
 				"key-path":[
 					{"tag":"div", "attrs":{"class":"pgBlokZender"},"attr":"id","type":"lower-ascii"}],
 				"values2":[
-					[{"tag":"div", "attrs":{"class":"pgMenuKop"}, "node": 1},
-						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii"}],
-					[{"path": 1},
+					[{"tag":"div", "attrs":{"class":"pgMenuKop"}},
 						{"tag":"div", "attrs":{"style":null}},
 						{"tag":"img", "node": 2,"select":"tail"}],
 					[{"path": 2,"attr":"src"}]],
 				"values":[
-					[{"tag":"div", "attrs":{"class":"pgMenuKop"}},
-						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii"}],
 					[{"tag":"div", "attrs":{"class":"pgMenuKop"}},
 						{"tag":"div", "attrs":{"style":null}},
 						{"tag":"img","select":"tail"}],
@@ -104,9 +94,9 @@
 						{"tag":"img","attr":"src"}]
 					]}]},
 		"values":{
-			"channelid":{"varid": 1},
-			"name":{"funcid":0, "data":[{"varid": 2}]},
-			"icon":{"funcid":101, "data":[{"funcid":2, "data":["http://www.oorboekje.nl", {"varid": 3}]}]},
+			"channelid":{"varid": 0},
+			"name":{"funcid":0, "data":[{"varid": 1}]},
+			"icon":{"funcid":101, "data":[{"funcid":2, "data":["http://www.oorboekje.nl", {"varid": 2}]}]},
 			"group":{"value": 11},
 			"HD":null}},
 	"base":{
@@ -130,29 +120,26 @@
 				],
 			"iter":[{
 				"key-path":[
-					{"tag":"div", "attrs":{"class":"pgBlokZender"}},
-					{"tag":"div", "attrs":{"class":"pgMenuInhoud"}},
-					{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "notattrs":{"style":"text-indent: 0px;"}, "node": 1},
+					{"tag":"div", "attrs":{"class":"pgBlokZender"}, "node": 1},
+					{"tag":"div", "attrs":{"class":"pgMenuInhoud"}, "node": 2},
+					{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "notattrs":{"style":"text-indent: 0px;"}, 
+						"select":"index", "link":1, "node": 3},
 					{"tag":"b", "index": 0}
 						],
 				"values2":[
-					[{"path":1, "select":"index", "link":1},
-						{"path":"parent", "node": 2},
-						{"path":"parent"},
-						{"tag":"div", "attrs":{"class":"pgMenuKop"}},
-						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii","member-off":"channelid"}],
-					[{"path":1, "split":[["-",0]],"type":"time"}],
+					[{"path":1,"attr":"id","type":"lower-ascii","member-off":"channelid"}],
+					[{"path":3, "split":[["-",0]],"type":"time"}],
 					[{"path":2}, 
-						{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "index":{"link":1,"calc":["plus",1],"next":""},"first":"","type":"time"}],
+						{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "index":{"link":1,"next":""},"first":"", "split":[["-",0]],"type":"time"}],
 					[{"path":2}, 
 						{"tag":"p", "attrs":{"class":"pgProgPresentatie"}, "index":{"link":1,"calc":["plus",1]}}],
-					[{"path":1, "split":[["-",1]],"type":"time"}],
-					[{"path":1, "select": "inclusive text"}],
-					[{"path":1},
+					[{"path":3, "split":[["-",1]],"type":"time"}],
+					[{"path":3, "select": "inclusive text"}],
+					[{"path":3},
 						{"tag":"img", "attrs":{"alt":"herhaling"},"select":"presence"}],
-					[{"path":1},
+					[{"path":3},
 						{"tag":"img", "attrs":{"alt":"nonstop"},"select":"presence"}],
-					[{"path":1}]],
+					[{"path":3}]],
 				"values":[
 					[{"path":"parent"},
 						{"path":"parent"},
@@ -162,7 +149,8 @@
 					[{"path":"parent", "split":[["-",0]],"type":"time"}],
 					[{"path":"parent", "select":"index", "link":1},
 						{"path":"parent"}, 
-						{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "index":{"link":1,"calc":["plus",1],"next":""},"first":"","type":"time"}],
+						{"tag":"div", "attrs":{"class":"pgProgOmschr"},
+							"index":{"link":1,"calc":["plus",1],"next":""},"first":"", "split":[["-",0]],"type":"time"}],
 					[{"path":"parent", "select":"index", "link":1},
 						{"path":"parent"}, 
 						{"tag":"p", "attrs":{"class":"pgProgPresentatie"}, "index":{"link":1,"calc":["plus",1]}}],

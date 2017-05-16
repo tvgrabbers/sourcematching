@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":5,
+	"version":6,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -23,8 +23,8 @@
 		"datetimestring":"%Y-%m-%d %H:%M:%S",
 		"data":{
 			"init-path":[{"tag":"html"}],
-			"iter":[
-				{"key-path":[
+			"iter":[{
+				"key-path":[
 					{"tag":"div", "attrs":{"class":"row-fluid"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
@@ -39,9 +39,9 @@
 					[{"value":1}],
 					[{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},"attr":"style", "split":[["/",-3]]}],
 					[{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},
-						"attr":"style", "sub":["background-image: url\\('","http:"], "rstrip":"')"}]
-						]},
-				{"key-path":[
+						"attr":"style", "sub":["background-image: url\\('","http:"], "rstrip":"')"}]]
+						},{
+				"key-path":[
 					{"tag":"div", "attrs":{"id":"themed-guide"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
@@ -56,9 +56,9 @@
 					[{"value":1}],
 					[{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},"attr":"style", "split":[["/",-3]]}],
 					[{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},
-						"attr":"style", "sub":["background-image: url\\('","http:"], "rstrip":"')"}]
-						]},
-				{"key-path":[
+						"attr":"style", "sub":["background-image: url\\('","http:"], "rstrip":"')"}]]
+						},{
+				"key-path":[
 					{"tag":"div", "attrs":{"id":"regional-guide"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
@@ -68,8 +68,9 @@
 				"values":[
 					[{"value":6}],
 					[{"attr":"style", "split":[["/",-3]]}],
-					[{"attr":"style", "sub":["background-image: url\\('","http:"], "rstrip":"')"}]]},
-				{"key-path":[
+					[{"attr":"style", "sub":["background-image: url\\('","http:"], "rstrip":"')"}]]
+						},{
+				"key-path":[
 					{"tag":"div", "attrs":{"id":"radio-guide"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
 					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
@@ -105,28 +106,24 @@
 			},
 		"data":{
 			"init-path":[{"tag":"html"}],
-			"iter":[
-				{
+			"iter":[{
 				"key-path":[
 					{"tag":"div", "attrs":{"class":"row-fluid"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
-					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
+					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}, "node": 1},
 					{"tag":"div", "attrs":{"class":"guide-scroller"}},
 					{"tag":"div", "attrs":{"class":"guide-wrapper"}},
 					{"tag":"div", "attrs":{"class":"channels"}},
-					{"tag":"div"},
+					{"tag":"div","select":"index", "link":1},
 					{"tag":"a","attr":"data-time","split":[["-",0]],"type":"time"}
 					],
 				"values2":[
-					[{"path":"parent","select":"index", "link":1},
-						{"path":"parent"},
-						{"path":"parent"},
-						{"path":"parent"},
-						{"path":"parent", "node": 1},
+					[{"path": 1},
 						{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
 						{"tag":"div", "attrs":{"class":"channel-icon"}, "index":{"link":1}},
 						{"tag":"a"},
-						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},"attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
+						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},
+							"attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
 					[{"attr":"data-time","split":[["-",1]],"type":"time"}],
 					[{"tag":"i", "attrs":{"class":"np"},"select":"tail"}],
 					[{"path":1,"attr":"data-start","split":[["\\s*",1,2,3]],
@@ -154,28 +151,25 @@
 							"type":"date","date-sequence":["d","m","y"],"date-splitter":" "}],
 					[{"tag":"span","lstrip":"(","rstrip":")"}],
 					[{"attr":"data-genre","split":[",", "list-all"]}],
-					[{"attr":"href","split":[["/",-1]]}]]},
-				{
+					[{"attr":"href","split":[["/",-1]]}]]
+						},{
 				"key-path":[
 					{"tag":"div", "attrs":{"id":"themed-guide"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
-					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
+					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}, "node": 1},
 					{"tag":"div", "attrs":{"class":"guide-scroller"}},
 					{"tag":"div", "attrs":{"class":"guide-wrapper"}},
 					{"tag":"div", "attrs":{"class":"channels"}},
-					{"tag":"div"},
+					{"tag":"div","select":"index", "link":1},
 					{"tag":"a","attr":"data-time","split":[["-",0]],"type":"time"}
 					],
 				"values2":[
-					[{"path":"parent","select":"index", "link":1},
-						{"path":"parent"},
-						{"path":"parent"},
-						{"path":"parent"},
-						{"path":"parent", "node": 1},
+					[{"path": 1},
 						{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
 						{"tag":"div", "attrs":{"class":"channel-icon"}, "index":{"link":1}},
 						{"tag":"a"},
-						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},"attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
+						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper"},
+							"attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
 					[{"attr":"data-time","split":[["-",1]],"type":"time"}],
 					[{"tag":"i", "attrs":{"class":"np"},"select":"tail"}],
 					[{"path":1,"attr":"data-start","split":[["\\s*",0]], "type":"date"}],
@@ -201,27 +195,24 @@
 						{"path":"parent","attr":"data-start","split":[["\\s*",0]], "type":"date"}],
 					[{"tag":"span","lstrip":"(","rstrip":")"}],
 					[{"attr":"data-genre","split":[",", "list-all"]}],
-					[{"attr":"href","split":[["/",-1]]}]]},
-				{
+					[{"attr":"href","split":[["/",-1]]}]]
+						},{
 				"key-path":[
 					{"tag":"div", "attrs":{"id":"regional-guide"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
-					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
+					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}, "node": 1},
 					{"tag":"div", "attrs":{"class":"guide-scroller"}},
 					{"tag":"div", "attrs":{"class":"guide-wrapper"}},
 					{"tag":"div", "attrs":{"class":"channels"}},
-					{"tag":"div"},
+					{"tag":"div","select":"index", "link":1},
 					{"tag":"a","attr":"data-time","split":[["-",0]],"type":"time"}
 					],
 				"values2":[
-					[{"path":"parent","select":"index", "link":1},
-						{"path":"parent"},
-						{"path":"parent"},
-						{"path":"parent"},
-						{"path":"parent", "node": 1},
+					[{"path": 1},
 						{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
 						{"tag":"div", "attrs":{"class":"channel-icon"}, "index":{"link":1}},
-						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper no-shadow"},"attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
+						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper no-shadow"},
+							"attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
 					[{"attr":"data-time","split":[["-",1]],"type":"time"}],
 					[{"tag":"i", "attrs":{"class":"np"},"select":"tail"}],
 					[{"path":1,"attr":"data-start","split":[["\\s*",0]], "type":"date"}],
@@ -246,27 +237,24 @@
 						{"path":"parent","attr":"data-start","split":[["\\s*",0]], "type":"date"}],
 					[],
 					[{"attr":"data-genre","split":[",", "list-all"]}],
-					[{"attr":"href","split":[["/",-1]]}]]},
-				{
+					[{"attr":"href","split":[["/",-1]]}]]
+						},{
 				"key-path":[
 					{"tag":"div", "attrs":{"id":"radio-guide"}},
 					{"tag":"div", "attrs":{"class":"span12"}},
-					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}},
+					{"tag":"div", "attrs":{"class":"guide horizontal-guide"}, "node": 1},
 					{"tag":"div", "attrs":{"class":"guide-scroller"}},
 					{"tag":"div", "attrs":{"class":"guide-wrapper"}},
 					{"tag":"div", "attrs":{"class":"channels"}},
-					{"tag":"div"},
+					{"tag":"div","select":"index", "link":1},
 					{"tag":"a","attr":"data-time","split":[["-",0]],"type":"time"}
 					],
 				"values2":[
-					[{"path":"parent","select":"index", "link":1},
-						{"path":"parent"},
-						{"path":"parent"},
-						{"path":"parent"},
-						{"path":"parent", "node": 1},
+					[{"path": 1},
 						{"tag":"div", "attrs":{"class":"guide-channel-icons"}},
 						{"tag":"div", "attrs":{"class":"channel-icon"}, "index":{"link":1}},
-						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper no-shadow"}, "attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
+						{"tag":"div", "attrs":{"class":"larger-image channel-icon-wrapper no-shadow"}, 
+							"attr":"style", "split":[["/",-3]],"member-off":"channelid"}],
 					[{"attr":"data-time","split":[["-",1]],"type":"time"}],
 					[{"tag":"i", "attrs":{"class":"np"},"select":"tail"}],
 					[{"path":1,"attr":"data-start","split":[["\\s*",0]], "type":"date"}],

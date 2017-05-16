@@ -28,32 +28,32 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":18,
+			"version":19,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
 			"json file":"source-humo.be",
-			"version":4,
+			"version":5,
 			"cattrans type":1,
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":6,
+			"version":7,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
 			"json file":"source-npo.nl",
-			"version":5,
+			"version":6,
 			"cattrans type":1,
 			"cattransid":1},
 		"12":{
 			"json file":"source-oorboekje.nl",
-			"version":9,
+			"version":10,
 			"cattrans type":null,
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":7,
+			"version":8,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
@@ -63,17 +63,17 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":11,
+			"version":12,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":10,
+			"version":11,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":13,
+			"version":14,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
@@ -1130,7 +1130,8 @@
 		"17":["7-893_radio_west","7-radio_gelderland","7-r_omroep_brabant","7-r_omroep_zeeland","7-radio_gelderland",
 			"7-radio_m_utrecht","7-radio_noord","7-radio_oost","7-radio_rijnmond"]},
 	"logo_provider":{
-		"101": "http://www.oorboekje.nl/img/logo/"},
+		"101": "http://www.oorboekje.nl/img/logo/",
+		"102": "https://nbofront.akamaized.net/extra/assets/img/tvgids/"},
 	"logo_names":{
 		"--description--":["", "If no extension is provided .png will be assumed"],
 		"0-1" : ["4", "npo1"],
