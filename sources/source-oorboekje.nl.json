@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":10,
+	"version":11,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -79,23 +79,23 @@
 				],
 			"iter":[{
 				"key-path":[
-					{"tag":"div", "attrs":{"class":"pgBlokZender"},"attr":"id","type":"lower-ascii"}],
+					{"tag":"div", "attrs":{"class":"pgBlokZender"},"attr":"id","type":"lower-ascii"},
+					{"tag":"div", "attrs":{"class":"pgMenuKop"}, "node": 1},
+					{"tag":"div", "attrs":{"style":null}},
+					{"tag":"img","select":"tail"}],
 				"values2":[
-					[{"tag":"div", "attrs":{"class":"pgMenuKop"}},
-						{"tag":"div", "attrs":{"style":null}},
-						{"tag":"img", "node": 2,"select":"tail"}],
-					[{"path": 2,"attr":"src"}]],
+					[{"path": 1},
+						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii"}],
+					[{"attr":"src"}]],
 				"values":[
-					[{"tag":"div", "attrs":{"class":"pgMenuKop"}},
+					[{"path": "parent"}, {"path": "parent"}, 
 						{"tag":"div", "attrs":{"style":null}},
 						{"tag":"img","select":"tail"}],
-					[{"tag":"div", "attrs":{"class":"pgMenuKop"}},
-						{"tag":"div", "attrs":{"style":null}},
-						{"tag":"img","attr":"src"}]
+					[{"attr":"src"}]
 					]}]},
 		"values":{
-			"channelid":{"varid": 0},
-			"name":{"funcid":0, "data":[{"varid": 1}]},
+			"channelid":{"varid": 1},
+			"name":{"funcid":0, "data":[{"varid": 0}]},
 			"icon":{"funcid":101, "data":[{"funcid":2, "data":["http://www.oorboekje.nl", {"varid": 2}]}]},
 			"group":{"value": 11},
 			"HD":null}},
