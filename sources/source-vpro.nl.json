@@ -157,7 +157,8 @@
 			"season":{"funcid":9, "data":[{"varid": 7, "regex":"Seizoen\\s*(\\d*)", "type":"int", "default":null},
 				{"funcid":11, "data":[{"eerste": 1,"tweede": 2,"derde": 3,"vierde": 4,"vijfde": 5,
 					"zesde": 6,"zevende": 7,"achtste": 8,"negende": 9,"tiende": 10},
-				{"varid": 7, "regex":"(\\S*) reeks"}], "type":"int", "default":null}]},
+					{"funcid":9, "data":[{"varid": 7, "regex":"(\\S*) reeks"},
+						{"varid": 7, "regex":"(\\S*) seizoen"}]}], "type":"int", "default":null}]},
 			"premiere year":{"varid": 7, "regex":"uit (\\d{4})", "default":null}
 			}},
 	"no_genric_matching":[
