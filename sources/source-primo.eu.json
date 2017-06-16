@@ -6,7 +6,7 @@
 	"name":"primo.eu",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":8,
+	"version":9,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -234,8 +234,9 @@
 					"nr. aflevering","seizoen","jaar","land","samenvatting","minimumleeftijd","rating"]]}
 			}},
 	"no_genric_matching":["discoverychannel", "disneyxd", "ketnet", "mtv", "npo1", "npo2", "npo3", "sbss6", "net5", "veronica"],
-	"empty_channels":["2be","acht","anne","bbc3","bbc4","bbcworld","culture7","jimtv","net5",
-			"sbss6","veronica","sundancechannel", "sundancestv", "rtlplusinternational"],
+	"empty_channels":["2be","acht","anne","bbc3","bbc4","bbcworld","culture7", "fezztival", "jimtv","net5","sbss6",
+			"primeaction", "primefamily", "primestar", "veronica","sundancechannel", "sundancestv",
+			"rtlplusinternational"],
 	"cattrans":{
         "nieuws":{
 			"default":["nieuws/actualiteiten", "nieuws"]},
