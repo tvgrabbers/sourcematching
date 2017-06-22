@@ -75,7 +75,7 @@
 					[{"select":"value", "type":"string"}]
 					]}]}, 
 		"values":{
-			"id":{"varid":1},
+			"tid":{"varid":1},
 			"name":{"varid":2},
 			"lang":null,
 			"aliasses":{"varid":4},
@@ -243,4 +243,7 @@
 					[{"select":"value", "type":"string"}]
 					]}]}, 
 		"values":{
-			}}}
+			}},
+	"lang-list":[
+		"cs", "da", "de", "el", "en", "es", "fi", "fr", "he", "hr", "hu", "it",
+		"ja", "ko", "nl", "no", "pl", "pt", "ru", "sl", "sv", "tr", "zh"]}

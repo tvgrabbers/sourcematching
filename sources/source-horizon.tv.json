@@ -171,7 +171,7 @@
 			"director":{"varid":12},
 			"genre":{"funcid": 10, "data":[["FeatureFilm"],["Film"],{"varid":15},{"varid":13}]},
 			"subgenre":{"varid":14},
-			"rerun":{"funcid":6, "data":[{"varid":2},{"varid":16},false, true]}
+			"rerun":{"funcid":6, "data":[{"varid":2},{"varid":16},false, true, false]}
 			}},
 	"no_genric_matching":[
 			"24443942983", "24443942987", "24443942992", "24443943006", "24443943012", "24443943014",
