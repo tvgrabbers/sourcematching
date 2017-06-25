@@ -63,7 +63,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":12,
+			"version":13,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -908,6 +908,7 @@
 			"12-71": "radio-8fm",
 			"12-groot-nieuws-radio": "groot-nieuws-radio",
 			"12-grunn-fm": "grunn-fm",
+			"12-tukker-fm": "tukker-fm",
 			"12-frysk-fm": "frysk-fm"}},
 	"channel_rename":{
 		"0-7":"BBC One England",

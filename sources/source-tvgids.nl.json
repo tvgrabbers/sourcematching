@@ -174,7 +174,7 @@
 				"key-path":[
 					{"tag":"div", "attrs":{"class":"col-md-8"}},
 					{"tag":"div", "attrs":{"id":"prog-content"}, "node": 4},
-					{"tag":"div", "attrs":{"class":"programmering", "node": 1}},
+					{"tag":"div", "attrs":{"class":"programmering"}, "node": 1},
 					{"tag":"h1", "select":"text"}],
 				"values2":[
 					[{"tag":"span"},
