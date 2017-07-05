@@ -16,7 +16,7 @@
 	"warning_message":{
 		"6":["The npo.nl source has been reactivated, but as the channelids\n",
 			"have all changed you need to run --configure to use it.\n",
-			"It now gives basic listings for all the NPO channels for up to 2 weeks.n",
+			"It now gives basic listings for all the NPO channels for up to 2 weeks.\n",
 			"Unfortunatly only start time and titel and no longer for the regional channels.\n"],
 		"5":["While we are working on a renewed source-file for the new npo.nl site\n",
 			"this source is disabled! Further news follows in the comming days.\n"],
