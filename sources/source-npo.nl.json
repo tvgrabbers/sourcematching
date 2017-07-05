@@ -191,7 +191,7 @@
 					[{"path":4},
 						{"tag":"i", "attr": "class","lstrip":"icon "}]
 					]}]},
-		"provides":["description","episode title","broadcaster"],
+		"provides":["description","episode title","broadcaster","rating"],
 		"values":{
 			"name":{"varid":0},
 			"start-time":{"funcid":4, "data":[{"varid": 2},{"varid": 1}, 6, null, {"varid": 3}]},
