@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":7,
+	"version":8,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":false,
@@ -41,13 +41,15 @@
 				"icon": "radio_channel/296/logo/regular_radio5logo.png", "icongrp": 7},
 			"funx": {"name": "NPO FunX", "group": 11, "fetch_grp": "radio", 
 				"icon": "radio_channel/298/logo/regular_NPO_FUNX_Logo_RGB.png", "icongrp": 7}}},
-	"base-channelsx":{
+	"base-channels2":{
 		"url":["http://www.npo.nl/gids"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
 		"url-type": 0,
-		"url-data":{"date": 11, "type":"radio"},
+		"url-data":{
+			"date": 11, 
+			"type":"radio"},
 		"url-date-format": "%Y-%m-%d",
 		"url-channel-groups": ["tv","radio"],
 		"autoclose-tags":["meta", "link"],
@@ -100,7 +102,6 @@
 		"url-channel-groups": ["tv","radio"],
 		"autoclose-tags":["meta", "link"],
 		"month-names": ["dummy", "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"],
-		"max days":7,
 		"date-sequence":["y","m","d"],
 		"text_replace":[
 			["class=\"npo-epg-channel-container [a-z]*?\"", "class=\"npo-epg-channel-container\""]],
@@ -128,22 +129,24 @@
 					{"tag":"div"},
 					{"tag":"div", "attrs":{"class":"npo-epg-channel-part"}, "node": 1},
 					{"tag":"a", "node": 2},
-					{"tag":"div"},
+					{"tag":"div", "node": 3},
 					{"tag":"p"},
 					{"tag":"span", "attrs":{"class":"npo-epg-time"},"type":"time"}],
 				"values2":[
 					[{"path": 1, "attr":"id","lstrip":"channel-","type":"lower-ascii","member-off":"channelid"}],
 					[{"path": 2, "attr":"data-title"}],
-					[{"path": 2, "attr":"data-id"}]
+					[{"path": 2, "attr":"data-id"}],
+					[{"path": 3, "attr":"id","lstrip":"program-"}]
 					]}]},
 		"values":{
 			"channelid":{"varid": 1},
 			"start-time":{"funcid":4, "data":[null,{"varid": 0}, 6]},
 			"name":{"varid":2},
+			"prog_ID":{"varid":4},
 			"gen_ID":{"varid":3}}},
-	"no_genric_matching":["270", "271", "272", "275"],
+	"no_genric_matching":[],
 	"empty_channels":[],
-	"alt-channels":{"301":["265","NPO 3"]},
+	"alt-channels":{"301":["ned3","NPO 3"]},
 	"cattrans":{
 		"nieuws-actualiteiten":{
 			"default":["nieuws/actualiteiten", ""]},
