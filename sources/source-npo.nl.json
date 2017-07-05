@@ -126,15 +126,15 @@
 					{"tag":"div", "attrs":{"class":"npo-epg-table"}},
 					{"tag":"div", "attrs":{"class":"npo-epg-table-body"}},
 					{"tag":"div"},
-					{"tag":"div", "attrs":{"class":"npo-epg-channel-part"}},
-					{"tag":"a", "node": 1},
+					{"tag":"div", "attrs":{"class":"npo-epg-channel-part"}, "node": 1},
+					{"tag":"a", "node": 2},
 					{"tag":"div"},
 					{"tag":"p"},
 					{"tag":"span", "attrs":{"class":"npo-epg-time"},"type":"time"}],
 				"values2":[
-					[{"path": 1, "attr":"data-channel","type":"lower-ascii","member-off":"channelid"}],
-					[{"path": 1, "attr":"data-title"}],
-					[{"path": 1, "attr":"data-id"}]
+					[{"path": 1, "attr":"id","lstrip":"channel-","type":"lower-ascii","member-off":"channelid"}],
+					[{"path": 2, "attr":"data-title"}],
+					[{"path": 2, "attr":"data-id"}]
 					]}]},
 		"values":{
 			"channelid":{"varid": 1},
