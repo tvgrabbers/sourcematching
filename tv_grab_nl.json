@@ -34,17 +34,17 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":21,
+			"version":22,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
 			"json file":"source-humo.be",
-			"version":5,
+			"version":6,
 			"cattrans type":1,
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":7,
+			"version":8,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
@@ -59,7 +59,7 @@
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":9,
+			"version":10,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
@@ -69,17 +69,17 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":13,
+			"version":14,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":13,
+			"version":14,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":15,
+			"version":16,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
