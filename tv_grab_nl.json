@@ -69,17 +69,17 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":14,
+			"version":15,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":14,
+			"version":15,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":16,
+			"version":17,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
@@ -368,7 +368,6 @@
 			"5-561138215256": "baby-tv",
 			"5-561138215258": "tv538",
 			"5-561793575034": "crime-and-investigation",
-			"5-606274087102": "horse-country-tv",
 			"5-728310311076": "food-network",
 			"5-728310311079": "fine-living",
 			"8-zes": "zes"},
