@@ -81,6 +81,7 @@
 		"39": "https://wp27-images-nl-dynamic.horizon.tv/ChannelLogos/02/",
 		"40": "https://wp28-images-nl-dynamic.horizon.tv/ChannelLogos/02/"},
 	"ttvdb_ids":{
+		"Ben 10":{"name":"Ben 10 (2016)","tid":318145},
 		"Bordertown":{"name":"Bordertown (2016)","tid":275120},
 		"Brotherhood":{"name":"Brotherhood (2015)","tid":296474},
 		"Bull":{"name":"Bull (2016)","tid":311945},
@@ -89,6 +90,7 @@
 		"Clarence":{"name":"Clarence (2014)","tid":271421},
 		"Dallas":{"name":"Dallas (2012)","tid":242521},
 		"Danni Lowinski":{"name":"Danni Lowinski (NL)","tid":267960},
+		"De Powerpuff Girls":{"name":"The Powerpuff Girls (2016)","tid":307473},
 		"Dr. Bull":{"name":"Bull (2016)","tid":311945},
 		"Empire":{"name":"Empire (2015)","tid":281617},
 		"Father Brown":{"name":"Father Brown (2013)","tid":265834},
@@ -109,6 +111,7 @@
 		"The Goldbergs":{"name":"The Goldbergs (2013)","tid":269653},
 		"The Odd Couple":{"name":"The Odd Couple (2015)","tid":281700},
 		"The Player":{"name":"The Player (2015)","tid":295642},
+		"The Powerpuff Girls":{"name":"The Powerpuff Girls (2016)","tid":307473},
 		"The Tom and Jerry Show":{"name":"The Tom and Jerry Show (2014)","tid":280446},
 		"The Tom & Jerry Show":{"name":"The Tom and Jerry Show (2014)","tid":280446}},
 	"coutrytrans":{
