@@ -34,17 +34,17 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":22,
+			"version":23,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
 			"json file":"source-humo.be",
-			"version":6,
+			"version":7,
 			"cattrans type":1,
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":8,
+			"version":9,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
@@ -59,7 +59,7 @@
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":10,
+			"version":11,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
@@ -69,17 +69,17 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":15,
+			"version":16,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":15,
+			"version":16,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":17,
+			"version":18,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
@@ -146,7 +146,6 @@
 			"0-103": "103",
 			"0-104": "104",
 			"0-105": "105",
-			"0-107": "107",
 			"0-108": "108",
 			"0-109": "109",
 			"0-110": "110",
@@ -253,7 +252,6 @@
 			"0-102": "rtv-rijnmond",
 			"0-103": "nh",
 			"0-104": "bbc-prime",
-			"0-107": "film1-festival",
 			"0-108": "rtv-noord",
 			"0-109": "omrop-fryslan",
 			"0-110": "rtv-drenthe",
@@ -433,7 +431,6 @@
 			"0-102": "796441638960",
 			"0-103": "796441639035",
 			"0-104": "796441638989",
-			"0-107": "796441638999",
 			"0-108": "24443943192",
 			"0-109": "796441639037",
 			"0-110": "796441639023",
@@ -920,7 +917,6 @@
 		"0-102":"TV Rijnmond",
 		"0-103":"TV NH",
 		"0-105":"Brazzers TV Europe",
-		"0-107":"Film1 Sundance",
 		"0-108":"TV Noord",
 		"0-110":"TV Drenthe",
 		"0-111":"TV Oost",
@@ -1137,7 +1133,7 @@
 			"1-fox-sports-6", "1-sport-1-extra-1", "1-sport1-extra-2", "1-sport-1-2", "5-635928103345",
 			"5-635928103346", "5-635928103347", "5-635928103348", "5-635928103349", "5-635928103351",
 			"5-772368423293", "5-772368423294"],
-		"16":["0-24", "0-39", "0-107", "0-411", "0-430"],
+		"16":["0-24", "0-39", "0-411", "0-430"],
 		"17":["7-893_radio_west","7-radio_gelderland","7-r_omroep_brabant","7-r_omroep_zeeland","7-radio_gelderland",
 			"7-radio_m_utrecht","7-radio_noord","7-radio_oost","7-radio_rijnmond"]},
 	"logo_provider":{
@@ -1196,7 +1192,6 @@
 		"0-103" : ["4", "nh"],
 		"0-104" : ["4", "bbc_entertainment"],
 		"0-105" : ["4", "brazzers_tv"],
-		"0-107" : ["4", "film1_sundance_1"],
 		"0-108" : ["4", "rtv_noord"],
 		"0-109" : ["4", "omroep_friesland_1"],
 		"0-110" : ["4", "rtv_drenthe_1"],
