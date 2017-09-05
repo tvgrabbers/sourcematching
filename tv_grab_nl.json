@@ -59,7 +59,7 @@
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":11,
+			"version":12,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
@@ -84,7 +84,7 @@
 			"cattransid":4},
 		"10":{
 			"json file":"source-vrt.be",
-			"version":5,
+			"version":6,
 			"cattrans type":1,
 			"cattransid":7},
 		"11":{
