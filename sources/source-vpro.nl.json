@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":17,
+	"version":18,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -164,7 +164,7 @@
 	"no_genric_matching":[
 			"3fm", "discovery_channel", "een", "fox", "ketnet", "national_geographic", "npo_1", "npo_2", "npo_3",
 			"npo_cultura", "ons", "radio_1", "radio_2", "radio_4", "radio_5", "radio_538", "radio_veronica",
-			"rtl_4", "rtl_5", "rtl_7", "rtl_8", "slam_fm", "tlc", "vrt_canvas"],
+			"rtl_4", "rtl_5", "rtl_7", "rtl_8", "slam_fm", "the_history_channel", "tlc", "vrt_canvas"],
 	"empty_channels":[],
 	"cattrans":{
         "g3011":{
