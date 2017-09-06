@@ -54,7 +54,7 @@
 			"cattransid":1},
 		"12":{
 			"json file":"source-oorboekje.nl",
-			"version":12,
+			"version":13,
 			"cattrans type":null,
 			"cattransid":null},
 		"9":{
@@ -885,7 +885,6 @@
 			"12-39": "radio-8fm",
 			"12-41": "radio-continu",
 			"12-43": "radio-decibel",
-			"12-45": "fresh-fm",
 			"12-46": "amor-fm",
 			"12-48": "radio-8fm",
 			"12-52": "puur-nl",
@@ -898,7 +897,6 @@
 			"12-71": "radio-8fm",
 			"12-groot-nieuws-radio": "groot-nieuws-radio",
 			"12-grunn-fm": "grunn-fm",
-			"12-tukker-fm": "tukker-fm",
 			"12-frysk-fm": "frysk-fm"}},
 	"channel_rename":{
 		"0-7":"BBC One England",

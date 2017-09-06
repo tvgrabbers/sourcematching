@@ -6,10 +6,34 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":12,
+	"version":13,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
+	"channels-test":{
+		"url":["http://www.oorboekje.nl/zenderinformatie"],
+		"data-format":"text/html",
+		"encoding":null,
+		"accept-header":null,
+		"url-type":0,
+		"url-data":{},
+		"autoclose-tags":["meta", "link", "img"],
+		"text_replace":[
+			["class=\"pnZender pnZenderVoorpagina\"", "class=\"pnZender\""]],
+		"data":{
+			"init-path":[
+				{"tag":"html"},
+				{"tag":"body"}],
+			"iter":[{
+				"key-path":[
+					{"tag":"a", "attr": "href"}],
+				"values2":[
+					[{"attr":"href", "first":"","split":[["/",2]],"type":"lower-ascii"}],
+					[{"select":"text", "lstrip": "Informatie over "}]]
+				}]},
+		"values":{
+			"channelid":{"varid": 1, "type":"string"},
+			"name":{"funcid":0, "data":[{"varid": 2}]}}},
 	"channels":{
 		"url":["http://www.oorboekje.nl/"],
 		"data-format":"text/html",
@@ -59,7 +83,70 @@
 			"group":{"varid": 2},
 			"icon":{"funcid":101, "data":[{"funcid":2, "data":["http://www.oorboekje.nl", {"varid": 3}]}]},
 			"HD":null}},
-	"base-channels":{
+	"base":{
+		"url":["http://www.oorboekje.nl/zenderinformatie/",["channel"], "/",11],
+		"data-format":"text/html",
+		"encoding":null,
+		"accept-header":null,
+		"url-type": 1,
+		"url-date-type": 0,
+		"url-date-format": "%Y-%m-%d",
+		"autoclose-tags":["meta", "link"],
+		"month-names":["dummy", "januari", "februari", "maart",
+			"april", "mei", "juni", "juli", "augustus", "septemper",
+			"oktober", "november", "december"],
+		"date-splitter":" ",
+		"date-sequence":["w", "d", "m", "y"],
+		"max days":14,
+		"value-filters":{
+			"channelid":[]
+			},
+		"data":{
+			"init-path":[
+				{"tag":"html"},
+				{"tag":"body"}
+				],
+			"iter":[{
+				"key-path":[
+					{"tag":"div", "attrs":{"class":"infoRechterKolom"}, "node": 1},
+					{"tag":"div", "attrs":{"class":"pgMenuInhoud"}, "node": 2},
+					{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "notattrs":{"style":"text-indent: 0px;"}, 
+						"select":"index", "link":1, "node": 3},
+					{"tag":"b", "index": 0}
+						],
+				"values2":[
+					[{"path":1},
+						{"tag":"div", "attrs":{"class":"pgMenuKop"}, "node": 4},
+						{"tag":"a", "attr":"href", "first":"","split":[["/",2]],"type":"lower-ascii"}],
+					[{"path":3, "split":[["-",0]],"type":"time"}],
+					[{"path":2}, 
+						{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "index":{"link":1,"next":""},"first":"", "split":[["-",0]],"type":"time"}],
+					[{"path":2}, 
+						{"tag":"p", "attrs":{"class":"pgProgPresentatie"}, "index":{"link":1,"calc":["plus",1]}}],
+					[{"path":3, "split":[["-",1]],"type":"time"}],
+					[{"path":3, "select": "inclusive text"}],
+					[{"path":3},
+						{"tag":"img", "attrs":{"alt":"herhaling"},"select":"presence"}],
+					[{"path":3},
+						{"tag":"img", "attrs":{"alt":"nonstop"},"select":"presence"}],
+					[{"path":3}],
+					[{"path":4}, {"tag": "b", "type": "date"}]
+					]
+				}]},
+		"values":{
+			"channelid":{"varid": 1},
+			"start-time":{"funcid":4, "data":[{"varid": 10},{"varid": 2}, 6]},
+			"stop-time":{"funcid":4, "data":[{"varid": 10},{"varid": 3}, 6,{"varid": 2}]},
+			"alt-stop-time":{"funcid":4, "data":[{"varid": 10},{"varid": 5}, 7,{"varid": 2}]},
+			"name":{"funcid": 9, "data":[{"varid":0, "regex": "(.*?)\\(.*\\)"},{"varid":0}]},
+			"broadcaster":{"varid":0, "regex": ".*?\\((.*)\\)"},
+			"credits":{"funcid":103, "data":[{"varid":4}], "default":{}},
+			"rerun":{"varid":7},
+			"genre":{"funcid":7, "data":[{"varid":8},"muziek",{"funcid": 105, "data":[
+					{"muziek": "muziek", "nieuws": "nieuws/actualiteiten", "sport": "sport", "actualiteiten": "nieuws/actualiteiten"}, 
+					{"varid":6}, {"varid":0}], "default": "overige"}]},
+			"description":{"funcid":109, "data":[{"funcid":109, "data":[{"varid": 6},{"varid": 9}]},{"varid": 0}]}}},
+	"base-channels-old":{
 		"url":["http://www.oorboekje.nl/program.php"],
 		"data-format":"text/html",
 		"encoding":null,
@@ -99,7 +186,7 @@
 			"icon":{"funcid":101, "data":[{"funcid":2, "data":["http://www.oorboekje.nl", {"varid": 2}]}]},
 			"group":{"value": 11},
 			"HD":null}},
-	"base":{
+	"base-old":{
 		"url":["http://www.oorboekje.nl/program.php"],
 		"data-format":"text/html",
 		"encoding":null,
