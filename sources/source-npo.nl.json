@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":10,
+	"version":11,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":true,
@@ -43,7 +43,7 @@
 			"funx": {"name": "NPO FunX", "group": 11, "fetch_grp": "radio", 
 				"icon": "radio_channel/298/logo/regular_NPO_FUNX_Logo_RGB.png", "icongrp": 7}}},
 	"base-channels_v2":{
-		"url":["http://www.npo.nl/gids"],
+		"url":["https://www.npo.nl/gids"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -90,7 +90,7 @@
 			"group":{"varid": 4},
 			"HD":null}},
 	"base":{
-		"url":["http://www.npo.nl/gids"],
+		"url":["https://www.npo.nl/gids"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
