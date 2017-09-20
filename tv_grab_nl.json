@@ -1374,7 +1374,9 @@
 		"1-veronica": [
 			{"chanid": "0-34", "start": "18:00", "end": "4:00"}, 
 			{"chanid": "0-311", "start": "4:00", "end": "18:00", "slots": ["disney xd"]}],
-		"1-ketnet-canvas-2": ["8-ketnet", "8-eenplus"],
+		"1-ketnet-canvas-2": [
+			{"chanid": "8-ketnet", "start": "6:00", "end": "20:00"},
+			{"chanid": "8-eenplus", "start": "20:00", "end": "6:00"}],
 		"1-nickelodeon": [
 			{"chanid": "0-89", "start": "5:00", "end": "21:05"}, 
 			{"chanid": "0-467", "start": "21:05", "end": "5:00"}],
