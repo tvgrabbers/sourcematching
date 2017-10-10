@@ -82,6 +82,7 @@
 		"40": "https://wp28-images-nl-dynamic.horizon.tv/ChannelLogos/02/"},
 	"ttvdb_ids":{
 		"Ben 10":{"name":"Ben 10 (2016)","tid":318145},
+		"Ben 10: Alien Worlds":{"name":"Ben 10 (2016)","tid":318145},
 		"Bordertown":{"name":"Bordertown (2016)","tid":275120},
 		"Brotherhood":{"name":"Brotherhood (2015)","tid":296474},
 		"Bull":{"name":"Bull (2016)","tid":311945},
@@ -105,6 +106,8 @@
 		"Louie":{"name":"Louie (2010)","tid":155201},
 		"MacGyver":{"name":"MacGyver (2016)","tid":311902},
 		"Maigret":{"name":"Maigret (2016)","tid":309212},
+		"Mighty Magiswords - 5 Minute Shorts":{"name":"Mighty Magiswords","tid":298172},
+		"Mighty Magiswords Adventure Academy":{"name":"Mighty Magiswords","tid":298172},
 		"Missing":{"name":"Missing (2012)","tid":248797},
 		"Mistresses":{"name":"Mistresses (US)","tid":259054},
 		"Nashville":{"name":"Nashville (2012)","tid":259055},
