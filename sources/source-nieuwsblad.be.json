@@ -6,7 +6,7 @@
 	"name":"nieuwsblad.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":9,
+	"version":10,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
