@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":24,
+			"version":25,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -69,7 +69,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":16,
+			"version":18,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -79,7 +79,7 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":18,
+			"version":19,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
@@ -899,7 +899,8 @@
 			"12-71": "radio-8fm",
 			"12-groot-nieuws-radio": "groot-nieuws-radio",
 			"12-grunn-fm": "grunn-fm",
-			"12-frysk-fm": "frysk-fm"}},
+			"12-frysk-fm": "frysk-fm",
+			"12-radio-nl-kids": "radio-nl-kids"}},
 	"channel_rename":{
 		"0-7":"BBC One England",
 		"0-8":"BBC Two",
@@ -1041,10 +1042,13 @@
 		"0-406":5,
 		"0-411":5,
 		"0-413":5,
+		"0-416":5,
 		"0-419":5,
 		"0-420":5,
 		"0-424":5,
+		"0-429":5,
 		"0-430":5,
+		"0-435":5,
 		"0-438":5,
 		"0-440":5,
 		"0-466":5,
@@ -1057,7 +1061,7 @@
 		"1-sport1-extra-2":5,
 		"1-nickelodeon":3,
 		"1-veronica":5,
-		"1-zappelin":5,
+		"1-zappelin":4,
 		"virtual-veronica":3},
 	"channel_groups":{
 		"0":"Actieve Zenders",
