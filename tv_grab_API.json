@@ -10,7 +10,8 @@
 		"base":["base"],
 		"detail":["detail","detail2"],
 		"thetvdb.v1":["seriesid","last_updated","seriesname","episodes"],
-		"thetvdb.v2":["login","error","seriesid","seriesname","episodes","episodecount","episode"]},
+		"thetvdb.v2":["login", "refresh", "error", "seriesid", "seriesname", "localizedseries", 
+			"actors", "episodecount", "episodes", "season", "episodedetail"]},
 	"data_keys":{
 		"text":["prog_ID","gen_ID","detail_url","group name","name","episode title",
 			"originaltitle","description","genre","subgenre","org-genre","org-subgenre",
