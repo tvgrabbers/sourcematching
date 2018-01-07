@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":25,
+			"version":26,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -69,7 +69,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":18,
+			"version":19,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -1052,6 +1052,7 @@
 		"0-438":5,
 		"0-440":5,
 		"0-466":5,
+		"0-467":5,
 		"1-ketnet-canvas-2":10,
 		"1-eredivisie-live-2":5,
 		"1-eredivisie-live-3":5,
