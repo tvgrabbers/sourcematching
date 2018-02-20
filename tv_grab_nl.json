@@ -54,7 +54,7 @@
 			"cattransid":1},
 		"12":{
 			"json file":"source-oorboekje.nl",
-			"version":13,
+			"version":14,
 			"cattrans type":null,
 			"cattransid":null},
 		"9":{
@@ -1145,7 +1145,7 @@
 		"17":["7-893_radio_west","7-radio_gelderland","7-r_omroep_brabant","7-r_omroep_zeeland","7-radio_gelderland",
 			"7-radio_m_utrecht","7-radio_noord","7-radio_oost","7-radio_rijnmond"]},
 	"logo_provider":{
-		"101": "http://www.oorboekje.nl/img/logo/",
+		"101": "http://oorboekje.nl/img/logo/",
 		"102": "https://nbofront.akamaized.net/extra/assets/img/tvgids/"},
 	"logo_names":{
 		"--description--":["", "If no extension is provided .png will be assumed"],
