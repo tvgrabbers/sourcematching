@@ -6,10 +6,10 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":26,
+	"version":27,
 	"api-version":[1,0,5],
 	"detail_processor":false,
-	"alt-url-code":403,
+	"alt-url-code":500,
 	"channels":{
 		"url":["https://web-api-pepper.horizon.tv/oesp/api/NL/nld/web/channels/"],
 		"alt-url":["https://web-api-salt.horizon.tv/oesp/api/NL/nld/web/channels/"],
