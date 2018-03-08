@@ -6,7 +6,7 @@
 		"    and can increase the speed with up to 65%\n",
 		"    Also to fetch the new npo.nl detail pages this version is needed.\n"],
 	"data_defs":{
-		"channel":["channel","base-channel"],
+		"channel":["channels","base-channels"],
 		"base":["base"],
 		"detail":["detail","detail2"],
 		"thetvdb.v1":["seriesid","last_updated","seriesname","episodes"],
