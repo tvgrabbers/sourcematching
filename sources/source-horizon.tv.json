@@ -173,9 +173,6 @@
 			"subgenre":{"varid":14},
 			"rerun":{"funcid":6, "data":[{"varid":2},{"varid":16},false, true, false]}
 			}},
-	"base-channels":{"url":["dummy"], "alt-url":["dummy"], "normal-url":["dummy"]},
-	"detail":{"url":["dummy"], "alt-url":["dummy"], "normal-url":["dummy"]},
-	"detail2":{"url":["dummy"], "alt-url":["dummy"], "normal-url":["dummy"]},
 	"no_genric_matching":[
 			"24443942983", "24443942987", "24443942992", "24443943006", "24443943012", "24443943014",
 			"24443943033", "24443943035", "24443943058", "24443943087", "24443943091", "24443943096",
