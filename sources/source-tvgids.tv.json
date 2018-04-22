@@ -25,8 +25,8 @@
 				{"tag":"body"},
 				{"tag":"div", "attrs":{"id":"wrap"}},
 				{"tag":"div", "attrs":{"class":"container"}},
-				{"tag":"div", "attrs":{"class":"row"}},
-				{"tag":"div", "attrs":{"class":"span47 offset1"}}
+				{"tag":"div", "attrs":{"class":"row row-content"}},
+				{"tag":"div", "attrs":{"class":"col-center offset1"}}
 				],
 			"iter":[{
 				"key-path":[
@@ -87,8 +87,8 @@
 				{"tag":"body"},
 				{"tag":"div", "attrs":{"id":"wrap"}},
 				{"tag":"div", "attrs":{"class":"container"}},
-				{"tag":"div", "attrs":{"class":"row"}},
-				{"tag":"div", "attrs":{"class":"span47 offset1"}}
+				{"tag":"div", "attrs":{"class":"row row-content"}},
+				{"tag":"div", "attrs":{"class":"col-center offset1"}}
 				],
 			"today":[
 				{"tag":"div", "attrs":{"class":"section"}},
@@ -166,8 +166,8 @@
 				{"tag":"body"},
 				{"tag":"div", "attrs":{"id":"wrap"}},
 				{"tag":"div", "attrs":{"class":"container"}},
-				{"tag":"div", "attrs":{"class":"row"}},
-				{"tag":"div", "attrs":{"class":"span47 offset1"}}
+				{"tag":"div", "attrs":{"class":"row row-content"}},
+				{"tag":"div", "attrs":{"class":"col-center offset1"}}
 				],
 			"key-path":[
 				{"tag":"div", "attrs":{"class":"section"}, "node": 1},
