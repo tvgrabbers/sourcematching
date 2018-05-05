@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":18,
+	"version":19,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -304,8 +304,8 @@
 			"sport1-racing", "sport-1-extra-1", "sport1-extra-2", "tlc", "veronica", "zappelin"],
 	"empty_channels":[
 			"13th-street", "bbc-hd", "best-24", "canal-z", "film1-festival", "foxlife", "hbo", "hbo-2",
-			"hbo-3", "history-hd", "horse-country-tv", "ketnet-op12", "la-une-hd", "life-tv", "nat-geo-hd",
-			"syfy", "tf1-hd", "virgin-1", "vtm-hd", "vtmkzoom-2"],
+			"hbo-3", "history-hd", "horse-country-tv", "jimjam", "ketnet-op12", "la-une-hd", "life-tv",
+			"nat-geo-hd", "syfy", "tf1-hd", "virgin-1", "vtm-hd", "vtmkzoom-2"],
 	"cattrans_keywords":{
 		"jeugd":"Jeugd",
 		"muziek":"Muziek",

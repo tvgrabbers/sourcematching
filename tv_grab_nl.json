@@ -74,7 +74,7 @@
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":18,
+			"version":19,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
@@ -298,6 +298,7 @@
 			"0-465":"rtl-z",
 			"0-466": "ziggo-sport",
 			"0-467": "spike",
+			"0-471": "kpn-presenteert",
 			"1-acht": "caz",
 			"1-animal-planet-hd": "animal-planet-hd",
 			"1-bbc-1": "bbc-one",
@@ -320,7 +321,6 @@
 			"1-itv-3": "itv-3",
 			"1-itv-2": "itv-2",
 			"1-itv-4": "itv-4",
-			"1-jimjam": "jimjam",
 			"1-journaal-24": "journaal-24",
 			"1-kanaalz": "kanaalz",
 			"1-ketnet-canvas-2": "ketnet-canvas-2",
@@ -492,7 +492,6 @@
 			"1-veronica": "24443943190",
 			"1-ketnet-canvas-2": "24443943087",
 			"1-disney-junior": "541838374997",
-			"1-jimjam": "24443942995",
 			"1-eredivisie-live-2": "119414823227",
 			"1-eredivisie-live-3": "119414823235",
 			"1-eredivisie-live-4": "119414823230",
@@ -900,6 +899,7 @@
 			"12-67": "qmusic-limburg",
 			"12-70": "ujala-radio",
 			"12-71": "radio-8fm",
+			"12-coastline": "coastline",
 			"12-groot-nieuws-radio": "groot-nieuws-radio",
 			"12-grunn-fm": "grunn-fm",
 			"12-frysk-fm": "frysk-fm",
@@ -1269,7 +1269,6 @@
 		"1-eredivisie-live-4" : ["4", "fox_sports4_hd"],
 		"1-fox-sports-5-eredivisie" : ["4", "fox_sports_ere_5_hd"],
 		"1-fox-sports-6": ["4", "fox_sports6_hd"],
-		"1-jimjam" : ["4", "jimjam"],
 		"1-journaal-24" : ["4", "npo_nieuws"],
 		"1-ketnet-canvas-2" : ["4", "ketnet_v2"],
 		"1-nickelodeon" : ["4", "nickelodeon_spike"],
@@ -1392,8 +1391,8 @@
 			{"chanid": "8-ketnet", "start": "6:00", "end": "20:00"},
 			{"chanid": "8-eenplus", "start": "20:00", "end": "6:00"}],
 		"1-nickelodeon": [
-			{"chanid": "0-89", "start": "5:00", "end": "21:05"}, 
-			{"chanid": "0-467", "start": "21:05", "end": "5:00"}],
+			{"chanid": "0-89", "start": "5:00", "end": "21:30"}, 
+			{"chanid": "0-467", "start": "21:30", "end": "5:00"}],
 		"5-24443943080": ["0-301", "1-cbeebies"]},
 	"virtual-sub-channels":{
 		"virtual-veronica":{
