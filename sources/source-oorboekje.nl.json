@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":15,
+	"version":16,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -117,7 +117,7 @@
 				"values2":[
 					[{"path":1},
 						{"tag":"div", "attrs":{"class":"pgMenuKop"}, "node": 4},
-						{"tag":"a", "attr":"href", "first":"","split":[["/",2]],"type":"lower-ascii"}],
+						{"tag":"a", "attr":"href", "first":"","split":[["/",1]],"type":"lower-ascii"}],
 					[{"path":3, "split":[["-",0]],"type":"time"}],
 					[{"path":2}, 
 						{"tag":"div", "attrs":{"class":"pgProgOmschr"}, "index":{"link":1,"next":""},"first":"", "split":[["-",0]],"type":"time"}],
