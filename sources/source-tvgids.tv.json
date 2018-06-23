@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":19,
+	"version":20,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -144,6 +144,8 @@
 			"start-time":{"funcid":4, "data":[null,{"varid": 2}, 7]},
 			"stop-time":{"funcid":4, "data":[null,{"varid": 3}, 7,{"varid": 2}]},
 			"name":{"varid":5},
+			"episode":{"varid": 5, "regex":"aflevering\\s(\\d*)", "type":"int", "default":null},
+			"season":{"varid": 5, "regex":"seizoen\\s*(\\d*)", "type":"int", "default":null},
 			"description":{"varid":6}}},
 	"detail":{
 		"url":["http://www.tvgids.tv/tv/",["detailid"], "/"],
