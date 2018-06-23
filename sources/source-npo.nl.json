@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":12,
+	"version":13,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":true,
@@ -43,7 +43,7 @@
 			"funx": {"name": "NPO FunX", "group": 11, "fetch_grp": "radio", 
 				"icon": "radio_channel/298/logo/regular_NPO_FUNX_Logo_RGB.png", "icongrp": 7}}},
 	"base-channels_v2":{
-		"url":["https://www.npo.nl/gids"],
+		"url":["https://www.npostart.nl/gids"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -90,7 +90,7 @@
 			"group":{"varid": 4},
 			"HD":null}},
 	"base":{
-		"url":["https://www.npo.nl/gids"],
+		"url":["https://www.npostart.nl/gids"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -137,7 +137,7 @@
 				"values2":[
 					[{"path": 1, "attr":"id","lstrip":"channel-","type":"lower-ascii","member-off":"channelid"}],
 					[{"path": 2, "attr":"data-title"}],
-					[{"path": 2, "attr":"href","lstrip":"https://www.npo.nl/"}],
+					[{"path": 2, "attr":"href","lstrip":"https://www.npostart.nl/"}],
 					[{"path": 2, "attr":"data-id"}],
 					[{"path": 3, "attr":"id","lstrip":"program-"}],
 					[{"path": 2, "attr":"data-type", "replace":{"tv":true,"radio":false}}]
@@ -150,7 +150,7 @@
 			"prog_ID":{"varid":5},
 			"gen_ID":{"varid":4}}},
 	"detail":{
-		"url":["https://www.npo.nl/",["detailid"]],
+		"url":["https://www.npostart.nl/",["detailid"]],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
