@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":20,
+	"version":21,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -24,6 +24,7 @@
 				{"tag":"html"},
 				{"tag":"body"},
 				{"tag":"div", "attrs":{"id":"wrap"}},
+				{"tag":"main"},
 				{"tag":"div", "attrs":{"class":"container"}},
 				{"tag":"div", "attrs":{"class":"row row-content"}},
 				{"tag":"div", "attrs":{"class":"col-center offset1"}}
@@ -86,6 +87,7 @@
 				{"tag":"html"},
 				{"tag":"body"},
 				{"tag":"div", "attrs":{"id":"wrap"}},
+				{"tag":"main"},
 				{"tag":"div", "attrs":{"class":"container"}},
 				{"tag":"div", "attrs":{"class":"row row-content"}},
 				{"tag":"div", "attrs":{"class":"col-center offset1"}}
@@ -167,6 +169,7 @@
 				{"tag":"html"},
 				{"tag":"body"},
 				{"tag":"div", "attrs":{"id":"wrap"}},
+				{"tag":"main"},
 				{"tag":"div", "attrs":{"class":"container"}},
 				{"tag":"div", "attrs":{"class":"row row-content"}},
 				{"tag":"div", "attrs":{"class":"col-center offset1"}}
