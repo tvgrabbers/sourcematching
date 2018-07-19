@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":30,
+			"version":31,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -69,12 +69,12 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":20,
+			"version":21,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":21,
+			"version":22,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
@@ -164,7 +164,6 @@
 			"0-312": "312",
 			"0-313": "313",
 			"0-315": "315",
-			"0-317": "317",
 			"0-406": "406",
 			"0-407": "407",
 			"0-408": "408",
@@ -269,7 +268,6 @@
 			"0-311": "disney-xd",
 			"0-312": "nick-jr",
 			"0-313": "boomerang",
-			"0-317": "comedy-family",
 			"0-406": "ons",
 			"0-407": "out-tv",
 			"0-408": "rtl-lounge",
@@ -448,7 +446,6 @@
 			"0-312": "24443942992",
 			"0-313": "796441639039",
 			"0-315": "796441639040",
-			"0-317": "796441639041",
 			"0-406": "796441638992",
 			"0-407": "796441638996",
 			"0-408": "796441639032",
@@ -930,7 +927,6 @@
 		"0-148":"FOX Sports 1 Eredivisie",
 		"0-301":"BBC Four",
 		"0-304":"AMC",
-		"0-317":"Comedy Central Family",
 		"0-409":"RTL Crime",
 		"0-410":"NPO 3 extra",
 		"0-414":"Investigation Discovery",
@@ -1053,7 +1049,7 @@
 		"0-416":5,
 		"0-419":5,
 		"0-420":5,
-		"0-424":5,
+		"0-424":3,
 		"0-429":5,
 		"0-430":5,
 		"0-435":5,
@@ -1226,7 +1222,6 @@
 		"0-312" : ["4", "nick_jr"],
 		"0-313" : ["4", "boomerang_1"],
 		"0-315" : ["4", "cbs_reality"],
-		"0-317" : ["4", "comedy_central_family1"],
 		"0-406" : ["4", "ons_2018"],
 		"0-407" : ["4", "outtv_v2"],
 		"0-408" : ["4", "rtl_lounge_v2"],
