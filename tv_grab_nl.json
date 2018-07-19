@@ -1067,7 +1067,8 @@
 		"1-nickelodeon":3,
 		"1-veronica":5,
 		"1-zappelin":5,
-		"virtual-veronica":3},
+		"virtual-veronica":3,
+		"virtual-disneyxd":5},
 	"channel_groups":{
 		"0":"Actieve Zenders",
 		"1":"Nederlands",
@@ -1382,7 +1383,7 @@
 			{"chanid": "0-101", "start": "23:00", "end": "0:00"}],
 		"11-veronicadxd": [
 			{"chanid": "virtual-veronica", "start": "18:00", "end": "4:00"},
-			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
+			{"chanid": "virtual-disneyxd", "start": "4:00", "end": "18:00"}],
 		"1-veronica": [
 			{"chanid": "0-34", "start": "18:00", "end": "4:00"}, 
 			{"chanid": "0-311", "start": "4:00", "end": "18:00", "slots": ["disney xd"]}],
@@ -1400,7 +1401,14 @@
 			"3":"34",
 			"1":"veronica",
 			"5":"24443943190",
-			"7":"veronica"}},
+			"7":"veronica"},
+		"virtual-disneyxd":{
+			"start":"4:00",
+			"end":"18:00",
+			"3":"311",
+			"1":"disney-xd",
+			"5":"24443943190",
+			"9":"disneyxd"}},
 	"merge_into":{
 		"--description--":["This should be a dict with the new chanid as key (in stead of --example--)",
 			"inside you have the old chanid from which is merging into the new one, a set of sourceid/channel combinations",

@@ -1066,7 +1066,8 @@
 		"1-politiek-24":5,
 		"1-veronica":5,
 		"1-zappelin":5,
-		"virtual-veronica":0},
+		"virtual-veronica":0,
+		"virtual-disneyxd":5},
 	"channel_groups":{
 		"0":"Actieve Zenders",
 		"1":"Nederlands",
@@ -1606,7 +1607,7 @@
 			{"chanid": "0-101", "start": "23:00", "end": "0:00"}],
 		"11-veronicadxd": [
 			{"chanid": "0-34", "start": "18:00", "end": "4:00", "virtual-chanid":"virtual-veronica"},
-			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
+			{"chanid": "0-311", "start": "4:00", "end": "18:00", "virtual-chanid":"virtual-disneyxd"}],
 		"1-veronica": ["0-34", "0-311"],
 		"1-ketnet-canvas-2": [
 			{"chanid": "8-ketnet", "start": "6:00", "end": "20:00"},
@@ -1622,7 +1623,14 @@
 			"0":"34",
 			"1":"veronica",
 			"5":"24443943190",
-			"7":"veronica"}},
+			"7":"veronica"},
+		"virtual-disneyxd":{
+			"start":"4:00",
+			"end":"18:00",
+			"0":"311",
+			"1":"disney-xd",
+			"5":"24443943190",
+			"9":"disneyxd"}},
 	"merge_into":{},
 	"ttvdb_aliasses":{"André Rieu":"André Rieu; Welcome to my world",
 		"Ben 10":"Ben 10 (2016)",
