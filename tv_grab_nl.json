@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":31,
+			"version":32,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -442,7 +442,6 @@
 			"0-304": "563391527030",
 			"0-305": "24443943084",
 			"0-306": "24443943097",
-			"0-311": "796441639021",
 			"0-312": "24443942992",
 			"0-313": "796441639039",
 			"0-315": "796441639040",
@@ -770,7 +769,6 @@
 			"0-59": "q2",
 			"0-60": "vier",
 			"0-90": "bvn",
-			"0-311": "disneyxd",
 			"0-422": "euronews",
 			"0-439": "animalsplanet",
 			"1-njam": "njam",
@@ -1041,7 +1039,7 @@
 		"0-116":5,
 		"0-148":5,
 		"0-304":5,
-		"0-311":5,
+		"0-311":3,
 		"0-313":3,
 		"0-406":5,
 		"0-411":5,
@@ -1407,8 +1405,7 @@
 			"end":"18:00",
 			"3":"311",
 			"1":"disney-xd",
-			"5":"24443943190",
-			"9":"disneyxd"}},
+			"5":"24443943190"}},
 	"merge_into":{
 		"--description--":["This should be a dict with the new chanid as key (in stead of --example--)",
 			"inside you have the old chanid from which is merging into the new one, a set of sourceid/channel combinations",
