@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":21,
+	"version":22,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -73,7 +73,7 @@
 			"description":{"varid":8},
 			"rating":{"funcid":104, "data":[{"varid":7},"as_list"]}}},
 	"detail":{
-		"url":["http://www.tvgids.nl/programma/",["detailid"], "/"],
+		"url":["http://www.tvgids.nl/null/programma/",["detailid"], "/"],
 		"data-format":"text/html",
 		"encoding":"windows-1252",
 		"accept-header":null,
