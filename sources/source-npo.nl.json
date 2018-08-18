@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":14,
+	"version":15,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":true,
@@ -195,6 +195,7 @@
 						{"tag":"i", "attr": "class","lstrip":"icon "}]
 					]}]},
 		"provides":["description","episode title","broadcaster","rating"],
+		"update-base":["length"],
 		"values":{
 			"name":{"varid":0},
 			"start-time":{"funcid":4, "data":[{"varid": 2},{"varid": 1}, 6, null, {"varid": 3}]},
