@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":15,
+	"version":16,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":true,
@@ -192,7 +192,9 @@
 						{"tag":"section", "attrs":{"class":"npo-header-episode-meta"}},
 						{"tag":"h2"}],
 					[{"path":4},
-						{"tag":"i", "attr": "class","lstrip":"icon "}]
+						{"tag":"i", "attr": "class","lstrip":"icon "}],
+					[{"path":5, "select": "tail","split":[["\\s*",1]]}],
+					[{"path":5, "select": "tail","split":[["\\s*",3]], "type":"timedelta", "multiplier":60}]
 					]}]},
 		"provides":["description","episode title","broadcaster","rating"],
 		"update-base":["length"],
@@ -201,8 +203,8 @@
 			"start-time":{"funcid":4, "data":[{"varid": 2},{"varid": 1}, 6, null, {"varid": 3}]},
 			"description":{"funcid":1, "data":[{"varid": 6},{"varid": 7}]},
 			"episode title":{"varid": 8, "default":null},
-			"broadcaster":{"varid":4},
-			"length":{"varid":5},
+			"broadcaster":{"funcid":9, "data":[{"varid":4},{"varid": 10}]},
+			"length":{"funcid":9, "data":[{"varid":5},{"varid": 11}]},
 			"rating":{"funcid":104, "data":[{"varid":9}]}
 			}},
 	"no_genric_matching":[],
