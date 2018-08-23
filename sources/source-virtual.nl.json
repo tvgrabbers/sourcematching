@@ -6,7 +6,7 @@
     "name":"virtual.nl",
 	"is_virtual": true,
     "language":"nl",
-    "version":7,
+    "version":8,
     "api-version":[1,0,0],
     "channels":{
         "data":{
@@ -15,5 +15,5 @@
 			"nickspike": {"name": "Nickelodeon / Spike (virtual)", "group": 7, "icon": "nickelodeon_spike.png", "icongrp": 4},
 			"regio1": {"name": "Regio carrousel 1", "group": 6},
 			"regio2": {"name": "Regio carrousel 2", "group": 6},
-			"veronicadxd": {"name": "Veronica / Disney XD (virtual)", "group": 1, "icon": "veronica_disney_xd3.png", "icongrp": 4}}}}
+			"veronicadxd": {"name": "Veronica / Disney XD (virtual)", "group": 1, "icon": "veronica_disney_2018.png", "icongrp": 4}}}}
         
