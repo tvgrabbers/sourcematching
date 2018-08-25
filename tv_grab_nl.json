@@ -79,7 +79,7 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":21,
+			"version":22,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
@@ -1066,6 +1066,11 @@
 		"1-nickelodeon":3,
 		"1-veronica":5,
 		"1-zappelin":5,
+		"4-292":7,
+		"4-293":7,
+		"4-294":7,
+		"4-295":7,
+		"4-296":7,
 		"8-ketnet":8,
 		"virtual-veronica":3,
 		"virtual-disneyxd":5},
