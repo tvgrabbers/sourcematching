@@ -6,12 +6,12 @@
 	"name":"primo.eu",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":13,
+	"version":14,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
 	"base-channels":{
-		"url":["http://www.primo.eu/Tv%20programma's%20in%20volledig%20scherm%20bekijken"],
+		"url":["https://www.primo.eu/Tv%20programma's%20in%20volledig%20scherm%20bekijken"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -72,7 +72,7 @@
 			"group":null,
 			"HD":null}},
 	"base":{
-		"url":["http://www.primo.eu/tv-programs-full-view/",11, "/all/all"],
+		"url":["https://www.primo.eu/tv-programs-full-view/",11, "/all/all"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -164,7 +164,7 @@
 			"length":{"varid": 8},
 			"name":{"varid":5}}},
 	"detail":{
-		"url":["http://www.primo.eu/tvprograms/ajaxcallback/",["detailid"]],
+		"url":["https://www.primo.eu/tvprograms/ajaxcallback/",["detailid"]],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
