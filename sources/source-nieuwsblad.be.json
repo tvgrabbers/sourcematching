@@ -6,7 +6,7 @@
 	"name":"nieuwsblad.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":11,
+	"version":12,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -221,7 +221,7 @@
 	"no_genric_matching":["canvas", "cartoon-network", "een", "eenplus", "mtv", "npo1", "npo2", "npo3"],
 	"empty_channels":[
 			"bbc1", "bbc3", "bbc4", "bbc-world", "canvasplus", "net5", "prime-action", "prime-family", "prime-fezztival",
-			"prime-star", "prime-series", "sbs6", "sundance-channel", "sundance-tv", "tv5", "veronica"],
+			"prime-star", "prime-series", "sbs6", "sundance-channel", "sundance-tv", "sundancetv", "tv5", "veronica"],
 	"cattrans":{},
 	"rating":{}}
 
