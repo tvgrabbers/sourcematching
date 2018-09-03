@@ -44,7 +44,7 @@
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":10,
+			"version":11,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
@@ -1073,6 +1073,7 @@
 		"4-294":7,
 		"4-295":7,
 		"4-296":7,
+		"4-298":12,
 		"8-ketnet":8,
 		"virtual-veronica":3,
 		"virtual-disneyxd":5},
