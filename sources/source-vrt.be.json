@@ -6,7 +6,7 @@
 	"name":"vrt.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":6,
+	"version":7,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -142,7 +142,7 @@
 			"subgenre":{"varid":20}
 			}},
 	"no_genric_matching":[],
-	"empty_channels":["71"],
+	"empty_channels":["81"],
 	"cattrans":{
         "1":{
 			"default":["film", ""]},
