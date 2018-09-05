@@ -71,7 +71,7 @@
 			"  nickelodeon: Nickelodeon/Spike Netherlands.\n",
 			"8-nickelodeon: Nickelodeon/Spike Flanders.\n"],
 		"2":["TV5 Monde FBS has been split off from TV5 Monde Europe.\n"]},
-	"active_sources":[7,0,1,5,9,6,8,2,10,11],
+	"active_sources":[7,0,5,9,6,8,2,10,11],
 	"source_base_url":{
 		"0":"http://www.tvgids.nl/",
 		"1":"http://www.tvgids.tv",
