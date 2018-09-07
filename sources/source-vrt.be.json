@@ -9,6 +9,32 @@
 	"version":7,
 	"api-version":[1,0,0],
 	"detail_processor":false,
+	"alt-channels":{
+		"url":["http://services.vrt.be/epg/channels"],
+		"data-format":"application/json",
+		"encoding":"utf-8",
+		"accept-header":"application/vnd.epg.vrt.be.channels_2.0+json",
+		"url-type": 0,
+		"url-data":{},
+		"data":{
+			"key-path":[
+				{"key":"list"},
+				{"path":"all"},
+				{"key":"code"}
+				],
+			"values":[
+				[{"key":"name"}],
+				[{"key":"logoUrl","default":""}],
+				[{"key":"type", "replace":{"tv":2, "radio":12},"default":9}],
+				[{"key":"isActive", "type": "boolean"}]
+				]},
+		"values":{
+			"channelid":{"varid": 0},
+			"name":{"funcid":0, "data":[{"varid":1}, " HD"]},
+			"group":{"varid":3},
+			"icon":{"funcid":101, "data":[{"varid":2}]},
+			"inactive_channel":{"funcid":6, "data":[{"varid":4}, false]},
+			"HD":null}},
 	"channels":{
 		"url":["http://services.vrt.be/channel/s"],
 		"data-format":"application/json",
