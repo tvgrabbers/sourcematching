@@ -1477,6 +1477,8 @@
 			"tekst-tv":"Tekst TV", 
 			"nos tekst tv":"Tekst TV", 
 			"nos tekst-tv":"Tekst TV"},
+		"0-4":{"nieuws":"RTL Nieuws", 
+			"weer":"RTL Weer"},
 		"0-5":{"herhalingen":"Journaallus"},
 		"0-6":{"herhalingen":"Canvaslus"},
 		"0-7":{"nieuws":"BBC News", 
@@ -1485,6 +1487,7 @@
 			"het weer":"Regional News and Weather"},
 		"0-9":{"nieuws":"Tagesschau"},
 		"0-10":{"nieuws":"Heute"},
+		"0-31":{"teleshop":"Teleshop 5"},
 		"0-92":{"mr. bean":"Mr. Bean: The Animated Series"},
 		"0-313":{"mr. bean":"Mr. Bean: The Animated Series"}
 		},
