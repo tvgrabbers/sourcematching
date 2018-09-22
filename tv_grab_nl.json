@@ -1499,8 +1499,11 @@
 		"0-313":{"mr. bean":"Mr. Bean: The Animated Series"},
 		"4-292":{"nos journaal":"NOS Radio 1 Journaal", 
 			"radio 1-journaal":"NOS Radio 1 Journaal"},
-		"7-radio_veronica":{"de beste pop en rockhits":"De Beste Pop en Rock Hits", 
-			"non-stop":"De Beste Pop en Rock Hits"}
+		"7-radio_veronica":{"de beste pop en rockhits":"De Beste Pop en Rock Hits",
+			"de veronica middagshow met niek":"De Veronica Middagshow met Niek van der Bruggen",
+			"middagshow":"De Veronica Middagshow met Niek van der Bruggen",
+			"non-stop":"De Beste Pop en Rock Hits",
+			"ochtendshow":"De Veronica Ochtendshow met Giel"}
 		},
 	"language_texts":{
 		"and others":"e\\.a\\.",
