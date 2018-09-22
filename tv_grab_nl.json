@@ -1496,7 +1496,9 @@
 		"0-10":{"nieuws":"Heute"},
 		"0-31":{"teleshop":"Teleshop 5"},
 		"0-92":{"mr. bean":"Mr. Bean: The Animated Series"},
-		"0-313":{"mr. bean":"Mr. Bean: The Animated Series"}
+		"0-313":{"mr. bean":"Mr. Bean: The Animated Series"},
+		"4-292":{"nos journaal":"NOS Radio 1 Journaal", 
+			"radio 1-journaal":"NOS Radio 1 Journaal"}
 		},
 	"language_texts":{
 		"and others":"e\\.a\\.",
