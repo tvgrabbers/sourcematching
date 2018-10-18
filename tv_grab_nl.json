@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":34,
+			"version":35,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -69,7 +69,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":24,
+			"version":25,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -1028,7 +1028,7 @@
 		"0-91":7,
 		"0-99":5,
 		"0-100":5,
-		"0-101":3,
+		"0-101":5,
 		"0-102":3,
 		"0-108":5,
 		"0-110":5,
