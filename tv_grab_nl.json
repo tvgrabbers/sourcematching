@@ -49,7 +49,7 @@
 			"cattransid":null},
 		"4":{
 			"json file":"source-npo.nl",
-			"version":18,
+			"version":19,
 			"cattrans type":null,
 			"cattransid":1},
 		"12":{
@@ -388,6 +388,7 @@
 			"4-294": "rad3",
 			"4-295": "rad4",
 			"4-296": "rad5",
+			"4-297": "rad6",
 			"4-298": "funx"},
 		"5":{"0-1": "24443942983",
 			"0-2": "24443942987",
