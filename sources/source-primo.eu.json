@@ -236,7 +236,7 @@
 	"no_genric_matching":["canvas", "cartoonnetwork", "discoverychannel", "disneyxd", "een", "ketnet", "mtv", "npo1", "npo2", "npo3"],
 	"empty_channels":["2be", "acht", "anne", "bbc3", "bbc4", "bbcworld", "canvas+", "culture7", "een+", "fezztival", "jimtv",
 			"net5", "sbss6", "primeaction", "primefamily", "primeseries", "primesport", "primesport2", "primestar",
-			"veronica", "sundancechannel", "sundancestv", "sundancetv", "rtlplusinternational"],
+			"veronica", "sundancechannel", "sundancestv", "sundancetv", "rtlplusinternational", "tmf"],
 	"cattrans":{
         "nieuws":{
 			"default":["nieuws/actualiteiten", "nieuws"]},
