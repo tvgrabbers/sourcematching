@@ -70,7 +70,7 @@
 		"3":{
 			"json file":"source-tvgids.nl",
 			"version":27,
-			"cattrans type":1,
+			"cattrans type":null,
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
