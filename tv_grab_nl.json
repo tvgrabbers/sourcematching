@@ -49,7 +49,7 @@
 			"cattransid":null},
 		"4":{
 			"json file":"source-npo.nl",
-			"version":19,
+			"version":20,
 			"cattrans type":null,
 			"cattransid":1},
 		"12":{
@@ -383,7 +383,7 @@
 			"0-70": "cult",
 			"0-410": "_101_",
 			"1-journaal-24": "nosj",
-			"1-politiek-24": "po24",
+			"1-politiek-24": "_mcr_",
 			"1-zappelin": "opvo",
 			"4-292": "rad1",
 			"4-293": "rad2",
