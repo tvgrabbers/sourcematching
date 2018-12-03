@@ -1439,12 +1439,7 @@
 			"sources":{"11":"zappbest"}, 
 			"date":"20170704",
 			"message": ["The virtual channel 11-zappbest is removed as, with npo.nl as the last source\n", 
-				"merging them in one list, it now is exactly the same as 1-zappelin\n"]},
-		"0-21":
-			{"chanid":"11-cartoonsat", 
-			"sources":{"11":"cartoonsat"}, 
-			"date":"20170821",
-			"message": ["The virtual channel 11-cartoonsat is removed, Cartoon Network is now 24/7 on satelliet\n"]}},
+				"merging them in one list, it now is exactly the same as 1-zappelin\n"]}},
 	"generic_channel_genres":{
 		"muziek":["4-293", "4-294", "4-295", "4-297", "4-298", "7-arrow_classic_rock", "7-classic_fm", "7-q-music", 
 			"7-radio_538", "7-radio_veronica", "7-slam_fm", "7-sky_radio", "7-klara", "10-32", "10-41", "10-44", 
