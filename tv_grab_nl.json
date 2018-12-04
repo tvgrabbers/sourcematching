@@ -69,8 +69,8 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":28,
-			"cattrans type":1,
+			"version":29,
+			"cattrans type":null,
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
