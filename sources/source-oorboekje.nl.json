@@ -6,14 +6,14 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":20,
+	"version":21,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
 	"channels-test":{
 		"url":["https://oorboekje.nl/zenderinformatie"],
 		"data-format":"text/html",
-		"encoding":null,
+		"encoding":"utf-8",
 		"accept-header":null,
 		"url-type":0,
 		"url-data":{},
@@ -37,7 +37,7 @@
 	"channels":{
 		"url":["https://oorboekje.nl/"],
 		"data-format":"text/html",
-		"encoding":null,
+		"encoding":"utf-8",
 		"accept-header":null,
 		"url-type":0,
 		"url-data":{},
@@ -72,7 +72,7 @@
 	"base-channels":{
 		"url":["https://oorboekje.nl/radiogids/"],
 		"data-format":"text/html",
-		"encoding":null,
+		"encoding":"utf-8",
 		"accept-header":null,
 		"url-type":0,
 		"url-data":{},
@@ -100,7 +100,7 @@
 	"base":{
 		"url":["https://oorboekje.nl/radiogids/",11],
 		"data-format":"text/html",
-		"encoding":null,
+		"encoding":"utf-8",
 		"accept-header":null,
 		"url-type": 2,
 		"url-date-type": 0,
@@ -167,7 +167,7 @@
 	"base-old":{
 		"url":["https://oorboekje.nl/zenderinformatie/",["channel"], "/",11],
 		"data-format":"text/html",
-		"encoding":null,
+		"encoding":"utf-8",
 		"accept-header":null,
 		"url-type": 1,
 		"url-date-type": 0,
