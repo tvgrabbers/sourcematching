@@ -1774,8 +1774,13 @@
 				"text": "Discriminatie",
 				"icon":"http://tvgidsassets.nl/img/kijkwijzer/discriminatie_transp.png"}}},
 	"titlerename":{
+		"crime scene investigation": "CSI: Crime Scene Investigation",
+		"csi: new york": "CSI: NY",
 		"navy ncis": "NCIS", 
 		"inspector banks": "DCI Banks",
+		"law and order": "Law & Order",
+		"law and order: criminal intent": "Law & Order: Criminal Intent",
+		"law and order: special victims unit": "Law & Order: Special Victims Unit",
 		"z@pp echt gebeurd": "Zapp Echt Gebeurd",
 		"z@pp your planet": "Zapp Your Planet",
 		"z@ppbios": "Zappbios",
