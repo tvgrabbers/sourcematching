@@ -1476,7 +1476,8 @@
 		"te controleren"],
 	"compat_text":".tvgids.nl",
 	"channelprogram_rename":{
-		"0-1":{"journaal":"NOS Journaal", 
+		"0-1":{"amazing hotels: life beyond the lobby":"Wereldse Hotels",
+			"journaal":"NOS Journaal", 
 			"nieuws":"NOS Journaal", 
 			"tekst tv":"Tekst-TV", 
 			"nos tekst tv":"Tekst-TV", 
@@ -1506,6 +1507,7 @@
 			"journaal: sportweekend":"Het journaal - Sportweekend",
 			"londen heathrow: een stad op zichzelf":"Heathrow",
 			"sporza: uefa europa league magazine":"Sporza: Europa League Magazine",
+			"wereldse hotels":"Amazing Hotels: Life Beyond the Lobby",
 			"weer":"Het Weer"},
 		"0-6":{"herhalingen":"Canvaslus", 
 			"journaal":"Het Journaal", 
