@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":35,
+			"version":36,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -1078,7 +1078,7 @@
 		"4-296":12,
 		"4-297":12,
 		"4-298":12,
-		"5-561138215258":5,
+		"5-561138215258":3,
 		"8-ketnet":8,
 		"virtual-veronica":3,
 		"virtual-disneyxd":3},
@@ -1685,6 +1685,10 @@
 		"4-298":{"base":"FunX Base",
 			"dance":"FunX Dance",
 			"talent":"FunX Talent"},
+		"5-561138215258":{"5 x":"Vijf Keer",
+			"538game caves":"Game Caves",
+			"de laatste (2x)":"De Laatste",
+			"gamecaves":"Game Caves"},		
 		"7-893_radio_west":{"nonstop muziek":"Non-Stop Muziek",
 			"sport":"Radio West Sport",
 			"uit":"UIT!"},
