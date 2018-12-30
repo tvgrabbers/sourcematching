@@ -6,12 +6,12 @@
     "name":"virtual.nl",
 	"is_virtual": true,
     "language":"nl",
-    "version":8,
+    "version":9,
     "api-version":[1,0,0],
     "channels":{
         "data":{
 			"disneyxdsat": {"name": "Disney XD (TV Vlaanderen)", "group": 9, "icon": "disney_xd_v2.png", "icongrp": 4},
-			"kzoomkanaalz": {"name": "vtmKzoom/KanaalZ", "group": 9},
+			"kzoomkanaalz": {"name": "VTM Kids/KanaalZ", "group": 9},
 			"nickspike": {"name": "Nickelodeon / Spike (virtual)", "group": 7, "icon": "nickelodeon_spike.png", "icongrp": 4},
 			"regio1": {"name": "Regio carrousel 1", "group": 6},
 			"regio2": {"name": "Regio carrousel 2", "group": 6},
