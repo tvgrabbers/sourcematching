@@ -74,7 +74,7 @@
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":25,
+			"version":26,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
@@ -322,7 +322,7 @@
 			"1-itv-4": "itv-4",
 			"1-journaal-24": "journaal-24",
 			"1-kanaalz": "kanaalz",
-			"1-ketnet-canvas-2": "ketnet-canvas-2",
+			"1-ketnet-canvas-2": "ketnet-op12",
 			"1-njam": "njam",
 			"1-politiek-24": "politiek-24",
 			"1-prime-action": "prime-action",
@@ -1510,6 +1510,8 @@
 		"0-6":{"herhalingen":"Canvaslus", 
 			"journaal":"Het Journaal", 
 			"journaal: sportweekend":"Het journaal - Sportweekend",
+			"pause":"Geen uitzending",
+			"pauze":"Geen uitzending",
 			"sporza: uefa europa league magazine":"Sporza: Europa League Magazine",
 			"weer":"Het Weer"},
 		"0-7":{"nieuws":"BBC News", 
@@ -1638,8 +1640,12 @@
 			"ninjago: masters van spinjitzu":"Ninjago, Masters van Spinjitsu",
 			"my knight and me":"Mijn ridder en ik",
 			"pat the dog":"Paf de hond",
+			"pause":"Geen uitzending",
+			"pauze":"Geen uitzending",
+			"programma onderbreking":"Geen uitzending",
 			"shaun the sheep":"Shaun het schaap",
-			"sporza: uefa europa league magazine":"Sporza: Europa League Magazine"},
+			"sporza: uefa europa league magazine":"Sporza: Europa League Magazine",
+			"zender uit de ether":"Geen uitzending"},
 		"1-rtl-telekids":{"friends of heartlake city":"LEGO Friends",
 			"friends van heartlake city":"LEGO Friends",
 			"friends, meiden met een missie":"LEGO Friends: Girls On A Mission",
@@ -1744,7 +1750,11 @@
 			"ninjago: masters van spinjitzu":"Ninjago, Masters van Spinjitsu",
 			"my knight and me":"Mijn ridder en ik",
 			"pat the dog":"Paf de hond",
-			"shaun the sheep":"Shaun het schaap"}
+			"pause":"Geen uitzending",
+			"pauze":"Geen uitzending",
+			"programma onderbreking":"Geen uitzending",
+			"shaun the sheep":"Shaun het schaap",
+			"zender uit de ether":"Geen uitzending"}
 		},
 	"language_texts":{
 		"and others":"e\\.a\\.",

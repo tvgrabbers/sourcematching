@@ -319,7 +319,7 @@
 			"1-itv-4": "itv-4",
 			"1-journaal-24": "journaal-24",
 			"1-kanaalz": "kanaalz",
-			"1-ketnet-canvas-2": "ketnet-canvas-2",
+			"1-ketnet-canvas-2": "ketnet-op12",
 			"1-nat-geo-hd": "nat-geo-hd",
 			"1-njam": "njam",
 			"1-politiek-24": "politiek-24",
@@ -1342,7 +1342,7 @@
 	"empty_channels":{
 		"0":["65","83","107","308","309","310","317","401","403","404","412","431","432","433","434"],
 		"1":["13th-street", "bbc-hd", "best-24", "canal-z", "comedy-family", "film1-festival", "foxlife",
-			"hbo", "hbo-2", "hbo-3", "history-hd", "horse-country-tv", "jimjam", "ketnet-op12", "la-une-hd",
+			"hbo", "hbo-2", "hbo-3", "history-hd", "horse-country-tv", "jimjam", "ketnet-canvas-2", "la-une-hd",
 			"life-tv", "nat-geo-hd", "syfy", "tf1-hd", "virgin-1", "vtm-hd", "vtmkzoom-2", "amc"],
 		"2":[],
 		"3":[],
