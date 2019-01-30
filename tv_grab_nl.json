@@ -890,7 +890,8 @@
 			"12-grunn-fm": "grunn-fm",
 			"12-frysk-fm": "frysk-fm",
 			"12-radio-nl-kids": "radio-nl-kids",
-			"12-radio-jnd": "radio-jnd"}},
+			"12-radio-jnd": "radio-jnd",
+			"12-kink": "kink"}},
 	"channel_rename":{
 		"0-7":"BBC One England",
 		"0-8":"BBC Two",
