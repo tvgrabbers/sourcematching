@@ -36,7 +36,7 @@
 		"v2":{
 			"json file":"source-thetvdb.v2",
 			"version":0}},
-	"logo_source_preference":[99,10,11,41,42,7,4,13,6,9,3,8,0,1,2,12,5],
+	"logo_source_preference":[99,10,11,41,42,7,4,13,8,6,9,3,0,1,2,12,5],
 	"logo_provider":{
 		"0": "http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
 		"1": "http://static.tvgids.nl/gfx/zenders/",
