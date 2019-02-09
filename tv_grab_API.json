@@ -36,7 +36,7 @@
 		"v2":{
 			"json file":"source-thetvdb.v2",
 			"version":0}},
-	"logo_source_preference":[99,4,5,6,7,9,10,11,3,8,0,1,2,12,13],
+	"logo_source_preference":[99,41,42,7,4,13,6,9,10,11,3,8,0,1,2,12,5],
 	"logo_provider":{
 		"0": "http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
 		"1": "http://static.tvgids.nl/gfx/zenders/",
@@ -44,7 +44,7 @@
 		"3": "http://staticfiles.rtl.nl/styles/img/logos/",
 		"4": "http://212.142.41.211/ChannelLogos/02/",
 		"5": "https://wp20-images-nl-dynamic.horizon.tv/ChannelLogos/02/",
-		"6": "http://img.humo.be/q100/w100/h100/epglogos/",
+		"6": "https://img.humo.be/q100/w100/h100/epglogos/",
 		"7": "https://www-assets.npo.nl/uploads/",
 		"8": "http://2.nieuwsbladcdn.be/extra/assets/img/tvgids/",
 		"9": "http://www.primo.eu/sites/all/modules/primo_integrations/tv-logos/",
