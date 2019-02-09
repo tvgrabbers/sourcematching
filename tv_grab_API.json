@@ -36,7 +36,7 @@
 		"v2":{
 			"json file":"source-thetvdb.v2",
 			"version":0}},
-	"logo_source_preference":[99,10,11,41,42,7,4,13,8,6,9,3,0,1,2,12,5],
+	"logo_source_preference":[99,10,11,41,42,43,7,4,13,8,6,9,3,0,1,2,12,5],
 	"logo_provider":{
 		"0": "http://graphics.tudelft.nl/~paul/logos/gif/64x64/",
 		"1": "http://static.tvgids.nl/gfx/zenders/",
@@ -80,7 +80,8 @@
 		"39": "https://wp27-images-nl-dynamic.horizon.tv/ChannelLogos/02/",
 		"40": "https://wp28-images-nl-dynamic.horizon.tv/ChannelLogos/02/",
 		"41": "https://images.vrt.be/height100/logos/",
-		"42": "https://images.vrt.be/orig/logo/"},
+		"42": "https://images.vrt.be/orig/logo/",
+		"43": "https://cdnfiles.medialaan.be/images/channels/"},
 	"ttvdb_ids":{
 		"André Rieu":{"name":"André Rieu; Welcome to my world","tid":295656},
 		"Ben 10":{"name":"Ben 10 (2016)","tid":318145},
