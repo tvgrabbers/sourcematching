@@ -82,7 +82,8 @@
 		"41": "https://images.vrt.be/height100/logos/",
 		"42": "https://images.vrt.be/orig/logo/",
 		"43": "https://cdnfiles.medialaan.be/images/channels/",
-		"44": "https://images.vrt.be/height100/"},
+		"44": "https://images.vrt.be/height100/",
+		"45": "https://images.vrt.be/"},
 	"ttvdb_ids":{
 		"André Rieu":{"name":"André Rieu; Welcome to my world","tid":295656},
 		"Ben 10":{"name":"Ben 10 (2016)","tid":318145},
