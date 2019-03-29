@@ -1358,8 +1358,8 @@
 		"11-disneyxdsat": [
 			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
 		"11-kzoomkanaalz": [
-			{"chanid": "1-vtmkzoom", "start": "6:00", "end": "20:00"},
-			{"chanid": "1-kanaalz", "start": "20:00", "end": "0:00"}],
+			{"chanid": "1-vtmkzoom", "start": "6:00", "end": "22:00"},
+			{"chanid": "1-kanaalz", "start": "22:00", "end": "0:00"}],
 		"11-regio1": [
 			{"chanid": "0-109", "start": "6:00", "end": "7:00"},
 			{"chanid": "0-108", "start": "7:00", "end": "8:00"},
