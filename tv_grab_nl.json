@@ -44,7 +44,7 @@
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":13,
+			"version":14,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
@@ -691,12 +691,12 @@
 			"0-60": "vier",
 			"0-90": "bvn",
 			"0-422": "euronews",
-			"1-jim": "kadet",
+			"1-jim": "vtm-kids-jr",
 			"1-vijftv": "vijf",
 			"1-acht": "caz",
 			"1-vitaya": "vitaya",
 			"1-kanaalz": "kanaal-z",
-			"1-vtmkzoom": "vtmkzoom",
+			"1-vtmkzoom": "vtm-kids",
 			"1-itv-1": "itv",
 			"1-sudwest-fernsehen": "swr",
 			"1-tf1": "tf1",
