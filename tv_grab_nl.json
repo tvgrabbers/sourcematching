@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":39,
+			"version":40,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -74,7 +74,7 @@
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":30,
+			"version":31,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
@@ -304,7 +304,6 @@
 			"1-club-rtl": "club-rtl",
 			"1-discovery-hd": "discovery-hd",
 			"1-discovery-vlaanderen": "discovery-vlaanderen",
-			"1-disney-junior": "disney-junior",
 			"1-e-entertainment": "e-entertainment",
 			"1-eredivisie-live-2": "eredivisie-live-2",
 			"1-eredivisie-live-3": "eredivisie-live-3",
@@ -480,7 +479,6 @@
 			"1-rtl-telekids": "796441639018",
 			"1-veronica": "24443943190",
 			"1-ketnet-canvas-2": "24443943087",
-			"1-disney-junior": "541838374997",
 			"1-eredivisie-live-2": "119414823227",
 			"1-eredivisie-live-3": "119414823235",
 			"1-eredivisie-live-4": "119414823230",
@@ -1123,7 +1121,7 @@
 			"0-113", "0-114", "0-115", "0-116"],
 		"7":["0-18", "0-21", "0-25", "0-29", "0-89", "0-91", "0-311", "0-312", "0-313", "0-406",
 			"0-407", "0-413", "0-414", "0-416", "0-424", "0-427", "0-428", "0-429", "0-435", "0-437",
-			"0-438", "0-439", "0-461", "0-464", "0-467", "0-471", "1-animal-planet-hd", "1-disney-junior",
+			"0-438", "0-439", "0-461", "0-464", "0-467", "0-471", "1-animal-planet-hd",
 			"1-viceland", "5-24443943138", "5-561138215258", "5-24443943028", "5-606274087100",
 			"5-24443943174", "5-606274087102", "5-24443943216", "5-24443942994", "5-560453158982",
 			"5-24443943150", "5-561793575034", "5-24443943118", "5-24443943155", "5-123063846982"],
@@ -1265,7 +1263,6 @@
 		"1-bbc-1" : ["4", "bbc1"],
 		"1-discovery-hd" : ["12", "logo_discoveryhd_showcase.jpg"],
 		"1-discovery-vlaanderen" : ["4", "discovery_channel"],
-		"1-disney-junior" : ["4", "disney_junior"],
 		"1-e-entertainment" : ["4", "e_entertainment_new"],
 		"1-eredivisie-live-2" : ["4", "fox_sports2_2018"],
 		"1-eredivisie-live-3" : ["4", "fox_sports3_2018"],
