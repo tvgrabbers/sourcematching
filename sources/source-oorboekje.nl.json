@@ -6,12 +6,12 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":21,
+	"version":22,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
 	"channels-test":{
-		"url":["https://oorboekje.nl/zenderinformatie"],
+		"url":["http://oorboekje.nl/zenderinformatie"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -35,7 +35,7 @@
 			"channelid":{"varid": 1, "type":"string"},
 			"name":{"funcid":0, "data":[{"varid": 2}]}}},
 	"channels":{
-		"url":["https://oorboekje.nl/"],
+		"url":["http://oorboekje.nl/"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -70,7 +70,7 @@
 			"icon":{"funcid":101, "data":[{"funcid":2, "data":["http://oorboekje.nl", {"varid": 3}]}]},
 			"HD":null}},
 	"base-channels":{
-		"url":["https://oorboekje.nl/radiogids/"],
+		"url":["http://oorboekje.nl/radiogids/"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -98,7 +98,7 @@
 			"icon":{"funcid":101, "data":[{"funcid":2, "data":["http://oorboekje.nl", {"varid": 2}]}]},
 			"HD":null}},
 	"base":{
-		"url":["https://oorboekje.nl/radiogids/",11],
+		"url":["http://oorboekje.nl/radiogids/",11],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -165,7 +165,7 @@
 			"description":{"funcid":109, "data":[{"varid": 6},{"varid": 0}]}}
 	},
 	"base-old":{
-		"url":["https://oorboekje.nl/zenderinformatie/",["channel"], "/",11],
+		"url":["http://oorboekje.nl/zenderinformatie/",["channel"], "/",11],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
