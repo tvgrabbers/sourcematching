@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":40,
+			"version":41,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -1029,7 +1029,7 @@
 		"0-311":3,
 		"0-313":3,
 		"0-406":5,
-		"0-410":3,
+		"0-410":5,
 		"0-411":5,
 		"0-413":5,
 		"0-416":5,
@@ -1623,6 +1623,7 @@
 			"the apple":"Appel en Uitje",
 			"the owl":"The Owl & Co.",
 			"the owl and co":"The Owl & Co."},
+		"0-410":{"fawlty towers":"Hotel op stelten"},
 		"0-436":{"freestyle skien":"Freestyle Skiën",
 			"kunstschaatsen":"Kunstrijden",
 			"live alpineskiën":"Alpineskiën",
