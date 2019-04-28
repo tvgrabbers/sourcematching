@@ -34,12 +34,12 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":44,
+			"version":45,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
 			"json file":"source-humo.be",
-			"version":9,
+			"version":10,
 			"cattrans type":1,
 			"cattransid":3},
 		"8":{
@@ -69,8 +69,8 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":30,
-			"cattrans type":null,
+			"version":31,
+			"cattrans type":1,
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",

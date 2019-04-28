@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":9,
+	"version":10,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -100,7 +100,7 @@
 				[{"path": 4} , {"key":"repeat","default":false, "type":"boolean"}],
 				[{"path": 4}, {"key":"final","default":false, "type":"boolean"}],
 				[{"path": 4}, {"key":"new","default":false, "type":"boolean"}],
-				[{"path": 1}, {"key":"genres"}, {"key":0,"split":["-", "list-all"]}]
+				[{"path": 2}, {"key":"genres"}, {"key":0,"split":["-", "list-all"]}]
 					],
 			"values":[
 				[{"path":"parent"},

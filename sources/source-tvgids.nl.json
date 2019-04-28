@@ -6,9 +6,9 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":30,
+	"version":31,
 	"api-version":[1,0,0],
-	"detail_processor":false,
+	"detail_processor":true,
 	"empty-values":[null, "", "-"],
 	"channels":{
 		"url":["http://json.tvgids.nl/v4/channels"],
@@ -59,7 +59,7 @@
 				[{"key":"s","default":"", "type":"timestamp"}],
 				[{"key":"e","default":"", "type":"timestamp"}],
 				[{"key":"title","default":""}],
-				[{"key":"descr","default":""}],
+				[{"key":"descr","default":"", "sub": ["</p><p>", " ", "<html>", "", "</html>", "", "<p>", "", "</p>", ""]}],
 				[{"key":"rerun", "replace":{"true":true,"false":false},"default":false}],
 				[{"key":"g_id","default":""}]
 				]},
@@ -72,7 +72,7 @@
 			"name":{"varid":4},
 			"description":{"varid":5},
 			"rerun":{"varid":6},
-			"--genre--":{"varid": 7}}},
+			"genre":{"varid": 7}}},
 	"detail":{
 		"url":["https://www.tvgids.nl/tv/null/",["detailid"], "/"],
 		"data-format":"text/html",
@@ -86,7 +86,90 @@
 		"month-names":["dummy", "januari", "februari", "maart",
 			"april", "mei", "juni", "juli", "augustus", "septemper",
 			"oktober", "november", "december"],
+		"text_replace":[
+			["class=\"table__block detail__about-hide\"", "class=\"table__block\""]],
 		"data":{
+			"init-path":[
+				{"tag":"html"},
+				{"tag":"body"}
+				],
+			"iter":[{
+				"key-path":[
+					{"tag":"main", "attrs":{"class":"detail"}},
+					{"tag":"section", "attrs":{"class":"detail__content"}, "node": 1},
+					{"tag":"div", "attrs":{"class":"detail__description"}, "node": 2},
+					{"tag":"div", "attrs":{"class":"detail__header"}, "node": 3},
+					{"tag":"h1", "select":"text"}],
+				"values2":[
+					[{"path": 3},
+						{"tag":"h2", "select":"text"}],
+					[{"path": 2},
+						{"tag":"div", "attrs":{"class":"detail__text-wrapper"}},
+						{"tag":"div", "attrs":{"class":"detail__text"}}],
+					[{"path": 2},
+						{"tag":"div", "attrs":{"class":"detail__text-wrapper"}},
+						{"tag":"div", "attrs":{"class":"detail__more"}}],
+					[{"path": 1},
+						{"tag":"div", "attrs":{"class":"detail__image-wrapper"}},
+						{"tag":"div", "attrs":{"class":"detail__image"}},
+						{"tag":"div", "attrs":{"class":"program__bar"}},
+						{"tag":"span"},
+						{"tag":"span", "attr": "data-start", "type":"timestamp"}],
+					[{"path": 1},
+						{"tag":"div", "attrs":{"class":"detail__image-wrapper"}},
+						{"tag":"div", "attrs":{"class":"detail__image"}},
+						{"tag":"div", "attrs":{"class":"program__bar"}},
+						{"tag":"span"},
+						{"tag":"span", "attr": "data-eind", "type":"timestamp"}],
+					[{"path": 2},
+						{"tag":"div", "attrs":{"class":"detail__about"}},
+						{"tag":"div", "attrs":{"class":"table"}},
+						{"tag":"div", "attrs":{"class":"table__content"}},
+						{"tag":"div", "attrs":{"class":"table__col"}, "node": 4},
+						{"tag":"div", "attrs":{"class":"table__block"}},
+						{"tag":"h3", "attrs":{"class":"table__title"}},
+						{"path": "parent", "name":{"select":"text", "rstrip":":", "lower":""}},
+						{"tag":"p", "attrs":{"class":"table__value"}}],
+					[{"path": 4},
+						{"tag":"div", "attrs":{"class":"table__block"}},
+						{"tag":"div", "attrs":{"class":"table__value"}},
+						{"tag":"div", "attrs":{"class":"program__genre"}}],
+					[{"path": 4},
+						{"tag":"div", "attrs":{"class":"table__block"}},
+						{"tag":"h3", "attrs":{"class":"table__title"}, "text": "Aflevering"},
+						{"path": "parent"},
+						{"tag":"p", "attrs":{"class":"table__value"}},
+						{"tag":"span", "attrs":{"itemprop":"position"}}],
+					[{"path": 4},
+						{"tag":"div", "attrs":{"class":"table__block"}},
+						{"tag":"h3", "attrs":{"class":"table__title"}, "text": "Aflevering"},
+						{"path": "parent"},
+						{"tag":"p", "attrs":{"class":"table__value"}},
+						{"tag":"span", "attrs":{"itemprop":"name"}}]
+					]
+						}]},
+		"provides":["episode title","season","episode","description",
+			"genre","credits","premiere year","country","HD"],
+		"values":{
+			"name": {"varid": 0},
+			"description": {"funcid":2, "data":[{"varid": 2}, {"varid": 3}]},
+			"start-time": {"varid": 4},
+			"stop-time": {"varid": 5},
+			"broadcaster":{"funcid":11, "data":[{"varid": 6}, "omroep"]},
+			"credits":{"funcid":102, "data":[{"varid":6}]},
+			"HD":{"funcid":5, "data":[{"funcid":11, "data":[{"varid": 6}, "resolutie"]},"1080i"]},
+			"premiere year":{"funcid":11, "data":[{"varid": 6}, "premiere"]},
+			"country":{"funcid":11, "data":[{"varid": 6}, "land"]},
+			"season":{"funcid":11, "data":[{"varid": 6}, "seizoen"], "type":"int", "default":null},
+			"genre": {"varid": 7},
+			"episode":{"funcid":8, "data":[{"varid": 8},{"funcid":11, "data":[{"varid": 6}, "aflevering"]}], "type":"int", "default":null},
+			"episode title":{"varid": 9},
+			"source": {"value":"tvgids.nl"},
+			"--log-unknown--":{"funcid":201, "data":[{"varid": 6}, 
+				["zender","omroep","titel","regisseur","scenario schrijver","componist","acteurs",
+					"aflevering","seizoen","genre","u'premiere'","land","resolutie"]]}
+			},
+		"--data--":{
 			"init-path":[
 				{"tag":"html"},
 				{"tag":"body"},
@@ -210,10 +293,10 @@
 						{"tag":"div", "attrs":{"class":"programmering"}},
 						{"tag":"h1", "select":"text"}]]
 						}]},
-		"provides":["episode title","season","episode","episodecount","description",
+		"--provides--":["episode title","season","episode","episodecount","description",
 			"genre","subgenre","credits","rating","premiere year",
 			"blackwhite","widescreen","HD","teletext","rerun","infourl"],
-		"values":{
+		"--values--":{
 			"name": {"varid": 11},
 			"start-time":{"funcid":4, "data":[{"varid": 2},{"varid": 3},0]},
 			"stop-time":{"funcid":4, "data":[{"varid": 2},{"varid": 4},0,{"varid": 3}]},
@@ -241,12 +324,12 @@
 					"aflevering","seizoen","genre","kleur","bijzonderheden","nl-url"]]}
 			}},
 	"detail2":{
-		"url":["https://www.tvgids.nl/json/lists/program.php"],
+		"url":["http://json.tvgids.nl/v4/program/",["detailid"], "/"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
 		"accept-header":null,
 		"url-type":0,
-		"url-data":{ "id":["detailid"]},
+		"url-data":{},
 		"data":{
 			"key-path":[{"key":"db_id"}],
 			"values":[
@@ -283,6 +366,50 @@
 	"empty_channels":[
 			"65","83","107","308","309","310","317","401","403","404","412","434"],
 	"cattrans":{
+        "1":{
+			"default":["amusement", ""]},
+        "2":{
+			"default":["jeugd", "animatie"]},
+        "3":{
+			"default":["amusement", "komedie"]},
+        "4":{
+			"default":["documentaire", ""]},
+        "6":{
+			"default":["film", ""]},
+        "7":{
+			"default":["informatief", ""]},
+        "8":{
+			"default":["jeugd", ""]},
+        "9":{
+			"default":["kunst/cultuur", ""]},
+        "10":{
+			"default":["serie/soap", "misdaadserie"]},
+        "11":{
+			"default":["muziek", ""]},
+        "12":{
+			"default":["natuur", ""]},
+        "13":{
+			"default":["nieuws/actualiteiten", ""]},
+        "15":{
+			"default":["religieus", ""]},
+        "16":{
+			"default":["serie/soap", ""]},
+        "17":{
+			"default":["sport", ""]},
+        "18":{
+			"default":["kunst/cultuur", "theater"]},
+        "19":{
+			"default":["wetenschap", ""]},
+        "21":{
+			"default":["amusement", ""]},
+        "23":{
+			"default":["auto", ""]},
+        "comedy":{
+			"default":["amusement", "komedie"]},
+        "misdaad":{
+			"default":["serie/soap", "misdaadserie"]},
+        "populair":{
+			"default":["amusement", ""]},
         "nieuws/actualiteiten":{
 			"default":["nieuws/actualiteiten", ""]},
         "raportage":{
@@ -344,8 +471,6 @@
 			"default":["film", "fantasy"]},
         "komedie":{
 			"default":["film", "komedie"]},
-        "misdaad":{
-			"default":["film", "misdaad"]},
         "misdaadkomedie":{
 			"default":["film", "misdaadkomedie"]},
         "oorlog":{
