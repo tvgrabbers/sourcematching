@@ -8,7 +8,7 @@
 	"site-timezone":"UTC",
 	"version":32,
 	"api-version":[1,0,0],
-	"detail_processor":true,
+	"detail_processor":false,
 	"empty-values":[null, "", "-"],
 	"channels":{
 		"url":["http://json.tvgids.nl/v4/channels"],
@@ -76,7 +76,7 @@
 			"description":{"varid":5},
 			"rerun":{"varid":6},
 			"genre":{"varid": 7}}},
-	"detail2":{
+	"detail":{
 		"url":["https://www.tvgids.nl/tv/null/",["detailid"], "/"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
@@ -326,7 +326,7 @@
 					"regisseur","scenario schrijver","componist","acteurs",
 					"aflevering","seizoen","genre","kleur","bijzonderheden","nl-url"]]}
 			}},
-	"detail":{
+	"detail2":{
 		"url":["http://json.tvgids.nl/v4/program/",["detailid"], "/"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
