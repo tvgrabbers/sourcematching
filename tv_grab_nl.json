@@ -30,7 +30,7 @@
 			"1-nickelodeon: Combined Nickelodeon/Spike.\n"]},
 	"fetch-timezone":"Europe/Amsterdam",
 	"language":"nl",
-	"source-url":"https://raw.githubusercontent.com/tvgrabbers/sourcematching/master/sources",
+	"source-url":"https://raw.githubusercontent.com/kyl416/sourcematching/master/sources",
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
