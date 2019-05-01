@@ -6,12 +6,12 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":28,
+	"version":29,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
 	"base-channels":{
-		"url":["http://www.vpro.nl/epg-embeddable/content/0.html"],
+		"url":["https://www.vpro.nl/epg-embeddable/content/0.html"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -46,7 +46,7 @@
 			"icon":null,
 			"HD":null}},
 	"base":{
-		"url":["http://www.vpro.nl/epg-embeddable/content/0.html"],
+		"url":["https://www.vpro.nl/epg-embeddable/content/0.html"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
