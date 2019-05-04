@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":29,
+	"version":30,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -165,7 +165,7 @@
 			"premiere year":{"varid": 7, "regex":"uit (\\d{4})", "default":null}
 			}},
 	"no_genric_matching":[
-			"24_kitchen", "3fm", "discovery_channel", "een", "fox", "ketnet", "national_geographic", "ons",
+			"24_kitchen", "3fm", "discovery_channel", "een", "fox", "ketnet", "ons",
 			"radio_1", "radio_2", "radio_4", "radio_5", "radio_538", "radio_veronica", "rtl_4", "rtl_5",
 			"rtl_7", "rtl_8", "slam_fm", "sky_radio", "the_history_channel", "tlc", "veronica", "vrt_canvas",
 			"radio_gelderland", "893_radio_west"],
