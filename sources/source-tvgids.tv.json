@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":31,
+	"version":32,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -311,7 +311,8 @@
 			"13th-street", "bbc-hd", "best-24", "canal-z", "comedy-family", "film1-festival", "foxlife",
 			"hbo", "hbo-2", "hbo-3", "history-hd", "horse-country-tv", "jimjam", "ketnet-canvas-2", "la-une-hd",
 			"life-tv", "motors-tv", "nat-geo-hd", "syfy", "tf1-hd", "virgin-1", "vtm-hd", "vtmkzoom-2", "amc",
-			"prime-fezztival", "prime-series", "travel-channel", "food-network", "fine-living", "disney-junior"],
+			"prime-fezztival", "prime-series", "travel-channel", "food-network", "fine-living", "disney-junior",
+			"bravatv"],
 	"cattrans_keywords":{
 		"jeugd":"Jeugd",
 		"muziek":"Muziek",
