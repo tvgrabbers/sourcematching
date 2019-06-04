@@ -61,6 +61,7 @@
 				[{"key":"title","default":""}],
 				[{"key":"descr","default":"", "sub": ["<html>", "", "</html>", "", 
 					"\\s*</p><p>\\s*", " ", "<p>", "", "</p>", "", 
+					"<em>", "", "</em>", "", 
 					"\\s*<ul>", " (", "</ul>\\s*", ") ", 
 					"\\s*</li><li>\\s*", "; ", "<li>\\s*", "", "\\s*</li>", ""]}],
 				[{"key":"rerun", "replace":{"true":true,"false":false},"default":false}],
