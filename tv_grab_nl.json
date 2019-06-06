@@ -69,7 +69,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":34,
+			"version":35,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -1053,6 +1053,7 @@
 		"1-eredivisie-live-2":5,
 		"1-eredivisie-live-3":5,
 		"1-eredivisie-live-4":5,
+		"1-journaal-24":3,
 		"1-sport-1-2":5,
 		"1-sport-1-extra-1":5,
 		"1-sport1-extra-2":5,
