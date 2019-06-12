@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":47,
+			"version":48,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -69,7 +69,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":35,
+			"version":36,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -1068,6 +1068,7 @@
 		"4-297":12,
 		"4-298":12,
 		"5-561138215258":3,
+		"5-561793575034":5,
 		"8-ketnet":8,
 		"virtual-veronica":3,
 		"virtual-disneyxd":3},
