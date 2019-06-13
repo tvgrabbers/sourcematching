@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":32,
+	"version":33,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -168,7 +168,7 @@
 			"24_kitchen", "3fm", "een", "fox", "ketnet", "ons", "radio_1", "radio_2", "radio_4", "radio_5",
 			"radio_538", "radio_veronica", "rtl_4", "rtl_5", "rtl_7", "rtl_8", "slam_fm", "sky_radio",
 			"the_history_channel", "veronica", "vrt_canvas", "radio_gelderland", "893_radio_west"],
-	"empty_channels":["q-music","slam_fm","brava_nl"],
+	"empty_channels":["q-music","brava_nl"],
 	"cattrans":{
         "g3011":{
 			"default":["jeugd", ""],
