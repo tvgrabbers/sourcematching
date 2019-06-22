@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":51,
+			"version":52,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -69,7 +69,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":38,
+			"version":39,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -79,7 +79,7 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":33,
+			"version":34,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
@@ -1021,7 +1021,7 @@
 		"0-99":5,
 		"0-100":5,
 		"0-101":5,
-		"0-102":3,
+		"0-102":5,
 		"0-108":5,
 		"0-110":5,
 		"0-111":5,
@@ -1073,8 +1073,8 @@
 		"5-561138215258":3,
 		"5-561793575034":5,
 		"8-ketnet":8,
-		"virtual-veronica":3,
-		"virtual-disneyxd":3},
+		"virtual-veronica":7,
+		"virtual-disneyxd":5},
 	"channel_groups":{
 		"0":"Actieve Zenders",
 		"1":"Nederlands",
@@ -1827,8 +1827,13 @@
 			"muziek non-stop":"Non-Stop muziek"},
 		"7-radio_m_utrecht":{"aan tafel":"Aan Tafel!"},
 		"7-radio_oost":{"de avond":"De Avond bij Radio Oost"},
-		"7-radio_rijnmond":{"vraag 't de bieb!":"Vraag het de Bieb!", 
-			"vraag het de bieb":"Vraag het de Bieb!"},
+		"7-radio_rijnmond":{"erik lemmers":"Radio Rijnmond met Erik Lemmers",
+			"herman vriend":"Radio Rijnmond met Herman Vriend",
+			"reint jan potze":"Radio Rijnmond met Reint Jan Potze",
+			"rr sport":"Rijnmond Sport",
+			"ruud de boer":"Radio Rijnmond met Ruud de Boer",
+			"vraag 't de bieb!":"Vraag het de Bieb", 
+			"vraag het de bieb!":"Vraag het de Bieb"},
 		"7-radio_veronica":{"de beste pop en rockhits":"De Beste Pop en Rock Hits",
 			"de veronica middagshow met niek":"De Veronica Middagshow met Niek van der Bruggen",
 			"middagshow":"De Veronica Middagshow met Niek van der Bruggen",
