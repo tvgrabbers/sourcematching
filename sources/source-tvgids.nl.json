@@ -350,7 +350,7 @@
 					"<em>", "", "</em>", "", 
 					"\\s*<ul>", " (", "</ul>\\s*", ") ", 
 					"\\s*</li><li>\\s*", "; ", "<li>\\s*", "", "\\s*</li>", ""]}],
-				[{"key":"g_id","default":""}],
+				[{"key":"g","default":""}],
 				[{"key":"prog_sort","default":""}],
 				[{"key":"year", "default":""}],
 				[{"key":"country","type":"list"}],
