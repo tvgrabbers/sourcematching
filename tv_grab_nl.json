@@ -44,7 +44,7 @@
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":14,
+			"version":15,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
@@ -705,7 +705,7 @@
 			"1-france-2": "france2",
 			"1-france-3": "france3",
 			"1-club-rtl": "club-rtl",
-			"1-discovery-vlaanderen": "discovery-channel",
+			"1-discovery-vlaanderen": "discovery-channel-vlaanderen",
 			"1-prime-star": "play-more-cinema",
 			"1-prime-family": "play-more-relax",
 			"1-prime-action": "play-more-kicks",
