@@ -79,7 +79,7 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":34,
+			"version":35,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
@@ -1051,7 +1051,7 @@
 		"0-437":5,
 		"0-438":7,
 		"0-439":5,
-		"0-440":5,
+		"0-440":7,
 		"0-466":5,
 		"0-467":5,
 		"1-ketnet-canvas-2":10,
