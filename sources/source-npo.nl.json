@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":22,
+	"version":23,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":true,
@@ -106,7 +106,8 @@
 		"month-names": ["dummy", "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"],
 		"date-sequence":["y","m","d"],
 		"text_replace":[
-			["class=\"npo-epg-channel-container [a-z]*?\"", "class=\"npo-epg-channel-container\""]],
+			["class=\"npo-epg-channel-container [a-z]*?\"", "class=\"npo-epg-channel-container\""],
+			["class=\"slide npo-epg-channel-part\"", "class=\"npo-epg-channel-part\""]],
 		"value-filters":{
 			"channelid":[]
 			},
@@ -119,6 +120,7 @@
 					{"tag":"div", "attrs":{"class":"npo-epg-container"}},
 					{"tag":"div", "attrs":{"class":"npo-epg-table"}},
 					{"tag":"div", "attrs":{"class":"npo-epg-table-body"}},
+					{"tag":"div"},
 					{"tag":"div"},
 					{"tag":"div", "attrs":{"class":"npo-epg-channel-part"}, "node": 1},
 					{"tag":"a", "node": 2},
