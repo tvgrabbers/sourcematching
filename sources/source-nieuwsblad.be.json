@@ -6,7 +6,7 @@
 	"name":"nieuwsblad.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":15,
+	"version":16,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -222,7 +222,7 @@
 	"empty_channels":[
 			"bbc1", "bbc3", "bbc4", "bbc-world", "canvasplus", "net5", "prime-action", "prime-family", "prime-fezztival",
 			"prime-star", "prime-series", "sbs6", "sundance-channel", "sundance-tv", "sundancetv", "tv5", "veronica",
-			"lacht", "kadet", "vtmkzoom", "discovery-channel"],
+			"lacht", "kadet", "vtmkzoom", "discovery-channel", "viceland-benelux"],
 	"cattrans":{},
 	"rating":{}}
 

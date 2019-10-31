@@ -44,7 +44,7 @@
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":15,
+			"version":16,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
@@ -718,7 +718,7 @@
 			"6-49": "eurosport1",
 			"6-97": "comedy-central",
 			"6-69": "mtv",
-			"6-121": "viceland-benelux",
+			"6-121": "vice-tv",
 			"8-nickelodeon": "nickelodeon",
 			"8-tv5-monde": "tv5-monde",
 			"8-ketnet": "ketnet",
