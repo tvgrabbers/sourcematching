@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":44,
+	"version":45,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -429,6 +429,8 @@
 			"default":["natuur", ""]},
         "13":{
 			"default":["nieuws/actualiteiten", ""]},
+        "14":{
+			"default":["overige", ""]},
         "15":{
 			"default":["religieus", ""]},
         "16":{
@@ -443,6 +445,8 @@
 			"default":["amusement", ""]},
         "23":{
 			"default":["auto", ""]},
+        "31":{
+			"default":["serie/soap", ""]},
         "comedy":{
 			"default":["amusement", "komedie"]},
         "misdaad":{
