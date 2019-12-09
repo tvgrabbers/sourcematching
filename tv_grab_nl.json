@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":55,
+			"version":56,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -1065,6 +1065,7 @@
 		"1-sport-1-extra-1":5,
 		"1-sport1-extra-2":5,
 		"1-nickelodeon":3,
+		"1-politiek-24":5,
 		"1-veronica":5,
 		"1-zappelin":5,
 		"4-292":12,
@@ -1560,6 +1561,7 @@
 			"live breakdance":"Breakdance",
 			"live curling":"Curling",
 			"live darts":"Darts",
+			"live freestyle skien":"Freestyle Skiën",
 			"live freestyle skiën":"Freestyle Skiën",
 			"live gewichtheffen":"Gewichtheffen",
 			"live ijshockey":"Ijshockey",
@@ -1690,6 +1692,7 @@
 			"live breakdance":"Breakdance",
 			"live curling":"Curling",
 			"live darts":"Darts",
+			"live freestyle skien":"Freestyle Skiën",
 			"live freestyle skiën":"Freestyle Skiën",
 			"live gewichtheffen":"Gewichtheffen",
 			"live ijshockey":"Ijshockey",
@@ -1777,6 +1780,7 @@
 			"waffie de wonderhond":"Waffie, de wonderhond",
 			"waffle the wonder dog":"Waffie, de wonderhond",
 			"zender uit de ether":"Geen uitzending"},
+		"1-politiek-24":{"npo politiek: 24 uur haagse politiek":"NPO Politiek - 24 uur Haagse politiek"},
 		"1-rtl-telekids":{"friends of heartlake city":"LEGO Friends",
 			"friends van heartlake city":"LEGO Friends",
 			"friends, meiden met een missie":"LEGO Friends: Girls On A Mission",
