@@ -117,7 +117,7 @@
 				[{"path": 1},
 					{"key":"latestBroadcastStartTime", "type":"timestamp","multiplier":1000, "default": null}],
 				[{"key":"program"},
-					{"key":"seriesNumber","type":"int","default":0}]
+					{"key":"seriesNumber","type":"int","default": null}]
 					],
 			"values":[
 				[{"key":"stationId","default":""}],
@@ -158,7 +158,7 @@
 				[{"key":"program"},
 					{"key":"latestBroadcastStartTime", "type":"timestamp","multiplier":1000, "default": null}],
 				[{"key":"program"},
-					{"key":"seriesNumber","type":"int","default":0}]
+					{"key":"seriesNumber","type":"int","default": null}]
 					]},
 		"values":{
 			"channelid":{"varid": 1},
