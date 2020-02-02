@@ -6,9 +6,9 @@
 	"name":"primo.eu",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":17,
+	"version":18,
 	"api-version":[1,0,0],
-	"detail_processor":true,
+	"detail_processor":false,
 	"without-full-timings":true,
 	"base-channels":{
 		"url":["https://www.primo.eu/Tv%20programma's%20in%20volledig%20scherm%20bekijken"],
