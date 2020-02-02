@@ -6,10 +6,78 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":11,
+	"version":12,
 	"api-version":[1,0,0],
 	"detail_processor":false,
-	"channels":{
+	"alt_useragent":true,
+	"base-channels":{
+		"url":["https://www.humo.be/tv-gids/api/v2/broadcasts/", 11],
+		"data-format":"application/json",
+		"encoding":"windows-1252",
+		"accept-header":null,
+		"url-type":0,
+		"url-data":{},
+		"url-date-format":"%Y-%m-%d",
+		"data":{
+			"key-path":[
+				{"key":"channels"},
+				{"path":"all"},
+				{"key":"seoKey", "type":"string"}],
+			"values2":[
+				[{"key":"name","default":""}],
+				[{"key":"channelLogoUrl"}]]},
+		"values":{
+			"channelid":{"varid": 0},
+			"name":{"funcid":0, "data":[{"varid":1}, " HD"]},
+			"group":null,
+			"icon":{"funcid":101, "data":[{"varid":2}]},
+			"HD":null}},
+	"base":{
+		"url":["https://www.humo.be/tv-gids/api/v2/broadcasts/", 11],
+		"data-format":"application/json",
+		"encoding":"windows-1252",
+		"accept-header":"",
+		"url-type": 2,
+		"url-data":{},
+		"url-date-format":"%Y-%m-%d",
+		"max days":7,
+		"data":{
+			"key-path":[
+				{"key":"channels"},
+				{"path":"all", "node": 1},
+				{"key":"broadcasts"},
+				{"path":"all"},
+				{"key":"uuid"}
+				],
+			"values2":[
+				[{"path":1},
+					{"key":"seoKey", "type":"string"}],
+				[{"key":"from", "type":"timestamp","multiplier":1000}],
+				[{"key":"to", "type":"timestamp","multiplier":1000}],
+				[{"key":"duration", "type":"timedelta"}],
+				[{"key":"title","default":""}],
+				[{"key":"synopsis","default":""}],
+				[{"key":"genre","default":""}],
+				[{"key":"subGenres"},{"key":0,"default":""}],
+				[{"key":"rerun","default":""}],
+				[{"key":"rating","default":""}],
+				[{"key":"playableType", "rstrip":"s","default":""}]
+					]},
+		"values":{
+			"channelid":{"varid":1},
+			"prog_ID":{"varid":0},
+			"detail_url":{"funcid":2,"data":[{"varid":11}, "/", {"varid":0}]},
+			"start-time":{"varid":2},
+			"stop-time":{"varid":3},
+			"length":{"varid":4},
+			"name":{"varid":5},
+			"description":{"varid":6, "default":""},
+			"genre":{"varid":7},
+			"subgenre":{"varid":8},
+			"rerun":{"varid":9},
+			"star-rating":{"varid":10}}
+			},
+	"channels_old":{
 		"url":["http://www.humo.be/api/epg/humosite/channels"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
@@ -50,7 +118,7 @@
 			"icon":{"funcid":101, "data":[{"varid":3}]},
 			"fetch_grp":{"varid":2},
 			"HD":null}},
-	"base":{
+	"base_old":{
 		"url":["http://www.humo.be/api/epg/humosite/schedule/", ["channelgrp"], "/", 11, "/full"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
@@ -192,7 +260,7 @@
 		"reportage":{
 			"default":["Nieuws/Actualiteiten", "Reportage"],
 			"reality":["Amusement", "Reality"]},
-		"info":{
+		"Informatief Programma":{
 			"default":["Nieuws/Actualiteiten", ""]},
 		"sports":{
 			"default":["Sport", ""]},
@@ -205,6 +273,8 @@
         "amusement":{
 			"default":["Amusement", ""]},
         "show":{
+			"default":["Amusement", ""]},
+        "praatprogramma's":{
 			"default":["Amusement", ""]},
         "talk":{
 			"default":["Amusement", ""]},
@@ -236,13 +306,9 @@
 			"default":["Film", "TV Film"]},
         "movie-short":{
 			"default":["Film", "Korte Film"]},
-        "serie":{
+        "reeks":{
 			"default":["Serie/Soap", ""],
-			"komedie":["Serie/Soap", "comedyserie"],
-			"misdaad":["Serie/Soap", "misdaadserie"],
-			"detective":["Serie/Soap", "detectiveserie"],
-			"actie":["Serie/Soap", "actieserie"],
-			"scifi":["Serie/Soap", "sciencefictionserie"]},
+			"scifiserie":["Serie/Soap", "sciencefictionserie"]},
         "miniserie":{
 			"default":["Serie/Soap", ""]},
         "soap":{
