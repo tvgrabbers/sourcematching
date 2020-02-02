@@ -997,7 +997,7 @@
 		"12-29":"NH Radio"},
 	"prime_source_order":[2,4,10,12,7,3,5,1,8,11],
 	"sourceid_order":[3, 1, 10, 5, 2, 4, 7, 8, 11, 12],
-	"detail_sources":[4, 3, 9, 1],
+	"detail_sources":[4, 3, 1],
 	"prime_source_groups":{
 		"2":6,
 		"6":5,
