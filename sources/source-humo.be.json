@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":10,
+	"version":11,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -182,8 +182,8 @@
 			"new":{"varid":23},
 			"genres":{"varid":24}
 			}},
-	"no_genric_matching":["18", "22", "30", "32", "34", "59", "73", "109"],
-	"empty_channels":["93", "107"],
+	"no_genric_matching":["een", "canvas", "ketnet", "npo-1", "npo-2", "npo-3"],
+	"empty_channels":[],
 	"cattrans":{
 		"nieuws":{
 			"default":["Nieuws/Actualiteiten", ""]},
