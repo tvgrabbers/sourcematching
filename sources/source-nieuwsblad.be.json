@@ -6,12 +6,12 @@
 	"name":"nieuwsblad.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":16,
+	"version":17,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
 	"channels2":{
-		"url":["http://www.nieuwsblad.be/tv-gids/zenders"],
+		"url":["https://www.nieuwsblad.be/tv-gids/zenders"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -83,7 +83,7 @@
 			"group":null,
 			"HD":null}},
 	"base-channels":{
-		"url":["http://www.nieuwsblad.be/tv-gids"],
+		"url":["https://www.nieuwsblad.be/tv-gids"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
@@ -127,7 +127,7 @@
 			"group":{"varid":3},
 			"HD":null}},
 	"base":{
-		"url":["http://www.nieuwsblad.be/tv-gids/",["channel"], "/",11],
+		"url":["https://www.nieuwsblad.be/tv-gids/",["channel"], "/",11],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"accept-header":null,
