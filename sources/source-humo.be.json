@@ -6,10 +6,11 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":13,
+	"version":14,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
+	"cookiejar": {"pwv": "1", "pws": "functional|analytics"},
 	"base-channels":{
 		"url":["https://www.humo.be/tv-gids/api/v2/broadcasts/", 11],
 		"data-format":"application/json",
