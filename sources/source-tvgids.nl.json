@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":45,
+	"version":46,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -360,7 +360,10 @@
 				[{"key":"presentatie","default":""}],
 				[{"key":"acteursnamen_rolverdeling","default":""}],
 				[{"key":"scen","default":""}],
-				[{"key":"kijkw","default":""}]
+				[{"key":"kijkw","default":""}],
+				[{"key":"episode_no"}],
+				[{"key":"episode_tot"}],
+				[{"key":"season"}]
 				],
 			"--values--":[
 				[{"key":"datum", "type":"date"}],
@@ -376,7 +379,7 @@
 				[{"key":"zender_id","default":""}]
 				]},
 		"provides":["description","genre","credits","rating","premiere year","broadcaster","country","rerun",
-				"director","presenter","actor","writer"],
+				"director","presenter","actor","writer","season","episodecount","episode"],
 		"values":{
 			"name":{"varid":5},
 			"start-time":{"varid": 1},
@@ -395,6 +398,9 @@
 			"actor":{"funcid":102, "data":[{"varid":15},"actor"], "default":{}},
 			"writer":{"funcid":102, "data":[{"varid":16}, "writer"], "default":{}},
 			"rating":{"funcid":104, "data":[{"varid":17},"as_list"]},
+			"episode":{"varid":18,"max length":65535},
+			"episodecount":{"varid":19,"max length":65535},
+			"season":{"varid":20,"max length":65535},
 			"source": {"value":"tvgids.nl"}}},
 	"no_genric_matching":[
 			"1", "2", "3", "4", "5", "6", "18", "19", "24", "25", "29", "31", "39", "40", "46", "64", "70", "92",
