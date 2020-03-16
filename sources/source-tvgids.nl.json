@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":46,
+	"version":47,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -379,7 +379,7 @@
 				[{"key":"zender_id","default":""}]
 				]},
 		"provides":["description","genre","credits","rating","premiere year","broadcaster","country","rerun",
-				"director","presenter","actor","writer","season","episodecount","episode"],
+				"director","presenter","actor","writer","season","episodecount","episode","subgenre"],
 		"values":{
 			"name":{"varid":5},
 			"start-time":{"varid": 1},
