@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":48,
+	"version":49,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -361,9 +361,9 @@
 				[{"key":"acteursnamen_rolverdeling","default":""}],
 				[{"key":"scen","default":""}],
 				[{"key":"kijkw","default":""}],
-				[{"key":"episode_no","default":""}],
-				[{"key":"episode_tot","default":""}],
-				[{"key":"season","default":""}]
+				[{"key":"episode_no","type":"int"}],
+				[{"key":"episode_tot","type":"int"}],
+				[{"key":"season","type":"int"}]
 				],
 			"--values--":[
 				[{"key":"datum", "type":"date"}],
