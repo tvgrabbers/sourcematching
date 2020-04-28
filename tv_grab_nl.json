@@ -44,7 +44,7 @@
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":18,
+			"version":19,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
@@ -776,7 +776,8 @@
 			"8-wtv": "wtv",
 			"8-play-sports-1": "play-sports-1",
 			"8-play-sports-2": "play-sports-2",
-			"8-zes":"zes"},
+			"8-zes":"zes",
+			"9-eclipsstv": "eclips-tv"},
 		"9":{"0-1": "npo1",
 			"0-2": "npo2",
 			"0-3": "npo3",
@@ -870,7 +871,8 @@
 			"10-56": "56",
 			"10-57": "57",
 			"10-58": "58",
-			"10-110": "110"},
+			"10-110": "110",
+			"10-120": "120"},
 		"11":{"1-nickelodeon": "nickspike",
 			"11-disneyxdsat": "disneyxdsat",
 			"11-kzoomkanaalz": "kzoomkanaalz",
