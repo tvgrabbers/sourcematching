@@ -9,7 +9,7 @@
 	"version":25,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
-	"detail_processor":true,
+	"detail_processor":false,
 	"without-full-timings":true,
 	"night-date-switch":0,
 	"channels":{
