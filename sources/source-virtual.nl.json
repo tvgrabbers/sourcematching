@@ -6,10 +6,11 @@
     "name":"virtual.nl",
 	"is_virtual": true,
     "language":"nl",
-    "version":9,
+    "version":10,
     "api-version":[1,0,0],
     "channels":{
         "data":{
+			"digitenne25": {"name": "Digitenne 25", "group": 7},
 			"disneyxdsat": {"name": "Disney XD (TV Vlaanderen)", "group": 9, "icon": "disney_xd_v2.png", "icongrp": 4},
 			"kzoomkanaalz": {"name": "VTM Kids/KanaalZ", "group": 9},
 			"nickspike": {"name": "Nickelodeon / Spike (virtual)", "group": 7, "icon": "nickelodeon_spike.png", "icongrp": 4},
