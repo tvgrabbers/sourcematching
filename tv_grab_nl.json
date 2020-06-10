@@ -89,7 +89,7 @@
 			"cattransid":7},
 		"11":{
 			"json file":"source-virtual.nl",
-			"version":9,
+			"version":10,
 			"cattrans type":null,
 			"cattransid":null}},
 	"active_sources":[7,3,1,5,6,8,2,4,10,11,12],
@@ -878,6 +878,7 @@
 			"10-140": "140",
 			"10-141": "141"},
 		"11":{"1-nickelodeon": "nickspike",
+			"11-digitenne25": "digitenne25",
 			"11-disneyxdsat": "disneyxdsat",
 			"11-kzoomkanaalz": "kzoomkanaalz",
 			"11-regio1": "regio1",
@@ -1440,6 +1441,10 @@
 			"If the children do overlap, end times will get truncated! So if they align you can leave out end times,",
 			"but partially leaving out start times will probably result in a cuckoo pushing the other(s) out!",
 			"If you want a child to fill-up certain slots, you can add a slots keyword followed by a list of names"],
+		"11-digitenne25": [
+			{"chanid": "0-406", "start": "1:00", "end": "6:00"},
+			{"chanid": "0-21", "start": "6:00", "end": "18:00"},
+			{"chanid": "0-40", "start": "18:00", "end": "1:00"}],
 		"11-disneyxdsat": [
 			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
 		"11-kzoomkanaalz": [
@@ -1493,8 +1498,8 @@
 			{"chanid": "8-ketnet", "start": "6:00", "end": "20:00"},
 			{"chanid": "8-eenplus", "start": "20:00", "end": "6:00"}],
 		"1-nickelodeon": [
-			{"chanid": "0-89", "start": "5:00", "end": "21:30"}, 
-			{"chanid": "0-467", "start": "21:30", "end": "5:00"}],
+			{"chanid": "0-89", "start": "5:00", "end": "21:05"}, 
+			{"chanid": "0-467", "start": "21:05", "end": "5:00"}],
 		"5-24443943080": ["0-301", "1-cbeebies"]},
 	"virtual-sub-channels":{
 		"virtual-veronica":{
