@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":25,
+	"version":26,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":true,
@@ -161,6 +161,26 @@
 					{"tag":"body"},
 					{"tag":"div", "attrs":{"class":"full-page-width"}},
 					{"tag":"header"},
+					{"tag":"div", "attrs":{"class":"player-container"}, "node": 2},
+					{"tag":"npo-player-header", "attr": "main-title"}],
+				"values2":[
+					[{"path": 2},
+						{"tag":"npo-player", "attr": "duration", "type":"timedelta"}],
+					[{"attr":"long-summary"}],
+					[{"attr":"summary"}],
+					[{"attr":"sub-title"}],
+					[{"attr":"sub-title","split":[[" - ",-1]]}],
+					[{"attr":"broadcasters"}],
+					[{"attr":"icons"}],
+					[{"attr":"share-title"}]
+					]}]},
+		"--data--":{
+			"iter":[{
+				"key-path":[
+					{"tag":"html", "node": 1},
+					{"tag":"body"},
+					{"tag":"div", "attrs":{"class":"full-page-width"}},
+					{"tag":"header"},
 					{"tag":"div", "attrs":{"class":"container"}},
 					{"tag":"div", "attrs":{"class":"npo-header-episode-content"}, "node": 2},
 					{"tag":"h1"}],
@@ -217,16 +237,17 @@
 					[{"path":4},
 						{"tag":"i", "attr": "class","lstrip":"icon "}]
 					]}]},
-		"provides":["description","episode title","broadcaster","rating"],
+		"provides":["description","episode title","episode","season","broadcaster"],
 		"update-base":["length"],
 		"values":{
-			"start-time":{"funcid":4, "data":[{"varid": 2},{"varid": 1}, 6, null, {"varid": 3}]},
-			"length":{"funcid":9, "data":[{"varid":6},{"varid": 5}]},
 			"name":{"varid":0},
-			"episode title":{"varid": 9, "default":null},
-			"description":{"funcid":1, "data":[{"varid": 8},{"varid": 7}]},
-			"broadcaster":{"varid":4},
-			"rating":{"funcid":104, "data":[{"varid":10}]}
+			"length":{"varid": 1},
+			"description":{"funcid":1, "data":[{"varid": 2},{"varid": 3}]},
+			"episode title":{"funcid":9, "data":[{"varid": 5},{"varid": 8}], "default":null},
+			"episode":{"varid": 4, "regex":"Afl.\\s(\\d*)", "type":"int", "default":null},
+			"season":{"varid": 4, "regex":"Seizoen\\s*(\\d*)", "type":"int", "default":null},
+			"broadcaster":{"varid":6, "regex":"\"name\":\"(.*?)\""},
+			"--rating--":{"funcid":104, "data":[{"varid":7}]}
 			}},
 	"no_genric_matching":[],
 	"empty_channels":[],
@@ -282,16 +303,16 @@
 			"default":["serie/soap", ""],
 			"soap-serie":["serie/soap", "soap"]}},
 	"rating":{
-		"icon-kijkwijzer-leeftijd-al":"0",
-		"icon-kijkwijzer-leeftijd-6":"1",
-		"icon-kijkwijzer-leeftijd-9":"2",
-		"icon-kijkwijzer-leeftijd-12":"3",
-		"icon-kijkwijzer-leeftijd-16":"4",
-		"icon-kijkwijzer-geweld":"g",
-		"icon-kijkwijzer-angst":"a",
-		"icon-kijkwijzer-seks":"s",
-		"icon-kijkwijzer-grof_taalgebruik":"t",
-		"icon-kijkwijzer-drugs_en_alcohol":"h",
-		"icon-kijkwijzer-discriminatie":"d"
+		"leeftijd-al":"0",
+		"leeftijd-6":"1",
+		"leeftijd-9":"2",
+		"leeftijd-12":"3",
+		"leeftijd-16":"4",
+		"geweld":"g",
+		"angst":"a",
+		"seks":"s",
+		"grof_taalgebruik":"t",
+		"drugs_en_alcohol":"h",
+		"discriminatie":"d"
 		}}
 
