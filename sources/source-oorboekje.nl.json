@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":23,
+	"version":24,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -125,44 +125,41 @@
 					{"tag":"div", "attrs":{"class":"pgBlokZender"}, "node": 1},
 					{"tag":"div", "attrs":{"class":"pgMenuInhoud"}, "node": 2},
 					{"tag":"div", "select":"index", "link":1},
-					{"tag":"div", "attrs":{"class":"pgProgramma"}, "node": 3},
-					{"tag":"p", "attrs":{"class":"pgProgTijdEnTitel"}, "node": 4},
-					{"tag":"b", "index": 0}
+					{"tag":"div", "attrs":{"class":"pgProgramma"}, "attr":"id", "split":[["-",-1]],"type":"time"}
 						],
 				"values2":[
 					[{"path":1},
-						{"tag":"div", "attrs":{"class":"pgMenuKop"}, "node": 5},
+						{"tag":"div", "attrs":{"class":"pgMenuKop"}, "node": 3},
 						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii"}],
-					[{"path":4, "split":[["-",0]],"type":"time"}],
+					[{"tag":"p", "attrs":{"class":"pgProgTijdEnTitel"}, "node": 4}],
 					[{"path":2}, 
 						{"tag":"div", "index":{"link":1,"next":""},"first":""},
-						{"tag":"div", "attrs":{"class":"pgProgramma"}},
-						{"tag":"p", "attrs":{"class":"pgProgTijdEnTitel"}, "split":[["-",0]],"type":"time"}],
-					[{"path":3}, 
-						{"tag":"p", "attrs":{"class":"pgProgPresentatie"}}],
-					[{"path":4, "split":[["-",1]],"type":"time"}],
-					[{"path":3},
-						{"tag":"p", "attrs":{"class":"pgProgOmschrijving"}, "select": "inclusive text"}],
+						{"tag":"div", "attrs":{"class":"pgProgramma"}, "attr":"id", "split":[["-",-1]],"type":"time"}],
+					[{"tag":"p", "attrs":{"class":"pgProgPresentatie"}}],
+					[{"path":4, "split":[[" ",2]],"type":"time"}],
+					[{"tag":"p", "attrs":{"class":"pgProgOmschrijving"}, "select": "inclusive text"}],
 					[{"path":4},
 						{"tag":"img", "attrs":{"src":"/herhaling.gif"},"select":"presence"}],
 					[{"path":4},
 						{"tag":"img", "attrs":{"src":"/nonstop.gif"},"select":"presence"}],
-					[{"path":5}, {"tag": "b", "type": "date"}]
+					[{"path":1}, {"path":"parent"}, {"tag": "h1", "split":[[" ",-3,-2,-1]], "type": "date"}]
 					]
 				}]},
 		"values":{
 			"channelid":{"varid": 1},
-			"start-time":{"funcid":4, "data":[{"varid": 9},{"varid": 2}, 6]},
-			"stop-time":{"funcid":4, "data":[{"varid": 9},{"varid": 3}, 6,{"varid": 2}]},
-			"alt-stop-time":{"funcid":4, "data":[{"varid": 9},{"varid": 5}, 7,{"varid": 2}]},
-			"name":{"funcid": 9, "data":[{"varid":0, "regex": "(.*?)\\(.*\\)"},{"varid":0}]},
-			"broadcaster":{"varid":0, "regex": ".*?\\((.*)\\)"},
+			"start-time":{"funcid":4, "data":[{"varid": 9},{"varid": 0}, 6]},
+			"--stop-time--":{"funcid":4, "data":[{"varid": 9},{"varid": 3}, 6,{"varid": 0}]},
+			"stop-time":{"funcid":4, "data":[{"varid": 9},{"varid": 5}, 7,{"varid": 0}]},
+			"name":{"funcid": 9, "data":[
+				{"funcid": 9, "data":[{"varid":2, "regex": "(.*?)\\(.*\\)"},{"varid":2}], "regex": "[\\d:]* - [\\d:]*(.*)"},
+				{"funcid": 9, "data":[{"varid":2, "regex": "(.*?)\\(.*\\)"},{"varid":2}], "regex": "[\\d:]*(.*)"}]},
+			"broadcaster":{"varid":2, "regex": ".*?\\((.*)\\)"},
 			"credits":{"funcid":103, "data":[{"varid":4}], "default":{}},
 			"rerun":{"varid":7},
 			"genre":{"funcid":7, "data":[{"varid":8},"muziek",{"funcid": 105, "data":[
 					{"muziek": "muziek", "nieuws": "nieuws/actualiteiten", "sport": "sport", "actualiteiten": "nieuws/actualiteiten"}, 
 					{"varid":6}, {"varid":0}], "default": "overige"}]},
-			"description":{"funcid":109, "data":[{"varid": 6},{"varid": 0}]}}
+			"description":{"funcid":109, "data":[{"varid": 6},{"varid": 2}]}}
 	},
 	"base-old":{
 		"url":["http://oorboekje.nl/zenderinformatie/",["channel"], "/",11],
