@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":27,
+	"version":28,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -227,7 +227,7 @@
 					{"varid":6}, {"varid":0}], "default": "overige"}]},
 			"description":{"funcid":109, "data":[{"varid": 6},{"varid": 0}]}}},
 	"no_genric_matching":[],
-	"empty_channels":["radio-veronica"],
+	"empty_channels":[],
 	"cattrans":{},
 	"rating":{}}
 
