@@ -44,7 +44,7 @@
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":22,
+			"version":23,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
@@ -768,7 +768,7 @@
 			"6-97": "comedy-central",
 			"6-69": "mtv",
 			"6-121": "vice-tv",
-			"8-bruzz": "bruzz",
+			"8-tvbrussel": "tvbrussel",
 			"8-nickelodeon": "nickelodeon",
 			"8-tv5-monde": "tv5-monde",
 			"8-ketnet": "ketnet",
@@ -995,6 +995,7 @@
 		"1-eredivisie-live-4":"ESPN 4",
 		"1-fox-sports-5-eredivisie":"ESPN 5",
 		"1-fox-sports-6":"ESPN 6",
+		"1-france-5":"France 5",
 		"1-jim":"CAZ 2",
 		"1-ketnet-canvas-2":"Ketnet/Eén+/Canvas+",
 		"1-prime-action":"Play More Kicks",
@@ -1053,6 +1054,7 @@
 		"7-classic_fm":"ClassicNL",
 		"7-ndr_3":"NDR Kultur",
 		"7-vrt_radio_1":"VRT Radio 1",
+		"8-tvbrussel":"BRUZZ",
 		"8-eenplus":"Eén+/Canvas+",
 		"8-eurosport-2":"Eurosport 2 Vlaanderen",
 		"8-ketnet":"Ketnet",
