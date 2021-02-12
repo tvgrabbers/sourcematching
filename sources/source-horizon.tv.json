@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":60,
+	"version":61,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -15,7 +15,7 @@
 		"alt-url":["https://web-api-salt.horizon.tv/oesp/api/NL/nld/web/channels/"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"accept-header":null,
+		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type": 0,
 		"url-data":{},
 		"data":{
@@ -60,7 +60,7 @@
 		"alt-url":["https://web-api-salt.horizon.tv/oesp/api/NL/nld/web/listings/"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"accept-header":null,
+		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type":13,
 		"url-data":{
 			"byStationId": ["channel"],
