@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":52,
+	"version":53,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -14,7 +14,7 @@
 		"url":["http://json.tvgids.nl/v4/channels"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"accept-header":null,
+		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type":0,
 		"url-data":{},
 		"data":{
@@ -36,7 +36,7 @@
 		"url":["http://json.tvgids.nl/v4/programs/"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"accept-header":null,
+		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type": 2,
 		"url-data":{
 			"channels":["channels"],
@@ -81,7 +81,7 @@
 		"url":["https://www.tvgids.nl/tv/null/",["detailid"], "/"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
-		"accept-header":null,
+		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type":0,
 		"url-data":{
 			"cookieoptin":"true"},
@@ -331,7 +331,7 @@
 		"url":["http://json.tvgids.nl/v4/program/",["detailid"], "/"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"accept-header":null,
+		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type":0,
 		"url-data":{},
 		"data":{
