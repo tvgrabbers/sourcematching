@@ -69,7 +69,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":54,
+			"version":55,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -1167,7 +1167,7 @@
 		"4-298":12,
 		"5-24443943028":3,
 		"5-561138215258":5,
-		"5-561793575034":5,
+		"5-561793575034":3,
 		"8-ketnet":8,
 		"virtual-veronica":7,
 		"virtual-disneyxd":5},
