@@ -69,7 +69,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":56,
+			"version":57,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -1099,7 +1099,7 @@
 		"0-92":5,
 		"0-99":5,
 		"0-100":5,
-		"0-101":5,
+		"0-101":3,
 		"0-102":5,
 		"0-108":5,
 		"0-110":5,
