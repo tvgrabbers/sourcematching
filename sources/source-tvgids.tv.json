@@ -6,7 +6,7 @@
 	"name":"tvgids.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":33,
+	"version":34,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"without-full-timings":true,
@@ -312,7 +312,7 @@
 			"hbo", "hbo-2", "hbo-3", "history-hd", "horse-country-tv", "jimjam", "ketnet-canvas-2", "la-une-hd",
 			"life-tv", "motors-tv", "nat-geo-hd", "syfy", "tf1-hd", "virgin-1", "vtm-hd", "vtmkzoom-2", "amc",
 			"prime-fezztival", "prime-series", "travel-channel", "food-network", "fine-living", "disney-junior",
-			"bravatv"],
+			"bravatv", "viceland"],
 	"cattrans_keywords":{
 		"jeugd":"Jeugd",
 		"muziek":"Muziek",
