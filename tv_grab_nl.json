@@ -39,7 +39,7 @@
 			"cattransid":2},
 		"6":{
 			"json file":"source-humo.be",
-			"version":15,
+			"version":16,
 			"cattrans type":1,
 			"cattransid":3},
 		"8":{
@@ -74,12 +74,12 @@
 			"cattransid":0},
 		"1":{
 			"json file":"source-tvgids.tv",
-			"version":33,
+			"version":34,
 			"cattrans type":2,
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":40,
+			"version":41,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
