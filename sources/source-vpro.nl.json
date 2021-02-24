@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":41,
+	"version":42,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -14,7 +14,7 @@
 		"url":["https://www.vpro.nl/epg-embeddable/content/0.html"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
-		"url-header":{"Accept-Encoding": "gzip,deflate"},
+		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type": 0,
 		"url-data":{},
 		"url-date-format": "%Y-%m-%d",
@@ -166,7 +166,7 @@
 			}},
 	"no_genric_matching":[
 			"24_kitchen", "een", "ketnet", "radio_538", "radio_veronica", "slam_fm",
-			"sky_radio", "the_history_channel", "vrt_canvas", "radio_gelderland", "893_radio_west"],
+			"sky_radio", "vrt_canvas", "radio_gelderland", "893_radio_west"],
 	"empty_channels":["q-music","brava_nl", "vice_tv"],
 	"cattrans":{
         "g3011":{

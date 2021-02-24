@@ -34,7 +34,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":62,
+			"version":63,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -79,7 +79,7 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":41,
+			"version":42,
 			"cattrans type":1,
 			"cattransid":4},
 		"10":{
