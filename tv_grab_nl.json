@@ -1531,14 +1531,14 @@
 			"end":"4:00",
 			"3":"34",
 			"1":"veronica",
-			"5":"24443943190",
+			"5":"lgi-nl-prod-master:NL_000008_019442",
 			"7":"veronica"},
 		"virtual-disneyxd":{
 			"start":"4:00",
 			"end":"18:00",
 			"3":"311",
 			"1":"disney-xd",
-			"5":"24443943190"}},
+			"5":"lgi-nl-prod-master:NL_000008_019442"}},
 	"merge_into":{
 		"--description--":["This should be a dict with the new chanid as key (in stead of --example--)",
 			"inside you have the old chanid from which is merging into the new one, a set of sourceid/channel combinations",
