@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":63,
+	"version":64,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -182,6 +182,70 @@
 			"796441639013", "728310311079", "541838374997"],
 	"cattrans":{
         "film":{
+			"default":["film",""]},
+        "lgi-nl-prod-master:genre-10":{
+			"default":["serie/soap",""]},
+        "lgi-nl-prod-master:genre-11":{
+			"default":["educatie",""]},
+        "lgi-nl-prod-master:genre-12":{
+			"default":["amusement",""]},
+        "lgi-nl-prod-master:genre-13":{
+			"default":["educatie","natuur"]},
+        "lgi-nl-prod-master:genre-14":{
+			"default":["film",""]},
+        "lgi-nl-prod-master:genre-15":{
+			"default":["amusement","spelshow"]},
+        "lgi-nl-prod-master:genre-16":{
+			"default":["vrije tijd","tuinieren"]},
+        "lgi-nl-prod-master:genre-17":{
+			"default":["vrije tijd","gezondheid"]},
+        "lgi-nl-prod-master:genre-18":{
+			"default":["vrije tijd",""]},
+        "lgi-nl-prod-master:genre-19":{
+			"default":["serie/soap","miniserie"]},
+        "lgi-nl-prod-master:genre-1":{
+			"default":["amusement","animatie"]},
+        "lgi-nl-prod-master:genre-20":{
+			"default":["amusement","variete"]},
+        "lgi-nl-prod-master:genre-21":{
+			"default":["muziek",""]},
+        "lgi-nl-prod-master:genre-22":{
+			"default":["nieuws/actualiteiten",""]},
+        "lgi-nl-prod-master:genre-23":{
+			"default":["religieus",""]},
+        "lgi-nl-prod-master:genre-24":{
+			"default":["wetenschap",""]},
+        "lgi-nl-prod-master:genre-25":{
+			"default":["serie/soap","sitcom"]},
+        "lgi-nl-prod-master:genre-26":{
+			"default":["serie/soapd","melodrama"]},
+        "lgi-nl-prod-master:genre-27":{
+			"default":["sport",""]},
+        "lgi-nl-prod-master:genre-28":{
+			"default":["amusement","talk show"]},
+        "lgi-nl-prod-master:genre-29":{
+			"default":["vrije tijd","auto en motor"]},
+        "lgi-nl-prod-master:genre-2":{
+			"default":["informatief","economie"]},
+        "lgi-nl-prod-master:genre-30":{
+			"default":["vrije tijd","reizen"]},
+        "lgi-nl-prod-master:genre-31":{
+			"default":["overige",""]},
+        "lgi-nl-prod-master:genre-32":{
+			"default":["jeugd","cultuur"]},
+        "lgi-nl-prod-master:genre-3":{
+			"default":["jeugd",""]},
+        "lgi-nl-prod-master:genre-4":{
+			"default":["amusement","comedyserie"]},
+        "lgi-nl-prod-master:genre-5":{
+			"default":["informatief","consumentenprogramma"]},
+        "lgi-nl-prod-master:genre-6":{
+			"default":["vrije tijd","koken"]},
+        "lgi-nl-prod-master:genre-7":{
+			"default":["nieuws/actualiteiten","actualiteiten"]},
+        "lgi-nl-prod-master:genre-8":{
+			"default":["documentaire",""]},
+        "lgi-nl-prod-master:genre-9":{
 			"default":["film",""]},
         "13946319":{
 			"default":["nieuws/actualiteiten",""],
