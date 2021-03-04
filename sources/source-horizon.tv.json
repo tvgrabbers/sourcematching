@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":67,
+	"version":68,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -88,7 +88,7 @@
 				[{"path": 1},
 					{"key":"secondaryTitle","default":""}],
 				[{"path": 1},
-					{"key":"seriesEpisodeNumber","type":"int","default":0}],
+					{"key":"seriesEpisodeNumber","type":"int","default": null}],
 				[{"path": 1},
 					{"key":"description","default":""}],
 				[{"path": 1},
@@ -115,7 +115,9 @@
 				[{"path": 1},
 					{"key":"mediaType","default":""}],
 				[{"path": 1},
-					{"key":"latestBroadcastStartTime", "type":"timestamp","multiplier":1000, "default": null}]
+					{"key":"latestBroadcastStartTime", "type":"timestamp","multiplier":1000, "default": null}],
+				[{"key":"program"},
+					{"key":"seriesNumber","type":"int","default": null}]
 					],
 			"values":[
 				[{"key":"stationId","default":""}],
@@ -126,7 +128,7 @@
 				[{"key":"program"},
 					{"key":"secondaryTitle","default":""}],
 				[{"key":"program"},
-					{"key":"seriesEpisodeNumber","type":"int","default":0}],
+					{"key":"seriesEpisodeNumber","type":"int","default": null}],
 				[{"key":"program"},
 					{"key":"description","default":""}],
 				[{"key":"program"},
@@ -154,7 +156,9 @@
 				[{"key":"program"},
 					{"key":"mediaType","default":""}],
 				[{"key":"program"},
-					{"key":"latestBroadcastStartTime", "type":"timestamp","multiplier":1000, "default": null}]
+					{"key":"latestBroadcastStartTime", "type":"timestamp","multiplier":1000, "default": null}],
+				[{"key":"program"},
+					{"key":"seriesNumber","type":"int","default": null}]
 					]},
 		"values":{
 			"channelid":{"varid": 1},
@@ -164,6 +168,7 @@
 			"name":{"varid":4},
 			"episode title":{"varid":5,"max length":150},
 			"episode":{"varid":6,"max length":65535},
+			"season":{"varid":17,"max length":65535},
 			"description":{"funcid":8, "data":[{"varid":7},{"varid":8}], "default":""},
 			"premiere year":{"varid":9},
 			"airdate":{"varid":10},
