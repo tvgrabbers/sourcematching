@@ -69,7 +69,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":66,
+			"version":67,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -1090,7 +1090,7 @@
 		"0-46":5,
 		"0-49":6,
 		"0-59":6,
-		"0-60":8,
+		"0-60":6,
 		"0-70":7,
 		"0-89":3,
 		"0-91":7,
@@ -1159,7 +1159,7 @@
 		"1-rtl-telekids":5,
 		"1-veronica":5,
 		"1-viceland":7,
-		"1-vijftv":8,
+		"1-vijftv":6,
 		"1-vitaya":6,
 		"1-vtmkzoom":6,
 		"1-zappelin":5,
@@ -1174,7 +1174,7 @@
 		"5-561138215258":5,
 		"5-561793575034":3,
 		"8-ketnet":8,
-		"8-zes":8,
+		"8-zes":6,
 		"virtual-veronica":7,
 		"virtual-disneyxd":3},
 	"channel_groups":{
