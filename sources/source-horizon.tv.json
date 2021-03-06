@@ -251,7 +251,7 @@
 			"default":["amusement","comedyserie"]},
         "lgi-nl-prod-master:genre-5":{
 			"default":["informatief","consumentenprogramma"]},
-	"lgi-nl-prod-master:genre-51:{
+        "lgi-nl-prod-master:genre-51":{
 			"default":["erotiek",""]},
         "lgi-nl-prod-master:genre-6":{
 			"default":["vrije tijd","koken"]},
