@@ -5,7 +5,7 @@
 		"If you thing it needs adjusting open an issue on https://github.com/tvgrabbers/tvgrabpyAPI/"],
 	"name":"horizon.tv",
 	"language":"nl",
-	"site-timezone":"Europe/Amsterdam",
+	"site-timezone":"UTC",
 	"version":70,
 	"api-version":[1,0,5],
 	"detail_processor":false,
