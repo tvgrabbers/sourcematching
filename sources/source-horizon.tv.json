@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":73,
+	"version":74,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -291,6 +291,8 @@
 			"default":["nieuws/actualiteiten","actualiteitenprogramma's"]},
 	"lgi-nl-prod-master:genre-157":{
 			"default":["documentaire","reality"]},
+	"lgi-nl-prod-master:genre-166":{
+			"default":["vrije tijd","shoppen"]},
 	"lgi-nl-prod-master:genre-177":{
 			"default":["sports","sporttalkshow"]},
 	"lgi-nl-prod-master:genre-189":{
