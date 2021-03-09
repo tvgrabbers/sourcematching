@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":71,
+	"version":72,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -195,6 +195,24 @@
 	"cattrans":{
         "film":{
 			"default":["film",""]},
+        "lgi-nl-prod-master:genre-1":{
+			"default":["amusement","animatie"]},
+        "lgi-nl-prod-master:genre-2":{
+			"default":["informatief","economie"]},
+        "lgi-nl-prod-master:genre-3":{
+			"default":["jeugd",""]},
+        "lgi-nl-prod-master:genre-4":{
+			"default":["amusement","comedyserie"]},
+        "lgi-nl-prod-master:genre-5":{
+			"default":["informatief","consumentenprogramma"]},
+        "lgi-nl-prod-master:genre-6":{
+			"default":["vrije tijd","koken"]},
+        "lgi-nl-prod-master:genre-7":{
+			"default":["nieuws/actualiteiten","actualiteiten"]},
+        "lgi-nl-prod-master:genre-8":{
+			"default":["documentaire",""]},
+        "lgi-nl-prod-master:genre-9":{
+			"default":["film",""]},
         "lgi-nl-prod-master:genre-10":{
 			"default":["serie/soap",""]},
         "lgi-nl-prod-master:genre-11":{
@@ -215,8 +233,6 @@
 			"default":["vrije tijd",""]},
         "lgi-nl-prod-master:genre-19":{
 			"default":["serie/soap","miniserie"]},
-        "lgi-nl-prod-master:genre-1":{
-			"default":["amusement","animatie"]},
         "lgi-nl-prod-master:genre-20":{
 			"default":["amusement","variete"]},
         "lgi-nl-prod-master:genre-21":{
@@ -237,31 +253,49 @@
 			"default":["amusement","talk show"]},
         "lgi-nl-prod-master:genre-29":{
 			"default":["vrije tijd","auto en motor"]},
-        "lgi-nl-prod-master:genre-2":{
-			"default":["informatief","economie"]},
         "lgi-nl-prod-master:genre-30":{
 			"default":["vrije tijd","reizen"]},
         "lgi-nl-prod-master:genre-31":{
 			"default":["overige",""]},
         "lgi-nl-prod-master:genre-32":{
 			"default":["jeugd","cultuur"]},
-        "lgi-nl-prod-master:genre-3":{
-			"default":["jeugd",""]},
-        "lgi-nl-prod-master:genre-4":{
-			"default":["amusement","comedyserie"]},
-        "lgi-nl-prod-master:genre-5":{
-			"default":["informatief","consumentenprogramma"]},
+        "lgi-nl-prod-master:genre-36":{
+			"default":["film","misdaaddrama"]},
+        "lgi-nl-prod-master:genre-45":{
+			"default":["serie/soap","romantiek"]},
         "lgi-nl-prod-master:genre-51":{
 			"default":["erotiek",""]},
-        "lgi-nl-prod-master:genre-6":{
-			"default":["vrije tijd","koken"]},
-        "lgi-nl-prod-master:genre-7":{
-			"default":["nieuws/actualiteiten","actualiteiten"]},
-        "lgi-nl-prod-master:genre-8":{
-			"default":["documentaire",""]},
-        "lgi-nl-prod-master:genre-9":{
-			"default":["film",""]},
-        "13946319":{
+        "lgi-nl-prod-master:genre-54":{
+			"default":["documentaire","dieren"]},
+        "lgi-nl-prod-master:genre-93":{
+			"default":["documentaire","misdaad"]},
+        "lgi-nl-prod-master:genre-95":{
+			"default":["muziek","dans"]},
+        "lgi-nl-prod-master:genre-96":{
+			"default":["sport","darts"]},
+        "lgi-nl-prod-master:genre-98":{
+			"default":["sport","duiken"]},
+        "lgi-nl-prod-master:genre-99":{
+			"default":["sport","watersport"]},
+	"lgi-nl-prod-master:genre-103":{
+			"default":["sport","dragracen"]},
+	"lgi-nl-prod-master:genre-104":{
+			"default":["sport","paardensport"]},
+	"lgi-nl-prod-master:genre-122":{
+			"default":["documentaire","geschiedenis"]},
+	"lgi-nl-prod-master:genre-131":{
+			"default":["sport","voetbal"]},
+	"lgi-nl-prod-master:genre-142":{
+			"default":["documentaire","natuur"]},
+	"lgi-nl-prod-master:genre-143":{
+			"default":["nieuws/actualiteiten","actualiteitenprogramma's"]},
+	"lgi-nl-prod-master:genre-157":{
+			"default":["documentaire","reality"]},
+	"lgi-nl-prod-master:genre-177":{
+			"default":["sports","sporttalkshow"]},
+	"lgi-nl-prod-master:genre-189":{
+			"default":["nieuws/actualiteiten","weer"]},
+	"13946319":{
 			"default":["nieuws/actualiteiten",""],
 			"documentaire":["informatief", "Documentaire"],
 			"discussie":["informatief", "Discussie"]},
