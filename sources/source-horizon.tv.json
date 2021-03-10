@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":74,
+	"version":75,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -259,20 +259,36 @@
 			"default":["overige",""]},
 	"lgi-nl-prod-master:genre-32":{
 			"default":["jeugd","cultuur"]},
+	"lgi-nl-prod-master:genre-33":{
+			"default":["serie/soap","actie"]},
+	"lgi-nl-prod-master:genre-34":{
+			"default":["serie/soap","avontuur"]},
 	"lgi-nl-prod-master:genre-36":{
-			"default":["film","misdaaddrama"]},
+			"default":["serie/soap","misdaaddrama"]},
+	"lgi-nl-prod-master:genre-38":{
+			"default":["serie/soap","docudrama"]},
 	"lgi-nl-prod-master:genre-45":{
 			"default":["serie/soap","romantiek"]},
 	"lgi-nl-prod-master:genre-51":{
 			"default":["erotiek",""]},
+	"lgi-nl-prod-master:genre-52":{
+			"default":["sport","fit en gezond"]},
 	"lgi-nl-prod-master:genre-54":{
 			"default":["documentaire","dieren"]},
+	"lgi-nl-prod-master:genre-60":{
+			"default":["kunst en cultuur","beeldende kunst"]},
+	"lgi-nl-prod-master:genre-63":{
+			"default":["vrije tijd","auto en motor"]},
+	"lgi-nl-prod-master:genre-90":{
+			"default":["informatief","samenleving"]},
 	"lgi-nl-prod-master:genre-93":{
 			"default":["documentaire","misdaad"]},
 	"lgi-nl-prod-master:genre-95":{
 			"default":["muziek","dans"]},
 	"lgi-nl-prod-master:genre-96":{
 			"default":["sport","darts"]},
+	"lgi-nl-prod-master:genre-97":{
+			"default":["nieuws/actualiteiten","debat"]},
 	"lgi-nl-prod-master:genre-98":{
 			"default":["sport","duiken"]},
 	"lgi-nl-prod-master:genre-99":{
@@ -281,22 +297,44 @@
 			"default":["sport","dragracen"]},
 	"lgi-nl-prod-master:genre-104":{
 			"default":["sport","paardensport"]},
+	"lgi-nl-prod-master:genre-107":{
+			"default":["vrije tijd","mode"]},
+	"lgi-nl-prod-master:genre-112":{
+			"default":["sport","vissen"]},
+	"lgi-nl-prod-master:genre-113":{
+			"default":["sport","american football"]},
 	"lgi-nl-prod-master:genre-122":{
 			"default":["documentaire","geschiedenis"]},
+	"lgi-nl-prod-master:genre-123":{
+			"default":["sport","ijshockey"]},
+	"lgi-nl-prod-master:genre-125":{
+			"default":["vrije tijd","bouwen en verbouwen"]},
+	"lgi-nl-prod-master:genre-126":{
+			"default":["sport","paardenraces"]},
 	"lgi-nl-prod-master:genre-131":{
 			"default":["sport","voetbal"]},
 	"lgi-nl-prod-master:genre-142":{
 			"default":["documentaire","natuur"]},
 	"lgi-nl-prod-master:genre-143":{
 			"default":["nieuws/actualiteiten","actualiteitenprogramma's"]},
+	"lgi-nl-prod-master:genre-148":{
+			"default":["documentaire","paranormaal"]},
+	"lgi-nl-prod-master:genre-153":{
+			"default":["nieuws/actualiteiten","politiek"]},
 	"lgi-nl-prod-master:genre-157":{
 			"default":["documentaire","reality"]},
 	"lgi-nl-prod-master:genre-166":{
 			"default":["vrije tijd","shoppen"]},
 	"lgi-nl-prod-master:genre-177":{
-			"default":["sports","sporttalkshow"]},
+			"default":["sport","sporttalkshow"]},
+	"lgi-nl-prod-master:genre-184":{
+			"default":["sport","tennis"]},
+	"lgi-nl-prod-master:genre-187":{
+			"default":["amusement","variete"]},
 	"lgi-nl-prod-master:genre-189":{
 			"default":["nieuws/actualiteiten","weer"]},
+	"lgi-nl-prod-master:genre-229":{
+			"default":["sport","exercise"]},
 	"13946319":{
 			"default":["nieuws/actualiteiten",""],
 			"documentaire":["informatief", "Documentaire"],
