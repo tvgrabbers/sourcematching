@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":75,
+	"version":76,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -267,6 +267,10 @@
 			"default":["serie/soap","misdaaddrama"]},
 	"lgi-nl-prod-master:genre-38":{
 			"default":["serie/soap","docudrama"]},
+	"lgi-nl-prod-master:genre-40":{
+			"default":["serie/soap","fantasy"]},
+	"lgi-nl-prod-master:genre-44":{
+			"default":["serie/soap","mystery"]},
 	"lgi-nl-prod-master:genre-45":{
 			"default":["serie/soap","romantiek"]},
 	"lgi-nl-prod-master:genre-51":{
@@ -277,8 +281,16 @@
 			"default":["documentaire","dieren"]},
 	"lgi-nl-prod-master:genre-60":{
 			"default":["kunst en cultuur","beeldende kunst"]},
+	"lgi-nl-prod-master:genre-61":{
+			"default":["vrije tijd","kunstnijverheid"]},
 	"lgi-nl-prod-master:genre-63":{
 			"default":["vrije tijd","auto en motor"]},
+	"lgi-nl-prod-master:genre-64":{
+			"default":["sport","motorsport"]},
+	"lgi-nl-prod-master:genre-70":{
+			"default":["sport","basketbal"]},
+	"lgi-nl-prod-master:genre-89":{
+			"default":["vrije tijd","verzamelen"]},
 	"lgi-nl-prod-master:genre-90":{
 			"default":["informatief","samenleving"]},
 	"lgi-nl-prod-master:genre-93":{
@@ -299,6 +311,8 @@
 			"default":["sport","paardensport"]},
 	"lgi-nl-prod-master:genre-107":{
 			"default":["vrije tijd","mode"]},
+	"lgi-nl-prod-master:genre-109":{
+			"default":["sport","hockey"]},
 	"lgi-nl-prod-master:genre-112":{
 			"default":["sport","vissen"]},
 	"lgi-nl-prod-master:genre-113":{
@@ -313,6 +327,8 @@
 			"default":["sport","paardenraces"]},
 	"lgi-nl-prod-master:genre-131":{
 			"default":["sport","voetbal"]},
+	"lgi-nl-prod-master:genre-135":{
+			"default":["informatief","recht"]},
 	"lgi-nl-prod-master:genre-142":{
 			"default":["documentaire","natuur"]},
 	"lgi-nl-prod-master:genre-143":{
