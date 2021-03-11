@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":80,
+	"version":81,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -287,6 +287,10 @@
 			"default":["sport","fit en gezond"]},
 	"lgi-nl-prod-master:genre-54":{
 			"default":["documentaire","dieren"]},
+	"lgi-nl-prod-master:genre-58":{
+			"default":["sport","boogschieten"]},
+	"lgi-nl-prod-master:genre-59":{
+			"default":["sport","armworstelen"]},
 	"lgi-nl-prod-master:genre-60":{
 			"default":["kunst en cultuur","beeldende kunst"]},
 	"lgi-nl-prod-master:genre-61":{
@@ -295,24 +299,46 @@
 			"default":["vrije tijd","auto en motor"]},
 	"lgi-nl-prod-master:genre-64":{
 			"default":["sport","motorsport"]},
+	"lgi-nl-prod-master:genre-67":{
+			"default":["sport","badminton"]},
 	"lgi-nl-prod-master:genre-69":{
 			"default":["sport","honkbal"]},
 	"lgi-nl-prod-master:genre-70":{
 			"default":["sport","basketbal"]},
+	"lgi-nl-prod-master:genre-71":{
+			"default":["sport","strandvoetbal"]},
+	"lgi-nl-prod-master:genre-72":{
+			"default":["sport","beachvolleybal"]},
 	"lgi-nl-prod-master:genre-73":{
 			"default":["sport","biathlon"]},
 	"lgi-nl-prod-master:genre-74":{
 			"default":["sport","fietsen"]},
 	"lgi-nl-prod-master:genre-75":{
 			"default":["sport","wielrennen"]},
+	"lgi-nl-prod-master:genre-76":{
+			"default":["sport","biljart"]},
+	"lgi-nl-prod-master:genre-77":{
+			"default":["sport","kaartspellen"]},
+	"lgi-nl-prod-master:genre-79":{
+			"default":["sport","powerboat-racen"]},
+	"lgi-nl-prod-master:genre-80":{
+			"default":["sport","bobsleeën"]},
+	"lgi-nl-prod-master:genre-81":{
+			"default":["sport","bodybuilding"]},
 	"lgi-nl-prod-master:genre-83":{
 			"default":["sport","boksen"]},
+	"lgi-nl-prod-master:genre-86":{
+			"default":["sport","kanoën"]},
 	"lgi-nl-prod-master:genre-89":{
 			"default":["vrije tijd","verzamelen"]},
 	"lgi-nl-prod-master:genre-90":{
 			"default":["informatief","samenleving"]},
+	"lgi-nl-prod-master:genre-92":{
+			"default":["sport","cricket"]},
 	"lgi-nl-prod-master:genre-93":{
 			"default":["serie/soap","misdaad"]},
+	"lgi-nl-prod-master:genre-94":{
+			"default":["sport","curling"]},
 	"lgi-nl-prod-master:genre-95":{
 			"default":["muziek","dans"]},
 	"lgi-nl-prod-master:genre-96":{
@@ -323,6 +349,8 @@
 			"default":["sport","duiken"]},
 	"lgi-nl-prod-master:genre-99":{
 			"default":["sport","watersport"]},
+	"lgi-nl-prod-master:genre-100":{
+			"default":["sport","hondenraces"]},
 	"lgi-nl-prod-master:genre-103":{
 			"default":["sport","dragracen"]},
 	"lgi-nl-prod-master:genre-104":{
@@ -331,6 +359,8 @@
 			"default":["sport","extreme sporten"]},
 	"lgi-nl-prod-master:genre-107":{
 			"default":["vrije tijd","mode"]},
+	"lgi-nl-prod-master:genre-108":{
+			"default":["sport","schermen"]},
 	"lgi-nl-prod-master:genre-109":{
 			"default":["sport","hockey"]},
 	"lgi-nl-prod-master:genre-110":{
@@ -339,6 +369,10 @@
 			"default":["sport","vissen"]},
 	"lgi-nl-prod-master:genre-113":{
 			"default":["sport","american football"]},
+	"lgi-nl-prod-master:genre-116":{
+			"default":["sport","gaelic football"]},
+	"lgi-nl-prod-master:genre-117":{
+			"default":["sport","gaelic sports"]},
 	"lgi-nl-prod-master:genre-119":{
 			"default":["sport","golf"]},
 	"lgi-nl-prod-master:genre-120":{
@@ -353,30 +387,54 @@
 			"default":["vrije tijd","bouwen en verbouwen"]},
 	"lgi-nl-prod-master:genre-126":{
 			"default":["sport","paardenraces"]},
+	"lgi-nl-prod-master:genre-130":{
+			"default":["sport","hurling"]},
 	"lgi-nl-prod-master:genre-131":{
 			"default":["sport","voetbal"]},
 	"lgi-nl-prod-master:genre-132":{
 			"default":["informatief","interview"]},
+	"lgi-nl-prod-master:genre-133":{
+			"default":["sport","kajakken"]},
 	"lgi-nl-prod-master:genre-134":{
 			"default":["sport","lacrosse"]},
 	"lgi-nl-prod-master:genre-135":{
 			"default":["informatief","recht"]},
+	"lgi-nl-prod-master:genre-136":{
+			"default":["sport","luge"]},
 	"lgi-nl-prod-master:genre-137":{
 			"default":["sport","vechtsporten"]},
+	"lgi-nl-prod-master:genre-139":{
+			"default":["sport","motors"]},
+	"lgi-nl-prod-master:genre-140":{
+			"default":["sport","motorracen"]},
+	"lgi-nl-prod-master:genre-141":{
+			"default":["sport","mountainbiken"]},
 	"lgi-nl-prod-master:genre-142":{
 			"default":["natuur",""]},
 	"lgi-nl-prod-master:genre-143":{
 			"default":["nieuws/actualiteiten","actualiteitenprogramma's"]},
 	"lgi-nl-prod-master:genre-144":{
-			"default":["sport","olympische Spelen"]},
+			"default":["sport","olympische spelen"]},
 	"lgi-nl-prod-master:genre-148":{
 			"default":["documentaire","paranormaal"]},
 	"lgi-nl-prod-master:genre-151":{
 			"default":["kunst en cultuur","podiumkunsten"]},
 	"lgi-nl-prod-master:genre-153":{
 			"default":["nieuws/actualiteiten","politiek"]},
+	"lgi-nl-prod-master:genre-154":{
+			"default":["sport","polo"]},
+	"lgi-nl-prod-master:genre-155":{
+			"default":["sport","pool"]},
+	"lgi-nl-prod-master:genre-156":{
+			"default":["sport","worstelen"]},
 	"lgi-nl-prod-master:genre-157":{
 			"default":["documentaire","reality"]},
+	"lgi-nl-prod-master:genre-158":{
+			"default":["sport","rodeo"]},
+	"lgi-nl-prod-master:genre-159":{
+			"default":["sport","roller derby"]},
+	"lgi-nl-prod-master:genre-160":{
+			"default":["sport","roeien"]},
 	"lgi-nl-prod-master:genre-161":{
 			"default":["sport","rugby"]},
 	"lgi-nl-prod-master:genre-162":{
@@ -389,6 +447,8 @@
 			"default":["sport","schietsport"]},
 	"lgi-nl-prod-master:genre-166":{
 			"default":["vrije tijd","shoppen"]},
+	"lgi-nl-prod-master:genre-167":{
+			"default":["sport","skateboarden"]},
 	"lgi-nl-prod-master:genre-168":{
 			"default":["sport","schaatsen"]},
 	"lgi-nl-prod-master:genre-170":{
@@ -397,32 +457,58 @@
 			"default":["sport","snooker"]},
 	"lgi-nl-prod-master:genre-172":{
 			"default":["sport","snowboarden"]},
+	"lgi-nl-prod-master:genre-173":{
+			"default":["sport","softbal"]},
 	"lgi-nl-prod-master:genre-175":{
 			"default":["sport","competitieschaatsen"]},
 	"lgi-nl-prod-master:genre-177":{
 			"default":["sport","sporttalkshow"]},
 	"lgi-nl-prod-master:genre-178":{
 			"default":["sport","squash"]},
+	"lgi-nl-prod-master:genre-180":{
+			"default":["sport","sumoworstelen"]},
 	"lgi-nl-prod-master:genre-182":{
 			"default":["sport","zwemmen"]},
+	"lgi-nl-prod-master:genre-183":{
+			"default":["sport","tafeltennis"]},
 	"lgi-nl-prod-master:genre-184":{
 			"default":["sport","tennis"]},
+	"lgi-nl-prod-master:genre-186":{
+			"default":["sport","triathlon"]},
 	"lgi-nl-prod-master:genre-187":{
 			"default":["amusement","variete"]},
 	"lgi-nl-prod-master:genre-188":{
 			"default":["sport","volleybal"]},
 	"lgi-nl-prod-master:genre-189":{
 			"default":["nieuws/actualiteiten","weer"]},
+	"lgi-nl-prod-master:genre-191":{
+			"default":["sport","zeilracen"]},
 	"lgi-nl-prod-master:genre-195":{
 			"default":["wetenschap","technologie"]},
+	"lgi-nl-prod-master:genre-196":{
+			"default":["sport","floorball"]},
+	"lgi-nl-prod-master:genre-197":{
+			"default":["sport","drafsport"]},
+	"lgi-nl-prod-master:genre-198":{
+			"default":["sport","netball"]},
 	"lgi-nl-prod-master:genre-199":{
 			"default":["sport","rugby league"]},
 	"lgi-nl-prod-master:genre-200":{
 			"default":["sport","rugby union"]},
+	"lgi-nl-prod-master:genre-201":{
+			"default":["sport","shinty"]},
+	"lgi-nl-prod-master:genre-202":{
+			"default":["sport","australian rules football"]},
+	"lgi-nl-prod-master:genre-203":{
+			"default":["sport","koersbal"]},
 	"lgi-nl-prod-master:genre-204":{
 			"default":["sport","crosscountry skiën"]},
 	"lgi-nl-prod-master:genre-205":{
 			"default":["sport","judo"]},
+	"lgi-nl-prod-master:genre-207":{
+			"default":["sport","moderne vijfkamp"]},
+	"lgi-nl-prod-master:genre-208":{
+			"default":["sport","kunstzwemmen"]},
 	"lgi-nl-prod-master:genre-209":{
 			"default":["sport","alpineskiën"]},
 	"lgi-nl-prod-master:genre-210":{
@@ -431,8 +517,28 @@
 			"default":["sport","freestyle skiën"]},
 	"lgi-nl-prod-master:genre-212":{
 			"default":["sport","nordic combined skiën"]},
+	"lgi-nl-prod-master:genre-214":{
+			"default":["sport","cyclo-cross"]},
+	"lgi-nl-prod-master:genre-217":{
+			"default":["sport","water polo"]},
+	"lgi-nl-prod-master:genre-218":{
+			"default":["sport","water skiing"]},
+	"lgi-nl-prod-master:genre-219":{
+			"default":["sport","surfen"]},
+	"lgi-nl-prod-master:genre-220":{
+			"default":["sport","windsurfen"]},
+	"lgi-nl-prod-master:genre-222":{
+			"default":["sport","bandy"]},
+	"lgi-nl-prod-master:genre-223":{
+			"default":["sport","short track speed skating"]},
+	"lgi-nl-prod-master:genre-228":{
+			"default":["sport","gewichtheffen"]},
 	"lgi-nl-prod-master:genre-229":{
 			"default":["sport","exercise"]},
+	"lgi-nl-prod-master:genre-230":{
+			"default":["sport","poker"]},
+	"lgi-nl-prod-master:genre-231":{
+			"default":["sport","running"]},
 	"13946319":{
 			"default":["nieuws/actualiteiten",""],
 			"documentaire":["informatief", "Documentaire"],
