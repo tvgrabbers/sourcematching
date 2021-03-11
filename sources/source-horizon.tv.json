@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":78,
+	"version":79,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -202,7 +202,7 @@
 	"lgi-nl-prod-master:genre-3":{
 			"default":["jeugd",""]},
 	"lgi-nl-prod-master:genre-4":{
-			"default":["amusement","comedyserie"]},
+			"default":["serie/soap","komedie"]},
 	"lgi-nl-prod-master:genre-5":{
 			"default":["informatief","consumentenprogramma"]},
 	"lgi-nl-prod-master:genre-6":{
@@ -269,10 +269,18 @@
 			"default":["serie/soap","docudrama"]},
 	"lgi-nl-prod-master:genre-40":{
 			"default":["serie/soap","fantasy"]},
+	"lgi-nl-prod-master:genre-41":{
+			"default":["serie/soap","historisch drama"]},
+	"lgi-nl-prod-master:genre-42":{
+			"default":["serie/soap","horror"]},
 	"lgi-nl-prod-master:genre-44":{
 			"default":["serie/soap","mystery"]},
 	"lgi-nl-prod-master:genre-45":{
 			"default":["serie/soap","romantiek"]},
+	"lgi-nl-prod-master:genre-47":{
+			"default":["serie/soap","sciencefiction"]},
+	"lgi-nl-prod-master:genre-48":{
+			"default":["serie/soap","thriller"]},
 	"lgi-nl-prod-master:genre-51":{
 			"default":["erotiek",""]},
 	"lgi-nl-prod-master:genre-52":{
@@ -296,7 +304,7 @@
 	"lgi-nl-prod-master:genre-90":{
 			"default":["informatief","samenleving"]},
 	"lgi-nl-prod-master:genre-93":{
-			"default":["documentaire","misdaad"]},
+			"default":["serie/soap","misdaad"]},
 	"lgi-nl-prod-master:genre-95":{
 			"default":["muziek","dans"]},
 	"lgi-nl-prod-master:genre-96":{
@@ -322,7 +330,7 @@
 	"lgi-nl-prod-master:genre-113":{
 			"default":["sport","american football"]},
 	"lgi-nl-prod-master:genre-122":{
-			"default":["documentaire","geschiedenis"]},
+			"default":["serie/soap","geschiedenis"]},
 	"lgi-nl-prod-master:genre-123":{
 			"default":["sport","ijshockey"]},
 	"lgi-nl-prod-master:genre-125":{
@@ -343,6 +351,8 @@
 			"default":["nieuws/actualiteiten","actualiteitenprogramma's"]},
 	"lgi-nl-prod-master:genre-148":{
 			"default":["documentaire","paranormaal"]},
+	"lgi-nl-prod-master:genre-151":{
+			"default":["kunst en cultuur","podiumkunsten"]},
 	"lgi-nl-prod-master:genre-153":{
 			"default":["nieuws/actualiteiten","politiek"]},
 	"lgi-nl-prod-master:genre-157":{
