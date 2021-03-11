@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":77,
+	"version":78,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -220,7 +220,7 @@
 	"lgi-nl-prod-master:genre-12":{
 			"default":["amusement",""]},
 	"lgi-nl-prod-master:genre-13":{
-			"default":["educatie","natuur"]},
+			"default":["natuur",""]},
 	"lgi-nl-prod-master:genre-14":{
 			"default":["film",""]},
 	"lgi-nl-prod-master:genre-15":{
@@ -338,7 +338,7 @@
 	"lgi-nl-prod-master:genre-137":{
 			"default":["sport","vechtsporten"]},
 	"lgi-nl-prod-master:genre-142":{
-			"default":["documentaire","natuur"]},
+			"default":["natuur",""]},
 	"lgi-nl-prod-master:genre-143":{
 			"default":["nieuws/actualiteiten","actualiteitenprogramma's"]},
 	"lgi-nl-prod-master:genre-148":{
