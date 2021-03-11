@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":76,
+	"version":77,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -287,6 +287,8 @@
 			"default":["vrije tijd","auto en motor"]},
 	"lgi-nl-prod-master:genre-64":{
 			"default":["sport","motorsport"]},
+	"lgi-nl-prod-master:genre-69":{
+			"default":["sport","honkbal"]},
 	"lgi-nl-prod-master:genre-70":{
 			"default":["sport","basketbal"]},
 	"lgi-nl-prod-master:genre-89":{
@@ -309,6 +311,8 @@
 			"default":["sport","dragracen"]},
 	"lgi-nl-prod-master:genre-104":{
 			"default":["sport","paardensport"]},
+	"lgi-nl-prod-master:genre-106":{
+			"default":["sport","extreme sporten"]},
 	"lgi-nl-prod-master:genre-107":{
 			"default":["vrije tijd","mode"]},
 	"lgi-nl-prod-master:genre-109":{
@@ -327,8 +331,12 @@
 			"default":["sport","paardenraces"]},
 	"lgi-nl-prod-master:genre-131":{
 			"default":["sport","voetbal"]},
+	"lgi-nl-prod-master:genre-132":{
+			"default":["informatief","interview"]},
 	"lgi-nl-prod-master:genre-135":{
 			"default":["informatief","recht"]},
+	"lgi-nl-prod-master:genre-137":{
+			"default":["sport","vechtsporten"]},
 	"lgi-nl-prod-master:genre-142":{
 			"default":["documentaire","natuur"]},
 	"lgi-nl-prod-master:genre-143":{
@@ -339,6 +347,10 @@
 			"default":["nieuws/actualiteiten","politiek"]},
 	"lgi-nl-prod-master:genre-157":{
 			"default":["documentaire","reality"]},
+	"lgi-nl-prod-master:genre-162":{
+			"default":["sport","atletiek"]},
+	"lgi-nl-prod-master:genre-164":{
+			"default":["informatief","zelfhulp"]},
 	"lgi-nl-prod-master:genre-166":{
 			"default":["vrije tijd","shoppen"]},
 	"lgi-nl-prod-master:genre-177":{
@@ -349,6 +361,8 @@
 			"default":["amusement","variete"]},
 	"lgi-nl-prod-master:genre-189":{
 			"default":["nieuws/actualiteiten","weer"]},
+	"lgi-nl-prod-master:genre-195":{
+			"default":["wetenschap","technologie"]},
 	"lgi-nl-prod-master:genre-229":{
 			"default":["sport","exercise"]},
 	"13946319":{
