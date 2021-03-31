@@ -6,7 +6,7 @@
 	"name":"nieuwsblad.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":24,
+	"version":25,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -218,7 +218,9 @@
 			"name":{"varid":0},
 			"detail_url":{"varid": 5},
 			"gen_ID":{"varid": 6}}},
-	"no_genric_matching":["canvas", "cartoon-network", "een", "eenplus", "mtv", "npo1", "npo2", "npo3"],
+	"no_genric_matching":[
+			"canvas", "cartoon-network", "discovery-channel", "een", "eenplus", "eurosport-nl", "mtv", "npo1", "npo2", "npo3",  
+			"radio-drenthe", "rtv-drenthe"],
 	"empty_channels":[
 			"bbc1", "bbc3", "bbc4", "bbc-world", "canvasplus", "net5", "prime-action", "prime-family", "prime-fezztival",
 			"prime-star", "prime-series", "sbs6", "sundance-channel", "sundance-tv", "sundancetv", "tv5", "veronica",
