@@ -79,7 +79,7 @@
 			"star-rating":{"varid":10}}
 			},
 	"detail":{
-		"url":["https://www.humo.be/tv-gids/api/v2/detail/",["detailid"], "/"],
+		"url":["https://www.humo.be/tv-gids/api/v2/detail/",["detailid"]],
 		"data-format":"application/json",
 		"encoding":"windows-1252",
 		"url-header":{"Accept-Encoding": "gzip"},
