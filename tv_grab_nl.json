@@ -1544,7 +1544,6 @@
 			{"chanid": "0-311", "start": "4:00", "end": "18:00", "slots": ["disney xd"]}],
 		"1-ketnet-canvas-2": [
 			{"chanid": "8-ketnet", "start": "6:00", "end": "20:00"},
-			{"chanid": "10-03", "start": "20:00", "end": "6:00", "slot": ["ketnet hits"]},
 			{"chanid": "8-eenplus", "start": "20:00", "end": "6:00"},
 			{"chanid": "8-canvasplus", "start": "20:00", "end": "6:00"}],
 		"1-nickelodeon": [
