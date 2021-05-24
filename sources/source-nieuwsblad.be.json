@@ -6,7 +6,7 @@
 	"name":"nieuwsblad.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":25,
+	"version":26,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -219,10 +219,10 @@
 			"detail_url":{"varid": 5},
 			"gen_ID":{"varid": 6}}},
 	"no_genric_matching":[
-			"canvas", "cartoon-network", "discovery-channel", "een", "eenplus", "eurosport-nl", "mtv", "npo1", "npo2", "npo3",  
-			"radio-drenthe", "rtv-drenthe"],
+			"canvas", "canvasplus", "cartoon-network", "discovery-channel", "een", "eenplus", "eurosport-nl", "mtv", "npo1", "npo2",
+			"npo3", "radio-drenthe", "rtv-drenthe"],
 	"empty_channels":[
-			"bbc1", "bbc3", "bbc4", "bbc-world", "canvasplus", "net5", "prime-action", "prime-family", "prime-fezztival",
+			"bbc1", "bbc3", "bbc4", "bbc-world", "net5", "prime-action", "prime-family", "prime-fezztival",
 			"prime-star", "prime-series", "sbs6", "sundance-channel", "sundance-tv", "sundancetv", "tv5", "veronica",
 			"lacht", "kadet", "vtmkzoom", "discovery-channel", "viceland-benelux", "vtm-kids-jr", "npo-1", "npo-2", "npo-3",
 			"la-deux", "vier", "vijf", "zes", "caz-2"],
