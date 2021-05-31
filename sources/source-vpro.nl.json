@@ -197,7 +197,8 @@
         "g3014":{
 			"default":["sport", ""],
 			"14":["sport", "journaal"],
-			"15":["sport", "sport-wedstrijd"]},
+			"15":["sport", "sport-wedstrijd"],
+			"82":["sport", "analyse"]},
         "g3015":{
 			"default":["muziek", ""],
 			"16":["muziek", "klassiek"],
