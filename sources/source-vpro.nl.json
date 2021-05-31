@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":43,
+	"version":44,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -197,7 +197,8 @@
         "g3014":{
 			"default":["sport", ""],
 			"14":["sport", "journaal"],
-			"15":["sport", "sport-wedstrijd"]},
+			"15":["sport", "sport-wedstrijd"],
+			"82":["sport", "analyse"]},
         "g3015":{
 			"default":["muziek", ""],
 			"16":["muziek", "klassiek"],
