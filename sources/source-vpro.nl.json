@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":45,
+	"version":46,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -204,7 +204,8 @@
 			"16":["muziek", "klassiek"],
 			"17":["muziek", "populair"],
 			"75":["muziek", "jazz"],
-			"78":["muziek", "soul"]},
+			"78":["muziek", "soul"],
+			"80":["muziek", "wereldmuziek"]},
         "g3016":{
 			"default":["amusement", ""],
 			"9":["amusement", "komedie"],
