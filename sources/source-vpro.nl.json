@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":48,
+	"version":49,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -237,6 +237,7 @@
 			"26":["documentaire", "religieus"],
 			"27":["documentaire", "wetenschap"],
 			"29":["documentaire", "reisprogramma"],
-			"30":["documentaire", "geschiedenis"]}},
+			"30":["documentaire", "geschiedenis"],
+			"40":["documentaire", "human interest"]}},
 	"rating":{}}
 
