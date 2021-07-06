@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":52,
+	"version":53,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -187,6 +187,7 @@
 			"10":["film", "spanning"],
 			"11":["film", "animatie"],
 			"12":["film", "drama"],
+			"46":["film", "biografie"],
 			"56":["film", "toneelstuk"]},
         "g3013":{
 			"default":["serie/soap", ""],
@@ -199,7 +200,8 @@
 			"default":["sport", ""],
 			"14":["sport", "journaal"],
 			"15":["sport", "sport-wedstrijd"],
-			"82":["sport", "analyse"]},
+			"82":["sport", "analyse"],
+			"060":["vrije tijd", "levensbeschouwing"]},
         "g3015":{
 			"default":["muziek", ""],
 			"16":["muziek", "klassiek"],
