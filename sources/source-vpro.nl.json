@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":57,
+	"version":58,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -200,8 +200,8 @@
 			"default":["sport", ""],
 			"14":["sport", "journaal"],
 			"15":["sport", "sport-wedstrijd"],
-			"82":["sport", "analyse"],
 			"41":["sport", "event"],
+			"82":["sport", "analyse"],
 			"0":["vrije tijd", "overige"],
 			"060":["vrije tijd", "levensbeschouwing"]},
         "g3015":{
@@ -236,7 +236,8 @@
 			"44":["informatief", "politiek"],
 			"67":["informatief", "interviewprogramma"],
 			"68":["informatief", "maatschappelijk debat"],
-			"69":["informatief", "onderzoeksjournalistiek"]},
+			"69":["informatief", "onderzoeksjournalistiek"],
+			"70":["informatief", "reportage"]},
         "g3018":{
 			"default":["documentaire", ""],
 			"4":["documentaire", "sport"],
