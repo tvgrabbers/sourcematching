@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":59,
+	"version":60,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -203,6 +203,7 @@
 			"41":["sport", "event"],
 			"82":["sport", "analyse"],
 			"0":["vrije tijd", "overige"],
+			"043":["vrije tijd", "reality"],
 			"060":["vrije tijd", "levensbeschouwing"]},
         "g3015":{
 			"default":["muziek", ""],
