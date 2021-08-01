@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":60,
+	"version":61,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -195,7 +195,8 @@
 			"10":["serie/soap", "spanning"],
 			"11":["serie/soap", "animatieserie"],
 			"12":["serie/soap", "dramaserie"],
-			"13":["serie/soap", "realityserie"]},
+			"13":["serie/soap", "realityserie"],
+			"43":["serie/soap", "reality"]},
         "g3014":{
 			"default":["sport", ""],
 			"14":["sport", "journaal"],
@@ -219,7 +220,8 @@
 			"5":["amusement", "muziek"],
 			"9":["amusement", "komedie"],
 			"19":["amusement", "spelshow"],
-			"20":["amusement", "cabaret"]},
+			"20":["amusement", "cabaret"],
+			"43":["amusement", "reality"]},
         "g3017":{
 			"default":["informatief", ""],
 			"19":["informatief", "spelshow"],
