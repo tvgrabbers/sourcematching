@@ -70,7 +70,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":71,
+			"version":72,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -1155,7 +1155,7 @@
 		"0-464":7,
 		"0-465":5,
 		"0-466":5,
-		"0-467":5,
+		"0-467":3,
 		"1-acht":6,
 		"1-ketnet-canvas-2":10,
 		"1-e-entertainment":5,
