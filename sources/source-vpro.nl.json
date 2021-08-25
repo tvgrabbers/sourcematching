@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":66,
+	"version":67,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -208,7 +208,8 @@
 			"043":["vrije tijd", "reality"],
 			"059":["vrije tijd", "familie"],
 			"060":["vrije tijd", "levensbeschouwing"],
-			"061":["vrije tijd", "levenswijze"]},
+			"061":["vrije tijd", "levenswijze"],
+			"062":["vrije tijd", "liefde"]},
         "g3015":{
 			"default":["muziek", ""],
 			"16":["muziek", "klassiek"],
