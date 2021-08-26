@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":69,
+	"version":70,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -167,7 +167,7 @@
 	"no_genric_matching":[
 			"24_kitchen", "een", "ketnet", "radio_538", "radio_veronica", "slam_fm",
 			"sky_radio", "vrt_canvas", "radio_gelderland", "893_radio_west", "comedy_central",
-			"net_5", "sbs_6", "sbs_9", "veronica"],
+			"net_5", "sbs_6", "sbs_9", "veronica", "tlc", "discovery", "bbc_first"],
 	"empty_channels":["q-music","brava_nl", "vice_tv"],
 	"cattrans":{
         "g3011":{
