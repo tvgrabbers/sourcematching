@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":76,
+	"version":77,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -233,6 +233,7 @@
 			"9":["amusement", "komedie"],
 			"19":["amusement", "spelshow"],
 			"20":["amusement", "cabaret"],
+			"41":["amusement", "event"],
 			"43":["amusement", "reality"]},
         "g3017":{
 			"default":["informatief", ""],
