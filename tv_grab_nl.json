@@ -70,7 +70,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":75,
+			"version":76,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -169,6 +169,7 @@
 			"0-313": "313",
 			"1-journaal-24": "314",
 			"0-315": "315",
+			"0-401": "401",
 			"0-406": "406",
 			"0-407": "407",
 			"0-408": "408",
