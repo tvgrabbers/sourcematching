@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":80,
+	"version":81,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -190,6 +190,7 @@
 			"11":["film", "animatie"],
 			"12":["film", "drama"],
 			"46":["film", "biografie"],
+			"52":["film", "misdaad"],
 			"56":["film", "toneelstuk"]},
         "g3013":{
 			"default":["serie/soap", ""],
