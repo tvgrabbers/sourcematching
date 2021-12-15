@@ -50,7 +50,7 @@
 			"cattransid":null},
 		"4":{
 			"json file":"source-npo.nl",
-			"version":28,
+			"version":29,
 			"cattrans type":null,
 			"cattransid":1},
 		"12":{
@@ -1004,6 +1004,7 @@
 		"1-france-5":"France 5",
 		"1-jim":"VTM Gold",
 		"1-ketnet-canvas-2":"Ketnet/Eén+/Canvas+",
+		"1-politiek-24":"NPO Politiek en Nieuws",
 		"1-prime-action":"Play More Kicks",
 		"1-prime-family":"Play More Relax",
 		"1-prime-star":"Play More Cinema",
