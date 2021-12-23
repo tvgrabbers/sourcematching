@@ -8,7 +8,7 @@
 	"site-timezone":"Europe/Amsterdam",
 	"version":34,
 	"api-version":[1,0,0],
-	"detail_processor":true,
+	"detail_processor":false,
 	"without-full-timings":true,
 	"night-date-switch":0,
 	"channels":{
