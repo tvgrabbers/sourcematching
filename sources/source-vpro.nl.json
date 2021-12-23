@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":81,
+	"version":82,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -189,7 +189,9 @@
 			"10":["film", "spanning"],
 			"11":["film", "animatie"],
 			"12":["film", "drama"],
+			"45":["film", "actie"],
 			"46":["film", "biografie"],
+			"49":["film", "familiefilm"],
 			"52":["film", "misdaad"],
 			"56":["film", "toneelstuk"]},
         "g3013":{
