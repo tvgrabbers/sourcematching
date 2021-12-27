@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":82,
+	"version":83,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -202,6 +202,7 @@
 			"12":["serie/soap", "dramaserie"],
 			"13":["serie/soap", "realityserie"],
 			"43":["serie/soap", "reality"],
+			"50":["serie/soap", "historisch"],
 			"81":["serie/soap", "detective"]},
         "g3014":{
 			"default":["sport", ""],
