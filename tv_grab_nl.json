@@ -955,7 +955,8 @@
 			"7-vrt_radio_2": "vrt-radio-2",
 			"7-klara": "klara",
 			"10-41": "studio-brussel",
-			"10-55": "mnm"}},
+			"10-55": "mnm",
+			"12-radio-10-brabant":"radio-10-brabant"}},
 	"channel_rename":{
 		"0-7":"BBC One England",
 		"0-8":"BBC Two",
@@ -1002,6 +1003,7 @@
 		"1-eredivisie-live-4":"ESPN 4",
 		"1-fox-sports-5-eredivisie":"ESPN 5",
 		"1-fox-sports-6":"ESPN 6",
+		"1-france-4":"France 4",
 		"1-france-5":"France 5",
 		"1-jim":"VTM Gold",
 		"1-ketnet-canvas-2":"Ketnet/Eén+/Canvas+",
