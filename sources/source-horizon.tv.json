@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":85,
+	"version":86,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -636,6 +636,44 @@
 			"default":["sport","poker"]},
 	"lgi-nl-prod-master:genre-231":{
 			"default":["sport","running"]},
+	"lgi-nl-prod-master:genre-232":{
+			"default":["sport","footvolley"]},
+	"lgi-nl-prod-master:genre-233":{
+			"default":["sport","multisportevenement"]},
+	"lgi-nl-prod-master:genre-234":{
+			"default":["serie/soap","amerikaanse geschiedenis"]},
+	"lgi-nl-prod-master:genre-235":{
+			"default":["serie/soap","klassieke geschiedenis"]},
+	"lgi-nl-prod-master:genre-236":{
+			"default":["serie/soap","wereldgeschiedenis"]},
+	"lgi-nl-prod-master:genre-237":{
+			"default":["sport","3x3-basketbal"]},
+	"lgi-nl-prod-master:genre-238":{
+			"default":["sport","synchroonzwemmen"]},
+	"lgi-nl-prod-master:genre-239":{
+			"default":["sport","klimsport"]},
+	"lgi-nl-prod-master:genre-240":{
+			"default":["sport","karate"]},
+	"lgi-nl-prod-master:genre-241":{
+			"default":["informatief","boeken & literatuur"]},
+	"lgi-nl-prod-master:genre-242":{
+			"default":["sport","teqbal"]},
+	"lgi-nl-prod-master:genre-243":{
+			"default":["sport","wielrennen"]},
+	"lgi-nl-prod-master:genre-244":{
+			"default":["sport","baanwielrennen"]},
+	"lgi-nl-prod-master:genre-245":{
+			"default":["sport","bmx"]},
+	"lgi-nl-prod-master:genre-246":{
+			"default":["documentaire","reality-competitie"]},
+	"lgi-nl-prod-master:genre-247":{
+			"default":["sport","schaken"]},
+	"lgi-nl-prod-master:genre-248":{
+			"default":["sport","camogie"]},
+	"lgi-nl-prod-master:genre-249":{
+			"default":["serie/soap","politieke satire"]},
+	"lgi-nl-prod-master:genre-250":{
+			"default":["sport","paralympische Spelen"]},
 	"13946319":{
 			"default":["nieuws/actualiteiten",""],
 			"documentaire":["informatief", "Documentaire"],
