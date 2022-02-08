@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":86,
+	"version":87,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"alt-url-code":403,
@@ -673,7 +673,7 @@
 	"lgi-nl-prod-master:genre-249":{
 			"default":["serie/soap","politieke satire"]},
 	"lgi-nl-prod-master:genre-250":{
-			"default":["sport","paralympische Spelen"]},
+			"default":["sport","paralympische spelen"]},
 	"13946319":{
 			"default":["nieuws/actualiteiten",""],
 			"documentaire":["informatief", "Documentaire"],
