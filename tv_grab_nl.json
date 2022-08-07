@@ -90,7 +90,7 @@
 			"cattransid":7},
 		"11":{
 			"json file":"source-virtual.nl",
-			"version":12,
+			"version":13,
 			"cattrans type":null,
 			"cattransid":null}},
 	"active_sources":[7,3,5,6,8,2,4,10,11,12],
@@ -906,8 +906,7 @@
 			"10-121": "121",
 			"10-140": "140",
 			"10-141": "141"},
-		"11":{"1-nickelodeon": "nickspike",
-			"11-digitenne25": "digitenne25",
+		"11":{"11-digitenne25": "digitenne25",
 			"11-disneyxdsat": "disneyxdsat",
 			"11-kzoomkanaalz": "kzoomkanaalz",
 			"11-veronicadxd": "veronicadxd"},
@@ -1175,7 +1174,7 @@
 		"0-467":3,
 		"1-acht":6,
 		"1-ketnet-canvas-2":10,
-		"1-e-entertainment":3,
+		"1-e-entertainment":5,
 		"1-eredivisie-live-2":5,
 		"1-eredivisie-live-3":5,
 		"1-eredivisie-live-4":5,
@@ -1186,7 +1185,6 @@
 		"1-sport-1-2":5,
 		"1-sport-1-extra-1":5,
 		"1-sport1-extra-2":5,
-		"1-nickelodeon":3,
 		"1-politiek-24":4,
 		"1-rtl-telekids":5,
 		"1-veronica":5,
@@ -1424,7 +1422,6 @@
 		"1-journaal-24" : ["4", "npo_nieuws"],
 		"1-kanaalz" : ["46", "kanaal-z"],
 		"1-ketnet-canvas-2" : ["4", "ketnet_v2"],
-		"1-nickelodeon" : ["4", "nickelodeon_spike"],
 		"1-politiek-24" : ["4", "npo_politiek"],
 		"1-prime-action" : ["46", "play-more-kicks"],
 		"1-prime-family" : ["46", "play-more-relax"],
@@ -1527,9 +1524,6 @@
 			{"chanid": "8-ketnet", "start": "6:00", "end": "20:00"},
 			{"chanid": "8-eenplus", "start": "20:00", "end": "6:00"},
 			{"chanid": "8-canvasplus", "start": "20:00", "end": "6:00"}],
-		"1-nickelodeon": [
-			{"chanid": "0-89", "start": "5:00", "end": "21:05"}, 
-			{"chanid": "0-467", "start": "21:05", "end": "5:00"}],
 		"5-24443943080": ["0-301", "1-cbeebies"]},
 	"virtual-sub-channels":{
 		"virtual-veronica":{
