@@ -90,7 +90,7 @@
 			"cattransid":7},
 		"11":{
 			"json file":"source-virtual.nl",
-			"version":13,
+			"version":14,
 			"cattrans type":null,
 			"cattransid":null}},
 	"active_sources":[7,3,5,6,8,2,4,10,11,12],
@@ -908,7 +908,6 @@
 			"10-141": "141"},
 		"11":{"11-digitenne25": "digitenne25",
 			"11-disneyxdsat": "disneyxdsat",
-			"11-kzoomkanaalz": "kzoomkanaalz",
 			"11-veronicadxd": "veronicadxd"},
 		"12":{"4-292": "npo-radio-1",
 			"4-293": "npo-radio-2",
@@ -1511,9 +1510,6 @@
 			{"chanid": "0-40", "start": "18:00", "end": "1:00"}],
 		"11-disneyxdsat": [
 			{"chanid": "0-311", "start": "4:00", "end": "18:00"}],
-		"11-kzoomkanaalz": [
-			{"chanid": "1-vtmkzoom", "start": "6:00", "end": "22:00"},
-			{"chanid": "1-kanaalz", "start": "22:00", "end": "0:00"}],
 		"11-veronicadxd": [
 			{"chanid": "virtual-veronica", "start": "18:00", "end": "4:00"},
 			{"chanid": "virtual-disneyxd", "start": "4:00", "end": "18:00"}],
