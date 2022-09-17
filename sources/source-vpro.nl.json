@@ -6,7 +6,7 @@
 	"name":"vpro.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":87,
+	"version":88,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -24,7 +24,7 @@
 		"data":{
 			"init-path":[
 				{"tag":"html"},
-				{"tag":"section"},
+				{"tag":"article"},
 				{"tag":"div", "attrs":{"class":"grid"}},
 				{"tag":"div"},
 				{"tag":"div"},
@@ -67,7 +67,7 @@
 		"data":{
 			"init-path":[
 				{"tag":"html"},
-				{"tag":"section"},
+				{"tag":"article"},
 				{"tag":"div", "attrs":{"class":"grid"}},
 				{"tag":"div"}],
 			"key-path":[
