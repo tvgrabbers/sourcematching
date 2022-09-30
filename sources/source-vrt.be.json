@@ -151,7 +151,7 @@
 			"stop-time":{"varid":3},
 			"length":{"varid":21},
 			"name":{"varid":4},
-			"episode title":{"varid":5},
+			"episode title":{"varid":5,"max length":150},
 			"season":{"varid":6},
 			"episode":{"varid":7},
 			"episodecount":{"varid":8},
