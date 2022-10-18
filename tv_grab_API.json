@@ -86,7 +86,8 @@
 		"45": "https://images.vrt.be/",
 		"46": "https://markup.nieuwsblad.be/extra/assets/img/tvgids/zenderoverzicht/",
 		"47": "https://staticqbr-nl-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/",
-		"48": "https://staticqbr-nl-preprod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/"},
+		"48": "https://staticqbr-nl-preprod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/",
+		"49": "https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/"},
 	"ttvdb_ids":{
 		"André Rieu":{"name":"André Rieu; Welcome to my world","tid":295656},
 		"Ben 10":{"name":"Ben 10 (2016)","tid":318145},
