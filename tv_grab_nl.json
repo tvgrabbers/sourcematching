@@ -36,7 +36,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":94,
+			"version":95,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -676,7 +676,14 @@
 			"1-outtvbe": "124122",
 			"1-playsportsopen": "124539",
 			"1-plugrtl": "100060",
-			"1-xitebe": "122164"},
+			"1-xitebe": "122164",
+			"7-klara": "116306",
+			"10-13": "130143",
+			"10-32": "116510",
+			"10-41": "116308",
+			"10-44": "130144",
+			"10-55": "116307",
+			"10-56": "116511"},
 		"6":{"0-1": "npo-1",
 			"0-2": "npo-2",
 			"0-3": "npo-3",
@@ -1635,14 +1642,14 @@
 			"start":"18:00",
 			"end":"4:00",
 			"3":"34",
-			"1":"veronica",
+			"1":"11",
 			"5":"117377",
 			"7":"veronica"},
 		"virtual-disneyxd":{
 			"start":"4:00",
 			"end":"18:00",
 			"3":"311",
-			"1":"disney-xd",
+			"1":"44",
 			"5":"105108"}},
 	"merge_into":{
 		"--description--":["This should be a dict with the new chanid as key (in stead of --example--)",
