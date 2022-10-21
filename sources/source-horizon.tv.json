@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":93,
+	"version":94,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -274,10 +274,10 @@
 			"120740": {"name": "TV Oost", "group": 8, "icon": "MM193.png", "icongrp": 49},
 			"116512": {"name": "Vlaams Parlement TV", "group": 9, "icon": "MM094.png", "icongrp": 49},
 			"120868": {"name": "WTV", "group": 8, "icon": "MM19A.png", "icongrp": 49},
-			"122164": {"name": "Xite Vlaanderen", "group": 9, "icon": "MM274.png", "icongrp": 49,
+			"122164": {"name": "Xite Vlaanderen", "group": 9, "icon": "MM274.png", "icongrp": 49},
 			"67197": {"name": "kabel eins", "group": 4},
 			"66610": {"name": "RTL Zwei", "group": 4},
-			"66616": {"name": "VOX", "group": 4}}}},
+			"66616": {"name": "VOX", "group": 4}}},
 	"base":{
 		"url":["https://www.tvtv.us/api/v1/lineup/NLD-1000351-DEFAULT/grid/",11,"T00:00:00.000Z/",11,"T23:59:00.000Z/",["channel"]],
 		"data-format":"application/json",
