@@ -41,7 +41,7 @@
 			"cattransid":2},
 		"6":{
 			"json file":"source-humo.be",
-			"version":17,
+			"version":18,
 			"cattrans type":1,
 			"cattransid":3},
 		"8":{
@@ -3454,7 +3454,7 @@
 		"z@ppsport compilatie": "Zappsport compilatie"},
 	"groupnameremove":["kro detectives", "detectives", "premiére", "b.o.z.", "marathon", "minikids", "telekids mini's", "helden van 7",
 			"waargebeurd op woensdag", "actiefilm", "misdaadfilm", "romantische comedy", "horrorfilm", "film",
-			"rtl telekids", "telekids minis", "filmdrama", "verslag", "start", "slot", "nieuw", "terug"],
+			"rtl telekids", "telekids minis", "filmdrama", "verslag", "start", "slot", "nieuw", "terug", "docu"],
 	"episode exclude genres": ["sport","sports","movie","film"],
 	"detailed_genres":["serie/soap","movie","film","korte film","sport","sports"],
 	"series_genres":["serie/soap"],

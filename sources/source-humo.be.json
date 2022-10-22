@@ -5,8 +5,8 @@
 		"If you thing it needs adjusting open an issue on https://github.com/tvgrabbers/tvgrabpyAPI/"],
 	"name":"humo.be",
 	"language":"nl",
-	"site-timezone":"Europe/Brussels",
-	"version":17,
+	"site-timezone":"UTC",
+	"version":18,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -62,7 +62,8 @@
 				[{"key":"subGenres"},{"key":0,"default":""}],
 				[{"key":"rerun","default":""}],
 				[{"key":"rating","default":""}],
-				[{"key":"playableType", "rstrip":"s","default":""}]
+				[{"key":"playableType", "rstrip":"s","default":""}],
+				[{"key":"pillar","default":null}]
 					]},
 		"values":{
 			"channelid":{"varid":1},
@@ -76,7 +77,8 @@
 			"genre":{"varid":7},
 			"subgenre":{"varid":8},
 			"rerun":{"varid":9},
-			"star-rating":{"varid":10}}
+			"star-rating":{"varid":10},
+			"broadcaster":{"varid":12}}
 			},
 	"detail":{
 		"url":["https://www.humo.be/tv-gids/api/v2/detail/",["detailid"]],
@@ -124,9 +126,10 @@
 					{"name":{"key":"function"}},
 					{"key":"persons"},
 					{"path":"all"}, 
-					{"key": "name"}]
+					{"key": "name"}],
+				[{"key":"pillar","default":null}]
 					]},
-		"provides":["description","episode title","episodecount","episode","season","premiere year","actor","director"],
+		"provides":["description","episode title","episodecount","episode","season","premiere year","actor","director","broadcaster"],
 		"values":{
 			"channelid":{"varid":1},
 			"prog_ID":{"varid":0},
@@ -145,7 +148,8 @@
 			"season":{"varid":14,"max length":65535},
 			"premiere year":{"varid":15},
 			"actor":{"funcid":102, "data":[{"varid":16},"actor",{"varid":17}], "default":{}},
-			"director":{"varid":18}
+			"director":{"varid":18},
+			"broadcaster":{"varid":20}
 			}},
 	"channels_old":{
 		"url":["http://www.humo.be/api/epg/humosite/channels"],
