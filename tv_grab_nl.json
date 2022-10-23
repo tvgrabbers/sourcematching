@@ -36,7 +36,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":97,
+			"version":98,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -519,6 +519,7 @@
 			"1-eredivisie-live-2": "115561",
 			"1-eredivisie-live-3": "105109",
 			"1-eredivisie-live-4": "115562",
+			"1-eurosportde": "66603",
 			"1-fox-sports-5-eredivisie": "105110",
 			"1-fox-sports-6": "115563",
 			"1-france-2": "24463",
@@ -531,6 +532,8 @@
 			"1-itv-4": "48020",
 			"1-jim": "121256",
 			"1-kabel-eins": "67197",
+			"1-mezzo-live-hd": "83018",
+			"1-nashville-tv": "127984",
 			"1-njam": "121130",
 			"1-n-tv": "66607",
 			"1-prime-action": "121684",
@@ -538,6 +541,7 @@
 			"1-rai-uno": "21834",
 			"1-rtl-ii": "66610",
 			"1-rtl-tvi": "52578",
+			"1-schlager-tv": "89502",
 			"1-sport-1-2": "115480",
 			"1-sport-1-extra-1": "115475",
 			"1-sport1-extra-2": "115476",
