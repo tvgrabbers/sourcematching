@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":98,
+	"version":99,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -277,7 +277,7 @@
 			"122164": {"name": "Xite Vlaanderen", "group": 9, "icon": "MM274.png", "icongrp": 49},
 			"127984": {"name": "Nashville TV", "group": 7},
 			"89502": {"name": "Schlager TV", "group": 7},
-			"66603": {"name": "Eurosport 1 Deutschland", "group": 4},
+			"66603": {"name": "Eurosport 1 Deutschland", "group": 4, "icon": "eurosport1_v2.png", "icongrp": 47},
 			"67197": {"name": "kabel eins", "group": 4},
 			"66607": {"name": "n-tv", "group": 4},
 			"66610": {"name": "RTL Zwei", "group": 4},
