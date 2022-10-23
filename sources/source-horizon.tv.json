@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":96,
+	"version":97,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -276,6 +276,7 @@
 			"120868": {"name": "WTV", "group": 8, "icon": "MM19A.png", "icongrp": 49},
 			"122164": {"name": "Xite Vlaanderen", "group": 9, "icon": "MM274.png", "icongrp": 49},
 			"67197": {"name": "kabel eins", "group": 4},
+			"66607": {"name": "n-tv", "group": 4},
 			"66610": {"name": "RTL Zwei", "group": 4},
 			"66616": {"name": "VOX", "group": 4},
 			"83399": {"name": "History Europe", "group": 14, "icon": "MM3CA.png", "icongrp": 49},
