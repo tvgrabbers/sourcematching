@@ -6,7 +6,7 @@
 	"name":"vrt.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":10,
+	"version":11,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -63,7 +63,8 @@
 					"<p>", "", "</p>", "", 
 					"<b>", "", "</b>", "", 
 					"<div>", "", "</div>", "", 
-					"<br>", "", "</br>", ""]}],
+					"<br>", "", "</br>", "",
+					"met audiodescriptie", "open audiodescriptie"]}],
 				[{"key":"subtitle","default":"", "sub": [
 					"<p>", "", "</p>", "", 
 					"<b>", "", "</b>", "", 
