@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":18,
+	"version":19,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -63,7 +63,8 @@
 				[{"key":"rerun","default":""}],
 				[{"key":"rating","default":""}],
 				[{"key":"playableType", "rstrip":"s","default":""}],
-				[{"key":"pillar","default":null}]
+				[{"key":"pillar","default":null}],
+				[{"key":"alternativeMainTitle","default":null}]
 					]},
 		"values":{
 			"channelid":{"varid":1},
@@ -72,7 +73,7 @@
 			"start-time":{"varid":2},
 			"stop-time":{"varid":3},
 			"length":{"varid":4},
-			"name":{"varid":5},
+			"name":{"funcid":9, "data":[{"varid":13},{"varid":5}]},
 			"description":{"varid":6, "default":""},
 			"genre":{"varid":7},
 			"subgenre":{"varid":8},
@@ -127,7 +128,8 @@
 					{"key":"persons"},
 					{"path":"all"}, 
 					{"key": "name"}],
-				[{"key":"pillar","default":null}]
+				[{"key":"pillar","default":null}],
+				[{"key":"alternativeMainTitle","default":null}]
 					]},
 		"provides":["description","episode title","episodecount","episode","season","premiere year","actor","director","broadcaster"],
 		"values":{
@@ -136,7 +138,7 @@
 			"start-time":{"varid":2},
 			"stop-time":{"varid":3},
 			"length":{"varid":4},
-			"name":{"varid":5},
+			"name":{"funcid":9, "data":[{"varid":21},{"varid":5}]},
 			"description":{"varid":6, "default":""},
 			"genre":{"varid":7},
 			"subgenre":{"varid":8},
