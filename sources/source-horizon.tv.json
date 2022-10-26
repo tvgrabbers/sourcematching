@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":99,
+	"version":100,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -317,14 +317,15 @@
 				],
 			"values":[
 				[{"key":"startTime", "type":"datetimestring"}],
-				[{"key":"title","default":null}],
+				[{"key":"title","default":null, "sub": [
+					"Wordt aangekondigd", "Geen info beschikbaar"]}],
 				[{"key":"subtitle","default":null}],
 				[{"key":"runTime","multiplier":60,"type":"timedelta"}],
 				[{"key":"type", "sub": [
 					"N", "lgi-nl-prod-master:genre-22",
-					"O", "", 
+					"O", "lgi-nl-prod-master:genre-31", 
 					"M", "lgi-nl-prod-master:genre-14", 
-					"R", "",
+					"R", "lgi-nl-prod-master:genre-12",
 					"S", "lgi-nl-prod-master:genre-27"], "default": null}],
 				[{"key":"endTime", "type":"datetimestring"}],
 				[{"key":"stationId"}]
@@ -354,7 +355,8 @@
 				{"path":"all"}
 				],
 			"values":[
-				[{"key":"title","default":null}],
+				[{"key":"title","default":null, "sub": [
+					"Wordt aangekondigd", "Geen info beschikbaar"]}],
 				[{"key":"description","default":null}],
 				[{"key":"releaseYear", "default":null}],
 				[{"key":"seriesEpisode"},{"key":"episodeTitle"}],
@@ -364,9 +366,17 @@
 					{"type": "list"}],
 				[{"key":"directors"},
 					{"path":"all"},
-					{"type": "list"}]
+					{"type": "list"}],
+				[{"key":"type", "sub": [
+					"N", "lgi-nl-prod-master:genre-22",
+					"O", "lgi-nl-prod-master:genre-31", 
+					"M", "lgi-nl-prod-master:genre-14", 
+					"R", "lgi-nl-prod-master:genre-12",
+					"S", "lgi-nl-prod-master:genre-27"], "default": null}],
+				[{"key":"genres"},
+					{"key":0, "default": null}]
 				]},
-		"provides":["description","premiere year", "episode title","director", "actor"],
+		"provides":["description","premiere year", "episode title","director", "actor", "genre","subgenre"],
 		"values":{
 			"name":{"varid":1},
 			"description":{"varid":2},
@@ -374,6 +384,8 @@
 			"episode title":{"funcid":8, "data":[{"varid":4},{"varid":5}], "default":""},
 			"actor":{"varid":6},
 			"director":{"varid":7},
+			"genre":{"varid":8},
+			"subgenre":{"varid":9},
 			"source": {"value":"horizon.tv"}}},
 	"no_genric_matching":[
 			"61014", "63528", "63529",  "105104", "105099", "110976", "110975", "112923", "115510", "115467",
