@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":103,
+	"version":104,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -293,10 +293,10 @@
 			"130143": {"name": "VRT NWS", "group": 12, "icon": "MM1FC.png", "icongrp": 49},
 			"130144": {"name": "StuBru De Tijdloze", "group": 12, "icon": "MM289.png", "icongrp": 49}}},
 	"base":{
-		"url":["https://www.tvtv.us/api/v1/lineup/USA-NY66739-DEFAULT/grid/",11,"T00:00:00.000Z/",11,"T23:59:00.000Z/",["channel"]],
+		"url":["https://www.tvtv.us/api/v1/lineup/USA-DITV501-DEFAULT/grid/",11,"T00:00:00.000Z/",11,"T23:59:00.000Z/",["channel"]],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://www.tvtv.us/ny/glens-falls/12801/luUSA-NY66739-DEFAULT"},
+		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://www.tvtv.us/ny/new-york/10019/luUSA-DITV501-DEFAULT"},
 		"url-type":1,
 		"url-data":{},
 		"url-date-type":0,
@@ -348,7 +348,7 @@
 		"url":["https://www.tvtv.us/api/v1/programs/",["detailid"]],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://www.tvtv.us/ny/glens-falls/12801/luUSA-NY66739-DEFAULT"},
+		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://www.tvtv.us/ny/new-york/10019/luUSA-DITV501-DEFAULT"},
 		"url-type":0,
 		"url-data":{},
 		"data":{
