@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":19,
+	"version":20,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -31,7 +31,7 @@
 			"channelid":{"varid": 0},
 			"name":{"funcid":0, "data":[{"varid":1}, " HD"]},
 			"group":null,
-			"icon":{"funcid":101, "data":[{"varid":2}]},
+			"icon":null,
 			"HD":null}},
 	"base":{
 		"url":["https://www.humo.be/tv-gids/api/v2/broadcasts/", 11],
