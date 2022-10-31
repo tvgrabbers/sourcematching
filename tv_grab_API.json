@@ -88,7 +88,12 @@
 		"47": "https://staticqbr-nl-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/",
 		"48": "https://staticqbr-nl-preprod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/",
 		"49": "https://staticqbr-be-prod.tnprod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/",
-		"50": "https://www.gids.tv/img/icons/tv/zenders/"},
+		"50": "https://www.gids.tv/img/icons/tv/zenders/",
+		"51": "https://images0.persgroep.net/rcs/",
+		"52": "https://images1.persgroep.net/rcs/",
+		"53": "https://images2.persgroep.net/rcs/",
+		"54": "https://images3.persgroep.net/rcs/",
+		"55": "https://images4.persgroep.net/rcs/"},
 	"ttvdb_ids":{
 		"André Rieu":{"name":"André Rieu; Welcome to my world","tid":295656},
 		"Ben 10":{"name":"Ben 10 (2016)","tid":318145},
