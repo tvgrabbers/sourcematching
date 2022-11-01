@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":104,
+	"version":105,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -323,7 +323,7 @@
 				[{"key":"runTime","multiplier":60,"type":"timedelta"}],
 				[{"key":"type", "sub": [
 					"N", "lgi-nl-prod-master:genre-22",
-					"O", "lgi-nl-prod-master:genre-31", 
+					"O", "", 
 					"M", "lgi-nl-prod-master:genre-14", 
 					"E", "lgi-nl-prod-master:genre-10", 
 					"R", "lgi-nl-prod-master:genre-12",
