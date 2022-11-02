@@ -36,7 +36,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":106,
+			"version":107,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -1202,7 +1202,7 @@
 		"12-29":"NH Radio"},
 	"prime_source_order":[4,10,12,7,3,5,6,8,11],
 	"sourceid_order":[3, 10, 6, 5, 4, 7, 8, 11, 12],
-	"detail_sources":[3, 6],
+	"detail_sources":[3, 6, 5],
 	"prime_source_groups":{
 		"2":6,
 		"6":5,
