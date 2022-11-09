@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":111,
+	"version":112,
 	"api-version":[1,0,5],
 	"detail_processor":true,
 	"channels":{
@@ -128,7 +128,7 @@
 			"115570": {"name": "Videoland", "group": 16, "icon": "videoland_1_v2.png", "icongrp": 47},
 			"122958": {"name": "Viaplay Xtra", "group": 15, "icon": "viaplay_xtra_2022.png", "icongrp": 47},
 			"124551": {"name": "Curiosity Channel", "group": 14, "icon": "curiosity_channel_2022.png", "icongrp": 47},
-			"115460": {"name": "Discovery Science", "group": 14, "icon": "discovery_science_2017.png", "icongrp": 47},
+			"115460": {"name": "Discovery Science", "group": 7, "icon": "discovery_science_2017.png", "icongrp": 47},
 			"115566": {"name": "Nat Geo Wild", "group": 7, "icon": "natgeowild_hd_v2.png", "icongrp": 47},
 			"115661": {"name": "Love Nature", "group": 10, "icon": "love_nature_hd.png", "icongrp": 47},
 			"112917": {"name": "Animal Planet", "group": 7, "icon": "animal_planet_hd_v2.png", "icongrp": 47},
