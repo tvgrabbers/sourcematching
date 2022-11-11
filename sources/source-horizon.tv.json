@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":112,
+	"version":113,
 	"api-version":[1,0,5],
 	"detail_processor":true,
 	"channels":{
@@ -226,6 +226,7 @@
 			"78645": {"name": "Hustler TV", "group": 99, "icon": "400b.png", "icongrp": 13},
 			"115848": {"name": "Ziggo Testbeeld", "group": 99, "icon": "ziggo_testbeeld_1.png", "icongrp": 47},
 			"115573": {"name": "Ziggo Zenderoverzicht", "group": 99, "icon": "ziggo_zenderoverzicht_1.png", "icongrp": 47},
+			"115846": {"name": "Ziggo Evenementenkanaal", "group": 99, "icon": "ziggo.png", "icongrp": 47},
 			"51619": {"name": "AB3", "group": 5, "icon": "MM0D2.png", "icongrp": 49},
 			"120862": {"name": "ATV", "group": 8, "icon": "MM191.png", "icongrp": 49},
 			"120864": {"name": "AVS", "group": 8, "icon": "MM192.png", "icongrp": 49},
