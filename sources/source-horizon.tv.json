@@ -6,9 +6,9 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":113,
+	"version":114,
 	"api-version":[1,0,5],
-	"detail_processor":true,
+	"detail_processor":false,
 	"channels":{
 		"data":{
 			"61014": {"name": "NPO 1", "group": 1, "icon": "npo1.png", "icongrp": 47},
