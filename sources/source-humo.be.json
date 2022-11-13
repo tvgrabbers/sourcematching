@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":20,
+	"version":21,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -58,8 +58,8 @@
 				[{"key":"duration", "type":"timedelta"}],
 				[{"key":"title","default":""}],
 				[{"key":"synopsis","default":""}],
-				[{"key":"genre","default":""}],
-				[{"key":"subGenres"},{"key":0,"default":""}],
+				[{"key":"genre","default":null}],
+				[{"key":"subGenres"},{"key":0,"default":null}],
 				[{"key":"rerun","default":""}],
 				[{"key":"rating","default":""}],
 				[{"key":"playableType", "rstrip":"s","default":""}],
@@ -99,11 +99,12 @@
 				[{"key":"duration", "type":"timedelta"}],
 				[{"key":"title","default":""}],
 				[{"key":"synopsisOriginal","default":""}],
-				[{"key":"genre","default":""}],
-				[{"key":"subGenres"},{"key":0,"default":""}],
+				[{"key":"genre","default":null}],
+				[{"key":"subGenres"},{"key":0,"default":null}],
 				[{"key":"rerun","default":""}],
 				[{"key":"rating","default":""}],
-				[{"key":"subtitle", "default":""}],
+				[{"key":"subtitle", "default":null, "sub": [
+					"^Aflevering.*", ""]}],
 				[{"key":"seasonTotalNumberOfEpisodes"}],
 				[{"key":"order"}],
 				[{"key":"seasonOrder"}],
@@ -337,7 +338,7 @@
 			"default":["Nieuws/Actualiteiten", "Reportage"],
 			"reality":["Amusement", "Reality"]},
 		"Informatief Programma":{
-			"default":["Nieuws/Actualiteiten", ""]},
+			"default":["informatief", ""]},
 		"sports":{
 			"default":["Sport", ""]},
 		"sport":{
@@ -351,13 +352,19 @@
         "show":{
 			"default":["Amusement", ""]},
         "praatprogramma's":{
-			"default":["Amusement", ""]},
+			"default":["amusement", "talkshow"]},
+        "praatprogramma":{
+			"default":["amusement", "talkshow"]},
         "talk":{
 			"default":["Amusement", ""]},
         "talkshow":{
 			"default":["Amusement", "Talkshow"]},
         "spel":{
-			"default":["Amusement", "spelshow"]},
+			"default":["amusement", "spelshow"]},
+        "spelprogramma's":{
+			"default":["amusement", "spelshow"]},
+        "spelprogramma":{
+			"default":["amusement", "spelshow"]},
         "quiz":{
 			"default":["Amusement", "Quiz"]},
         "reality":{
@@ -365,14 +372,22 @@
         "kunst-cultuur":{
 			"default":["kunst en cultuur", ""]},
         "muziek":{
-			"default":["Muziek", ""]},
+			"default":["muziek", ""]},
         "radio":{
-			"default":["Muziek", ""]},
+			"default":["muziek", ""]},
+        "radioprogramma":{
+			"default":["muziek", ""]},
         "religion":{
 			"default":["Religieus", ""]},
+        "info":{
+			"default":["informatief", ""]},
+        "informatief":{
+			"default":["informatief", ""]},
         "kinderen":{
 			"default":["jeugd", ""]},
         "jeugd":{
+			"default":["jeugd", ""]},
+        "jeugdprogramma":{
 			"default":["jeugd", ""]},
         "animated-cartoon":{
 			"default":["serie/soap", "animatieserie"]},
