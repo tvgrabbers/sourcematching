@@ -58,7 +58,7 @@
 				[{"key":"duration", "type":"timedelta"}],
 				[{"key":"title","default":""}],
 				[{"key":"synopsis","default":""}],
-				[{"key":"genre","default":"reeks"}],
+				[{"key":"genre","default":null}],
 				[{"key":"subGenres"},{"key":0,"default":null}],
 				[{"key":"rerun","default":""}],
 				[{"key":"rating","default":""}],
