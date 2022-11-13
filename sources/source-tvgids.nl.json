@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":85,
+	"version":86,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -65,7 +65,8 @@
 					"\\s*<ul>", " (", "</ul>\\s*", ") ", 
 					"\\s*</li><li>\\s*", "; ", "<li>\\s*", "", "\\s*</li>", ""]}],
 				[{"key":"rerun", "replace":{"true":true,"false":false},"default":false}],
-				[{"key":"g_id","default":""}]
+				[{"key":"g_id","default":null}],
+				[{"key":"subgenre","default":null}]
 				]},
 		"values":{
 			"channelid":{"varid": 1},
@@ -76,7 +77,8 @@
 			"name":{"varid":4},
 			"description":{"varid":5},
 			"rerun":{"varid":6},
-			"genre":{"varid": 7}}},
+			"genre":{"varid": 7},
+			"subgenre":{"varid": 8}}},
 	"detail2":{
 		"url":["https://www.tvgids.nl/tv/null/",["detailid"], "/"],
 		"data-format":"text/html",
@@ -350,8 +352,8 @@
 					"<em>", "", "</em>", "", 
 					"\\s*<ul>", " (", "</ul>\\s*", ") ", 
 					"\\s*</li><li>\\s*", "; ", "<li>\\s*", "", "\\s*</li>", ""]}],
-				[{"key":"g","default":""}],
-				[{"key":"prog_sort","default":""}],
+				[{"key":"g","default":null}],
+				[{"key":"prog_sort","default":null}],
 				[{"key":"year", "default":""}],
 				[{"key":"country","type":"list"}],
 				[{"key":"rerun","default":""}],
@@ -458,6 +460,8 @@
 			"default":["serie/soap", "misdaadserie"]},
         "populair":{
 			"default":["amusement", ""]},
+        "entertainment":{
+			"default":["amusement", ""]},
         "nieuws/actualiteiten":{
 			"default":["nieuws/actualiteiten", ""]},
         "raportage":{
@@ -473,15 +477,19 @@
         "documentaire":{
 			"default":["documentaire", ""]},
         "documentaireserie":{
-			"default":["documentaireserie", ""]},
+			"default":["documentaire", ""]},
         "informatief":{
 			"default":["informatief", ""],
 			"Documentaireserie":["documentaire", ""]},
+        "informatief, amusement":{
+			"default":["informatief", ""]},
         "wetenschap":{
 			"default":["wetenschap", ""]},
         "natuur":{
 			"default":["natuur", ""]},
         "amusement":{
+			"default":["amusement", ""]},
+        "amusment":{
 			"default":["amusement", ""]},
         "talk":{
 			"default":["talk", ""]},
@@ -534,6 +542,8 @@
         "animatiefilm":{
 			"default":["film", "animatiefilm"]},
         "serie":{
+			"default":["serie/soap", ""]},
+        "series":{
 			"default":["serie/soap", ""]},
         "serie/soap":{
 			"default":["serie/soap", ""]},
