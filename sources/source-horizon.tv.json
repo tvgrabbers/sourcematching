@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":114,
+	"version":115,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -115,7 +115,7 @@
 			"115510": {"name": "Crime & Investigation", "group": 7, "icon": "crime_invest.png", "icongrp": 47},
 			"105091": {"name": "ID", "group": 7, "icon": "investigation_discovery_2020.png", "icongrp": 47},
 			"115326": {"name": "Comedy Central Extra", "group": 7, "icon": "comedy_central_extra_2018.png", "icongrp": 47},
-			"115834": {"name": "Shorts TV", "group": 14, "icon": "shorts_tv2.png", "icongrp": 47},
+			"115813": {"name": "Shorts TV", "group": 14, "icon": "shorts_tv2.png", "icongrp": 47},
 			"115463": {"name": "E!", "group": 14, "icon": "e_entertainment_new.png", "icongrp": 47},
 			"115580": {"name": "OutTV", "group": 7, "icon": "outtv_v4.png", "icongrp": 47},
 			"52550": {"name": "CBS Reality", "group": 14, "icon": "cbs_reality.png", "icongrp": 47},
