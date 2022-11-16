@@ -36,7 +36,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":115,
+			"version":116,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -639,6 +639,7 @@
 			"6-history-europe": "83399",
 			"6-mtv-dance": "89006",
 			"6-mtv-europe": "56237",
+			"6-nrj": "131317",
 			"6-play7": "120747",
 			"6-play-sports-3": "116686",
 			"6-play-sports-4": "116687",
@@ -3747,7 +3748,7 @@
 			"rtl telekids", "telekids minis", "filmdrama", "verslag", "sciencefictionfilm", "fantasyfilm", "biografisch drama",
 			"oorlogsfilm", "detectives op donderdag", "detectives op woensdag", "detectives op vrijdag", "countdown to christmas",
 			"tv-première"],
-	"episode exclude genres": ["sport","sports","movie","film"],
+	"episode exclude genres": ["movie","film"],
 	"detailed_genres":["serie/soap","movie","film","korte film","sport","sports"],
 	"series_genres":["serie/soap"],
 	"movie_genres":["movie","film","korte film"],
