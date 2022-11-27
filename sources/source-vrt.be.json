@@ -6,7 +6,7 @@
 	"name":"vrt.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":11,
+	"version":12,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -39,6 +39,7 @@
 		"url":["https://www.vrt.be/bin/epg/schedule.",11,".json"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
+		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type": 2,
 		"url-data":{},
 		"url-date-format":"%Y-%m-%d",

@@ -46,7 +46,7 @@
 			"cattransid":3},
 		"8":{
 			"json file":"source-nieuwsblad.be",
-			"version":27,
+			"version":28,
 			"cattrans type":null,
 			"cattransid":null},
 		"4":{
@@ -56,7 +56,7 @@
 			"cattransid":1},
 		"12":{
 			"json file":"source-oorboekje.nl",
-			"version":29,
+			"version":30,
 			"cattrans type":null,
 			"cattransid":null},
 		"9":{
@@ -86,7 +86,7 @@
 			"cattransid":4},
 		"10":{
 			"json file":"source-vrt.be",
-			"version":11,
+			"version":12,
 			"cattrans type":null,
 			"cattransid":7},
 		"11":{
