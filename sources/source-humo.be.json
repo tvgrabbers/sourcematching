@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":23,
+	"version":24,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -41,7 +41,7 @@
 		"url-type": 2,
 		"url-data":{},
 		"url-date-format":"%Y-%m-%d",
-		"max days":7,
+		"max days":8,
 		"data":{
 			"key-path":[
 				{"key":"channels"},
@@ -204,7 +204,7 @@
 		"url-data":{},
 		"url-date-format":"%Y-%m-%d",
 		"url-channel-groups": ["main","rest"],
-		"max days":7,
+		"max days":8,
 		"value-filters":{
 			"channelid":[]
 			},
