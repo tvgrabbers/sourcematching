@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":30,
+	"version":31,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -111,7 +111,7 @@
 			"oktober", "november", "december"],
 		"date-splitter":" ",
 		"date-sequence":["w", "d", "m", "y"],
-		"max days":7,
+		"max days":5,
 		"value-filters":{
 			"channelid":[]
 			},
@@ -175,7 +175,7 @@
 			"oktober", "november", "december"],
 		"date-splitter":" ",
 		"date-sequence":["w", "d", "m", "y"],
-		"max days":7,
+		"max days":5,
 		"value-filters":{
 			"channelid":[]
 			},
