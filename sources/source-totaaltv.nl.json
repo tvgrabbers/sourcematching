@@ -1,20 +1,20 @@
-{"file-name":"source-primo.eu",
+{"file-name":"source-totaaltv.nl",
 	"description":[
 		"This is the datafile on how to get the program-data of this site",
 		"Do not change this file as it will get overwritten on any update",
 		"If you thing it needs adjusting open an issue on https://github.com/tvgrabbers/tvgrabpyAPI/"],
-	"name":"demorgen.be",
+	"name":"totaaltv.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":19,
+	"version":1,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
 	"cookiejar": {"pwv": "1", "pws": "functional|analytics"},
 	"base-channels":{
-		"url":["https://www.demorgen.be/tv-gids/api/v2/broadcasts/", 11],
+		"url":["https://www.totaaltv.nl/tv-gids/api/v2/broadcasts/", 11],
 		"data-format":"application/json",
-		"encoding":"windows-1252",
+		"encoding":"utf-8",
 		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type":0,
 		"url-data":{},
@@ -34,14 +34,14 @@
 			"icon":null,
 			"HD":null}},
 	"base":{
-		"url":["https://www.demorgen.be/tv-gids/api/v2/broadcasts/", 11],
+		"url":["https://www.totaaltv.nl/tv-gids/api/v2/broadcasts/", 11],
 		"data-format":"application/json",
-		"encoding":"windows-1252",
+		"encoding":"utf-8",
 		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type": 2,
 		"url-data":{},
 		"url-date-format":"%Y-%m-%d",
-		"max days":8,
+		"max days":3,
 		"data":{
 			"key-path":[
 				{"key":"channels"},
@@ -82,9 +82,9 @@
 			"broadcaster":{"varid":12}}
 			},
 	"detail":{
-		"url":["https://www.demorgen.be/tv-gids/api/v2/detail/",["detailid"]],
+		"url":["https://www.totaaltv.nl/tv-gids/api/v2/detail/",["detailid"]],
 		"data-format":"application/json",
-		"encoding":"windows-1252",
+		"encoding":"utf-8",
 		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type": 0,
 		"url-data":{},
@@ -162,7 +162,8 @@
 			"vtm", "vtm2", "vtm3", "vtm4", "vtmgold", "vtm-kids", "play4", "play5", "play6", "play7",
 			"discovery-vlaanderen", "eurosport1be", "foxhd", "tipik", "la-trois", "la-une", "mtv-vlaanderen",
 			"national-geographic", "njam", "rtl-tvi-hd", "tf1", "tlc-vl",
-			"bbc-one", "bbc-two", "ard", "zdf", "wdr", "rai-uno", "tve-inter", "france2", "france3", "arte"],
+			"bbc-one", "bbc-two", "ard", "zdf", "wdr", "rai-uno", "tve-inter", "france2", "france3", "arte", "history-europe",
+			"bbc-world", "bbc-entertainment", "cnn", "discovery-science", "discovery-id", "national-geographic-nl"],
 	"cattrans":{
 		"nieuws":{
 			"default":["Nieuws/Actualiteiten", ""]},
