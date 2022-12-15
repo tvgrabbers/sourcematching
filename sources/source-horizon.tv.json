@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":118,
+	"version":119,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -256,6 +256,7 @@
 			"121147": {"name": "National Geographic Vlaanderen", "group": 9, "icon": "MM118.png", "icongrp": 49},
 			"122165": {"name": "Nat Geo Wild Vlaanderen", "group": 9, "icon": "MM3D5.png", "icongrp": 49},
 			"116623": {"name": "Nickelodeon Vlaanderen", "group": 9, "icon": "MM144.png", "icongrp": 49},
+			"116972": {"name": "Nick Jr. Vlaanderen", "group": 9, "icon": "MM154.png", "icongrp": 49},
 			"124122": {"name": "OutTV Vlaanderen", "group": 9, "icon": "MM21A.png", "icongrp": 49},
 			"121682": {"name": "Play More Black", "group": 9, "icon": "MM3BE.png", "icongrp": 49},
 			"121683": {"name": "Play More Cinema", "group": 9, "icon": "MM0C9.png", "icongrp": 49},
