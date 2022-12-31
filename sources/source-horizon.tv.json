@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":119,
+	"version":120,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -130,7 +130,7 @@
 			"124551": {"name": "Curiosity Channel", "group": 14, "icon": "curiosity_channel_2022.png", "icongrp": 47},
 			"115460": {"name": "Discovery Science", "group": 7, "icon": "discovery_science_2017.png", "icongrp": 47},
 			"115566": {"name": "Nat Geo Wild", "group": 7, "icon": "natgeowild_hd_v2.png", "icongrp": 47},
-			"115661": {"name": "Love Nature", "group": 10, "icon": "love_nature_hd.png", "icongrp": 47},
+			"115661": {"name": "Love Nature", "group": 7, "icon": "love_nature_hd.png", "icongrp": 47},
 			"112917": {"name": "Animal Planet", "group": 7, "icon": "animal_planet_hd_v2.png", "icongrp": 47},
 			"115464": {"name": "Family7", "group": 7, "icon": "family7.png", "icongrp": 47},
 			"116971": {"name": "Tommy TV", "group": 7, "icon": "tommy_tv.png", "icongrp": 47},
@@ -406,6 +406,7 @@
 			"source": {"value":"horizon.tv"}}},
 	"no_genric_matching":[
 			"61014", "63528", "63529", "110976", "110975", "112923", "115467", "115469", "115564",
+			"115660", "112925", "115340", "89289", "115336", "115659", "115342",
 			"24443942983", "24443942987", "24443943009", "24443943058", "24443943087",
 			"24443943091", "24443943108", "540738087343", "542836775318", "555680807173",
 			"562458663437", "672816167173", "728310311065", "796441638969", "796441638972",
