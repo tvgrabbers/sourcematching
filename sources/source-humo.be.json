@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":24,
+	"version":25,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -328,7 +328,7 @@
 			"genres":{"varid":24}
 			}},
 	"no_genric_matching":["npo-1", "npo-2", "npo-3", "cartoon24"],
-	"empty_channels":["viceland", "vtm-kids-jr"],
+	"empty_channels":["viceland", "vtm-kids-jr", "vtm-kids"],
 	"cattrans":{
 		"nieuws":{
 			"default":["Nieuws/Actualiteiten", ""]},

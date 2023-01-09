@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":120,
+	"version":121,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -51,7 +51,7 @@
 			"110978": {"name": "VTM 3", "group": 2, "icon": "MM06B.png", "icongrp": 49},
 			"110977": {"name": "VTM 4", "group": 2, "icon": "MM086.png", "icongrp": 49},
 			"121256": {"name": "VTM Gold", "group": 9, "icon": "MM3E8.png", "icongrp": 49},
-			"116303": {"name": "VTM Kids", "group": 9, "icon": "MM0A0.png", "icongrp": 49},
+			"116303": {"name": "VTM NON-STOP Dokters", "group": 9, "icon": "MM0A0.png", "icongrp": 49},
 			"117070": {"name": "Play4", "group": 2, "icon": "MM1C8.png", "icongrp": 49},
 			"117071": {"name": "Play5", "group": 2, "icon": "MM100.png", "icongrp": 49},
 			"117072": {"name": "Play6", "group": 2, "icon": "MM3C1.png", "icongrp": 49},
@@ -406,7 +406,7 @@
 			"source": {"value":"horizon.tv"}}},
 	"no_genric_matching":[
 			"61014", "63528", "63529", "110976", "110975", "112923", "115467", "115469", "115564",
-			"115660", "112925", "115340", "89289", "115336", "115659", "115342",
+			"115660", "112925", "115340", "89289", "115336", "115659", "115342", "115343",
 			"24443942983", "24443942987", "24443943009", "24443943058", "24443943087",
 			"24443943091", "24443943108", "540738087343", "542836775318", "555680807173",
 			"562458663437", "672816167173", "728310311065", "796441638969", "796441638972",
