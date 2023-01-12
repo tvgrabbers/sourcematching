@@ -4553,7 +4553,7 @@
 			"oorlogsfilm", "detectives op donderdag", "detectives op woensdag", "detectives op vrijdag", "countdown to christmas",
 			"tv-première", "avonturenfilm", "animatiefilm", "comedydrama", "romantisch drama", "mini serie", "videoland première",
 			"komediefilm", "dramafilm", "kerstfilm", "mysteriefilm", "fantasiefilm", "kerstklassieker", "kerstkomedie",
-			"kerstsequel", "biografiefilm", "thrillerfilm", "rtl 8's winter romance", "westernfilm"],
+			"kerstsequel", "biografiefilm", "thrillerfilm", "rtl 8's winter romance", "westernfilm", "fantasymeesterwerk"],
 	"episode exclude genres": ["movie","film"],
 	"detailed_genres":["serie/soap","movie","film","korte film","sport","sports"],
 	"series_genres":["serie/soap"],
