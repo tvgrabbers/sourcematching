@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":31,
+	"version":32,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -226,7 +226,7 @@
 					{"muziek": "muziek", "nieuws": "nieuws/actualiteiten", "sport": "sport", "actualiteiten": "nieuws/actualiteiten"}, 
 					{"varid":6}, {"varid":0}], "default": "overige"}]},
 			"description":{"funcid":109, "data":[{"varid": 6},{"varid": 0}]}}},
-	"no_genric_matching":[],
+	"no_genric_matching":["klara","vrt-radio-1"],
 	"empty_channels":[],
 	"cattrans":{},
 	"rating":{}}
