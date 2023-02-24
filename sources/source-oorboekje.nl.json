@@ -226,7 +226,7 @@
 					{"muziek": "muziek", "nieuws": "nieuws/actualiteiten", "sport": "sport", "actualiteiten": "nieuws/actualiteiten"}, 
 					{"varid":6}, {"varid":0}], "default": "overige"}]},
 			"description":{"funcid":109, "data":[{"varid": 6},{"varid": 0}]}}},
-	"no_genric_matching":["klara","vrt-radio-1"],
+	"no_genric_matching":["klara","vrt-radio-1","mnm","studio-brussel","vrt-radio-2"],
 	"empty_channels":[],
 	"cattrans":{},
 	"rating":{}}
