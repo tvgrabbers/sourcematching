@@ -82,8 +82,8 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":99,
-			"cattrans type":1,
+			"version":100,
+			"cattrans type":null,
 			"cattransid":4},
 		"10":{
 			"json file":"source-vrt.be",
@@ -100,7 +100,7 @@
 			"version":2,
 			"cattrans type":1,
 			"cattransid":8}},
-	"active_sources":[5,3,6,9,13,4,10,11,12,8],
+	"active_sources":[4,10,5,3,6,9,13,11,12,7,8],
 	"source_channels":{
 		"3":{"0-1": "1",
 			"0-2": "2",
@@ -1512,8 +1512,8 @@
 		"10-41":"StuBru",
 		"12-22":"R Omrop Fryslân",
 		"12-29":"NH Radio"},
-	"prime_source_order":[4,10,12,5,3,6,9,13,8,11],
-	"sourceid_order":[3, 10, 6, 5, 4, 8, 11, 12, 9, 13],
+	"prime_source_order":[4,10,12,5,3,6,9,13,7,8,11],
+	"sourceid_order":[3, 10, 6, 5, 4, 7, 8, 11, 12, 9, 13],
 	"detail_sources":[3, 6, 9, 13],
 	"prime_source_groups":{
 		"2":6,
