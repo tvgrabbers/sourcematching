@@ -252,52 +252,37 @@
 		"nieuws-actualiteiten":{
 			"default":["nieuws/actualiteiten", ""]},
 		"amusement":{
-			"default":["amusement", ""],
-			"komisch":["amusement", "komedie"],
-			"spel-quiz":["amusement", "quiz"]},
+			"default":["amusement", ""]},
+		"angst":{
+			"default":["angst", ""]},
+		"documentaire":{
+			"default":["documentaire", ""]},
+		"film":{
+			"default":["film", ""]},
+		"human interest":{
+			"default":["vrije tijd", ""]},
 		"informatief":{
-			"default":["informatief", ""],
-			"nieuws-actualiteiten":["nieuws/actualiteiten", ""],
-			"kunst-cultuur":["informatief", "kunst/cultuur"],
-			"gezondheid-opvoeding":["informatief", "gezondheid"],
-			"consumenten-informatie":["informatief", "consument"],
-			"spel-quiz":["informatief", "quiz"],
-			"koken-eten":["informatief", "kookprogramma"],
-			"natuur":["natuur", ""],
-			"religieus":["religieus", ""]},
+			"default":["informatief", ""]},
+		"jeugd":{
+			"default":["jeugd", ""]},
+		"muziek":{
+			"default":["muziek", ""]},
+		"serie":{
+			"default":["serie/soap", ""]},
+		"sport":{
+			"default":["sport", ""]},
 		"religieus":{
 			"default":["religieus", ""]},
-		"jeugd":{
-			"default":["jeugd", ""],
-			"animatie":["jeugd", "animatieserie"],
-			"spel-quiz":["jeugd", "quiz"]},
-		"documentaire":{
-			"default":["documentaire", ""],
-			"kunst-cultuur":["documentaire", "kunst/cultuur"]},
-		"sport":{
-			"default":["sport", ""],
-			"sport-informatie":["sport", "journaal"]},
 		"animatie":{
 			"default":["serie/soap", "animatieserie"]},
 		"natuur":{
 			"default":["natuur", ""]},
-		"muziek":{
-			"default":["muziek", ""],
-			"muziek-populair":["muziek", "populair"],
-			"muziek-klassiek":["muziek", "klassiek"]},
-		"film":{
-			"default":["film", ""],
-			"animatie":["film", "animatieserie"],
-			"spanning":["film", "thriller"]},
 		"wetenschap":{
 			"default":["wetenschap", ""]},
 		"drama":{
 			"default":["serie/soap", "drama"]},
 		"reizen":{
-			"default":["reizen", ""]},
-		"serie":{
-			"default":["serie/soap", ""],
-			"soap-serie":["serie/soap", "soap"]}},
+			"default":["reizen", ""]}},
 	"rating":{
 		"leeftijd-al":"0",
 		"leeftijd-6":"1",
