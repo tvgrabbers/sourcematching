@@ -52,8 +52,8 @@
 			"cattransid":null},
 		"4":{
 			"json file":"source-npo.nl",
-			"version":31,
-			"cattrans type":1,
+			"version":32,
+			"cattrans type":null,
 			"cattransid":1},
 		"12":{
 			"json file":"source-oorboekje.nl",
