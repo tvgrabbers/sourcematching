@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":124,
+	"version":125,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -275,7 +275,7 @@
 			"120746": {"name": "RTV", "group": 8, "icon": "MM197.png", "icongrp": 49},
 			"121796": {"name": "Q-music", "group": 9, "icon": "MM2DC.png", "icongrp": 49},
 			"116790": {"name": "Sport 10", "group": 9, "icon": "MM410.png", "icongrp": 49},
-			"116487": {"name": "Studio 100 TV", "group": 9},
+			"116487": {"name": "Studio 100 TV", "group": 9, "icon": "MM412.png", "icongrp": 49},
 			"116788": {"name": "TLC Vlaanderen", "group": 9, "icon": "MM349.png", "icongrp": 49},
 			"120742": {"name": "TV Limburg", "group": 8, "icon": "MM199.png", "icongrp": 49},
 			"120740": {"name": "TV Oost", "group": 8, "icon": "MM193.png", "icongrp": 49},
