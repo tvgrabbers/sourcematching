@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":126,
+	"version":127,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -43,7 +43,7 @@
 			"105104": {"name": "History", "group": 7, "icon": "history_2023.png", "icongrp": 47},
 			"105099": {"name": "Nickelodeon", "group": 7, "icon": "nickelodeon_v5.png", "icongrp": 47},
 			"112926": {"name": "ONS", "group": 7, "icon": "ons_2018.png", "icongrp": 47},
-			"110976": {"name": "VRT 1", "group": 2, "icon": "een_v3.png", "icongrp": 47},
+			"110976": {"name": "VRT 1", "group": 2, "icon": "vrt1_2023.png", "icongrp": 47},
 			"110975": {"name": "Canvas", "group": 2, "icon": "canvas_v2.png", "icongrp": 47},
 			"112923": {"name": "Ketnet", "group": 2, "icon": "ketnet_v2.png", "icongrp": 47},
 			"116032": {"name": "VTM", "group": 2, "icon": "MM0BE.png", "icongrp": 49},
