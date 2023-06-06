@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":128,
+	"version":129,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -281,6 +281,7 @@
 			"120740": {"name": "TV Oost", "group": 8, "icon": "MM193.png", "icongrp": 49},
 			"116512": {"name": "Vlaams Parlement TV", "group": 9, "icon": "MM094.png", "icongrp": 49},
 			"120868": {"name": "WTV", "group": 8, "icon": "MM19A.png", "icongrp": 49},
+			"126363": {"name": "W Sport", "group": 9, "icon": "MM411.png", "icongrp": 49},
 			"122164": {"name": "Xite Vlaanderen", "group": 9, "icon": "MM274.png", "icongrp": 49},
 			"127984": {"name": "Nashville TV", "group": 7},
 			"89502": {"name": "Schlager TV", "group": 7},

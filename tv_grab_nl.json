@@ -37,7 +37,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":128,
+			"version":129,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -558,6 +558,7 @@
 			"1-vitaya": "110978",
 			"1-vox": "66616",
 			"1-vtmkzoom": "116303",
+			"1-wsport": "126363",
 			"1-ziggolokale": "115568",
 			"4-292": "115470",
 			"4-293": "107110",
