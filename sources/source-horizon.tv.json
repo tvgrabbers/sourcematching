@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":127,
+	"version":128,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -186,7 +186,7 @@
 			"89289": {"name": "TV Oost", "group": 6, "icon": "rtv_oost_1.png", "icongrp": 47},
 			"115340": {"name": "TV Gelderland", "group": 6, "icon": "omroep_gelderland.png", "icongrp": 47},
 			"115645": {"name": "Omroep Flevoland", "group": 6, "icon": "omroep_flevoland.png", "icongrp": 47},
-			"112927": {"name": "NH News", "group": 6, "icon": "nh_nieuws.png", "icongrp": 47},
+			"112927": {"name": "NH News", "group": 6, "icon": "nh_2023.png", "icongrp": 47},
 			"115644": {"name": "RTV Utrecht", "group": 6, "icon": "rtv_utrecht_2.png", "icongrp": 47},
 			"115342": {"name": "TV West", "group": 6, "icon": "tv_west.png", "icongrp": 47},
 			"115659": {"name": "TV Rijnmond", "group": 6, "icon": "tv_rijnmond_v2.png", "icongrp": 47},
