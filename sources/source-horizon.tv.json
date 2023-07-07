@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":129,
+	"version":130,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -238,6 +238,7 @@
 			"122072": {"name": "BBC First Vlaanderen", "group": 9, "icon": "MM3D8.png", "icongrp": 49},
 			"116495": {"name": "BRUZZ", "group": 8, "icon": "MM198.png", "icongrp": 49},
 			"116969": {"name": "Comedy Central Vlaanderen", "group": 9, "icon": "MM06D.png", "icongrp": 49},
+			"72308": {"name": "Crime & Investigation Europe", "group": 14, "icon": "MM10E.png", "icongrp": 49},
 			"121505": {"name": "Discovery Channel Vlaanderen", "group": 9, "icon": "MM2B0.png", "icongrp": 49},
 			"105105": {"name": "Disney Channel Vlaanderen", "group": 9, "icon": "MM2AF.png", "icongrp": 49},
 			"116491": {"name": "Eclips TV", "group": 9, "icon": "MM3C0.png", "icongrp": 49},
