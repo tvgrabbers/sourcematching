@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":130,
+	"version":131,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -134,6 +134,7 @@
 			"112917": {"name": "Animal Planet", "group": 7, "icon": "animal_planet_hd_v2.png", "icongrp": 47},
 			"115464": {"name": "Family7", "group": 7, "icon": "family7.png", "icongrp": 47},
 			"116971": {"name": "Tommy TV", "group": 7, "icon": "tommy_tv.png", "icongrp": 47},
+			"140215": {"name": "Dreamworks", "group": 7, "icon": "dreamworks_2023.png", "icongrp": 47},
 			"115335": {"name": "Nicktoons", "group": 7, "icon": "nick_toons_2022.png", "icongrp": 47},
 			"115333": {"name": "Nick Music", "group": 7, "icon": "nick_music.png", "icongrp": 47},
 			"115643": {"name": "Pebble TV", "group": 7, "icon": "pebble_tv.png", "icongrp": 47},
