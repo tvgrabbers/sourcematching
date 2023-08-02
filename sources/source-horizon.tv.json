@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":131,
+	"version":132,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -144,7 +144,7 @@
 			"115459": {"name": "Baby TV", "group": 14, "icon": "babytv_2018.png", "icongrp": 47},
 			"124565": {"name": "Duck TV", "group": 14, "icon": "ducktv_2022.png", "icongrp": 47},
 			"115473": {"name": "RTL Telekids", "group": 7, "icon": "rtl_telekids_2023.png", "icongrp": 47},
-			"123871": {"name": "Nickelodeon Ukraine Pluto TV", "group": 14, "icon": "nickelodeon_ukraine_2022.png", "icongrp": 47},
+			"123871": {"name": "Nickelodeon Ukraine Pluto TV", "group": 14, "icon": "nickelodeon_ukraine_2023.png", "icongrp": 47},
 			"115479": {"name": "Ziggo Sport Select", "group": 15, "icon": "ziggo_sport_select_2021.png", "icongrp": 47},
 			"115480": {"name": "Ziggo Sport Voetbal", "group": 15, "icon": "ziggo_sport_voetbal_2021.png", "icongrp": 47},
 			"115477": {"name": "Ziggo Sport Golf", "group": 15, "icon": "ziggo_sport_golf_2021.png", "icongrp": 47},
