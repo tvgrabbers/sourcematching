@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":33,
+	"version":34,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":false,
@@ -37,7 +37,7 @@
 			"funx": {"name": "NPO FunX", "group": 11, "fetch_grp": "radio", 
 				"icon": "radio_channel/298/logo/larger_NPO_FUNX_Logo_RGB.png", "icongrp": 7},
 			"rad6": {"name": "NPO Soul &amp; Jazz", "group": 11, "fetch_grp": "radio", 
-				"icon": "radio_channel/361/logo/larger_NPO_RD2_Logo_RGB_S_J_rood.png", "icongrp": 7}}},
+				"icon": "radio_channel/361/logo/larger_3.png", "icongrp": 7}}},
 	"base-channels_v2":{
 		"url":["https://www.npostart.nl/gids"],
 		"data-format":"text/html",
