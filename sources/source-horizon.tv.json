@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":132,
+	"version":133,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -22,7 +22,7 @@
 			"105086": {"name": "Veronica/Disney XD", "group": 1, "icon": "veronica_disney_2018.png", "icongrp": 47},
 			"117377": {"name": "Veronica", "group": 1},
 			"105108": {"name": "Disney XD", "group": 7, "icon": "disney_xd_v2.png", "icongrp": 47},
-			"105083": {"name": "Net5", "group": 1, "icon": "net5_5.png", "icongrp": 47},
+			"105083": {"name": "Net5", "group": 1, "icon": "NET5_2023.png", "icongrp": 47},
 			"105087": {"name": "RTL 8", "group": 1, "icon": "rtl8_2023.png", "icongrp": 47},
 			"105101": {"name": "FOX", "group": 1, "icon": "fox_v2.png", "icongrp": 47},
 			"105096": {"name": "RTL Z", "group": 1, "icon": "rtlz_2023.png", "icongrp": 47},

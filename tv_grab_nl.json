@@ -37,7 +37,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":132,
+			"version":133,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -1785,7 +1785,7 @@
 		"0-32" : ["4", "trt_turk"],
 		"0-34" : ["13", "34b.png"],
 		"0-36" : ["4", "sbs6_2023"],
-		"0-37" : ["4", "net5_5"],
+		"0-37" : ["4", "NET5_2023"],
 		"0-38" : ["4", "arte"],
 		"0-39" : ["4", "film1_family_1"],
 		"0-40" : ["4", "at5_new"],
