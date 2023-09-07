@@ -62,7 +62,7 @@
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":21,
+			"version":22,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
@@ -97,7 +97,7 @@
 			"cattransid":null},
 		"13":{
 			"json file":"source-totaaltv.nl",
-			"version":3,
+			"version":4,
 			"cattrans type":1,
 			"cattransid":8}},
 	"active_sources":[4,10,5,3,6,9,13,11,12,8],
@@ -721,7 +721,7 @@
 			"0-3": "npo-3",
 			"0-4": "rtl4",
 			"0-5": "vrt1",
-			"0-6": "canvas",
+			"0-6": "vrt-canvas",
 			"0-7": "bbc-one",
 			"0-8": "bbc-two",
 			"0-9": "ard",
@@ -1014,7 +1014,7 @@
 			"0-3": "npo-3",
 			"0-4": "rtl4",
 			"0-5": "vrt1",
-			"0-6": "canvas",
+			"0-6": "vrt-canvas",
 			"0-7": "bbc-one",
 			"0-8": "bbc-two",
 			"0-9": "ard",
@@ -1251,7 +1251,7 @@
 			"0-3": "npo-3",
 			"0-4": "rtl4",
 			"0-5": "vrt1",
-			"0-6": "canvas",
+			"0-6": "vrt-canvas",
 			"0-7": "bbc-one",
 			"0-8": "bbc-two",
 			"0-9": "ard",
@@ -1395,6 +1395,7 @@
 			"9-actuatv": "vlaamsparlementtv"}},
 	"channel_rename":{
 		"0-5":"VRT 1",
+		"0-6":"VRT Canvas",
 		"0-7":"BBC One England",
 		"0-8":"BBC Two",
 		"0-9":"Das Erste",

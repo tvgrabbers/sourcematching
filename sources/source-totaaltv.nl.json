@@ -6,7 +6,7 @@
 	"name":"totaaltv.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":3,
+	"version":4,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
