@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":32,
+	"version":33,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -67,7 +67,7 @@
 			"channelid":{"varid": 1, "type":"string"},
 			"name":{"funcid":0, "data":[{"varid": 0}]},
 			"group":{"varid": 2},
-			"icon":{"funcid":101, "data":[{"funcid":2, "data":["http://oorboekje.nl", {"varid": 3}]}]},
+			"icon":{"funcid":101, "data":[{"funcid":2, "data":["https://oorboekje.nl", {"varid": 3}]}]},
 			"HD":null}},
 	"base-channels":{
 		"url":["https://oorboekje.nl/radiogids/"],
@@ -95,7 +95,7 @@
 		"values":{
 			"channelid":{"varid": 1, "type":"string"},
 			"name":{"funcid":0, "data":[{"varid": 0}]},
-			"icon":{"funcid":101, "data":[{"funcid":2, "data":["http://oorboekje.nl", {"varid": 2}]}]},
+			"icon":{"funcid":101, "data":[{"funcid":2, "data":["https://oorboekje.nl", {"varid": 2}]}]},
 			"HD":null}},
 	"base":{
 		"url":["https://oorboekje.nl/radiogids/",11],
