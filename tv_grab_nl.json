@@ -100,7 +100,7 @@
 			"version":6,
 			"cattrans type":1,
 			"cattransid":8}},
-	"active_sources":[4,10,5,3,6,9,13,11,12,8],
+	"active_sources":[10,5,3,6,9,13,11,12,8],
 	"source_channels":{
 		"3":{"0-1": "1",
 			"0-2": "2",
@@ -1529,8 +1529,8 @@
 		"10-41":"Studio Brussel",
 		"12-22":"R Omrop Fryslân",
 		"12-29":"NH Radio"},
-	"prime_source_order":[4,10,12,5,3,6,9,13,8,11],
-	"sourceid_order":[3, 10, 6, 5, 4, 8, 11, 12, 9, 13],
+	"prime_source_order":[10,12,5,3,6,9,13,8,11],
+	"sourceid_order":[3, 10, 6, 5, 8, 11, 12, 9, 13],
 	"detail_sources":[3, 6, 9, 13],
 	"prime_source_groups":{
 		"2":6,
