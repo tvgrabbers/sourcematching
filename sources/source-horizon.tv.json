@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":134,
+	"version":135,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -310,7 +310,11 @@
 			"116510": {"name": "Klara Continuo", "group": 12, "icon": "MM1F8.png", "icongrp": 49},
 			"116511": {"name": "MNM Hits", "group": 12, "icon": "MM1FB.png", "icongrp": 49},
 			"130143": {"name": "VRT NWS", "group": 12, "icon": "MM1FC.png", "icongrp": 49},
-			"130144": {"name": "StuBru De Tijdloze", "group": 12, "icon": "MM289.png", "icongrp": 49}}},
+			"130144": {"name": "StuBru De Tijdloze", "group": 12, "icon": "MM289.png", "icongrp": 49},
+			"24436": {"name": "BBC Radio 3", "group": 13, "icon": "radio_bbc_radio3.png", "icongrp": 47},
+			"53752": {"name": "NDR Kultur", "group": 13, "icon": "ndr3_kultur.png", "icongrp": 47},
+			"101514": {"name": "WDR3", "group": 13, "icon": "radio_wdr3_2022.png", "icongrp": 47},
+			"91755": {"name": "Jazz Classics", "group": 13, "icon": "MM39B.png", "icongrp": 49}}},
 	"base":{
 		"url":["https://www.tvtv.us/api/v1/lineup/USA-DITV501-DEFAULT/grid/",11,"T00:00:00.000Z/",11,"T23:59:00.000Z/",["channel"]],
 		"data-format":"application/json",
@@ -409,7 +413,7 @@
 			"subgenre":{"varid":9},
 			"source": {"value":"horizon.tv"}}},
 	"no_genric_matching":[
-			"61014", "63528", "63529", "110976", "110975", "112923", "115467", "115469", "115564",
+			"61014", "63528", "63529", "110976", "110975", "112923", "115469",
 			"115660", "112925", "115340", "89289", "115336", "115659", "115342", "115343",
 			"24443942983", "24443942987", "24443943009", "24443943058", "24443943087",
 			"24443943091", "24443943108", "540738087343", "542836775318", "555680807173",
