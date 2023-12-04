@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":25,
+	"version":26,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -63,7 +63,15 @@
 				[{"key":"rerun","default":""}],
 				[{"key":"rating","default":""}],
 				[{"key":"playableType", "rstrip":"s","default":""}],
-				[{"key":"pillar","default":null}],
+				[{"key":"pillar","sub": [
+					"BNVA", "BNNVARA",
+					"BNNVARAN", "BVN",
+					"AVTR","AVROTROS",
+					"KRNC","KRO-NCRV",
+					"Omrop Fryslan","Omrop Fryslân",
+					"OON","Omroepvereniging Ongehoord Nederland",
+					"OZW","Omroep Zwart"
+					"POWN","PowNed"],"default":null}],
 				[{"key":"alternativeMainTitle","default":null}]
 					]},
 		"values":{
@@ -129,7 +137,15 @@
 					{"key":"persons"},
 					{"path":"all"}, 
 					{"key": "name"}],
-				[{"key":"pillar","default":null}],
+				[{"key":"pillar","sub": [
+					"BNVA", "BNNVARA",
+					"BNNVARAN", "BVN",
+					"AVTR","AVROTROS",
+					"KRNC","KRO-NCRV",
+					"Omrop Fryslan","Omrop Fryslân",
+					"OON","Omroepvereniging Ongehoord Nederland",
+					"OZW","Omroep Zwart"
+					"POWN","PowNed"],"default":null}],
 				[{"key":"alternativeMainTitle","default":null}]
 					]},
 		"provides":["description","episode title","episodecount","episode","season","premiere year","actor","director","broadcaster"],
