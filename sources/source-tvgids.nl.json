@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":97,
+	"version":98,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -352,7 +352,7 @@
 					"KRNC","KRO-NCRV",
 					"Omrop Fryslan","Omrop Fryslân",
 					"OON","Omroepvereniging Ongehoord Nederland",
-					"OZW","Omroep Zwart"
+					"OZW","Omroep Zwart",
 					"POWN","PowNed"],"default":null}],
 				[{"key":"title","default":""}],
 				[{"key":"descr","default":"", "sub": ["<html>", "", "</html>", "", 

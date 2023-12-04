@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":26,
+	"version":27,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -70,7 +70,7 @@
 					"KRNC","KRO-NCRV",
 					"Omrop Fryslan","Omrop Fryslân",
 					"OON","Omroepvereniging Ongehoord Nederland",
-					"OZW","Omroep Zwart"
+					"OZW","Omroep Zwart",
 					"POWN","PowNed"],"default":null}],
 				[{"key":"alternativeMainTitle","default":null}]
 					]},
@@ -144,7 +144,7 @@
 					"KRNC","KRO-NCRV",
 					"Omrop Fryslan","Omrop Fryslân",
 					"OON","Omroepvereniging Ongehoord Nederland",
-					"OZW","Omroep Zwart"
+					"OZW","Omroep Zwart",
 					"POWN","PowNed"],"default":null}],
 				[{"key":"alternativeMainTitle","default":null}]
 					]},
