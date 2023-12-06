@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":135,
+	"version":136,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -314,7 +314,8 @@
 			"24436": {"name": "BBC Radio 3", "group": 13, "icon": "radio_bbc_radio3.png", "icongrp": 47},
 			"53752": {"name": "NDR Kultur", "group": 13, "icon": "ndr3_kultur.png", "icongrp": 47},
 			"101514": {"name": "WDR3", "group": 13, "icon": "radio_wdr3_2022.png", "icongrp": 47},
-			"91755": {"name": "Jazz Classics", "group": 13, "icon": "MM39B.png", "icongrp": 49}}},
+			"91755": {"name": "Jazz Classics", "group": 13, "icon": "MM39B.png", "icongrp": 49},
+			"146512": {"name": "SBS 6 Classics", "group": 7}}},
 	"base":{
 		"url":["https://www.tvtv.us/api/v1/lineup/USA-DITV501-DEFAULT/grid/",11,"T00:00:00.000Z/",11,"T23:59:00.000Z/",["channel"]],
 		"data-format":"application/json",

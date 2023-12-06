@@ -93,7 +93,8 @@
 		"52": "https://images1.persgroep.net/rcs/",
 		"53": "https://images2.persgroep.net/rcs/",
 		"54": "https://images3.persgroep.net/rcs/",
-		"55": "https://images4.persgroep.net/rcs/"},
+		"55": "https://images4.persgroep.net/rcs/",
+		"56": "https://cdn.nlziet.nl/static/assets/channels/"},
 	"ttvdb_ids":{
 		"André Rieu":{"name":"André Rieu; Welcome to my world","tid":295656},
 		"Ben 10":{"name":"Ben 10 (2016)","tid":318145},
