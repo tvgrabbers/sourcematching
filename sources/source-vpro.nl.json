@@ -161,9 +161,9 @@
 			"npo-1", "npo-2", "npo-3", "rtl-4", "bbc-1", "bbc-2", "ard", "zdf", "wdr-fernsehen", "ndr-fernsehen", "tv-5-monde-europe",
 			"national-geographic", "eurosport", "cnn", "rtl-5", "arte-deutschland", "rtl-7", "npo-2-extra", "bvn", "comedy-central",
 			"rtl-8", "bbc-four", "ons", "npo-1-extra", "the-history-channel", "ziggo-sport", "france-2", "radio-1", "radio-2",
-			"3fm", "radio-4", "radio-5", "mezzo", "stingray-classica-nl", "arte-france", "893-radio-west", "bnr-nieuwsradio",
+			"3fm", "radio-4", "radio-5", "mezzo", "stingray-classica-nl", "arte-france", "893-radio-west",
 			"classic-fm", "q-music", "r-omroep-brabant", "r-omroep-zeeland", "radio-gelderland", "radio-m-utrecht", "radio-oost",
-			"radio-rijnmond", "klara", "vrt-radio-1", "vrt-radio-2", "bbc-radio-3", "ndr-kultur", "wdr3", "radio-drenthe"],
+			"klara", "vrt-radio-1", "vrt-radio-2", "bbc-radio-3", "ndr-kultur", "wdr3", "radio-drenthe"],
 	"empty_channels":[],
 	"cattrans":{
         "g3011":{

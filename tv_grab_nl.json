@@ -82,7 +82,7 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":101,
+			"version":102,
 			"cattrans type":null,
 			"cattransid":4},
 		"10":{
@@ -1649,6 +1649,7 @@
 		"5-866242598984":5,
 		"6-play7":6,
 		"7-893_radio_west":12,
+		"7-bnr_nieuwsradio":12,
 		"7-r_omroep_brabant":12,
 		"7-r_omroep_zeeland":12,
 		"7-radio_gelderland":12,
