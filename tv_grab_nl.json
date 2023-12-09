@@ -72,7 +72,7 @@
 			"cattransid":null},
 		"3":{
 			"json file":"source-tvgids.nl",
-			"version":100,
+			"version":101,
 			"cattrans type":1,
 			"cattransid":0},
 		"1":{
@@ -87,7 +87,7 @@
 			"cattransid":4},
 		"10":{
 			"json file":"source-vrt.be",
-			"version":12,
+			"version":13,
 			"cattrans type":null,
 			"cattransid":7},
 		"11":{
