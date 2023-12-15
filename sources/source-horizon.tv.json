@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":137,
+	"version":138,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -317,10 +317,10 @@
 			"91755": {"name": "Jazz Classics", "group": 13, "icon": "MM39B.png", "icongrp": 49},
 			"146512": {"name": "SBS 6 Classics", "group": 7, "icon": "sbs6classics.png", "icongrp": 56}}},
 	"base":{
-		"url":["https://www.tvtv.us/api/v1/lineup/USA-DITV501-DEFAULT/grid/",11,"T00:00:00.000Z/",11,"T23:59:00.000Z/",["channel"]],
+		"url":["https://www.tvtv.us/api/v1/lineup/USA-DITV501-X/grid/",11,"T00:00:00.000Z/",11,"T23:59:00.000Z/",["channel"]],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://www.tvtv.us/ny/new-york/10019/luUSA-DITV501-DEFAULT"},
+		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://www.tvtv.us/ny/new-york/10019/luUSA-DITV501-X"},
 		"url-type":1,
 		"url-data":{},
 		"url-date-type":0,
@@ -372,7 +372,7 @@
 		"url":["https://www.tvtv.us/api/v1/programs/",["detailid"]],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://www.tvtv.us/ny/new-york/10019/luUSA-DITV501-DEFAULT"},
+		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://www.tvtv.us/ny/new-york/10019/luUSA-DITV501-X"},
 		"url-type":0,
 		"url-data":{},
 		"data":{
