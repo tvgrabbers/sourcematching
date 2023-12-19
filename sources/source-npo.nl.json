@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":35,
+	"version":36,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":true,
@@ -32,25 +32,21 @@
 			"icon":null,
 			"HD":null}},
 	"base":{
-		"url":["https://npo.nl/start/api/domain/guide-channel?guid=",["channel"]],
+		"url":["https://npo.nl/start/api/domain/guide-channel?date=",11,"&guid=",["channel"]],
 		"data-format":"application/json",
 		"encoding":"utf-8",
 		"url-header":{"Accept-Encoding": "gzip"},
-		"url-type": 5,
+		"url-type": 1,
 		"url-data":{},
 		"url-date-format": "%d-%m-%Y",
-		"max days":14,
+		"max days":8,
 		"value-filters":{},
 		"data":{
 			"key-path":[
-				{"key":"days"},
-				{"path":"all"},
-				{"key":"scheduledPrograms"},
 				{"path":"all"},
 				{"key":"guid"}
 				],
 			"values":[
-				[{"path":"parent"},{"path":"parent"},{"path":"parent"},{"path":"parent"},{"key":"guid"}],
 				[{"key":"programStart", "type":"timestamp"}],
 				[{"key":"programEnd", "type":"timestamp"}],
 				[{"key":"title","default":""}],
@@ -58,14 +54,13 @@
 				[{"key":"program"},{"key":"slug"}]
 				]},
 		"values":{
-			"channelid":{"varid": 1},
-			"detail_url":{"varid":6},
-			"start-time":{"varid":2},
-			"--stop-time--":{"varid":3},
-			"name":{"varid":4},
+			"detail_url":{"varid":5},
+			"start-time":{"varid":1},
+			"--stop-time--":{"varid":2},
+			"name":{"varid":3},
 			"prog_ID":{"varid":0},
-			"gen_ID":{"varid":6},
-			"--length--":{"varid":5}
+			"gen_ID":{"varid":5},
+			"--length--":{"varid":4}
 			}},
 	"detail":{
 		"url":["https://npo.nl/start/api/domain/program-detail?slug=",["detailid"]],
