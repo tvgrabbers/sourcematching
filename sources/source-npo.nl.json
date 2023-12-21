@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":36,
+	"version":37,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":true,
@@ -56,11 +56,11 @@
 		"values":{
 			"detail_url":{"varid":5},
 			"start-time":{"varid":1},
-			"--stop-time--":{"varid":2},
+			"stop-time":{"varid":2},
 			"name":{"varid":3},
 			"prog_ID":{"varid":0},
 			"gen_ID":{"varid":5},
-			"--length--":{"varid":4}
+			"length":{"varid":4}
 			}},
 	"detail":{
 		"url":["https://npo.nl/start/api/domain/program-detail?slug=",["detailid"]],
