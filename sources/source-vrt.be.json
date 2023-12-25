@@ -6,7 +6,7 @@
 	"name":"vrt.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":13,
+	"version":14,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
@@ -83,6 +83,7 @@
 					"<span style=\"font-size: 0.8125rem;\">", "",
 					"<span style=\"letter-spacing: 0.03rem; font-size: 1rem;\">", "",
 					"<span style=\"font-size: 1em; letter-spacing: 0.03rem;\">", "", 
+					"<span style=\"font-size: 1em; letter-spacing: 0.005rem;\">", "", 
 					"<span>", "", "</span>", ""]}],
 				[{"key":"shortDescription","default":"", "sub": ["<html>", "", "</html>", "", 
 					"\\s*</p><p>\\s*", " ", "<p>", "", "</p>", "", 
@@ -96,6 +97,7 @@
 					"<span style=\"font-size: 0.8125rem;\">", "",
 					"<span style=\"letter-spacing: 0.03rem; font-size: 1rem;\">", "",
 					"<span style=\"font-size: 1em; letter-spacing: 0.03rem;\">", "", 
+					"<span style=\"font-size: 1em; letter-spacing: 0.005rem;\">", "", 
 					"<span>", "", "</span>", ""]}]]},
 		"values":{
 			"channelid":{"varid": 1},
