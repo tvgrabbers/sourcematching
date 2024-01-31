@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":139,
+	"version":140,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -56,6 +56,7 @@
 			"117071": {"name": "Play5", "group": 2, "icon": "MM100.png", "icongrp": 49},
 			"117072": {"name": "Play6", "group": 2, "icon": "MM3C1.png", "icongrp": 49},
 			"120747": {"name": "Play7", "group": 2, "icon": "MM402.png", "icongrp": 49},
+			"150502": {"name": "Play Crime", "group": 2, "icon": "MM413.png", "icongrp": 49},
 			"67295": {"name": "Das Erste", "group": 4, "icon": "ard_hd.png", "icongrp": 47},
 			"86886": {"name": "ZDF", "group": 4, "icon": "zdf_hd.png", "icongrp": 47},
 			"56311": {"name": "WDR Fernsehen", "group": 4, "icon": "wdr.png", "icongrp": 47},
@@ -114,7 +115,6 @@
 			"105103": {"name": "RTL Crime", "group": 7, "icon": "rtl_crime_2023.png", "icongrp": 47},
 			"115510": {"name": "Crime & Investigation", "group": 7, "icon": "crime_invest.png", "icongrp": 47},
 			"105091": {"name": "ID", "group": 7, "icon": "investigation_discovery_2020.png", "icongrp": 47},
-			"115326": {"name": "Comedy Central Extra", "group": 7, "icon": "comedy_central_extra_2018.png", "icongrp": 47},
 			"115813": {"name": "Shorts TV", "group": 14, "icon": "shorts_tv2.png", "icongrp": 47},
 			"115463": {"name": "E!", "group": 14, "icon": "e_entertainment_new.png", "icongrp": 47},
 			"115580": {"name": "OutTV", "group": 7, "icon": "outtv_v4.png", "icongrp": 47},
@@ -316,6 +316,7 @@
 			"101514": {"name": "WDR3", "group": 13, "icon": "radio_wdr3_2022.png", "icongrp": 47},
 			"91755": {"name": "Jazz Classics", "group": 13, "icon": "MM39B.png", "icongrp": 49},
 			"150683": {"name": "HGTV", "group": 7, "icon": "hgtv_2024.png", "icongrp": 47},
+			"151021": {"name": "Canal+ Action", "group": 7},
 			"146512": {"name": "SBS 6 Classics", "group": 7, "icon": "sbs6classics.png", "icongrp": 56}}},
 	"base":{
 		"url":["https://www.tvtv.us/api/v1/lineup/USA-DITV501-X/grid/",11,"T00:00:00.000Z/",11,"T23:59:00.000Z/",["channel"]],

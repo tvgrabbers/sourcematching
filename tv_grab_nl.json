@@ -38,7 +38,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":139,
+			"version":140,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -63,7 +63,7 @@
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":26,
+			"version":27,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
@@ -98,7 +98,7 @@
 			"cattransid":null},
 		"13":{
 			"json file":"source-totaaltv.nl",
-			"version":9,
+			"version":10,
 			"cattrans type":1,
 			"cattransid":8},
 		"14":{
@@ -239,7 +239,8 @@
 			"1-politiek-24": "494",
 			"0-495": "495",
 			"0-467": "496",
-			"1-hgtvnl": "497"},
+			"1-hgtvnl": "497",
+			"0-498": "498"},
 		"1":{"0-1": "1",
 			"0-2": "2",
 			"0-3": "3",
@@ -505,6 +506,7 @@
 			"0-467": "105095",
 			"0-475": "99927",
 			"0-495": "124547",
+			"0-498": "151021",
 			"1-acht": "110977",
 			"1-bbc-1": "30644",
 			"1-bbc-hd": "69387",
@@ -654,6 +656,7 @@
 			"6-mtv-europe": "56237",
 			"6-nrj": "131317",
 			"6-play7": "120747",
+			"6-play-crime": "150502",
 			"6-play-sports-3": "116686",
 			"6-play-sports-4": "116687",
 			"6-play-sports-5": "116688",
@@ -851,6 +854,7 @@
 			"6-mtv-europe": "mtv-europe",
 			"6-nrj": "nrj",
 			"6-play7": "play7",
+			"6-play-crime": "play-crime",
 			"6-play-sports-3": "play-sports-3",
 			"6-play-sports-4": "play-sports-4",
 			"6-play-sports-5": "play-sports-5",
@@ -990,11 +994,12 @@
 			"6-69": "mtv",
 			"6-121": "vice-tv",
 			"6-play7": "play7",
+			"6-play-crime": "play-crime",
 			"6-play-sports-6": "eleven-pro-league-1",
 			"8-tvbrussel": "tvbrussel",
 			"8-nickelodeon": "nickelodeon",
 			"8-tv5-monde": "tv5-monde",
-			"8-ketnet": "ketnet",
+			"1-ketnet-canvas-2": "ketnet",
 			"8-canvasplus": "canvasplus",
 			"8-eenplus": "eenplus",
 			"8-eurosport-2": "eurosport-2",
@@ -1144,6 +1149,7 @@
 			"6-mtv-europe": "mtv-europe",
 			"6-nrj": "nrj",
 			"6-play7": "play7",
+			"6-play-crime": "play-crime",
 			"6-play-sports-3": "play-sports-3",
 			"6-play-sports-4": "play-sports-4",
 			"6-play-sports-5": "play-sports-5",
@@ -1382,6 +1388,7 @@
 			"6-mtv-europe": "mtv-europe",
 			"6-nrj": "nrj",
 			"6-play7": "play7",
+			"6-play-crime": "play-crime",
 			"6-play-sports-3": "play-sports-3",
 			"6-play-sports-4": "play-sports-4",
 			"6-play-sports-5": "play-sports-5",
@@ -1882,6 +1889,7 @@
 		"0-475" : ["13", "475b.png"],
 		"0-484" : ["13", "484b.png"],
 		"0-495" : ["4", "filmbox_2022"],
+		"0-498" : ["13", "498b.png"],
 		"1-acht" : ["46", "vtm-4"],
 		"1-animal-planet-hd" : ["4", "animal_planet_hd_v2"],
 		"1-bbc-1" : ["4", "bbc_one_2022"],
@@ -2001,10 +2009,6 @@
 		"1-veronica": [
 			{"chanid": "0-34", "start": "18:00", "end": "4:00"}, 
 			{"chanid": "0-311", "start": "4:00", "end": "18:00", "slots": ["disney xd"]}],
-		"1-ketnet-canvas-2": [
-			{"chanid": "8-ketnet", "start": "6:00", "end": "20:00"},
-			{"chanid": "8-eenplus", "start": "20:00", "end": "6:00"},
-			{"chanid": "8-canvasplus", "start": "20:00", "end": "6:00"}],
 		"5-24443943013": ["0-300", "1-cbbc"],
 		"5-24443943080": ["0-301", "1-cbeebies"]},
 	"virtual-sub-channels":{
