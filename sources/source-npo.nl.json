@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":37,
+	"version":38,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":true,
@@ -51,13 +51,14 @@
 				[{"key":"programEnd", "type":"timestamp"}],
 				[{"key":"title","default":""}],
 				[{"key":"durationInSeconds","type":"timedelta"}],
-				[{"key":"program"},{"key":"slug"}]
+				[{"key":"program"},{"key":"slug"}],
+				[{"key":"series"},{"key":"title","default":""}]
 				]},
 		"values":{
 			"detail_url":{"varid":5},
 			"start-time":{"varid":1},
 			"stop-time":{"varid":2},
-			"name":{"varid":3},
+			"name":{"funcid":9, "data":[{"varid":3},{"varid":6}]},
 			"prog_ID":{"varid":0},
 			"gen_ID":{"varid":5},
 			"length":{"varid":4}
