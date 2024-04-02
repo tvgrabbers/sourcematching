@@ -6,35 +6,14 @@
 	"name":"vrt.be",
 	"language":"nl",
 	"site-timezone":"Europe/Brussels",
-	"version":14,
+	"version":15,
 	"api-version":[1,0,0],
 	"detail_processor":false,
 	"channels":{
-		"url":["http://services.vrt.be/channel/s"],
-		"data-format":"application/json",
-		"encoding":"utf-8",
-		"accept-header":"application/vnd.channel.vrt.be.channels_1.1+json",
-		"url-type": 0,
-		"url-data":{},
 		"data":{
-			"key-path":[
-				{"key":"channels"},
-				{"path":"all"},
-				{"key":"code"}
-				],
-			"values":[
-				[{"key":"displayName"}],
-				[{"key":"logoUrl","default":""}],
-				[{"key":"type", "replace":{"tv":2, "radio":12},"default":9}],
-				[{"key":"state", "replace":{"active":false, "inactive":true},"default":false}]
-				]},
-		"values":{
-			"channelid":{"varid": 0},
-			"name":{"funcid":0, "data":[{"varid":1}, " HD"]},
-			"group":{"varid":3},
-			"icon":{"funcid":101, "data":[{"varid":2}]},
-			"inactive_channel":{"varid":4},
-			"HD":null}},
+			"O8": {"name": "VRT 1", "group": 2},
+			"1H": {"name": "VRT Canvas", "group": 2},
+			"O9": {"name": "Ketnet/Eén+/Canvas+", "group": 2}}},
 	"base":{
 		"url":["https://www.vrt.be/bin/epg/schedule.",11,".json"],
 		"data-format":"application/json",
