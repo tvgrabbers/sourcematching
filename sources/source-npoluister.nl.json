@@ -5,8 +5,8 @@
 		"If you thing it needs adjusting open an issue on https://github.com/tvgrabbers/tvgrabpyAPI/"],
 	"name":"npoluister.nl",
 	"language":"nl",
-	"site-timezone":"UTC",
-	"version":2,
+	"site-timezone":"Europe/Amsterdam",
+	"version":3,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":false,
@@ -32,7 +32,7 @@
 				"icon": "radio_channel/390/logo/larger_STERREN_NL_LOGO.png", "icongrp": 7},
 			"npoblend": {"name": "NPO Blend", "group": 11}}},
 	"base":{
-		"url":["https://nederlandse_publieke_omroep.radiodns.metadata.radio/radiodns/spi/3.1/",["channel"],"/",11,"_PI.xml"],
+		"url":["https://npo.radiodns.metadata.radio/radiodns/spi/3.1/",["channel"],"/",11,"_PI.xml"],
 		"data-format":"text/html",
 		"encoding":"utf-8",
 		"url-header":{"Accept-Encoding": "gzip"},
@@ -40,7 +40,7 @@
 		"url-date-type": 0,
 		"url-data":{},
 		"url-date-format": "%Y%m%d",
-		"datetimestring":"%Y-%m-%dT%H:%M:%SZ",
+		"datetimestring":"%Y-%m-%dT%H:%M:%S",
 		"max days":8,
 		"text_replace":[],
 		"value-filters":{
@@ -57,7 +57,8 @@
 				"values2":[
 					[{"tag":"longName", "select": "inclusive text"}],
 					[{"tag":"location"},
-						{"tag":"time", "attr":"time", "type":"datetimestring"}],
+						{"tag":"time", "attr":"time", "type":"datetimestring", "sub": [
+					"\\+02:00", "", "\\+01:00", ""]}],
 					[{"tag":"location"},
 						{"tag":"time", "attr":"duration","sub": [
 					"PT0H14M0S","900", "PT0H15M0S","900",
@@ -110,7 +111,7 @@
 					"<ul>", "", "</ul>", "", 
 					"<li>", "", "</li>", "", 
 					"<strong>", "", "</strong>", "", "<strong[^>]*>", "", 
-					"<b>", "", "</b>", "",  
+					"<b>", "", "</b>", "",  "dfd", "",
 					"<br><br>", " ", "<br>", " ", "</br>", "", "<br[^>]*>", ""], "select": "inclusive text"}],
 					[{"tag":"credits"},{"tag":"credit"},
 						{"tag":"person", "default":null, "select": "inclusive text"}]
