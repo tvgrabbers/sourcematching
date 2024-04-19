@@ -53,7 +53,7 @@
 			"cattransid":null},
 		"4":{
 			"json file":"source-npo.nl",
-			"version":39,
+			"version":40,
 			"cattrans type":1,
 			"cattransid":1},
 		"12":{
@@ -1552,7 +1552,7 @@
 		"12-29":"NH Radio"},
 	"prime_source_order":[4,14,10,12,5,3,6,9,13,7,8,11],
 	"sourceid_order":[3, 10, 6, 5, 4, 7, 8, 11, 12, 9, 13, 14],
-	"detail_sources":[3, 4, 6, 9, 13],
+	"detail_sources":[3, 6, 9, 13],
 	"prime_source_groups":{
 		"2":6,
 		"6":5,

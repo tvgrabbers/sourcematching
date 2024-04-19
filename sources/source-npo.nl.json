@@ -6,10 +6,10 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":39,
+	"version":40,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
-	"detail_processor":true,
+	"detail_processor":false,
 	"channels":{
 		"url":["https://npo.nl/start/api/domain/guide-channels"],
 		"data-format":"application/json",
@@ -153,13 +153,13 @@
 		"religieus":{
 			"default":["religieus", ""]},
 		"animatie":{
-			"default":["serie/soap", "animatieserie"]},
+			"default":["animatie", ""]},
 		"natuur":{
 			"default":["natuur", ""]},
 		"wetenschap":{
 			"default":["wetenschap", ""]},
 		"drama":{
-			"default":["serie/soap", "drama"]},
+			"default":["drama", ""]},
 		"reizen":{
 			"default":["reizen", ""]}},
 	"rating":{
