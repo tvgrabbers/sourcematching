@@ -5486,7 +5486,7 @@
 			"tv-première", "avonturenfilm", "animatiefilm", "comedydrama", "romantisch drama", "mini serie", "videoland première",
 			"komediefilm", "dramafilm", "kerstfilm", "mysteriefilm", "fantasiefilm", "kerstklassieker", "kerstkomedie",
 			"kerstsequel", "biografiefilm", "thrillerfilm", "rtl 8's winter romance", "westernfilm", "fantasymeesterwerk",
-			"natuurdocu"],
+			"natuurdocu", "detectives op zondag"],
 	"episode exclude genres": ["movie","film"],
 	"detailed_genres":["serie/soap","movie","film","korte film","sport","sports"],
 	"series_genres":["serie/soap"],
