@@ -6,7 +6,7 @@
 	"name":"demorgen.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":27,
+	"version":28,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -178,7 +178,7 @@
 			"vtm", "vtm2", "vtm3", "vtm4", "vtmgold", "vtm-kids", "play4", "play5", "play6", "play7", "play-crime",
 			"discovery-vlaanderen", "eurosport1be", "foxhd", "tipik", "la-trois", "la-une", "mtv-vlaanderen",
 			"national-geographic", "njam", "rtl-tvi-hd", "tf1", "tlc-vl", "vtmnonstop", "star-belgium",
-			"bbc-one", "bbc-two", "ard", "zdf", "wdr", "rai-uno", "tve-inter", "france2", "france3", "arte"],
+			"bbc-one", "bbc-two", "ard", "zdf", "wdr", "rai-uno", "tve-inter", "france2", "france3", "arte", "hgtv"],
 	"cattrans":{
 		"nieuws":{
 			"default":["Nieuws/Actualiteiten", ""]},

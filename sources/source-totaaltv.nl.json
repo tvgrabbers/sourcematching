@@ -6,7 +6,7 @@
 	"name":"totaaltv.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":12,
+	"version":13,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -181,7 +181,7 @@
 			"national-geographic", "njam", "rtl-tvi-hd", "tf1", "tlc-vl", "vtmnonstop", "bbc-news",
 			"bbc-one", "bbc-two", "ard", "zdf", "wdr", "rai-uno", "tve-inter", "france2", "france3", "arte", "history-europe",
 			"bbc-world", "bbc-entertainment", "cnn", "discovery-science", "discovery-id", "national-geographic-nl", "history",
-			"e-entertainment"],
+			"e-entertainment", "hgtv"],
 	"cattrans":{
 		"nieuws":{
 			"default":["Nieuws/Actualiteiten", ""]},

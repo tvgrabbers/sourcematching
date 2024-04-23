@@ -38,7 +38,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":142,
+			"version":143,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -63,7 +63,7 @@
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":27,
+			"version":28,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
@@ -98,7 +98,7 @@
 			"cattransid":null},
 		"13":{
 			"json file":"source-totaaltv.nl",
-			"version":12,
+			"version":13,
 			"cattrans type":1,
 			"cattransid":8},
 		"14":{
@@ -651,6 +651,7 @@
 			"6-91": "116487",
 			"6-97": "116969",
 			"6-111": "117023",
+			"6-hgtv": "150946",
 			"6-history-europe": "83399",
 			"6-mtv-dance": "89006",
 			"6-mtv-europe": "56237",
@@ -847,6 +848,7 @@
 			"6-97": "comedy-central-vlaanderen",
 			"6-111": "star-belgium",
 			"6-121": "viceland",
+			"6-hgtv": "hgtv",
 			"6-history-europe": "history-europe",
 			"6-mtv-classic": "mtv-classic",
 			"6-mtv-dance": "mtv-dance",
@@ -972,7 +974,7 @@
 			"1-acht": "vtm-4",
 			"1-vitaya": "vtm-3",
 			"1-kanaalz": "kanaal-z",
-			"1-vtmkzoom": "vtm-non-stop-dokters",
+			"1-vtmkzoom": "vtm-non-stop-90-s",
 			"1-itv-1": "itv",
 			"1-sudwest-fernsehen": "swr",
 			"1-tf1": "tf1",
@@ -1142,6 +1144,7 @@
 			"6-97": "comedy-central-vlaanderen",
 			"6-111": "star-belgium",
 			"6-121": "viceland",
+			"6-hgtv": "hgtv",
 			"6-history-europe": "history-europe",
 			"6-mtv-classic": "mtv-classic",
 			"6-mtv-dance": "mtv-dance",
@@ -1381,6 +1384,7 @@
 			"6-97": "comedy-central-vlaanderen",
 			"6-111": "star-belgium",
 			"6-121": "viceland",
+			"6-hgtv": "hgtv",
 			"6-history-europe": "history-europe",
 			"6-mtv-classic": "mtv-classic",
 			"6-mtv-dance": "mtv-dance",
@@ -1521,6 +1525,7 @@
 		"6-97":"Comedy Central Vlaanderen",
 		"6-111":"STAR Vlaanderen",
 		"6-121":"Viceland Vlaanderen",
+		"6-hgtv":"HGTV Vlaanderen",
 		"6-mtv-dance":"Club MTV",
 		"6-play-sports-6":"Eleven Pro League 1",
 		"6-play-sports-7":"Eleven Pro League 2",
@@ -1920,7 +1925,7 @@
 		"1-veronica" : ["4", "veronica_disney_2018"],
 		"1-vijftv" : ["46", "vijf"],
 		"1-vitaya" : ["46", "vtm-3"],
-		"1-vtmkzoom" : ["8", "vtm-non-stop-dokters"],
+		"1-vtmkzoom" : ["8", "vtm-non-stop-90-s"],
 		"1-zappelin" : ["4", "npo_zappelin_extra_2019"],
 		"5-635928103345" : ["4", "espn6_2020"],
 		"5-635928103346" : ["4", "espn3_2020"],
