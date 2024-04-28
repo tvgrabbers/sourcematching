@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":143,
+	"version":144,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -315,6 +315,12 @@
 			"91755": {"name": "Jazz Classics", "group": 13, "icon": "MM39B.png", "icongrp": 49},
 			"150683": {"name": "HGTV", "group": 7, "icon": "hgtv_20242.png", "icongrp": 47},
 			"150946": {"name": "HGTV Vlaanderen", "group": 9, "icon": "MM415.png", "icongrp": 49},
+			"157467": {"name": "MENTpop", "group": 9, "icon": "MM416.png", "icongrp": 49},
+			"120859": {"name": "Penthouse Passion", "group": 99, "icon": "MM2B9.png", "icongrp": 49},
+			"115664": {"name": "Hustler HD", "group": 99, "icon": "MM2EC.png", "icongrp": 49},
+			"115803": {"name": "Dorcel TV", "group": 99, "icon": "MM2E1.png", "icongrp": 49},
+			"121132": {"name": "PlattelandsTv", "group": 9, "icon": "MM345.png", "icongrp": 49},
+			"116493": {"name": "DOBBIT TV", "group": 9, "icon": "MM343.png", "icongrp": 49},
 			"151021": {"name": "Canal+ Action", "group": 7},
 			"146512": {"name": "SBS 6 Classics", "group": 7, "icon": "sbs6classics.png", "icongrp": 56}}},
 	"base":{

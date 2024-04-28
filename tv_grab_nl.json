@@ -38,7 +38,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":143,
+			"version":144,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -708,6 +708,12 @@
 			"1-plugrtl": "100060",
 			"1-xitebe": "122164",
 			"1-jazz-classics": "91755",
+			"1-mentpop": "157467",
+			"1-penthousehd": "120859",
+			"1-hustlerhd": "115664",
+			"1-penthousehd2": "115803",
+			"1-plattelandstv": "121132",
+			"1-dobbittv": "116493",
 			"7-klara": "116306",
 			"7-vrt_radio_1": "130819",
 			"7-bbc_radio_3": "24436",
