@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":144,
+	"version":145,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -210,7 +210,7 @@
 			"84064": {"name": "TRT Müzik", "group": 10, "icon": "trt_muzik_2023.png", "icongrp": 47},
 			"43786": {"name": "Al Arabiya", "group": 10, "icon": "al_arabiya.png", "icongrp": 47},
 			"115555": {"name": "MBC", "group": 10, "icon": "mbc.png", "icongrp": 47},
-			"83786": {"name": "TVM Europe", "group": 10, "icon": "tvm_europe.png", "icongrp": 47},
+			"117383": {"name": "TVM Europe", "group": 10, "icon": "tvm_europe.png", "icongrp": 47},
 			"20296": {"name": "Aljazeera", "group": 10, "icon": "al_jazeera.png", "icongrp": 47},
 			"117333": {"name": "Ziggo Erotiek Pakket info", "group": 99, "icon": "ziggo_erotiek_overzicht_1.png", "icongrp": 47},
 			"115338": {"name": "Secret Circle", "group": 99, "icon": "secret-circle.png", "icongrp": 47},
