@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":145,
+	"version":146,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -100,7 +100,7 @@
 			"21834": {"name": "Rai 1", "group": 14, "icon": "MM08D.png", "icongrp": 49},
 			"115346": {"name": "RTV-7", "group": 7, "icon": "rtv7.png", "icongrp": 47},
 			"77684": {"name": "TRT Turk", "group": 10, "icon": "trt_turk.png", "icongrp": 47},
-			"116181": {"name": "2M Monde", "group": 10, "icon": "2m.png", "icongrp": 47},
+			"115658": {"name": "2M Monde", "group": 10, "icon": "2m.png", "icongrp": 47},
 			"121130": {"name": "njam!", "group": 9, "icon": "njam_2022.png", "icongrp": 47},
 			"115467": {"name": "NPO 1 extra", "group": 1, "icon": "npo1_extra_2022.png", "icongrp": 47},
 			"115564": {"name": "NPO 2 extra", "group": 1, "icon": "npo2_extra_2022.png", "icongrp": 47},
