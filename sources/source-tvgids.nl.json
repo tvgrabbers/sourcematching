@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":105,
+	"version":106,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -256,6 +256,8 @@
 			"default":["documentaire", ""]},
         "documentaireserie":{
 			"default":["documentaire", ""]},
+        "info":{
+			"default":["informatief", ""]},
         "informatief":{
 			"default":["informatief", ""],
 			"Documentaireserie":["documentaire", ""]},
