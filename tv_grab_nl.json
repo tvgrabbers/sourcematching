@@ -83,7 +83,7 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":102,
+			"version":103,
 			"cattrans type":null,
 			"cattransid":4},
 		"10":{
@@ -917,6 +917,7 @@
 			"0-460": "sbs-9",
 			"0-464": "bbc-first",
 			"0-466": "ziggo-sport",
+			"0-467": "paramount-network",
 			"1-france-2": "france-2",
 			"1-ketnet-canvas-2": "ketnet",
 			"4-292": "radio-1",
