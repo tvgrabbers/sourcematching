@@ -83,7 +83,7 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":103,
+			"version":104,
 			"cattrans type":null,
 			"cattransid":4},
 		"10":{
@@ -914,7 +914,7 @@
 			"0-435": "24-kitchen",
 			"0-438": "tlc",
 			"0-440": "fox",
-			"0-460": "sbs-9",
+			"0-460": "viaplay-tv",
 			"0-464": "bbc-first",
 			"0-466": "ziggo-sport",
 			"0-467": "paramount-network",
