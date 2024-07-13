@@ -1993,6 +1993,11 @@
 		"12-41": ["4", "radio_continu_2022"],
 		"12-65": ["4", "radio_nl"],
 		"12-67": ["4", "radio_q_music_v2"],
+		"6-willy": ["49", "MM036.png"],
+		"12-groot-nieuws-radio": ["4", "groot_nieuws_radio"],
+		"12-joe": ["4", "joe_2024"],
+		"12-kink": ["4", "kink_2024"],
+		"12-radio-decibel": ["4", "radio_decibel"],
 		"12-concertzender": ["4", "radio_concertzender_2022"]},
 	"combined-channels-tz":"Europe/Amsterdam",
 	"combined_channels":{
