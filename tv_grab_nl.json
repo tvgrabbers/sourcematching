@@ -38,7 +38,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":146,
+			"version":147,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -656,6 +656,7 @@
 			"6-mtv-dance": "89006",
 			"6-mtv-europe": "56237",
 			"6-nrj": "131317",
+			"6-willy": "130586",
 			"6-play7": "120747",
 			"6-play-crime": "150502",
 			"6-play-sports-3": "116686",

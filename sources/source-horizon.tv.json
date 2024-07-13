@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":146,
+	"version":147,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -296,6 +296,7 @@
 			"20711": {"name": "Bloomberg TV Europe", "group": 14, "icon": "MM1A5.png", "icongrp": 49},
 			"117114": {"name": "Disney Junior Vlaanderen", "group": 9, "icon": "MM2B8.png", "icongrp": 49},
 			"131317": {"name": "NRJ", "group": 12, "icon": "MM3C5.png", "icongrp": 49},
+			"130586": {"name": "Willy", "group": 12, "icon": "MM036.png", "icongrp": 49},
 			"130819": {"name": "Radio 1", "group": 12, "icon": "MM1F5.png", "icongrp": 49},
 			"130821": {"name": "radio2 Antwerpen", "group": 12, "icon": "MM207.png", "icongrp": 49},
 			"130820": {"name": "radio2 Vlaams-Brabant", "group": 12, "icon": "MM1F6.png", "icongrp": 49},
