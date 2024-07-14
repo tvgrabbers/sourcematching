@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":106,
+	"version":107,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -246,6 +246,8 @@
 			"default":["nieuws/actualiteiten", "raportage"]},
         "sport":{
 			"default":["sport", ""]},
+        "vechtsport":{
+			"default":["sport", "vechtsport"]},
         "sportnieuws":{
 			"default":["sport", "nieuws"]},
         "sportprogramma":{
