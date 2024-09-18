@@ -14,7 +14,7 @@
 		"url":["https://npo.nl/start/api/domain/guide-channels"],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://npo.nl/start/live", "Accept": "application/json, text/plain, */*", "Alt-Used": "npo.nl", "Accept-Language": "nl", "Connection": "keep-alive", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "TE": "trailers"},
+		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://npo.nl/start/live"},
 		"url-type":0,
 		"url-data":{},
 		"data":{
@@ -35,7 +35,7 @@
 		"url":["https://npo.nl/start/api/domain/guide-channel?date=",11,"&guid=",["channel"]],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://npo.nl/start/live", "Accept": "application/json, text/plain, */*", "Alt-Used": "npo.nl", "Accept-Language": "nl", "Connection": "keep-alive", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "TE": "trailers"},
+		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://npo.nl/start/live"},
 		"url-type": 1,
 		"url-data":{},
 		"url-date-format": "%d-%m-%Y",
@@ -100,7 +100,7 @@
 		"url":["https://npo.nl/start/api/domain/program-detail?slug=",["detailid"]],
 		"data-format":"application/json",
 		"encoding":"utf-8",
-		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://npo.nl/start/live", "Accept": "application/json, text/plain, */*", "Alt-Used": "npo.nl", "Accept-Language": "nl", "Connection": "keep-alive", "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin", "TE": "trailers"},
+		"url-header":{"Accept-Encoding": "gzip", "Referer": "https://npo.nl/start/live"},
 		"url-type":0,
 		"url-data":{},
 		"data":{
