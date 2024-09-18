@@ -101,7 +101,7 @@
 					{"key":"name"}],
 				[{"key":"contentClassification"},
 					{"key":"ageRestriction","sub": [
-					"ALL", "0",
+					"ALL","0",
 					"6","1",
 					"9","2",
 					"12","3",
@@ -109,7 +109,7 @@
 				[{"key":"contentClassification"},
 					{"key":"warnings"},
 					{"path":"all","sub": [
-					"NICAM_WARNING_VIOLENCE", "g",
+					"NICAM_WARNING_VIOLENCE","g",
 					"NICAM_WARNING_FEAR","a",
 					"NICAM_WARNING_SEX","s",
 					"NICAM_WARNING_PROFANITY","t",
@@ -165,7 +165,7 @@
 				[{"key":"programKey","type":"int","default":null}],
 				[{"key":"contentClassification"},
 					{"key":"ageRestriction","sub": [
-					"ALL", "0",
+					"ALL","0",
 					"6","1",
 					"9","2",
 					"12","3",
@@ -173,7 +173,7 @@
 				[{"key":"contentClassification"},
 					{"key":"warnings"},
 					{"path":"all","sub": [
-					"NICAM_WARNING_VIOLENCE", "g",
+					"NICAM_WARNING_VIOLENCE","g",
 					"NICAM_WARNING_FEAR","a",
 					"NICAM_WARNING_SEX","s",
 					"NICAM_WARNING_PROFANITY","t",
