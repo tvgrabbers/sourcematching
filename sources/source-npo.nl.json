@@ -53,8 +53,8 @@
 				[{"key":"durationInSeconds","type":"timedelta"}],
 				[{"key":"program"},{"key":"slug"}],
 				[{"key":"series"},{"key":"slug","sub": [
-					"nos-journaal","NOS Journaal",
 					"nos-journaal-20-00-uur","NOS Journaal 20.00 uur",
+					"nos-journaal","NOS Journaal",
 					"ik-mis-je_1","Ik mis je",
 					"nos-gesprek-minister-president","NOS Gesprek minister-president",
 					"kamp-van-koningsbrugge","Kamp Van Koningsbrugge",
