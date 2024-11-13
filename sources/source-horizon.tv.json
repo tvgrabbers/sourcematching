@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":148,
+	"version":149,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -324,6 +324,7 @@
 			"115803": {"name": "Dorcel TV", "group": 99, "icon": "MM2E1.png", "icongrp": 49},
 			"121132": {"name": "PlattelandsTv", "group": 9, "icon": "MM345.png", "icongrp": 49},
 			"116493": {"name": "DOBBIT TV", "group": 9, "icon": "MM343.png", "icongrp": 49},
+			"169555": {"name": "RTL district", "group": 5, "icon": "MM420.png", "icongrp": 49},
 			"151021": {"name": "Canal+ Action", "group": 7},
 			"146512": {"name": "SBS 6 Classics", "group": 7, "icon": "sbs6classics.png", "icongrp": 56}}},
 	"base":{
