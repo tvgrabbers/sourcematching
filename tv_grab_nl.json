@@ -63,7 +63,7 @@
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":30,
+			"version":31,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
@@ -98,7 +98,7 @@
 			"cattransid":null},
 		"13":{
 			"json file":"source-totaaltv.nl",
-			"version":14,
+			"version":15,
 			"cattrans type":1,
 			"cattransid":8},
 		"14":{
@@ -867,7 +867,7 @@
 			"6-mtv-dance": "mtv-dance",
 			"6-mtv-europe": "mtv-global",
 			"6-nrj": "nrj",
-			"6-play7": "play7",
+			"6-play7": "playxmas",
 			"6-play-crime": "play-crime",
 			"6-play-sports-3": "play-sports-3",
 			"6-play-sports-4": "play-sports-4",
@@ -1166,7 +1166,7 @@
 			"6-mtv-dance": "mtv-dance",
 			"6-mtv-europe": "mtv-global",
 			"6-nrj": "nrj",
-			"6-play7": "play7",
+			"6-play7": "playxmas",
 			"6-play-crime": "play-crime",
 			"6-play-sports-3": "play-sports-3",
 			"6-play-sports-4": "play-sports-4",
@@ -1410,7 +1410,7 @@
 			"6-mtv-dance": "mtv-dance",
 			"6-mtv-europe": "mtv-global",
 			"6-nrj": "nrj",
-			"6-play7": "play7",
+			"6-play7": "playxmas",
 			"6-play-crime": "play-crime",
 			"6-play-sports-3": "play-sports-3",
 			"6-play-sports-4": "play-sports-4",
