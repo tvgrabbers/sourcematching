@@ -38,7 +38,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":150,
+			"version":151,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -98,7 +98,7 @@
 			"cattransid":null},
 		"13":{
 			"json file":"source-totaaltv.nl",
-			"version":15,
+			"version":16,
 			"cattrans type":1,
 			"cattransid":8},
 		"14":{
