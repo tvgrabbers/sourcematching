@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":151,
+	"version":152,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -69,6 +69,7 @@
 			"17153": {"name": "BBC One England", "group": 3, "icon": "bbc_one_2022.png", "icongrp": 47},
 			"69387": {"name": "BBC One HD", "group": 3, "icon": "bbc_one_2022.png", "icongrp": 47},
 			"30644": {"name": "BBC One London", "group": 3, "icon": "bbc_one_2022.png", "icongrp": 47},
+			"24337": {"name": "BBC One South East", "group": 3, "icon": "bbc_one_2022.png", "icongrp": 47},
 			"17154": {"name": "BBC Two", "group": 3, "icon": "bbc_two_2022.png", "icongrp": 47},
 			"20683": {"name": "BBC Three", "group": 3, "icon": "300b.png", "icongrp": 13},
 			"122508": {"name": "BBC Three/CBBC", "group": 3},

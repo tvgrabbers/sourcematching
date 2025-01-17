@@ -38,7 +38,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":151,
+			"version":152,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -509,6 +509,7 @@
 			"0-498": "151021",
 			"1-acht": "110977",
 			"1-bbc-1": "30644",
+			"1-bbc1se": "24337",
 			"1-bbc-hd": "69387",
 			"1-cbbc": "29324",
 			"1-cbeebies": "29325",
