@@ -38,7 +38,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":152,
+			"version":153,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -551,7 +551,7 @@
 			"1-rtl-ii": "66610",
 			"1-rtl-tvi": "52578",
 			"1-sbs6classics": "146512",
-			"1-schlager-tv": "89502",
+			"1-schlager-tv": "121697",
 			"1-sport-1-2": "115480",
 			"1-sport-1-extra-1": "115475",
 			"1-sport1-extra-2": "115476",
