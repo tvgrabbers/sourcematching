@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":36,
+	"version":37,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -53,14 +53,14 @@
 					{"tag":"div", "attrs":{"class":"phScrollvak"}, "node": 1},
 					{"tag":"div", "select":"index", "link":1},
 					{"tag":"div", "node": 2},
-					{"tag":"a", "attrs":{"class":"pnZender phZendernaamLogoEnNaam"}}],
+					{"tag":"a", "attrs":{"class":"pnZender pnZendernaamLogoEnNaam"}}],
 				"values2":[
 					[{"path":2},{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii"}],
 					[{"path":1},
 						{"tag":"div", "index":{"link":1,"previous":""}, "last":""},
 						{"tag":"div"},
 						{"tag":"h2", "attrs":{"class":"pgMenuKopSubZenderCategorie"},
-							"split":[[",",0]], "replace":{"landelijk":11,"regionaal":17,"vlaams":12}, "last":""}],
+							"split":[[",",0]], "replace":{"landelijk":11,"regionaal":17,"vlaams:":12}, "last":""}],
 					[{"attr":"src"}]]}]},
 		"values":{
 			"channelid":{"varid": 1, "type":"string"},
@@ -84,12 +84,12 @@
 				{"tag":"body"}],
 			"iter":[{
 				"key-path":[
-					{"tag":"div", "attrs":{"class":"pgBlokZender"}, "node": 1},
-					{"tag":"div", "attrs":{"class":"pgMenuKop"}, "select":"index", "link":1, "node": 2},
+					{"tag":"div", "attrs":{"class":"vertBlokZender"}, "node": 1},
+					{"tag":"div", "attrs":{"class":"vertMenuKop"}, "select":"index", "link":1, "node": 2},
 					{"tag":"h3"},
 					{"tag":"img", "select":"tail"}],
 				"values2":[
-					[{"path":2},{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii"}],
+					[{"path":2},{"tag":"a", "attr":"href", "first":"","split":[["/",-2]],"type":"lower-ascii"}],
 					[{"attr":"src"}]]}]},
 		"values":{
 			"channelid":{"varid": 1, "type":"string"},
@@ -121,15 +121,15 @@
 				],
 			"iter":[{
 				"key-path":[
-					{"tag":"div", "attrs":{"class":"pgBlokZender"}, "node": 1},
+					{"tag":"div", "attrs":{"class":"vertBlokZender"}, "node": 1},
 					{"tag":"div", "attrs":{"class":"pgMenuInhoud"}, "node": 2},
 					{"tag":"div", "select":"index", "link":1},
 					{"tag":"div", "attrs":{"class":"pgProgramma"}, "attr":"id", "split":[["-",-1]],"type":"time"}
 						],
 				"values2":[
 					[{"path":1},
-						{"tag":"div", "attrs":{"class":"pgMenuKop"}, "node": 3},
-						{"tag":"a", "attr":"href", "first":"","split":[["/",-1]],"type":"lower-ascii"}],
+						{"tag":"div", "attrs":{"class":"vertMenuKop"}, "node": 3},
+						{"tag":"a", "attr":"href", "first":"","split":[["/",-2]],"type":"lower-ascii"}],
 					[{"tag":"h6", "attrs":{"class":"pgProgTijdEnTitel"}, "node": 4}],
 					[{"path":2}, 
 						{"tag":"div", "index":{"link":1,"next":""},"first":""},
