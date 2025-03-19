@@ -38,7 +38,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":154,
+			"version":155,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -733,6 +733,7 @@
 			"1-tag24": "83876",
 			"1-oneard": "75007",
 			"1-antena3": "122010",
+			"1-viaplaytv": "117334",
 			"7-klara": "116306",
 			"7-vrt_radio_1": "130819",
 			"7-bbc_radio_3": "24436",
