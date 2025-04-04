@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":155,
+	"version":156,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -341,6 +341,7 @@
 			"83876": {"name": "Tagesschau24", "group": 4},
 			"75007": {"name": "ONE", "group": 4},
 			"117334": {"name": "Viaplay TV", "group": 15, "icon": "viaplay_tv_2024.png", "icongrp": 47},
+			"122958": {"name": "Viaplay TV+", "group": 15, "icon": "viaplaytvplus_2025.png", "icongrp": 47},
 			"146512": {"name": "SBS 6 Classics", "group": 7, "icon": "sbs6classics.png", "icongrp": 56}}},
 	"base":{
 		"url":["https://www.tvtv.us/api/v1/lineup/USA-DITV501-X/grid/",11,"T00:00:00.000Z/",11,"T23:59:00.000Z/",["channel"]],
