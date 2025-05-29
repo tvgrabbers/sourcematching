@@ -6,9 +6,9 @@
 	"name":"demorgen.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":31,
+	"version":32,
 	"api-version":[1,0,0],
-	"detail_processor":true,
+	"detail_processor":false,
 	"alt_useragent":true,
 	"cookiejar": {"pwv": "1", "pws": "functional|analytics"},
 	"base-channels":{
@@ -178,7 +178,13 @@
 			"vtm", "vtm2", "vtm3", "vtm4", "vtmgold", "vtm-kids", "play4", "play5", "play6", "play7", "play-crime",
 			"discovery-vlaanderen", "eurosport1be", "foxhd", "tipik", "la-trois", "la-une", "mtv-vlaanderen",
 			"national-geographic", "njam", "rtl-tvi-hd", "tf1", "tlc-vl", "vtmnonstop", "star-belgium", "vtmxmas",
-			"bbc-one", "bbc-two", "ard", "zdf", "wdr", "rai-uno", "tve-inter", "france2", "france3", "arte", "hgtv"],
+			"bbc-one", "bbc-two", "ard", "zdf", "wdr", "rai-uno", "tve-inter", "france2", "france3", "arte", "hgtv",
+			"qmusic", "joe", "bbc-first", "bbc-news", "cnn", "rtl-club", "france4", "france5", "history", "kanaal-z",
+			"vlaamsparlementtv", "discovery-id", "discovery-science", "eurosport2be", "play-sports-1", "play-sports-2",
+			"play-sports-3", "play-sports-4", "play-sports-premier-league", "play-sports-7", "dazn-pro-1-nl", "dazn-pro-2-nl",
+			"dazn-pro-3-nl", "play-sports-golf", "play-more-cinema", "play-more-kicks", "mtv-global", "vh1-europe",
+			"radio1", "radio2", "stubru", "klara", "mnm", "play-nostalgie", "studio-100-tv", "nickelodeon-vl",
+			"disney-channel-vlaanderen", "comedy-central-vlaanderen"],
 	"cattrans":{
 		"nieuws":{
 			"default":["Nieuws/Actualiteiten", ""]},
