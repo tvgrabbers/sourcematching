@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":159,
+	"version":160,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -119,7 +119,7 @@
 			"115463": {"name": "E!", "group": 14, "icon": "e_entertainment_new.png", "icongrp": 47},
 			"115580": {"name": "OutTV", "group": 7, "icon": "outtv_v4.png", "icongrp": 47},
 			"52550": {"name": "CBS Reality", "group": 14, "icon": "cbs_reality.png", "icongrp": 47},
-			"99927": {"name": "INPLUS", "group": 14, "icon": "insighttv.png", "icongrp": 56},
+			"159092": {"name": "INPLUS", "group": 14, "icon": "insighttv.png", "icongrp": 56},
 			"121366": {"name": "Fashion TV", "group": 14, "icon": "fashiontv.png", "icongrp": 47},
 			"88501": {"name": "myZen.tv", "group": 14, "icon": "myzen_tv.png", "icongrp": 47},
 			"115651": {"name": "Horse & Country TV", "group": 7, "icon": "horse_country.png", "icongrp": 47},
