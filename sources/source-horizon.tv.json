@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":160,
+	"version":161,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -266,7 +266,8 @@
 			"116685": {"name": "Play Sports 2", "group": 9, "icon": "MM376.png", "icongrp": 49},
 			"116686": {"name": "Play Sports 3", "group": 9, "icon": "MM377.png", "icongrp": 49},
 			"116687": {"name": "Play Sports 4", "group": 9, "icon": "MM0E1.png", "icongrp": 49},
-			"116688": {"name": "Play Sports Premier League", "group": 9, "icon": "MM0E2.png", "icongrp": 49},
+			"116688": {"name": "Play Sports 5", "group": 9, "icon": "MM0E2.png", "icongrp": 49},
+			"116689": {"name": "Play Sports 6", "group": 9, "icon": "MM422.png", "icongrp": 49},
 			"121138": {"name": "Play Sports Golf", "group": 9, "icon": "MM378.png", "icongrp": 49},
 			"116690": {"name": "Play Sports 7", "group": 9, "icon": "MM417.png", "icongrp": 49},
 			"116691": {"name": "Play Sports 8", "group": 9, "icon": "MM419.png", "icongrp": 49},
