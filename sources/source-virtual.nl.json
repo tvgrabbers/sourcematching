@@ -6,11 +6,11 @@
     "name":"virtual.nl",
 	"is_virtual": true,
     "language":"nl",
-    "version":15,
+    "version":16,
     "api-version":[1,0,0],
     "channels":{
         "data":{
 			"digitenne25": {"name": "Digitenne 25", "group": 7},
 			"disneyxdsat": {"name": "Disney Jr. (TV Vlaanderen)", "group": 9, "icon": "disney_xd_v2.png", "icongrp": 4},
-			"veronicadxd": {"name": "Veronica / Disney Jr. (virtual)", "group": 1, "icon": "disneyjrveronica_2025.png", "icongrp": 4}}}}
+			"veronicadxd": {"name": "Veronica / Disney Jr. (virtual)", "group": 1, "icon": "disney_veronica_2025.png", "icongrp": 4}}}}
         

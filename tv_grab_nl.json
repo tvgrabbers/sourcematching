@@ -38,7 +38,7 @@
 	"sources":{
 		"5":{
 			"json file":"source-horizon.tv",
-			"version":161,
+			"version":162,
 			"cattrans type":1,
 			"cattransid":2},
 		"6":{
@@ -93,7 +93,7 @@
 			"cattransid":7},
 		"11":{
 			"json file":"source-virtual.nl",
-			"version":15,
+			"version":16,
 			"cattrans type":null,
 			"cattransid":null},
 		"13":{
@@ -417,7 +417,7 @@
 			"0-7": "17153",
 			"0-8": "17154",
 			"0-9": "67295",
-			"0-10": "86886",
+			"0-10": "67217",
 			"0-11": "52564",
 			"0-12": "56311",
 			"0-13": "83623",
@@ -442,7 +442,7 @@
 			"0-40": "105112",
 			"0-46": "105085",
 			"0-49": "116032",
-			"0-50": "66621",
+			"0-50": "83545",
 			"0-58": "67203",
 			"0-59": "116031",
 			"0-60": "117070",
@@ -572,6 +572,7 @@
 			"1-vtmkzoom": "116303",
 			"1-wsport": "126363",
 			"1-ziggolokale": "115568",
+			"1-ziggosportextra": "171527",
 			"4-292": "115470",
 			"4-293": "107110",
 			"4-294": "107108",
@@ -2009,7 +2010,7 @@
 		"1-sport-1-2" : ["4", "ziggo_sport2_2024"],
 		"1-sudwest-fernsehen" : ["13", "14b.png"],
 		"1-tv-e" : ["4", "tve"],
-		"1-veronica" : ["4", "disneyjrveronica_2025"],
+		"1-veronica" : ["4", "disney_veronica_2025"],
 		"1-vijftv" : ["46", "vijf"],
 		"1-vitaya" : ["46", "vtm-3"],
 		"1-zappelin" : ["4", "npo_zappelin_extra_2019"],
