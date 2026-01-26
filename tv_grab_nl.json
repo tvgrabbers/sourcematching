@@ -83,7 +83,7 @@
 			"cattransid":5},
 		"7":{
 			"json file":"source-vpro.nl",
-			"version":105,
+			"version":106,
 			"cattrans type":null,
 			"cattransid":4},
 		"10":{
@@ -106,7 +106,7 @@
 			"version":3,
 			"cattrans type":null,
 			"cattransid":null}},
-	"active_sources":[4,14,5,3,6,13,11,12],
+	"active_sources":[4,14,5,3,6,13,11,12,7],
 	"source_channels":{
 		"3":{"0-1": "1",
 			"0-2": "2",
@@ -1646,8 +1646,8 @@
 		"10-41":"Studio Brussel",
 		"12-22":"R Omrop Fryslân",
 		"12-29":"NH Radio"},
-	"prime_source_order":[4,14,12,5,3,6,13,11],
-	"sourceid_order":[3, 6, 5, 4, 11, 12, 13, 14],
+	"prime_source_order":[4,14,12,5,3,6,13,7,11],
+	"sourceid_order":[3, 6, 5, 4, 7, 11, 12, 13, 14],
 	"detail_sources":[3, 6, 13],
 	"prime_source_groups":{
 		"2":6,
