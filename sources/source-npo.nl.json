@@ -6,7 +6,7 @@
 	"name":"npo.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":86,
+	"version":87,
 	"api-version":[1,0,0],
 	"enable for api":[[1,0,7]],
 	"detail_processor":false,
@@ -326,7 +326,14 @@
 			"episode":{"varid":11,"max length":65535},
 			"rating":{"funcid":104, "data":[{"funcid":2, "data":[{"varid": 12}, {"varid": 13}]},"as_list"]},
 			"source": {"value":"npo.nl"}}},
-	"no_genric_matching":[],
+	"no_genric_matching":[
+			"bcfc0f3e-6a67-4e99-a49c-8f39b6f87921","af1b663d-940a-4886-9b48-6ebd96a31766",
+			"9fb17e7e-542d-4ce1-9396-c38b5053510e", "6f52d197-f291-4379-bb32-bc573c38b6c1",
+			"e9677aed-771c-4fa1-8128-b1164e86e654", "7d0f94a2-e1b4-40fd-a6ae-8a316a6251c3",
+			"9a154026-d630-4ae9-b3f1-f0b3596ceac2", "0a08d65a-7eae-4437-b40d-427185295b23",
+			"22ffb7f4-c7bc-4e57-8ea9-1c3b58e040f9", "bef6bd9f-2e40-4066-a7a8-df0c60834abd",
+			"f46a2279-f191-4d9d-bf01-39e047c0ddde", "c44e59b5-62cf-49cc-a2a9-e86859d273ea",
+			"a190343e-c192-4395-bbf6-41a3541447d7"],
 	"empty_channels":[],
 	"cattrans":{
 		"nieuws-actualiteiten":{
