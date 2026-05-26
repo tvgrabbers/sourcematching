@@ -2167,7 +2167,8 @@
 			"12-alleen-klassiek", "12-tukker-fm", "12-kiss-fm", "12-radio-jnd", "12-radio-noordzee", "12-4ever49-radio"],
 		"sport":[],
 		"jeugd":["10-03", "12-20"],
-		"nieuws/actualiteiten":["4-292", "7-bnr_nieuwsradio", "10-13", "12-groot-nieuws-radio", "7-vrt_radio_1"],
+		"nieuws/actualiteiten":["4-292", "7-bnr_nieuwsradio", "10-13", "7-vrt_radio_1"],
+		"religieus":["12-groot-nieuws-radio"],
 		"film":[]},
 	"unknown_program_title":"Geen Programmagegevens Beschikbaar",
 	"groupslot_names":[
