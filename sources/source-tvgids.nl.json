@@ -6,7 +6,7 @@
 	"name":"tvgids.nl",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":108,
+	"version":110,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"empty-values":[null, "", "-"],
@@ -353,6 +353,8 @@
 			"default":["serie/soap", "realityserie"]},
         "tekenfilmserie":{
 			"default":["serie/soap", "tekenfilmserie"]},
+        "olympische spelen":{
+			"default":["olympische spelen", ""]},
         "overige":{
 			"default":["overige", ""],
 			"nieuwsbulletin":["nieuws/actualiteiten", "nieuwsbulletin"]}},
