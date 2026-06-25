@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":29,
+	"version":30,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -14,7 +14,7 @@
 	"base-channels":{
 		"url":["https://www.humo.be/tv-gids/api/v2/broadcasts/", 11],
 		"data-format":"application/json",
-		"encoding":"windows-1252",
+		"encoding":"utf-8",
 		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type":0,
 		"url-data":{},
@@ -36,7 +36,7 @@
 	"base":{
 		"url":["https://www.humo.be/tv-gids/api/v2/broadcasts/", 11],
 		"data-format":"application/json",
-		"encoding":"windows-1252",
+		"encoding":"utf-8",
 		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type": 2,
 		"url-data":{},
@@ -92,7 +92,7 @@
 	"detail":{
 		"url":["https://www.humo.be/tv-gids/api/v2/detail/",["detailid"]],
 		"data-format":"application/json",
-		"encoding":"windows-1252",
+		"encoding":"utf-8",
 		"url-header":{"Accept-Encoding": "gzip"},
 		"url-type": 0,
 		"url-data":{},
