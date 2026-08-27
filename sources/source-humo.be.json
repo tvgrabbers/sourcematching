@@ -6,7 +6,7 @@
 	"name":"humo.be",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":30,
+	"version":31,
 	"api-version":[1,0,0],
 	"detail_processor":true,
 	"alt_useragent":true,
@@ -343,7 +343,11 @@
 			"new":{"varid":23},
 			"genres":{"varid":24}
 			}},
-	"no_genric_matching":["npo-1", "npo-2", "npo-3", "cartoon24"],
+	"no_genric_matching":["npo-1", "npo-2", "npo-3", "cartoon24", "rtl-4", "rtl-5", "rtl-7", "rtl-8", "rtl-z", "net5", "sbs6", "sbs9", "veronica",
+			"nickelodeon-nederland", "mtv-nederland", "nick-jr-nl", "paramount-network-nederland", "fox-nederland", "national-geographic-nederland",
+			"24-kitchen", "at5", "omroep-brabant-tv", "rtv-drenthe", "rtv-fryslan", "omroep-gelderland", "l1-tv", "rtv-noord",
+			"e-entertainment", "crime-investigation", "history", "star-netherlands", "24kitchen", "tv-gelderland",
+			"omroep-brabant", "omrop-fryslan", "viaplay-tv"],
 	"empty_channels":["viceland", "vtm-kids-jr", "vtm-kids"],
 	"cattrans":{
 		"nieuws":{
