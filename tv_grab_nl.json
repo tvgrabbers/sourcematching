@@ -63,7 +63,7 @@
 			"cattransid":null},
 		"9":{
 			"json file":"source-primo.eu",
-			"version":34,
+			"version":35,
 			"cattrans type":1,
 			"cattransid":6},
 		"2":{
@@ -98,7 +98,7 @@
 			"cattransid":null},
 		"13":{
 			"json file":"source-totaaltv.nl",
-			"version":19,
+			"version":20,
 			"cattrans type":1,
 			"cattransid":8},
 		"14":{
@@ -884,7 +884,7 @@
 			"1-vijftv": "play-fictie",
 			"1-vitaya": "vtm-3",
 			"1-vox": "vox",
-			"1-vtmkzoom": "vtm-series",
+			"1-vtmkzoom": "vtm-xmas",
 			"5-24443943039": "vh1-classic",
 			"5-24443943044": "fashiontv",
 			"5-24443943051": "cnbc-europe",
@@ -1196,7 +1196,7 @@
 			"1-vijftv": "play-fictie",
 			"1-vitaya": "vtm-3",
 			"1-vox": "vox",
-			"1-vtmkzoom": "vtm-series",
+			"1-vtmkzoom": "vtm-xmas",
 			"5-24443943039": "vh1-classic",
 			"5-24443943044": "fashiontv",
 			"5-24443943051": "cnbc-europe",
@@ -1459,7 +1459,7 @@
 			"1-vijftv": "play-fictie",
 			"1-vitaya": "vtm-3",
 			"1-vox": "vox",
-			"1-vtmkzoom": "vtm-series",
+			"1-vtmkzoom": "vtm-xmas",
 			"5-24443943039": "vh1-classic",
 			"5-24443943044": "fashiontv",
 			"5-24443943051": "cnbc-europe",
