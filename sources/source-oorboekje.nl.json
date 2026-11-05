@@ -6,7 +6,7 @@
 	"name":"oorboekje.nl",
 	"language":"nl",
 	"site-timezone":"Europe/Amsterdam",
-	"version":39,
+	"version":40,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"without-full-timings":true,
@@ -17,7 +17,7 @@
 		"url-header":{"Accept-Encoding": "gzip,deflate"},
 		"url-type":0,
 		"url-data":{},
-		"autoclose-tags":["meta", "link", "img"],
+		"autoclose-tags":["meta", "link", "img", "li"],
 		"text_replace":[
 			["class=\"pnZender pnZenderVoorpagina\"", "class=\"pnZender\""]],
 		"data":{
@@ -41,7 +41,7 @@
 		"url-header":{"Accept-Encoding": "gzip,deflate"},
 		"url-type":0,
 		"url-data":{},
-		"autoclose-tags":["meta", "link", "img"],
+		"autoclose-tags":["meta", "link", "img", "li"],
 		"text_replace":[
 			["class=\"pnZender pnZenderVoorpagina\"", "class=\"pnZender\""]],
 		"data":{
@@ -76,7 +76,7 @@
 		"url-header":{"Accept-Encoding": "gzip,deflate"},
 		"url-type":0,
 		"url-data":{},
-		"autoclose-tags":["meta", "link", "img"],
+		"autoclose-tags":["meta", "link", "img", "li"],
 		"text_replace":[
 			["class=\"pnZender pnZenderVoorpagina\"", "class=\"pnZender\""]],
 		"data":{
@@ -105,7 +105,7 @@
 		"url-type": 2,
 		"url-date-type": 0,
 		"url-date-format": "%Y-%m-%d",
-		"autoclose-tags":["meta", "link"],
+		"autoclose-tags":["meta", "link", "li"],
 		"month-names":["dummy", "januari", "februari", "maart",
 			"april", "mei", "juni", "juli", "augustus", "septemper",
 			"oktober", "november", "december"],
@@ -169,7 +169,7 @@
 		"url-type": 1,
 		"url-date-type": 0,
 		"url-date-format": "%Y-%m-%d",
-		"autoclose-tags":["meta", "link"],
+		"autoclose-tags":["meta", "link", "li"],
 		"month-names":["dummy", "januari", "februari", "maart",
 			"april", "mei", "juni", "juli", "augustus", "septemper",
 			"oktober", "november", "december"],
