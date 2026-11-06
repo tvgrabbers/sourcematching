@@ -6,7 +6,7 @@
 	"name":"horizon.tv",
 	"language":"nl",
 	"site-timezone":"UTC",
-	"version":166,
+	"version":167,
 	"api-version":[1,0,5],
 	"detail_processor":false,
 	"channels":{
@@ -335,6 +335,7 @@
 			"83972": {"name": "CNN Turk", "group": 10},
 			"83876": {"name": "Tagesschau24", "group": 4},
 			"75007": {"name": "ONE", "group": 4},
+			"219307": {"name": "Qmusic", "group": 11, "icon": "radio_q_music_v2.png", "icongrp": 47},
 			"171527": {"name": "Ziggo Sport Extra", "group": 15, "icon": "ziggo_sport_extra_2025.png", "icongrp": 47},
 			"117334": {"name": "Viaplay TV", "group": 15, "icon": "viaplaytv_2025.png", "icongrp": 47},
 			"122958": {"name": "Viaplay TV+", "group": 15, "icon": "viaplaytvplus_2025.png", "icongrp": 47},
